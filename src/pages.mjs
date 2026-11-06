@@ -53,10 +53,59 @@ const FAQ = [
   ['Đồ ăn ở tiệm có hoàn toàn là đồ chay không?', 'Có. Toàn bộ món ăn sáng và trưa là món chay, nước dùng nấu từ củ quả và không dùng bột ngọt. Món thuần chay (không trứng, không sữa) được ghi chú riêng tại quầy.'],
   ['Có thể chọn mức đường và loại sữa không?', 'Được. Mọi ly có thể chọn mức đường từ 0% đến 100%, ít hoặc nhiều đá, và đổi sữa tươi sang sữa yến mạch.'],
   ['Tiệm có chỗ ngồi làm việc, học bài không?', 'Có. Mỗi chi nhánh có góc làm việc yên tĩnh với ổ cắm ở từng bàn và wifi mạnh, cùng khu bàn dài cho nhóm bạn.'],
+  ['Nhà An tuyển nhân viên với mức lương thế nào?', `Bán thời gian: 30.000 – 35.000đ/giờ, ca linh hoạt. Nhân viên chính thức: 10 – 15 triệu/tháng, đóng BHXH, BHYT đầy đủ. Gửi CV tới ${site.email} hoặc nhắn Zalo ${site.phoneDisplay}.`],
   ['Tiệm có nhận đặt bánh, tiệc trà và quà tặng không?', `Có. Nhà An nhận đặt bánh sinh nhật, hộp quà trà bánh và set trà cho văn phòng hoặc sự kiện nhỏ. Gọi hoặc nhắn Zalo ${site.phoneDisplay}, hoặc email ${site.email}.`],
 ];
 export const faq = () =>
   `<div class="faq">${FAQ.map(([q, a], i) => `<details${i === 0 ? ' open' : ''}><summary>${q}</summary><p>${a}</p></details>`).join('')}</div>`;
+
+const JOBS = [
+  ['Barista / Pha chế', 'Bán thời gian', '30.000 – 35.000đ/giờ'],
+  ['Phục vụ & thu ngân', 'Bán thời gian, ca linh hoạt', '30.000 – 35.000đ/giờ'],
+  ['Barista / Pha chế', 'Nhân viên chính thức', '10 – 15 triệu/tháng'],
+  ['Thợ bánh', 'Nhân viên chính thức', '10 – 15 triệu/tháng'],
+  ['Phụ bếp chay', 'Nhân viên chính thức', '10 – 15 triệu/tháng'],
+];
+
+const salaryCards = () => `
+<div class="salary">
+  <article class="salary__c">
+    <span class="salary__tag">${icon('clock')} Bán thời gian (Part-time)</span>
+    <p class="salary__num">30.000 – 35.000đ<small>/giờ</small></p>
+    <ul class="checks">
+      <li>Ca linh hoạt sáng, chiều, tối, phù hợp sinh viên</li>
+      <li>Đăng ký ca theo tuần</li>
+      <li>Được đào tạo pha chế, phục vụ từ đầu</li>
+      <li>Đồ uống và bữa ăn chay trong ca</li>
+    </ul>
+  </article>
+  <article class="salary__c salary__c--main">
+    <span class="salary__tag">${icon('briefcase')} Nhân viên chính thức (Full-time)</span>
+    <p class="salary__num">10 – 15 triệu<small>/tháng</small></p>
+    <ul class="checks">
+      <li>Đóng <strong>BHXH, BHYT đầy đủ</strong> theo quy định</li>
+      <li>Ký hợp đồng lao động chính thức</li>
+      <li>Lộ trình lên ca trưởng, quản lý cửa hàng</li>
+      <li>Đồ uống và bữa ăn chay trong ca</li>
+    </ul>
+  </article>
+</div>`;
+
+const hiringTeaser = () => `
+<section class="section section--green">
+  <div class="wrap teaser">
+    <div>
+      <p class="eyebrow">Tuyển dụng</p>
+      <h2>Nhà An đang <em>tìm bạn</em> đồng hành</h2>
+      <p class="lead">Barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay tại TP.HCM và Đà Nẵng. Không cần kinh nghiệm, được đào tạo từ đầu.</p>
+      <div class="party__btns">
+        <a class="btn btn--pink" href="/trai-nghiem#tuyen-dung">Xem chi tiết tuyển dụng ${icon('arrow')}</a>
+        <a class="btn btn--light" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
+      </div>
+    </div>
+    ${salaryCards()}
+  </div>
+</section>`;
 
 const MARQUEE = ['Trà sữa nhà làm', 'Ô long rang củi', 'Bánh nướng mỗi sáng', 'Điểm tâm chay', 'Cơm trưa chay', 'Matcha đánh tay', 'Trà trái cây theo mùa', 'Góc sen check-in'];
 const marquee = (cls = '') => `
@@ -81,28 +130,27 @@ const branchCards = () => `
 // ───────────────────────── TRANG CHỦ ─────────────────────────
 export function home() {
   return `
-<section class="hero">
-  <div class="blob blob--pink"></div><div class="blob blob--green"></div>
+<section class="hero hero--classic">
   <div class="wrap hero__in">
     <div class="hero__text">
-      <span class="pill pill--soon">${icon('sprout')} Coming Soon · TP.HCM &amp; Đà Nẵng</span>
-      <h1>Một ly trà,<br><em>một chút an.</em></h1>
-      <p class="lead">Tiệm trà sữa, ô long rang củi, bánh ngọt và đồ chay cho những ngày muốn chậm lại một chút. Chill một mình, hẹn cả hội hay ngồi làm việc cả chiều đều hợp.</p>
+      <p class="eyebrow">Một ly trà, một chút an</p>
+      <h1>Trà ô long rang củi, bánh nướng mỗi sáng &amp; <em>đồ chay nấu như ở nhà</em></h1>
+      <p class="lead">Tiệm Nhà An là căn bếp nhỏ cho những buổi sáng thong thả và buổi chiều chậm rãi: một ly trà sữa thơm, một lát cheesecake vừa ra lò, một tô phở chay nóng hổi.</p>
       <div class="hero__cta">
-        <a class="btn btn--primary btn--lg" href="/chi-nhanh#dang-ky">Nhận ưu đãi khai trương ${icon('arrow')}</a>
-        <a class="btn btn--ghost btn--lg" href="/trai-nghiem">Khám phá trải nghiệm</a>
+        <a class="btn btn--primary" href="/chi-nhanh#dang-ky">Nhận ưu đãi khai trương ${icon('arrow')}</a>
+        <a class="btn btn--ghost" href="/chi-nhanh">Chi nhánh sắp mở</a>
       </div>
-      <ul class="hero__chips">
-        <li>${icon('cup')} Trà sữa nhà làm</li><li>${icon('leaf')} Ô long rang củi</li><li>${icon('cake')} Bánh nướng mỗi sáng</li><li>${icon('sprout')} 100% món ăn chay</li>
-      </ul>
+      <dl class="stats">
+        <div><dt>115</dt><dd>món trong thực đơn</dd></div>
+        <div><dt>100%</dt><dd>món ăn là món chay</dd></div>
+        <div><dt>2</dt><dd>chi nhánh sắp khai trương</dd></div>
+      </dl>
     </div>
     <div class="hero__media">
-      <figure class="hm hm--1">${img('hero-boba', 'Ly trà sữa trân châu', { eager: true })}</figure>
-      <figure class="hm hm--2">${img('matcha-art', 'Matcha latte')}</figure>
-      <figure class="hm hm--3">${img('cheesecake', 'Bánh cheesecake việt quất')}</figure>
-      ${ringBadge()}
-      <span class="sticker sticker--a">Ít ngọt<br>vẫn ngon</span>
-      <span class="sticker sticker--b">#NhàAn</span>
+      <figure class="hero__main">${img('classic-tea', 'Ly trà ô long nóng', { eager: true })}</figure>
+      <figure class="hero__sm hero__sm--a">${img('classic-cheesecake', 'Basque cheesecake')}</figure>
+      <figure class="hero__sm hero__sm--b">${img('classic-pho', 'Phở chay nấm đông cô')}</figure>
+      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>TP.HCM · Đà Nẵng</span></div>
     </div>
   </div>
 </section>
@@ -248,6 +296,8 @@ ${marquee()}
   </div>
 </section>
 
+${hiringTeaser()}
+
 <section class="numbers">
   <div class="wrap numbers__in">
     <div><strong>2</strong><span>chi nhánh sắp mở</span></div>
@@ -362,17 +412,29 @@ ${marquee('marquee--pink')}
 </section>
 
 <section class="section" id="tuyen-dung">
-  <div class="wrap hiring">
-    <div>
-      <p class="eyebrow">Tuyển dụng</p>
-      <h2>Về làm nhà với <em>Nhà An</em></h2>
-      <p class="lead">Nhà An đang tìm những người bạn đồng hành cho hai chi nhánh đầu tiên. Không cần kinh nghiệm, chỉ cần thật lòng và chăm chỉ, Nhà An sẽ đào tạo.</p>
-      <a class="btn btn--primary" href="mailto:${site.email}?subject=${encodeURIComponent('Ứng tuyển - Tiệm Nhà An')}">${icon('mail')} Gửi CV tới ${site.email}</a>
+  <div class="wrap">
+    ${head('Tuyển dụng', 'Về làm nhà với <em>Nhà An</em>', 'Nhà An đang tìm những người bạn đồng hành cho hai chi nhánh đầu tiên tại TP.HCM và Đà Nẵng. Không cần kinh nghiệm, chỉ cần thật lòng và chăm chỉ, Nhà An sẽ đào tạo từ đầu.')}
+    ${salaryCards()}
+    <div class="hiring">
+      <div>
+        <h3 class="hiring__h">Vị trí đang tuyển</h3>
+        <ul class="jobs">
+          ${JOBS.map(([j, t, pay]) => `<li><div><strong>${j}</strong><span>${t} · TP.HCM / Đà Nẵng</span></div><b class="jobs__pay">${pay}</b></li>`).join('')}
+        </ul>
+      </div>
+      <div class="apply">
+        <h3 class="hiring__h">Cách ứng tuyển</h3>
+        <ol class="how how--light">
+          <li><span>1</span>Gửi CV hoặc giới thiệu ngắn về bạn (họ tên, năm sinh, khu vực, vị trí, ca có thể làm)</li>
+          <li><span>2</span>Nhà An gọi lại hẹn phỏng vấn trong vòng 3 ngày làm việc</li>
+          <li><span>3</span>Học việc có hướng dẫn, nhận lương ngay từ ngày đầu</li>
+        </ol>
+        <div class="party__btns">
+          <a class="btn btn--primary" href="mailto:${site.email}?subject=${encodeURIComponent('Ứng tuyển - Tiệm Nhà An')}">${icon('mail')} Gửi CV qua email</a>
+          <a class="btn btn--pink" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
+        </div>
+      </div>
     </div>
-    <ul class="jobs">
-      ${[['Barista / Pha chế', 'Full-time · Part-time'], ['Thợ bánh', 'Full-time'], ['Phụ bếp chay', 'Full-time'], ['Phục vụ & thu ngân', 'Part-time, ca linh hoạt']]
-        .map(([j, t]) => `<li><strong>${j}</strong><span>${t} · TP.HCM / Đà Nẵng</span></li>`).join('')}
-    </ul>
   </div>
 </section>
 ${signup()}`;
@@ -577,13 +639,13 @@ export function credits() {
       ? '<a href="https://unsplash.com/license" target="_blank" rel="noopener license">Unsplash License</a>'
       : p.license === 'cc0'
         ? '<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener license">CC0</a>'
-        : esc(p.license);
+        : `<a href="https://creativecommons.org/licenses/${p.license}/${p.version}/" target="_blank" rel="noopener license">CC ${p.license.toUpperCase()} ${p.version}</a>`;
   return `
 <section class="phero phero--short">
   <div class="wrap">
     <p class="eyebrow">Tín dụng hình ảnh</p>
     <h1>Cảm ơn các nhiếp ảnh gia</h1>
-    <p class="lead">Ảnh trên website là ảnh minh họa từ Unsplash (Unsplash License) và Rawpixel (CC0), đều được phép dùng thương mại. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương.</p>
+    <p class="lead">Ảnh trên website là ảnh minh họa từ Unsplash (Unsplash License), Rawpixel (CC0) và Flickr (Creative Commons, ghi công tác giả bên dưới), đều được phép dùng thương mại. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương.</p>
   </div>
 </section>
 <section class="section section--tight">
@@ -592,7 +654,7 @@ export function credits() {
       ${Object.entries(photos).map(([k, p]) => `
       <figure>${img(k, p.title || k)}<figcaption>
         <strong>${esc(p.title || k)}</strong>
-        <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
+        <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : p.source === 'flickr' ? 'Flickr' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
       </figcaption></figure>`).join('')}
     </div>
   </div>

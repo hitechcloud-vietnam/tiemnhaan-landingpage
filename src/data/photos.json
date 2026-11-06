@@ -538,5 +538,41 @@
    1024,
    683
   ]
+ },
+ "classic-tea": {
+  "source": "flickr",
+  "title": "Tea leaves",
+  "creator": "allaboutgeorge",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/35034347485@N01/4142791697",
+  "size": [
+   960,
+   720
+  ]
+ },
+ "classic-cheesecake": {
+  "source": "flickr",
+  "title": "Cheesecake",
+  "creator": "Sean MacEntee",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/18090920@N07/5917995247",
+  "size": [
+   960,
+   720
+  ]
+ },
+ "classic-pho": {
+  "source": "flickr",
+  "title": "Pho Bo at Pahm Ngu Lao, Hanoi",
+  "creator": "jonolist",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/46635911@N00/726927729",
+  "size": [
+   908,
+   681
+  ]
  }
 }
