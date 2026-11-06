@@ -4,7 +4,7 @@ export const site = {
   tagline: 'Một ly trà, một chút an.',
   description:
     'Tiệm Nhà An — trà sữa, ô long rang củi, bánh ngọt nướng mỗi sáng và đồ chay ăn sáng, ăn trưa. Sắp khai trương tại TP. Hồ Chí Minh và Đà Nẵng.',
-  url: 'https://tiemnhaan.vercel.app', // đổi thành tên miền thật khi có
+  url: 'https://tiemnhaan.com',
   // Thông tin liên hệ: điền khi có thông tin chính thức. Để trống thì website ẩn mục đó.
   email: '',
   // URL nhận dữ liệu form (ví dụ Formspree: https://formspree.io/f/xxxxxx). Để trống: form chỉ hiện lời cảm ơn.
