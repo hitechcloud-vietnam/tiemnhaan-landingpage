@@ -48,6 +48,12 @@
     $$('input[name="branch"]').forEach((i) => (i.checked = i.value === b.dataset.branch));
   }));
 
+  // Nút "Ứng tuyển" chọn sẵn vị trí
+  $$('[data-job]').forEach((b) => b.addEventListener('click', () => {
+    const sel = $('#job');
+    if (sel) sel.value = b.dataset.job;
+  }));
+
   // Form
   const endpoint = document.body.dataset.endpoint || '';
   $$('form[data-form]').forEach((form) => {
@@ -83,12 +89,15 @@
           // Chưa có máy chủ nhận form: mở ứng dụng email với nội dung soạn sẵn
           const subject = form.dataset.form === 'signup'
             ? 'Đăng ký nhận tin khai trương Tiệm Nhà An'
-            : `[${data.topic || 'Liên hệ'}] Lời nhắn từ website Tiệm Nhà An`;
+            : form.dataset.form === 'apply'
+              ? `Ứng tuyển: ${data.job || ''} - ${data.name}`
+              : `[${data.topic || 'Liên hệ'}] Lời nhắn từ website Tiệm Nhà An`;
           const lines = [
             `Họ và tên: ${data.name}`,
             `Liên hệ: ${data.contact}`,
             data.branch ? `Chi nhánh quan tâm: ${data.branch}` : '',
             data.topic ? `Chủ đề: ${data.topic}` : '',
+            data.job ? `Vị trí: ${data.job}` : '',
             data.message ? `\n${data.message}` : '',
           ].filter(Boolean);
           window.location.href = `mailto:${document.body.dataset.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;

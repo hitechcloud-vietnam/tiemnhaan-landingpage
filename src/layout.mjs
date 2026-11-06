@@ -56,10 +56,23 @@ export const img = (key, alt, { cls = '', eager = false } = {}) => {
 const NAV = [
   ['/', 'Trang chủ', 'home'],
   ['/trai-nghiem', 'Trải nghiệm', 'experience'],
+  ['/chi-nhanh', 'Chi nhánh', 'branches', [
+    ['/chi-nhanh', 'Tất cả 4 chi nhánh', 'branches'],
+    ['/sai-gon', 'Nhà An Sài Gòn', 'saigon'],
+    ['/da-nang-quang-nam', 'Nhà An Đà Nẵng – Quảng Nam', 'mientrung'],
+  ]],
+  ['/tuyen-dung', 'Tuyển dụng', 'hiring'],
   ['/ve-chung-toi', 'Về Nhà An', 'about'],
-  ['/chi-nhanh', 'Chi nhánh', 'branches'],
   ['/lien-he', 'Liên hệ', 'contact'],
 ];
+const FLAT = NAV.flatMap(([h, l, k, sub]) => (sub ? sub : [[h, l, k]]));
+
+const navItem = (page) => ([href, label, key, sub]) => {
+  const cur = key === page || (sub && sub.some((x) => x[2] === page));
+  if (!sub) return `<li><a href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
+  return `<li class="has-sub"><a href="${href}"${cur ? ' aria-current="page"' : ''}>${label} <span class="caret" aria-hidden="true">▾</span></a>
+        <ul class="sub">${sub.map(([h, l, k]) => `<li><a href="${h}"${k === page ? ' class="is-cur"' : ''}>${l}</a></li>`).join('')}</ul></li>`;
+};
 
 const socialLinks = () =>
   Object.entries(site.social)
@@ -114,14 +127,14 @@ export function layout({ page, title, description, path, body, scripts = [] }) {
 <body data-page="${page}" data-email="${esc(site.email)}"${site.formEndpoint ? ` data-endpoint="${esc(site.formEndpoint)}"` : ''}>
 <a class="skip" href="#main">Bỏ qua tới nội dung</a>
 <div class="topbar"><div class="wrap topbar__in">
-  <span class="topbar__news">${icon('sprout')}<strong>Sắp khai trương</strong> tại TP. Hồ Chí Minh &amp; Đà Nẵng · <a href="/chi-nhanh#dang-ky">Nhận ưu đãi ${icon('arrow')}</a></span>
+  <span class="topbar__news">${icon('sprout')}<strong>Sắp khai trương</strong> 4 chi nhánh Sài Gòn &amp; Đà Nẵng – Quảng Nam · <a href="/chi-nhanh#dang-ky">Nhận ưu đãi ${icon('arrow')}</a></span>
   <span class="topbar__contact"><a href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a><a href="mailto:${site.email}">${icon('mail')} ${site.email}</a></span>
 </div></div>
 <header class="header" id="top">
   <div class="wrap header__in">
     <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="210"></a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
-      <ul>${NAV.map(([href, label, key]) => `<li><a href="${href}"${key === page ? ' aria-current="page"' : ''}>${label}</a></li>`).join('')}</ul>
+      <ul>${NAV.map(navItem(page)).join('')}</ul>
       <a class="btn btn--pink nav__cta" href="/chi-nhanh#dang-ky">Đăng ký nhận tin</a>
     </nav>
     <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
@@ -147,14 +160,14 @@ ${body}
     </div>
     <div>
       <h3>Khám phá</h3>
-      <ul>${NAV.map(([h, l]) => `<li><a href="${h}">${l}</a></li>`).join('')}<li><a href="/tin-dung-anh">Tín dụng hình ảnh</a></li></ul>
+      <ul>${FLAT.filter(([h], i, a) => a.findIndex((x) => x[0] === h) === i).map(([h, l]) => `<li><a href="${h}">${l}</a></li>`).join('')}<li><a href="/tin-dung-anh">Tín dụng hình ảnh</a></li></ul>
     </div>
     <div>
       <h3>Trải nghiệm</h3>
       <ul>
         <li><a href="/trai-nghiem#khong-gian">Không gian</a></li><li><a href="/trai-nghiem#workshop">Workshop &amp; sự kiện</a></li>
         <li><a href="/trai-nghiem#dat-tiec">Đặt tiệc &amp; quà tặng</a></li><li><a href="/trai-nghiem#club">Nhà An Club</a></li>
-        <li><a href="/trai-nghiem#tuyen-dung">Tuyển dụng</a></li>
+        <li><a href="/tuyen-dung">Tuyển dụng</a></li>
       </ul>
     </div>
     <div>

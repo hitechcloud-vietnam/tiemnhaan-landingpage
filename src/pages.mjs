@@ -1,21 +1,21 @@
 import { site } from './data/site.mjs';
 import { esc, icon, img, tel, photos } from './layout.mjs';
 
-const head = (eyebrow, title, lead = '', cls = 'shead--center') => `
+export const head = (eyebrow, title, lead = '', cls = 'shead--center') => `
 <div class="shead ${cls}">
   <p class="eyebrow">${eyebrow}</p>
   <h2>${title}</h2>
   ${lead ? `<p class="lead">${lead}</p>` : ''}
 </div>`;
 
-const ringBadge = (text = 'TIỆM NHÀ AN • MỘT LY TRÀ • MỘT CHÚT AN • ') => `
+export const ringBadge = (text = 'TIỆM NHÀ AN • MỘT LY TRÀ • MỘT CHÚT AN • ') => `
 <div class="ring" aria-hidden="true">
   <svg viewBox="0 0 120 120"><defs><path id="rp" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
   <text><textPath href="#rp" textLength="286" lengthAdjust="spacing">${text}</textPath></text></svg>
   <img src="/assets/img/brand/logo-circle.png" alt="" width="56" height="56">
 </div>`;
 
-const contactStrip = () => `
+export const contactStrip = () => `
 <section class="cstrip">
   <div class="wrap cstrip__in">
     <div><p class="eyebrow">Cần Nhà An hỗ trợ?</p><h2>Gọi, nhắn Zalo hoặc gửi email</h2></div>
@@ -26,13 +26,13 @@ const contactStrip = () => `
   </div>
 </section>`;
 
-const signup = (id = 'dang-ky') => `
+export const signup = (id = 'dang-ky') => `
 <section class="section signup" id="${id}">
   <div class="wrap signup__in">
     <div class="signup__text">
       <p class="eyebrow">Ưu đãi khai trương</p>
       <h2>Là người <em>đầu tiên</em> ghé Nhà An</h2>
-      <p>Để lại thông tin, Nhà An sẽ báo bạn ngày khai trương tại TP.HCM và Đà Nẵng, kèm <strong>ưu đãi khai trương dành riêng</strong> cho người đăng ký sớm.</p>
+      <p>Để lại thông tin, Nhà An sẽ báo bạn ngày khai trương 4 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam, kèm <strong>ưu đãi khai trương dành riêng</strong> cho người đăng ký sớm.</p>
       <ul class="ticks"><li>Chỉ gửi tin khai trương, sự kiện và món mới</li><li>Không spam, hủy bất kỳ lúc nào</li></ul>
     </div>
     <form class="form" data-form="signup" novalidate>
@@ -49,7 +49,7 @@ const signup = (id = 'dang-ky') => `
 </section>`;
 
 const FAQ = [
-  ['Khi nào Tiệm Nhà An khai trương?', 'Hai chi nhánh TP. Hồ Chí Minh và Đà Nẵng đang được hoàn thiện. Ngày khai trương và địa chỉ chính xác sẽ được thông báo trên website, Zalo và tới những bạn đã đăng ký nhận tin.'],
+  ['Khi nào Tiệm Nhà An khai trương?', '4 chi nhánh (2 tại TP. Hồ Chí Minh, 2 tại Đà Nẵng – Quảng Nam) đang được hoàn thiện. Ngày khai trương và địa chỉ chính xác sẽ được thông báo trên website, Zalo và tới những bạn đã đăng ký nhận tin.'],
   ['Đồ ăn ở tiệm có hoàn toàn là đồ chay không?', 'Có. Toàn bộ món ăn sáng và trưa là món chay, nước dùng nấu từ củ quả và không dùng bột ngọt. Món thuần chay (không trứng, không sữa) được ghi chú riêng tại quầy.'],
   ['Có thể chọn mức đường và loại sữa không?', 'Được. Mọi ly có thể chọn mức đường từ 0% đến 100%, ít hoặc nhiều đá, và đổi sữa tươi sang sữa yến mạch.'],
   ['Tiệm có chỗ ngồi làm việc, học bài không?', 'Có. Mỗi chi nhánh có góc làm việc yên tĩnh với ổ cắm ở từng bàn và wifi mạnh, cùng khu bàn dài cho nhóm bạn.'],
@@ -59,7 +59,7 @@ const FAQ = [
 export const faq = () =>
   `<div class="faq">${FAQ.map(([q, a], i) => `<details${i === 0 ? ' open' : ''}><summary>${q}</summary><p>${a}</p></details>`).join('')}</div>`;
 
-const JOBS = [
+export const JOBS = [
   ['Barista / Pha chế', 'Bán thời gian', '30.000 – 35.000đ/giờ'],
   ['Phục vụ & thu ngân', 'Bán thời gian, ca linh hoạt', '30.000 – 35.000đ/giờ'],
   ['Barista / Pha chế', 'Nhân viên chính thức', '10 – 15 triệu/tháng'],
@@ -67,7 +67,7 @@ const JOBS = [
   ['Phụ bếp chay', 'Nhân viên chính thức', '10 – 15 triệu/tháng'],
 ];
 
-const salaryCards = () => `
+export const salaryCards = () => `
 <div class="salary">
   <article class="salary__c">
     <span class="salary__tag">${icon('clock')} Bán thời gian (Part-time)</span>
@@ -91,15 +91,15 @@ const salaryCards = () => `
   </article>
 </div>`;
 
-const hiringTeaser = () => `
+export const hiringTeaser = () => `
 <section class="section section--green">
   <div class="wrap teaser">
     <div>
       <p class="eyebrow">Tuyển dụng</p>
       <h2>Nhà An đang <em>tìm bạn</em> đồng hành</h2>
-      <p class="lead">Barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay tại TP.HCM và Đà Nẵng. Không cần kinh nghiệm, được đào tạo từ đầu.</p>
+      <p class="lead">Barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay cho 4 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam. Không cần kinh nghiệm, được đào tạo từ đầu.</p>
       <div class="party__btns">
-        <a class="btn btn--pink" href="/trai-nghiem#tuyen-dung">Xem chi tiết tuyển dụng ${icon('arrow')}</a>
+        <a class="btn btn--pink" href="/tuyen-dung">Xem chi tiết tuyển dụng ${icon('arrow')}</a>
         <a class="btn btn--light" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
       </div>
     </div>
@@ -108,23 +108,40 @@ const hiringTeaser = () => `
 </section>`;
 
 const MARQUEE = ['Trà sữa nhà làm', 'Ô long rang củi', 'Bánh nướng mỗi sáng', 'Điểm tâm chay', 'Cơm trưa chay', 'Matcha đánh tay', 'Trà trái cây theo mùa', 'Góc sen check-in'];
-const marquee = (cls = '') => `
+export const marquee = (cls = '') => `
 <div class="mq-wrap" aria-hidden="true"><div class="marquee ${cls}"><div class="marquee__track">
 ${Array(2).fill(MARQUEE.map((m) => `<span>${m}</span><i>✿</i>`).join('')).join('')}
 </div></div></div>`;
 
-const branchCards = () => `
-<div class="branches">
-  ${site.branches.map((b) => `
+export const branchCards = (list = site.branches) => `
+<div class="branches branches--${list.length}">
+  ${list.map((b) => {
+    const r = site.regions.find((x) => x.id === b.region);
+    return `
   <article class="branch">
-    <div class="branch__media">${img(b.img, 'Không gian dự kiến chi nhánh ' + b.city)}<span class="stamp">Coming<br>Soon</span></div>
+    <div class="branch__media">${img(b.img, b.city)}<span class="stamp">Coming<br>Soon</span><span class="branch__area">${icon('pin')} ${b.area}</span></div>
     <div class="branch__body">
       <h3>${b.city}</h3>
       <p>${b.note}</p>
       <ul class="tags">${b.tags.map((t) => `<li>${t}</li>`).join('')}</ul>
-      <a class="link" href="/chi-nhanh#${b.id}">Xem chi tiết ${icon('arrow')}</a>
+      <a class="link" href="${r.path}#${b.id}">Khám phá ${r.name} ${icon('arrow')}</a>
     </div>
-  </article>`).join('')}
+  </article>`;
+  }).join('')}
+</div>`;
+
+export const regionCards = () => `
+<div class="regions">
+  ${site.regions.map((r) => `
+  <a class="region region--${r.id}" href="${r.path}">
+    ${img(r.img, r.name)}
+    <div class="region__body">
+      <span class="region__count">${site.branches.filter((b) => b.region === r.id).length} chi nhánh · Coming Soon</span>
+      <h3>${r.name}</h3>
+      <p class="script">${r.tagline}</p>
+      <span class="btn btn--light">Khám phá ${r.name} ${icon('arrow')}</span>
+    </div>
+  </a>`).join('')}
 </div>`;
 
 // ───────────────────────── TRANG CHỦ ─────────────────────────
@@ -143,14 +160,14 @@ export function home() {
       <dl class="stats">
         <div><dt>115</dt><dd>món trong thực đơn</dd></div>
         <div><dt>100%</dt><dd>món ăn là món chay</dd></div>
-        <div><dt>2</dt><dd>chi nhánh sắp khai trương</dd></div>
+        <div><dt>4</dt><dd>chi nhánh sắp khai trương</dd></div>
       </dl>
     </div>
     <div class="hero__media">
-      <figure class="hero__main">${img('classic-tea', 'Ly trà ô long nóng', { eager: true })}</figure>
-      <figure class="hero__sm hero__sm--a">${img('classic-cheesecake', 'Basque cheesecake')}</figure>
-      <figure class="hero__sm hero__sm--b">${img('classic-pho', 'Phở chay nấm đông cô')}</figure>
-      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>TP.HCM · Đà Nẵng</span></div>
+      <figure class="hero__main">${img('tea-pour', 'Rót trà ô long nóng', { eager: true })}</figure>
+      <figure class="hero__sm hero__sm--a">${img('cheesecake', 'Cheesecake việt quất')}</figure>
+      <figure class="hero__sm hero__sm--b">${img('pho-chay', 'Phở chay nấm')}</figure>
+      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>Sài Gòn · Đà Nẵng · Hội An</span></div>
     </div>
   </div>
 </section>
@@ -291,7 +308,9 @@ ${marquee()}
 
 <section class="section section--cream">
   <div class="wrap">
-    ${head('Chi nhánh', 'Sắp có mặt tại <em>hai thành phố</em>')}
+    ${head('Chi nhánh', '4 chi nhánh, <em>hai miền thương nhớ</em>', '2 chi nhánh tại Sài Gòn và 2 chi nhánh tại Đà Nẵng – Quảng Nam, mỗi nơi mang một màu riêng của vùng đất.')}
+    ${regionCards()}
+    <div class="gap"></div>
     ${branchCards()}
   </div>
 </section>
@@ -300,7 +319,7 @@ ${hiringTeaser()}
 
 <section class="numbers">
   <div class="wrap numbers__in">
-    <div><strong>2</strong><span>chi nhánh sắp mở</span></div>
+    <div><strong>4</strong><span>chi nhánh sắp mở</span></div>
     <div><strong>100%</strong><span>món ăn là món chay</span></div>
     <div><strong>4h</strong><span>cốt trà được ủ mới</span></div>
     <div><strong>5:00</strong><span>bánh bắt đầu ra lò</span></div>
@@ -328,7 +347,7 @@ export function experience() {
       <h1>Không chỉ là ly trà, mà là <em>một chỗ để về</em></h1>
       <p class="lead">Góc sen để check-in, góc làm việc yên tĩnh, workshop cuối tuần, tiệc nhỏ và câu lạc bộ thành viên: Nhà An là nơi bạn muốn quay lại mỗi ngày.</p>
       <nav class="jump" aria-label="Mục trong trang">
-        <a href="#khong-gian">Không gian</a><a href="#workshop">Workshop</a><a href="#dat-tiec">Đặt tiệc</a><a href="#club">Nhà An Club</a><a href="#tuyen-dung">Tuyển dụng</a>
+        <a href="#khong-gian">Không gian</a><a href="#workshop">Workshop</a><a href="#dat-tiec">Đặt tiệc</a><a href="#club">Nhà An Club</a><a href="/tuyen-dung">Tuyển dụng</a>
       </nav>
     </div>
     <figure class="phero__img">${img('cafe-bright', 'Không gian quán sáng sủa', { eager: true })}</figure>
@@ -411,32 +430,7 @@ ${marquee('marquee--pink')}
   </div>
 </section>
 
-<section class="section" id="tuyen-dung">
-  <div class="wrap">
-    ${head('Tuyển dụng', 'Về làm nhà với <em>Nhà An</em>', 'Nhà An đang tìm những người bạn đồng hành cho hai chi nhánh đầu tiên tại TP.HCM và Đà Nẵng. Không cần kinh nghiệm, chỉ cần thật lòng và chăm chỉ, Nhà An sẽ đào tạo từ đầu.')}
-    ${salaryCards()}
-    <div class="hiring">
-      <div>
-        <h3 class="hiring__h">Vị trí đang tuyển</h3>
-        <ul class="jobs">
-          ${JOBS.map(([j, t, pay]) => `<li><div><strong>${j}</strong><span>${t} · TP.HCM / Đà Nẵng</span></div><b class="jobs__pay">${pay}</b></li>`).join('')}
-        </ul>
-      </div>
-      <div class="apply">
-        <h3 class="hiring__h">Cách ứng tuyển</h3>
-        <ol class="how how--light">
-          <li><span>1</span>Gửi CV hoặc giới thiệu ngắn về bạn (họ tên, năm sinh, khu vực, vị trí, ca có thể làm)</li>
-          <li><span>2</span>Nhà An gọi lại hẹn phỏng vấn trong vòng 3 ngày làm việc</li>
-          <li><span>3</span>Học việc có hướng dẫn, nhận lương ngay từ ngày đầu</li>
-        </ol>
-        <div class="party__btns">
-          <a class="btn btn--primary" href="mailto:${site.email}?subject=${encodeURIComponent('Ứng tuyển - Tiệm Nhà An')}">${icon('mail')} Gửi CV qua email</a>
-          <a class="btn btn--pink" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+${hiringTeaser()}
 ${signup()}`;
 }
 
@@ -500,8 +494,8 @@ export function about() {
     <ol class="timeline">
       <li><span>Khởi đầu</span><h3>Gian bếp gia đình</h3><p>Những mẻ trà ô long rang thử và công thức phở chay của mẹ.</p></li>
       <li><span>Hoàn thiện</span><h3>Thử và chọn công thức</h3><p>Nếm và chọn lọc từ hàng trăm công thức trà, bánh và món chay.</p></li>
-      <li><span>Sắp tới</span><h3>Khai trương TP.HCM</h3><p>Chi nhánh đầu tiên, Coming Soon.</p></li>
-      <li><span>Sắp tới</span><h3>Khai trương Đà Nẵng</h3><p>Tiệm trà gần biển, Coming Soon.</p></li>
+      <li><span>Sắp tới</span><h3>2 chi nhánh Sài Gòn</h3><p>Nhà phố có góc sen và tiệm trà Sài Gòn xưa, Coming Soon.</p></li>
+      <li><span>Sắp tới</span><h3>Đà Nẵng &amp; Hội An</h3><p>Tiệm trà gần biển và căn nhà vàng phố đèn lồng, Coming Soon.</p></li>
     </ol>
   </div>
 </section>
@@ -537,8 +531,8 @@ export function branches() {
   <div class="wrap phero__in">
     <div>
       <p class="eyebrow">Chi nhánh</p>
-      <h1>Nhà An sắp về <em>TP.HCM &amp; Đà Nẵng</em></h1>
-      <p class="lead">Hai căn tiệm đầu tiên đang được hoàn thiện. Đăng ký để là người đầu tiên biết địa chỉ và nhận ưu đãi khai trương.</p>
+      <h1>4 căn nhà, <em>hai miền thương nhớ</em></h1>
+      <p class="lead">2 chi nhánh tại Sài Gòn và 2 chi nhánh tại Đà Nẵng – Quảng Nam đang được hoàn thiện. Đăng ký để là người đầu tiên biết địa chỉ và nhận ưu đãi khai trương.</p>
       <div class="hero__cta"><a class="btn btn--primary btn--lg" href="#dang-ky">Đăng ký nhận tin ${icon('arrow')}</a><a class="btn btn--ghost btn--lg" href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a></div>
     </div>
     <figure class="phero__img">${img('cafe-counter', 'Quầy pha chế', { eager: true })}</figure>
@@ -546,11 +540,18 @@ export function branches() {
 </section>
 <section class="section section--tight">
   <div class="wrap">
-    ${site.branches.map((b, i) => `
+    ${regionCards()}
+  </div>
+</section>
+${site.regions.map((r, ri) => `
+<section class="section ${ri % 2 ? '' : 'section--cream'}" id="${r.id}">
+  <div class="wrap">
+    ${head(r.full, r.name, r.tagline)}
+    ${site.branches.filter((b) => b.region === r.id).map((b, i) => `
     <article class="bigbranch${i % 2 ? ' bigbranch--rev' : ''}" id="${b.id}">
-      <div class="bigbranch__media">${img(b.img, 'Không gian dự kiến ' + b.city)}<span class="stamp">Coming<br>Soon</span></div>
+      <div class="bigbranch__media">${img(b.img, b.city)}<span class="stamp">Coming<br>Soon</span></div>
       <div class="bigbranch__body">
-        <span class="pill pill--soon">${icon('calendar')} Sắp khai trương</span>
+        <span class="pill pill--soon">${icon('calendar')} Sắp khai trương · ${b.area}</span>
         <h2>${b.city}</h2>
         <p class="lead">${b.note}</p>
         <ul class="tags">${b.tags.map((t) => `<li>${t}</li>`).join('')}</ul>
@@ -559,19 +560,19 @@ export function branches() {
           <li>${icon('clock')}<span><strong>Giờ mở cửa dự kiến</strong>${site.hours.map(([k, v]) => `${k}: ${v}`).join('<br>')}</span></li>
           <li>${icon('phone')}<span><strong>Hotline</strong><a href="tel:${tel()}">${site.phoneDisplay}</a> · <a href="mailto:${site.email}">${site.email}</a></span></li>
         </ul>
-        <a class="btn btn--primary" href="#dang-ky" data-branch="${b.short}">Báo tôi khi ${b.short} mở cửa ${icon('arrow')}</a>
+        <div class="party__btns"><a class="btn btn--primary" href="#dang-ky" data-branch="${b.short}">Báo tôi khi mở cửa ${icon('arrow')}</a><a class="btn btn--ghost" href="${r.path}">Chất ${r.name}</a></div>
       </div>
     </article>`).join('')}
   </div>
-</section>
-<section class="section section--cream">
+</section>`).join('')}
+<section class="section section--green">
   <div class="wrap">
     ${head('Ở mỗi chi nhánh', 'Bạn sẽ tìm thấy')}
-    <div class="promise">
+    <div class="promise promise--dark">
       <div>${icon('cup')}<h3>Quầy trà mở</h3><p>Xem barista pha ô long và đánh matcha ngay trước mặt.</p></div>
       <div>${icon('cake')}<h3>Tủ bánh trong ngày</h3><p>Bánh nướng từ 5 giờ sáng, hết là hết.</p></div>
-      <div>${icon('bowl')}<h3>Bếp chay</h3><p>Điểm tâm và cơm trưa chay cho dân văn phòng.</p></div>
-      <div>${icon('camera')}<h3>Góc sen check-in</h3><p>Góc chụp ảnh đẹp nhất tiệm, ánh sáng tự nhiên.</p></div>
+      <div>${icon('bowl')}<h3>Bếp chay</h3><p>Điểm tâm và cơm trưa chay, thêm món riêng của từng vùng.</p></div>
+      <div>${icon('camera')}<h3>Góc check-in</h3><p>Góc sen, gạch bông Sài Gòn, đèn lồng Hội An.</p></div>
     </div>
   </div>
 </section>
@@ -637,7 +638,9 @@ export function credits() {
   const lic = (p) =>
     p.license === 'unsplash'
       ? '<a href="https://unsplash.com/license" target="_blank" rel="noopener license">Unsplash License</a>'
-      : p.license === 'cc0'
+      : p.license === 'pdm'
+        ? '<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener license">Public Domain</a>'
+        : p.license === 'cc0'
         ? '<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener license">CC0</a>'
         : `<a href="https://creativecommons.org/licenses/${p.license}/${p.version}/" target="_blank" rel="noopener license">CC ${p.license.toUpperCase()} ${p.version}</a>`;
   return `
