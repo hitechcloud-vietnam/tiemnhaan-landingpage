@@ -233,8 +233,8 @@ export function hiring() {
         <label>Số điện thoại / Zalo<input name="contact" autocomplete="tel" required></label>
       </div>
       <div class="form__row">
-        <label>Vị trí<select name="job" id="job">${JOBS.map(([j, t]) => `<option>${j} (${t})</option>`).join('')}</select></label>
-        <label>Chi nhánh<select name="branch">${site.branches.map((b) => `<option>${b.city}</option>`).join('')}</select></label>
+        <label>Vị trí<select name="job" id="job">${JOBS.map(([j, t]) => `<option value="${j} (${t})">${j} (${t})</option>`).join('')}</select></label>
+        <label>Chi nhánh<select name="branch">${site.branches.map((b) => `<option value="${b.city}">${b.city}</option>`).join('')}</select></label>
       </div>
       <label>Năm sinh, khu vực, ca có thể làm<textarea name="message" rows="4" required placeholder="Ví dụ: 2003, Quận 3, ca tối T2–T6"></textarea></label>
       <button class="btn btn--pink btn--block" type="submit">Gửi hồ sơ ${icon('arrow')}</button>

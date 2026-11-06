@@ -1,5 +1,7 @@
 import { site } from './data/site.mjs';
 import { esc, icon, img, tel, photos } from './layout.mjs';
+import { spacesSection } from './pages-more.mjs';
+import { spaces } from './data/content.mjs';
 
 export const head = (eyebrow, title, lead = '', cls = 'shead--center') => `
 <div class="shead ${cls}">
@@ -174,6 +176,8 @@ export function home() {
 
 ${marquee()}
 
+${spacesSection()}
+
 <section class="section">
   <div class="wrap">
     ${head('Nhà An có gì?', 'Bốn điều làm nên <em>Nhà An</em>', 'Một tiệm nhỏ cho mọi khung giờ trong ngày, từ bữa sáng chay nóng hổi đến ly trà sữa lúc tan làm.')}
@@ -345,7 +349,7 @@ export function experience() {
     <div>
       <p class="eyebrow">Trải nghiệm</p>
       <h1>Không chỉ là ly trà, mà là <em>một chỗ để về</em></h1>
-      <p class="lead">Góc sen để check-in, góc làm việc yên tĩnh, workshop cuối tuần, tiệc nhỏ và câu lạc bộ thành viên: Nhà An là nơi bạn muốn quay lại mỗi ngày.</p>
+      <p class="lead">Bốn khu làm việc và học tập riêng biệt, workshop cuối tuần, tiệc nhỏ và câu lạc bộ thành viên: Nhà An là nơi bạn muốn quay lại mỗi ngày.</p>
       <nav class="jump" aria-label="Mục trong trang">
         <a href="#khong-gian">Không gian</a><a href="#workshop">Workshop</a><a href="#dat-tiec">Đặt tiệc</a><a href="#club">Nhà An Club</a><a href="/tuyen-dung">Tuyển dụng</a>
       </nav>
@@ -356,14 +360,9 @@ export function experience() {
 
 <section class="section" id="khong-gian">
   <div class="wrap">
-    ${head('Không gian', 'Bốn góc, <em>bốn tâm trạng</em>')}
+    ${head('Không gian', 'Bốn góc, <em>bốn tâm trạng</em>', 'Xem chi tiết 4 khu làm việc, học tập và đặt chỗ tại trang <a class="link" href="/khong-gian">Không gian</a>.')}
     <div class="zones">
-      ${[
-        ['lotus', 'Góc sen', 'Chậu sen hồng giữa sân, ánh nắng sớm, góc chụp ảnh đẹp nhất tiệm.', 'camera'],
-        ['cafe-long', 'Bàn dài nhóm bạn', 'Bàn gỗ dài cho 8–12 người: họp nhóm, sinh nhật, học nhóm.', 'users'],
-        ['matcha-work', 'Góc làm việc', 'Ổ cắm từng bàn, wifi mạnh, đèn vàng dịu, nhạc nhỏ.', 'laptop'],
-        ['cafe-plants', 'Ban công cây xanh', 'Đón gió chiều với một ly ô long pha lạnh.', 'leaf'],
-      ].map(([k, h, p, ic]) => `<article class="zone">${img(k, h)}<div class="zone__body">${icon(ic)}<h3>${h}</h3><p>${p}</p></div></article>`).join('')}
+      ${spaces.map((sp) => `<a class="zone" href="/khong-gian#${sp.id}">${img(sp.img, sp.name)}<div class="zone__body">${icon(sp.icon)}<h3>${sp.name}</h3><p>${sp.short}</p></div></a>`).join('')}
     </div>
   </div>
 </section>

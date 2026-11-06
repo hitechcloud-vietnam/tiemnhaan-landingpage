@@ -42,6 +42,7 @@ const ICONS = {
   instagram: '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/>',
   tiktok: P('M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5') + P('M14 3c.5 2.5 2.5 4.5 5 4.5'),
   chat: P('M4 5h16v11H9l-5 4V5Z') + P('M8 10h8M8 13h5'),
+  globe: '<circle cx="12" cy="12" r="9"/>' + P('M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z'),
 };
 export const icon = (name, cls = 'ic') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ''}</svg>`;
@@ -53,26 +54,152 @@ export const img = (key, alt, { cls = '', eager = false } = {}) => {
   return `<img src="/assets/img/photos/${key}.webp" alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
 };
 
+
+export const LANGS = [
+  ['vi', 'Tiếng Việt', 'VI', 'vi_VN'],
+  ['en', 'English', 'EN', 'en_US'],
+  ['ja', '日本語', 'JA', 'ja_JP'],
+  ['ko', '한국어', 'KO', 'ko_KR'],
+  ['zh', '中文', '中文', 'zh_CN'],
+];
+export const langPath = (lang, path) => (lang === 'vi' ? path : `/${lang}${path === '/' ? '/' : path}`);
+
+const SPACES = [
+  ['hop', 'Phòng Họp Hanh Thông', 'Họp team, đồ án, phỏng vấn', 'meet-room'],
+  ['am', 'Góc Ấm Nhà An', 'Sofa, đèn vàng, đọc sách', 'cozy-lounge'],
+  ['deadline', 'Phòng Chạy Deadline', 'Yên lặng, tập trung, tới 22:00', 'focus-man'],
+  ['rom-ra', 'Sân Rôm Rả', 'Hội bạn, học nhóm, board game', 'chat-friends'],
+];
+
+const thumb = (k) => `<img src="/assets/img/photos/${k}.webp" alt="" width="64" height="64" loading="lazy">`;
+
+const megaExplore = () => `
+<div class="mega" role="region" aria-label="Khám phá">
+  <div class="mega__in mega__in--3">
+    <div>
+      <p class="mega__title">Không gian làm việc &amp; học tập</p>
+      <ul class="mega__list mega__list--thumb">
+        ${SPACES.map(([id, n, d, k]) => `<li><a href="/khong-gian#${id}">${thumb(k)}<span><strong>${n}</strong><small>${d}</small></span></a></li>`).join('')}
+      </ul>
+    </div>
+    <div>
+      <p class="mega__title">Trải nghiệm</p>
+      <ul class="mega__list">
+        <li><a href="/khong-gian">${icon('laptop')}<span><strong>Tất cả không gian</strong><small>4 khu cho 4 tâm trạng</small></span></a></li>
+        <li><a href="/trai-nghiem#workshop">${icon('calendar')}<span><strong>Workshop &amp; sự kiện</strong><small>Pha trà, làm bánh, acoustic</small></span></a></li>
+        <li><a href="/trai-nghiem#dat-tiec">${icon('gift')}<span><strong>Đặt tiệc &amp; quà tặng</strong><small>Sinh nhật, tiệc trà văn phòng</small></span></a></li>
+        <li><a href="/trai-nghiem#club">${icon('star')}<span><strong>Nhà An Club</strong><small>Tích điểm, quà sinh nhật</small></span></a></li>
+      </ul>
+    </div>
+    <a class="mega__card" href="/khong-gian">
+      <img src="/assets/img/photos/cowork-cafe.webp" alt="" width="400" height="260" loading="lazy">
+      <span class="mega__card-body"><small>Mới</small><strong>Nơi chạy deadline của giới trẻ</strong><em>Khám phá ngay →</em></span>
+    </a>
+  </div>
+</div>`;
+
+const megaBranches = () => `
+<div class="mega" role="region" aria-label="Chi nhánh">
+  <div class="mega__in mega__in--3">
+    ${site.regions.map((r) => `
+    <div>
+      <a class="mega__region" href="${r.path}"><img src="/assets/img/photos/${r.img}.webp" alt="" width="400" height="200" loading="lazy"><span>${r.name}</span></a>
+      <ul class="mega__list">
+        ${site.branches.filter((b) => b.region === r.id).map((b) => `<li><a href="${r.path}#${b.id}">${icon('pin')}<span><strong>${b.city}</strong><small>Coming Soon</small></span></a></li>`).join('')}
+      </ul>
+    </div>`).join('')}
+    <div class="mega__aside">
+      <p class="mega__title">4 chi nhánh · 2 miền</p>
+      <p>2 chi nhánh tại Sài Gòn, 2 chi nhánh tại Đà Nẵng – Quảng Nam. Đăng ký để biết ngày khai trương.</p>
+      <a class="btn btn--primary" href="/chi-nhanh">Tất cả chi nhánh</a>
+      <a class="btn btn--ghost" href="/chi-nhanh#dang-ky">Nhận tin khai trương</a>
+    </div>
+  </div>
+</div>`;
+
+const megaAbout = () => `
+<div class="mega mega--sm" role="region" aria-label="Về Nhà An">
+  <div class="mega__in mega__in--2">
+    <ul class="mega__list">
+      <li><a href="/ve-chung-toi">${icon('home')}<span><strong>Câu chuyện Nhà An</strong><small>Mái nhà, đóa sen, chồi lá</small></span></a></li>
+      <li><a href="/tin-tuc">${icon('card')}<span><strong>Tin tức</strong><small>Khai trương, sự kiện, câu chuyện</small></span></a></li>
+      <li><a href="/hoi-dap">${icon('chat')}<span><strong>Hỏi đáp</strong><small>Những câu hỏi thường gặp</small></span></a></li>
+      <li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tuyển dụng</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li>
+    </ul>
+    <a class="mega__card" href="/tuyen-dung">
+      <img src="/assets/img/photos/chat-friends.webp" alt="" width="400" height="260" loading="lazy">
+      <span class="mega__card-body"><small>Đang tuyển</small><strong>Về làm nhà với Nhà An</strong><em>BHXH, BHYT đầy đủ →</em></span>
+    </a>
+  </div>
+</div>`;
+
 const NAV = [
-  ['/', 'Trang chủ', 'home'],
-  ['/trai-nghiem', 'Trải nghiệm', 'experience'],
-  ['/chi-nhanh', 'Chi nhánh', 'branches', [
-    ['/chi-nhanh', 'Tất cả 4 chi nhánh', 'branches'],
-    ['/sai-gon', 'Nhà An Sài Gòn', 'saigon'],
-    ['/da-nang-quang-nam', 'Nhà An Đà Nẵng – Quảng Nam', 'mientrung'],
-  ]],
+  ['/khong-gian', 'Khám phá', 'explore', megaExplore, ['spaces', 'experience']],
+  ['/chi-nhanh', 'Chi nhánh', 'branches', megaBranches, ['branches', 'saigon', 'mientrung']],
   ['/tuyen-dung', 'Tuyển dụng', 'hiring'],
-  ['/ve-chung-toi', 'Về Nhà An', 'about'],
+  ['/tin-tuc', 'Tin tức', 'news', null, ['news', 'article']],
+  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq']],
   ['/lien-he', 'Liên hệ', 'contact'],
 ];
-const FLAT = NAV.flatMap(([h, l, k, sub]) => (sub ? sub : [[h, l, k]]));
 
-const navItem = (page) => ([href, label, key, sub]) => {
-  const cur = key === page || (sub && sub.some((x) => x[2] === page));
-  if (!sub) return `<li><a href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
-  return `<li class="has-sub"><a href="${href}"${cur ? ' aria-current="page"' : ''}>${label} <span class="caret" aria-hidden="true">▾</span></a>
-        <ul class="sub">${sub.map(([h, l, k]) => `<li><a href="${h}"${k === page ? ' class="is-cur"' : ''}>${l}</a></li>`).join('')}</ul></li>`;
+const navItem = (page) => ([href, label, key, mega, keys = [key]]) => {
+  const cur = keys.includes(page);
+  if (!mega) return `<li><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
+  return `<li class="has-mega"><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''} aria-haspopup="true">${label} <span class="caret" aria-hidden="true">▾</span></a>${mega()}</li>`;
 };
+
+const langSwitch = (path, cls = '') => `
+<div class="lang ${cls}">
+  <button class="lang__btn" type="button" aria-haspopup="true" aria-label="Ngôn ngữ">${icon('globe')}<span class="lang__cur">VI</span></button>
+  <ul class="lang__menu">${LANGS.map(([l, name, short]) => `<li><a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}"><b>${short}</b> ${name}</a></li>`).join('')}</ul>
+</div>`;
+
+const drawer = (path, page) => `
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer__head">
+      <a href="/"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="210"></a>
+      <button class="drawer__close" type="button" data-drawer-close aria-label="Đóng menu">${icon('close')}</button>
+    </div>
+    <div class="drawer__langs">${LANGS.map(([l, , short]) => `<a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}">${short}</a>`).join('')}</div>
+    <nav class="drawer__nav" aria-label="Menu di động">
+      <a class="drawer__link${page === 'home' ? ' is-cur' : ''}" href="/">${icon('home')} Trang chủ</a>
+      <details${['spaces', 'experience'].includes(page) ? ' open' : ''}><summary>${icon('laptop')} Khám phá</summary>
+        <div class="drawer__sub">
+          ${SPACES.map(([id, n, d, k]) => `<a href="/khong-gian#${id}">${thumb(k)}<span><strong>${n}</strong><small>${d}</small></span></a>`).join('')}
+          <a href="/trai-nghiem">${icon('star')}<span><strong>Trải nghiệm</strong><small>Workshop, đặt tiệc, Nhà An Club</small></span></a>
+        </div>
+      </details>
+      <details${['branches', 'saigon', 'mientrung'].includes(page) ? ' open' : ''}><summary>${icon('pin')} Chi nhánh</summary>
+        <div class="drawer__sub">
+          ${site.regions.map((r) => `<a href="${r.path}">${thumb(r.img)}<span><strong>${r.name}</strong><small>2 chi nhánh · Coming Soon</small></span></a>`).join('')}
+          <a href="/chi-nhanh">${icon('pin')}<span><strong>Tất cả 4 chi nhánh</strong><small>Sài Gòn · Đà Nẵng · Hội An</small></span></a>
+        </div>
+      </details>
+      <a class="drawer__link${page === 'hiring' ? ' is-cur' : ''}" href="/tuyen-dung">${icon('briefcase')} Tuyển dụng <em class="drawer__badge">Đang tuyển</em></a>
+      <a class="drawer__link${['news', 'article'].includes(page) ? ' is-cur' : ''}" href="/tin-tuc">${icon('card')} Tin tức</a>
+      <details${['about', 'faq'].includes(page) ? ' open' : ''}><summary>${icon('heart')} Về Nhà An</summary>
+        <div class="drawer__sub drawer__sub--plain">
+          <a href="/ve-chung-toi">Câu chuyện Nhà An</a><a href="/hoi-dap">Hỏi đáp</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a>
+        </div>
+      </details>
+      <a class="drawer__link${page === 'contact' ? ' is-cur' : ''}" href="/lien-he">${icon('mail')} Liên hệ</a>
+    </nav>
+    <div class="drawer__foot">
+      <a class="btn btn--pink btn--block" href="/chi-nhanh#dang-ky">Đăng ký nhận tin khai trương</a>
+      <div class="drawer__contact"><a href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a><a href="mailto:${site.email}">${icon('mail')} Email</a></div>
+    </div>
+  </div>
+</div>`;
+
+const tabbar = (page) => `
+<nav class="tabbar" aria-label="Thanh điều hướng nhanh">
+  <a href="/"${page === 'home' ? ' aria-current="page"' : ''}>${icon('home')}<span>Trang chủ</span></a>
+  <a href="/khong-gian"${page === 'spaces' ? ' aria-current="page"' : ''}>${icon('laptop')}<span>Không gian</span></a>
+  <a class="tabbar__call" href="tel:${tel()}" aria-label="Gọi ${site.phoneDisplay}">${icon('phone')}</a>
+  <a href="/chi-nhanh"${['branches', 'saigon', 'mientrung'].includes(page) ? ' aria-current="page"' : ''}>${icon('pin')}<span>Chi nhánh</span></a>
+  <a href="${site.social.zalo}" target="_blank" rel="noopener"><b class="zalo-txt">Zalo</b><span>Nhắn tin</span></a>
+</nav>`;
 
 const socialLinks = () =>
   Object.entries(site.social)
@@ -80,10 +207,11 @@ const socialLinks = () =>
     .map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener" aria-label="${k === 'zalo' ? 'Zalo' : k}">${k === 'zalo' ? '<b class="zalo-txt">Zalo</b>' : icon(k)}</a>`)
     .join('');
 
-export function layout({ page, title, description, path, body, scripts = [] }) {
+export function layout({ page, title, description, path, body, scripts = [], image }) {
   const full = title ? `${title} | ${site.name}` : `${site.name} — Trà Sữa · Ô Long · Bánh Ngọt · Đồ Chay`;
   const desc = description || site.description;
   const url = site.url + (path === '/' ? '' : path);
+  const ogImg = image ? `${site.url}/assets/img/photos/${image}.webp` : `${site.url}/assets/img/brand/og-image.jpg`;
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'CafeOrCoffeeShop',
@@ -101,10 +229,12 @@ export function layout({ page, title, description, path, body, scripts = [] }) {
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${url}">
+<link rel="canonical" href="${url}" data-canonical>
+${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n')}
+<link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>
 <meta name="theme-color" content="#41593D">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
@@ -112,7 +242,7 @@ export function layout({ page, title, description, path, body, scripts = [] }) {
 <meta property="og:title" content="${esc(full)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${site.url}/assets/img/brand/og-image.jpg">
+<meta property="og:image" content="${ogImg}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
@@ -123,6 +253,9 @@ export function layout({ page, title, description, path, body, scripts = [] }) {
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); }; window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body data-page="${page}" data-email="${esc(site.email)}"${site.formEndpoint ? ` data-endpoint="${esc(site.formEndpoint)}"` : ''}>
 <a class="skip" href="#main">Bỏ qua tới nội dung</a>
@@ -134,12 +267,16 @@ export function layout({ page, title, description, path, body, scripts = [] }) {
   <div class="wrap header__in">
     <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="210"></a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
-      <ul>${NAV.map(navItem(page)).join('')}</ul>
-      <a class="btn btn--pink nav__cta" href="/chi-nhanh#dang-ky">Đăng ký nhận tin</a>
+      <ul class="nav__list">${NAV.map(navItem(page)).join('')}</ul>
     </nav>
-    <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <div class="header__tools">
+      ${langSwitch(path)}
+      <a class="btn btn--pink nav__cta" href="/chi-nhanh#dang-ky">Nhận tin</a>
+      <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
+${drawer(path, page)}
 <main id="main">
 ${body}
 </main>
@@ -155,19 +292,30 @@ ${body}
     <div class="footer__brand">
       <img src="/assets/img/brand/logo-circle.png" alt="" width="88" height="88">
       <p class="script">${site.tagline}</p>
-      <p>Trà sữa, ô long rang củi, bánh ngọt nướng mỗi sáng và đồ chay nấu như ở nhà.</p>
+      <p>Trà sữa, ô long rang củi, bánh ngọt, đồ chay và không gian chạy deadline cho giới trẻ.</p>
       <div class="social">${socialLinks()}</div>
     </div>
     <div>
       <h3>Khám phá</h3>
-      <ul>${FLAT.filter(([h], i, a) => a.findIndex((x) => x[0] === h) === i).map(([h, l]) => `<li><a href="${h}">${l}</a></li>`).join('')}<li><a href="/tin-dung-anh">Tín dụng hình ảnh</a></li></ul>
+      <ul>
+        <li><a href="/khong-gian">Không gian làm việc</a></li><li><a href="/trai-nghiem">Trải nghiệm</a></li>
+        <li><a href="/trai-nghiem#workshop">Workshop &amp; sự kiện</a></li><li><a href="/trai-nghiem#dat-tiec">Đặt tiệc &amp; quà tặng</a></li>
+        <li><a href="/trai-nghiem#club">Nhà An Club</a></li>
+      </ul>
     </div>
     <div>
-      <h3>Trải nghiệm</h3>
+      <h3>Chi nhánh</h3>
       <ul>
-        <li><a href="/trai-nghiem#khong-gian">Không gian</a></li><li><a href="/trai-nghiem#workshop">Workshop &amp; sự kiện</a></li>
-        <li><a href="/trai-nghiem#dat-tiec">Đặt tiệc &amp; quà tặng</a></li><li><a href="/trai-nghiem#club">Nhà An Club</a></li>
-        <li><a href="/tuyen-dung">Tuyển dụng</a></li>
+        <li><a href="/chi-nhanh">Tất cả 4 chi nhánh</a></li>
+        ${site.regions.map((r) => `<li><a href="${r.path}">Nhà An ${r.name}</a></li>`).join('')}
+        ${site.branches.map((b) => `<li class="footer__branch">${icon('pin')}<span>${b.city} <em>Coming Soon</em></span></li>`).join('')}
+      </ul>
+    </div>
+    <div>
+      <h3>Về Nhà An</h3>
+      <ul>
+        <li><a href="/ve-chung-toi">Câu chuyện</a></li><li><a href="/tin-tuc">Tin tức</a></li><li><a href="/tuyen-dung">Tuyển dụng</a></li>
+        <li><a href="/hoi-dap">Hỏi đáp</a></li><li><a href="/lien-he">Liên hệ</a></li>
       </ul>
     </div>
     <div>
@@ -175,19 +323,21 @@ ${body}
       <ul class="footer__contact">
         <li>${icon('phone')}<a href="tel:${tel()}">${site.phoneDisplay}</a></li>
         <li>${icon('mail')}<a href="mailto:${site.email}">${site.email}</a></li>
-        ${site.branches.map((b) => `<li>${icon('pin')}<span>${b.city} <em>Coming Soon</em></span></li>`).join('')}
+        <li>${icon('clock')}<span>06:30 – 22:00</span></li>
       </ul>
+      ${langSwitch(path, 'lang--footer')}
     </div>
   </div>
   <div class="wrap footer__bottom">
     <span>© ${new Date().getFullYear()} ${site.name}. Nấu bằng cả tấm lòng.</span>
-    <a href="#top">Lên đầu trang ↑</a>
+    <span class="footer__legal"><a href="/chinh-sach-bao-mat">Chính sách bảo mật</a><a href="/dieu-khoan">Điều khoản sử dụng</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a></span>
   </div>
 </footer>
 <div class="fab" aria-label="Liên hệ nhanh">
   <a class="fab__btn fab__btn--zalo" href="${esc(site.social.zalo)}" target="_blank" rel="noopener" aria-label="Chat Zalo với Nhà An">Zalo</a>
   <a class="fab__btn fab__btn--call" href="tel:${tel()}" aria-label="Gọi ${site.phoneDisplay}">${icon('phone')}</a>
 </div>
+${tabbar(page)}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/js/main.js" defer></script>
 ${scripts.map((s) => `<script src="${s}" defer></script>`).join('\n')}

@@ -820,5 +820,223 @@
    1024,
    768
   ]
+ },
+ "meet-room": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Phòng họp nhỏ",
+  "url": "https://images.unsplash.com/photo-1517502884422-41eaead166d4",
+  "size": [
+   1400,
+   1120
+  ]
+ },
+ "meet-team": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Họp nhóm",
+  "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "cozy-lounge": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Góc ghế bành",
+  "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "cozy-sofa": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Sofa ấm cúng",
+  "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "cozy-desk": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Bàn làm việc và cà phê",
+  "url": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "focus-man": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Tập trung làm việc",
+  "url": "https://images.unsplash.com/photo-1513258496099-48168024aec0",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "focus-write": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Ghi chép",
+  "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "focus-laptop": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Laptop và sổ tay",
+  "url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8",
+  "size": [
+   1400,
+   1050
+  ]
+ },
+ "focus-books": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Sách vở",
+  "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8",
+  "size": [
+   1400,
+   1051
+  ]
+ },
+ "chat-friends": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Hội bạn trò chuyện",
+  "url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "chat-table": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Bàn dài rôm rả",
+  "url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "chat-drinks": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Gặp gỡ buổi tối",
+  "url": "https://images.unsplash.com/photo-1515169067868-5387ec356754",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "cowork-cafe": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Không gian cà phê làm việc",
+  "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+  "size": [
+   1400,
+   960
+  ]
+ },
+ "cowork-team": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Làm việc nhóm",
+  "url": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+  "size": [
+   1400,
+   919
+  ]
+ },
+ "cowork-top": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Bàn làm việc nhóm",
+  "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "cowork-space": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Không gian mở",
+  "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+  "size": [
+   1400,
+   935
+  ]
+ },
+ "cowork-plan": {
+  "source": "Unsplash",
+  "license": "unsplash",
+  "title": "Lên kế hoạch",
+  "url": "https://images.unsplash.com/photo-1552664730-d307ca884978",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "meet-brick": {
+  "source": "rawpixel",
+  "title": "Free meeting room image",
+  "creator": null,
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://www.rawpixel.com/image/5921225/free-meeting-room-image-public-domain-cc0-photo",
+  "size": [
+   1024,
+   679
+  ]
+ },
+ "cozy-cocoa": {
+  "source": "rawpixel",
+  "title": "Free flat lay reading book",
+  "creator": null,
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://www.rawpixel.com/image/5923409/photo-image-book-public-domain-black",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "focus-coffee": {
+  "source": "stocksnap",
+  "title": "Laptop White",
+  "creator": "Chevanon",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://stocksnap.io/photo/laptop-white-4YWGU5SK09",
+  "size": [
+   960,
+   641
+  ]
+ },
+ "chat-cafe": {
+  "source": "stocksnap",
+  "title": "Businessmeeting People",
+  "creator": "Helena Lopes",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://stocksnap.io/photo/businessmeeting-people-QVIEE1UZSX",
+  "size": [
+   960,
+   640
+  ]
  }
 }

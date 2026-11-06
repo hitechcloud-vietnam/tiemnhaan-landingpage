@@ -8,9 +8,9 @@ export const site = {
   email: 'contact@tiemnhaan.com',
   phone: '0865920041', // số dùng cho tel: và Zalo
   phoneDisplay: '0865 920 041',
-  // URL nhận dữ liệu form (ví dụ Formspree: https://formspree.io/f/xxxxxx).
-  // Để trống: form mở ứng dụng email với nội dung soạn sẵn gửi tới `email`.
-  formEndpoint: '',
+  // API nhận form (Vercel Function /api/contact, gửi email qua Resend khi có RESEND_API_KEY).
+  // Nếu API chưa cấu hình, form tự mở ứng dụng email với nội dung soạn sẵn gửi tới `email`.
+  formEndpoint: '/api/contact',
   social: {
     facebook: '',
     instagram: '',
