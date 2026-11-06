@@ -1,4 +1,4 @@
-# Tiệm Nhà An — Landing Page
+# Tiệm Nhà An — Website chính thức
 
 Website giới thiệu nhiều trang cho **Tiệm Nhà An**: trà sữa, ô long rang củi, bánh ngọt và đồ chay ăn sáng/trưa.
 Chi nhánh **TP. Hồ Chí Minh** và **Đà Nẵng**: *Coming Soon*.

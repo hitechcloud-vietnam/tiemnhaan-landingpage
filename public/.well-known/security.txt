@@ -1,0 +1,4 @@
+Contact: mailto:contact@tiemnhaan.com
+Preferred-Languages: vi, en
+Canonical: https://tiemnhaan.com/.well-known/security.txt
+Expires: 2027-12-31T23:59:59Z

@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { site } from './data/site.mjs';
 
 const photos = JSON.parse(readFileSync(new URL('./data/photos.json', import.meta.url), 'utf8'));
@@ -158,7 +158,7 @@ const drawer = (path, page) => `
 <div class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
-      <a href="/"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="210"></a>
+      <a href="/"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="204"></a>
       <button class="drawer__close" type="button" data-drawer-close aria-label="Đóng menu">${icon('close')}</button>
     </div>
     <div class="drawer__langs">${LANGS.map(([l, , short]) => `<a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}">${short}</a>`).join('')}</div>
@@ -207,24 +207,62 @@ const socialLinks = () =>
     .map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener" aria-label="${k === 'zalo' ? 'Zalo' : k}">${k === 'zalo' ? '<b class="zalo-txt">Zalo</b>' : icon(k)}</a>`)
     .join('');
 
-export function layout({ page, title, description, path, body, scripts = [], image }) {
+export function layout({ page, title, description, path, body, scripts = [], image, schema = [], type = 'website', date }) {
   const full = title ? `${title} | ${site.name}` : `${site.name} — Trà Sữa · Ô Long · Bánh Ngọt · Đồ Chay`;
   const desc = description || site.description;
   const url = site.url + (path === '/' ? '' : path);
-  const ogImg = image ? `${site.url}/assets/img/photos/${image}.webp` : `${site.url}/assets/img/brand/og-image.jpg`;
-  const ld = {
-    '@context': 'https://schema.org',
-    '@type': 'CafeOrCoffeeShop',
+  const ogImg = image && existsSync(new URL(`../public/assets/img/og/${image}.jpg`, import.meta.url))
+    ? `${site.url}/assets/img/og/${image}.jpg`
+    : `${site.url}/assets/img/brand/og-image.jpg`;
+  const seo = site.seo || {};
+  const org = {
+    '@type': 'Organization',
+    '@id': `${site.url}/#org`,
     name: site.name,
-    description: site.description,
     url: site.url,
+    logo: { '@type': 'ImageObject', url: `${site.url}/assets/img/brand/logo-circle.png`, width: 328, height: 328 },
     email: site.email,
     telephone: tel(),
-    logo: site.url + '/assets/img/brand/logo-circle.png',
-    image: site.url + '/assets/img/brand/og-image.jpg',
-    servesCuisine: ['Trà sữa', 'Trà ô long', 'Bánh ngọt', 'Món chay Việt'],
-    areaServed: site.branches.map((b) => b.city),
+    sameAs: Object.values(site.social).filter(Boolean),
+    contactPoint: [{ '@type': 'ContactPoint', telephone: tel(), email: site.email, contactType: 'customer service', areaServed: 'VN', availableLanguage: ['Vietnamese', 'English', 'Japanese', 'Korean', 'Chinese'] }],
   };
+  const shops = site.branches.map((b) => ({
+    '@type': 'CafeOrCoffeeShop',
+    '@id': `${site.url}/chi-nhanh#${b.id}`,
+    name: `${site.name} — ${b.city}`,
+    url: `${site.url}${site.regions.find((r) => r.id === b.region).path}#${b.id}`,
+    image: `${site.url}/assets/img/photos/${b.img}.webp`,
+    telephone: tel(),
+    email: site.email,
+    priceRange: '25.000đ – 120.000đ',
+    servesCuisine: ['Trà sữa', 'Trà ô long', 'Bánh ngọt', 'Món chay Việt'],
+    address: { '@type': 'PostalAddress', addressLocality: b.id === 'hoi-an' ? 'Hội An' : b.region === 'sai-gon' ? 'Thành phố Hồ Chí Minh' : 'Đà Nẵng', addressCountry: 'VN' },
+    openingHours: 'Mo-Su 06:30-22:00',
+    parentOrganization: { '@id': `${site.url}/#org` },
+    amenityFeature: ['Wifi tốc độ cao', 'Ổ cắm mọi chỗ ngồi', 'Phòng họp', 'Khu yên lặng'].map((n) => ({ '@type': 'LocationFeatureSpecification', name: n, value: true })),
+  }));
+  const crumbs = path === '/' ? [] : [
+    { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: `${site.url}/` },
+    ...(path.startsWith('/tin-tuc/') ? [{ '@type': 'ListItem', position: 2, name: 'Tin tức', item: `${site.url}/tin-tuc` }] : []),
+    { '@type': 'ListItem', position: path.startsWith('/tin-tuc/') ? 3 : 2, name: title || site.name, item: url },
+  ];
+  const graph = [
+    org,
+    { '@type': 'WebSite', '@id': `${site.url}/#website`, url: site.url, name: site.name, inLanguage: ['vi', 'en', 'ja', 'ko', 'zh-Hans'], publisher: { '@id': `${site.url}/#org` } },
+    { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: full, description: desc, isPartOf: { '@id': `${site.url}/#website` }, primaryImageOfPage: ogImg, inLanguage: 'vi' },
+    ...(page === 'home' || page === 'branches' ? shops : []),
+    ...(crumbs.length ? [{ '@type': 'BreadcrumbList', itemListElement: crumbs }] : []),
+    ...schema,
+  ];
+  const ld = { '@context': 'https://schema.org', '@graph': graph };
+  const verify = [
+    seo.googleVerification && `<meta name="google-site-verification" content="${esc(seo.googleVerification)}">`,
+    seo.bingVerification && `<meta name="msvalidate.01" content="${esc(seo.bingVerification)}">`,
+    seo.facebookDomainVerification && `<meta name="facebook-domain-verification" content="${esc(seo.facebookDomainVerification)}">`,
+    seo.zaloVerification && `<meta name="zalo-platform-site-verification" content="${esc(seo.zaloVerification)}">`,
+    seo.facebookAppId && `<meta property="fb:app_id" content="${esc(seo.facebookAppId)}">`,
+    seo.twitter && `<meta name="twitter:site" content="${esc(seo.twitter)}">`,
+  ].filter(Boolean).join('\n');
   return `<!doctype html>
 <html lang="vi">
 <head>
@@ -232,18 +270,45 @@ export function layout({ page, title, description, path, body, scripts = [], ima
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(desc)}">
+<meta name="keywords" content="${esc(seo.keywords || '')}">
+<meta name="author" content="${site.name}">
+<meta name="robots" content="${page === '404' ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}">
+<meta name="application-name" content="${site.name}">
+<meta name="apple-mobile-web-app-title" content="${site.name}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=yes">
+<meta name="msapplication-TileColor" content="#41593D">
+<meta name="color-scheme" content="light">
+<meta name="geo.region" content="VN">
+<meta name="geo.placename" content="Hồ Chí Minh, Đà Nẵng, Hội An">
+${verify}
 <link rel="canonical" href="${url}" data-canonical>
 ${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n')}
 <link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>
+<link rel="alternate" type="application/rss+xml" title="${site.name} — Tin tức" href="${site.url}/rss.xml" data-nolocal>
 <meta name="theme-color" content="#41593D">
-<meta property="og:type" content="website">
+<meta property="og:type" content="${type}">
 <meta property="og:locale" content="vi_VN">
+${LANGS.slice(1).map(([, , , loc]) => `<meta property="og:locale:alternate" content="${loc}">`).join('\n')}
 <meta property="og:site_name" content="${site.name}">
 <meta property="og:title" content="${esc(full)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}">
 <meta property="og:image" content="${ogImg}">
+<meta property="og:image:secure_url" content="${ogImg}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(full)}">
+${type === 'article' && date ? `<meta property="article:published_time" content="${date}T08:00:00+07:00">\n<meta property="article:author" content="${site.name}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(full)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${ogImg}">
+<meta name="twitter:image:alt" content="${esc(full)}">
+<meta name="pinterest-rich-pin" content="true">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">
@@ -265,7 +330,7 @@ ${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' :
 </div></div>
 <header class="header" id="top">
   <div class="wrap header__in">
-    <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="210"></a>
+    <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="204"></a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
       <ul class="nav__list">${NAV.map(navItem(page)).join('')}</ul>
     </nav>

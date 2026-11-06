@@ -5,7 +5,7 @@ Website đã được cấu hình sẵn cho `https://tiemnhaan.com`: link chuẩ
 ## Bước 1: Deploy lên Vercel
 
 1. Đăng nhập https://vercel.com bằng tài khoản GitHub.
-2. Chọn **Add New… → Project**, chọn repo `hitechcloud-vietnam/tiemnhaan-landingpage` rồi bấm **Import**.
+2. Chọn **Add New… → Project**, chọn repo `hitechcloud-vietnam/tiemnhaan-landingpage` (website chính thức) rồi bấm **Import**.
 3. Giữ nguyên cài đặt (Framework: *Other*; `vercel.json` đã khai báo build và thư mục `public`).
 4. Bấm **Deploy**. Vài chục giây sau site chạy tại `tiemnhaan-landingpage.vercel.app`.
 5. Vào **Settings → Git** và kiểm tra **Production Branch** là `main`.

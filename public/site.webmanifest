@@ -1,10 +1,19 @@
 {
   "name": "Tiệm Nhà An",
   "short_name": "Nhà An",
-  "start_url": "/",
+  "description": "Tiệm Nhà An — trà sữa, ô long rang củi, bánh ngọt nướng mỗi sáng và đồ chay ăn sáng, ăn trưa. Sắp khai trương tại TP. Hồ Chí Minh và Đà Nẵng.",
+  "lang": "vi",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FCFAF5",
   "theme_color": "#41593D",
+  "categories": [
+    "food",
+    "lifestyle"
+  ],
   "icons": [
     {
       "src": "/assets/img/brand/favicon-192.png",
@@ -15,6 +24,30 @@
       "src": "/assets/img/brand/favicon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/assets/img/brand/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Không gian",
+      "url": "/khong-gian"
+    },
+    {
+      "name": "Chi nhánh",
+      "url": "/chi-nhanh"
+    },
+    {
+      "name": "Tuyển dụng",
+      "url": "/tuyen-dung"
+    },
+    {
+      "name": "Liên hệ",
+      "url": "/lien-he"
     }
   ]
 }
