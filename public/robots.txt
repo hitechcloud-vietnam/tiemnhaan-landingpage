@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tiemnhaan.vercel.app/sitemap.xml

@@ -1,0 +1,12 @@
+{
+  "name": "tiemnhaan-landingpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website landing page nhiều trang cho Tiệm Nhà An — Trà Sữa · Ô Long · Bánh Ngọt · Đồ Chay",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && npx --yes serve@14.2.4 public"
+  },
+  "engines": { "node": ">=18" }
+}
