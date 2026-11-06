@@ -39,7 +39,7 @@ npm run dev     # build và chạy thử tại http://localhost:3000
 ## Deploy lên Vercel
 
 1. Vào vercel.com, chọn **Add New → Project** rồi import repo GitHub này.
-2. Giữ nguyên cài đặt. `vercel.json` đã khai báo build `npm run build`, output `public` và URL gọn (`/thuc-don`).
+2. Giữ nguyên cài đặt. `vercel.json` đã khai báo build `npm run build`, output `public` và URL gọn (`/trai-nghiem`).
 3. Bấm **Deploy**.
 4. Gắn tên miền `tiemnhaan.com` và trỏ DNS: xem [docs/HUONG-DAN-TEN-MIEN.md](docs/HUONG-DAN-TEN-MIEN.md).
 
