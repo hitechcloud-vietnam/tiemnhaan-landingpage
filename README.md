@@ -7,19 +7,20 @@ Chi nhánh **TP. Hồ Chí Minh** và **Đà Nẵng**: *Coming Soon*.
 
 | Đường dẫn | Nội dung |
 | --- | --- |
-| `/` | Trang chủ: hero, 6 món ký tên, 8 nhóm món, câu chuyện ô long, một ngày ở Nhà An, món bán chạy, lời hứa, chi nhánh, đăng ký nhận tin, FAQ |
-| `/thuc-don` | Thực đơn **115 món** kèm giá: tìm kiếm không dấu, lọc (Ký tên, Bán chạy, Mới, Thuần chay, Có nóng), tab nhóm món, xem chi tiết từng món, topping, combo |
-| `/ve-chung-toi` | Câu chuyện thương hiệu, giá trị, nguồn nguyên liệu, hành trình, bộ nhận diện logo và màu |
-| `/chi-nhanh` | TP.HCM và Đà Nẵng (Coming Soon), giờ mở cửa dự kiến, form đăng ký nhận tin |
-| `/lien-he` | Form liên hệ, giờ mở cửa, FAQ |
-| `/tin-dung-anh` | Nguồn và giấy phép ảnh minh họa |
+| `/` | Trang chủ: hero, 4 điều làm nên Nhà An, món ký tên ô long, góc check-in, một ngày ở Nhà An, Nhà An Club, workshop, đặt tiệc, chi nhánh, đăng ký nhận tin, FAQ |
+| `/trai-nghiem` | Không gian, workshop & sự kiện, đặt tiệc & quà tặng, Nhà An Club, tuyển dụng |
+| `/ve-chung-toi` | Câu chuyện thương hiệu, giá trị, nguồn nguyên liệu, hành trình, logo và màu |
+| `/chi-nhanh` | TP.HCM và Đà Nẵng (Coming Soon), giờ mở cửa dự kiến, đăng ký nhận tin |
+| `/lien-he` | Hotline, Zalo, email, form liên hệ, FAQ |
+| `/tin-dung-anh` | Nguồn và giấy phép ảnh |
+
+Liên hệ: hotline/Zalo **0865 920 041**, email **contact@tiemnhaan.com**. Nút gọi và Zalo nổi ở góc phải mọi trang.
 
 ## Cấu trúc
 
 ```
-src/data/menu.mjs     ← 115 món, topping, combo (sửa món/giá ở đây)
-src/data/site.mjs     ← tên, email, điện thoại, mạng xã hội, giờ mở cửa, chi nhánh, form endpoint
-src/data/credits.json ← tín dụng ảnh
+src/data/site.mjs     ← tên, email, điện thoại, Zalo, mạng xã hội, giờ mở cửa, chi nhánh, form endpoint
+src/data/photos.json  ← danh sách ảnh, kích thước, nguồn và giấy phép
 src/layout.mjs        ← head/header/footer dùng chung
 src/pages.mjs         ← nội dung từng trang
 scripts/build.mjs     ← sinh HTML tĩnh vào public/
@@ -44,7 +45,7 @@ npm run dev     # build và chạy thử tại http://localhost:3000
 
 ## Cần cập nhật trước khi chạy chính thức
 
-- `src/data/site.mjs`: điền `email`, `phone`, link `social` (để trống thì website tự ẩn) và địa chỉ chi nhánh khi có.
-- `formEndpoint`: dán URL nhận form (ví dụ Formspree hoặc Google Apps Script) để thật sự nhận đăng ký và lời nhắn. Khi để trống, form chỉ hiện lời cảm ơn.
-- **Ảnh món** hiện là ảnh minh họa có giấy phép Creative Commons (xem `/tin-dung-anh`). Thay bằng ảnh thật bằng cách ghi đè file cùng tên trong `public/assets/img/menu/`.
-- Nội dung marketing (nguồn trà, quy trình, giá) là bản nháp, nên rà lại cho đúng với thực tế của tiệm.
+- `src/data/site.mjs`: thêm link Facebook/Instagram/TikTok (để trống thì website tự ẩn) và địa chỉ chi nhánh khi có.
+- `formEndpoint`: dán URL nhận form (ví dụ Formspree hoặc Google Apps Script) để thật sự nhận đăng ký và lời nhắn. Khi để trống, form mở ứng dụng email của khách với nội dung soạn sẵn gửi tới contact@tiemnhaan.com.
+- **Ảnh** hiện là ảnh minh họa từ Unsplash và Rawpixel (CC0), được phép dùng thương mại (xem `/tin-dung-anh`). Thay bằng ảnh thật bằng cách ghi đè file cùng tên trong `public/assets/img/photos/`.
+- Nội dung marketing (nguồn trà, quy trình, Nhà An Club, workshop, tuyển dụng) là bản nháp, nên rà lại cho đúng với thực tế của tiệm.

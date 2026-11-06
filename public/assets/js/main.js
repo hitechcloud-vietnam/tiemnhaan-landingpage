@@ -39,7 +39,7 @@
     const io = new IntersectionObserver((es) => es.forEach((e) => {
       if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
     }), { rootMargin: '0px 0px -8% 0px' });
-    $$('.shead, .cat, .promise > div, .branch, .day__c, .origin, .timeline li, .bigbranch, .split > *, .signup__in > *')
+    $$('.shead, .tile, .g, .promise > div, .branch, .day__c, .origin, .timeline li, .bigbranch, .feature > *, .club > *, .event, .zone, .offer, .party, .signup__in > *, .cbig__c, .jobs li, .story > *')
       .forEach((el) => { el.classList.add('reveal'); io.observe(el); });
   }
 
@@ -75,11 +75,25 @@
             body: JSON.stringify(data),
           });
           if (!r.ok) throw new Error(String(r.status));
+          form.reset();
+          window.showToast(form.dataset.form === 'signup'
+            ? `Cảm ơn ${data.name || 'bạn'}! Nhà An sẽ báo tin khai trương sớm nhất.`
+            : 'Cảm ơn bạn! Nhà An đã nhận lời nhắn và sẽ phản hồi sớm.');
+        } else {
+          // Chưa có máy chủ nhận form: mở ứng dụng email với nội dung soạn sẵn
+          const subject = form.dataset.form === 'signup'
+            ? 'Đăng ký nhận tin khai trương Tiệm Nhà An'
+            : `[${data.topic || 'Liên hệ'}] Lời nhắn từ website Tiệm Nhà An`;
+          const lines = [
+            `Họ và tên: ${data.name}`,
+            `Liên hệ: ${data.contact}`,
+            data.branch ? `Chi nhánh quan tâm: ${data.branch}` : '',
+            data.topic ? `Chủ đề: ${data.topic}` : '',
+            data.message ? `\n${data.message}` : '',
+          ].filter(Boolean);
+          window.location.href = `mailto:${document.body.dataset.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;
+          window.showToast('Đang mở ứng dụng email để gửi tới Nhà An…');
         }
-        form.reset();
-        window.showToast(form.dataset.form === 'signup'
-          ? `Cảm ơn ${data.name || 'bạn'}! Nhà An sẽ báo tin khai trương sớm nhất.`
-          : 'Cảm ơn bạn! Nhà An đã nhận lời nhắn và sẽ phản hồi sớm.');
       } catch (err) {
         window.showToast('Gửi chưa thành công, bạn thử lại sau giây lát nhé.');
       } finally {

@@ -50,6 +50,16 @@
       ],
       "destination": "https://tiemnhaan.com/:path",
       "permanent": true
+    },
+    {
+      "source": "/thuc-don",
+      "destination": "/trai-nghiem",
+      "permanent": true
+    },
+    {
+      "source": "/thuc-don.html",
+      "destination": "/trai-nghiem",
+      "permanent": true
     }
   ]
 }
