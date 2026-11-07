@@ -1,8 +1,21 @@
 import { readFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { site } from './data/site.mjs';
 
 const photos = JSON.parse(readFileSync(new URL('./data/photos.json', import.meta.url), 'utf8'));
 export { photos };
+
+// Gắn mã phiên bản (hash nội dung) vào URL tài nguyên để trình duyệt luôn lấy bản mới nhất
+const PUBLIC = new URL('../public/', import.meta.url);
+const hashes = new Map();
+export const fileHash = (path) => {
+  if (!hashes.has(path)) {
+    const f = new URL('.' + path, PUBLIC);
+    hashes.set(path, existsSync(f) ? createHash('md5').update(readFileSync(f)).digest('hex').slice(0, 10) : '');
+  }
+  return hashes.get(path);
+};
+export const assetUrl = (path) => (fileHash(path) ? `${path}?v=${fileHash(path)}` : path);
 
 export const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -324,8 +337,10 @@ ${type === 'article' && date ? `<meta property="article:published_time" content=
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap"></noscript>
+<!--cjk-fonts-->
+<link rel="stylesheet" href="${assetUrl('/assets/css/style.min.css')}">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); }; window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -414,7 +429,7 @@ ${body}
 </aside>
 ${tabbar(page)}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script src="/assets/js/main.js" defer></script>
+<script src="${assetUrl('/assets/js/main.js')}" defer></script>
 ${scripts.map((s) => `<script src="${s}" defer></script>`).join('\n')}
 </body>
 </html>

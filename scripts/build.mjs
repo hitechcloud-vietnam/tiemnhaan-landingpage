@@ -52,6 +52,26 @@ const articleSchema = (p) => ({
   mainEntityOfPage: `${site.url}/tin-tuc/${p.slug}`,
 });
 
+// Nén CSS: public/assets/css/style.css (mã nguồn) → style.min.css (bản phục vụ)
+const minifyCss = (css) => {
+  const strings = [];
+  css = css.replace(/("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*')/g, (m) => `\u0000${strings.push(m) - 1}\u0000`);
+  css = css
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s*([{};,>])\s*/g, '$1')
+    .replace(/:\s+/g, ':')
+    .replace(/;}/g, '}')
+    .trim();
+  return css.replace(/\u0000(\d+)\u0000/g, (m, i) => strings[+i]);
+};
+{
+  const src = readFileSync(join(out, 'assets/css/style.css'), 'utf8');
+  const min = minifyCss(src);
+  writeFileSync(join(out, 'assets/css/style.min.css'), min);
+  console.log(`  CSS ${(src.length / 1024).toFixed(1)} KB → ${(min.length / 1024).toFixed(1)} KB`);
+}
+
 const pages = [
   { file: 'index.html', path: '/', page: 'home', body: P.home() },
   { file: 'khong-gian.html', path: '/khong-gian', page: 'spaces', title: 'Không gian làm việc & học tập — Nơi chạy deadline của giới trẻ', description: '4 khu làm việc, học tập riêng biệt tại Tiệm Nhà An: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline, Sân Rôm Rả. Wifi mạnh, ổ cắm mọi chỗ, mở cửa 24/7.', body: M.spacesPage(), image: 'cowork-cafe' },
@@ -131,7 +151,10 @@ function localize(html, lang, path) {
   html = html.replace(/<span class="lang__cur">VI<\/span>/g, `<span class="lang__cur">${short}</span>`);
   html = html.replace(new RegExp(`class="lang__opt" data-nolocal data-lang="${lang}"`, 'g'), `class="lang__opt is-cur" aria-current="true" data-nolocal data-lang="${lang}"`);
   const cjk = { ja: 'Noto+Sans+JP', ko: 'Noto+Sans+KR', zh: 'Noto+Sans+SC' }[lang];
-  if (cjk) html = html.replace('<link rel="stylesheet" href="/assets/css/style.css">', `<link href="https://fonts.googleapis.com/css2?family=${cjk}:wght@400;500;700;800&display=swap" rel="stylesheet">\n<link rel="stylesheet" href="/assets/css/style.css">`);
+  if (cjk) {
+    const f = `https://fonts.googleapis.com/css2?family=${cjk}:wght@400;500;700;800&display=swap`;
+    html = html.replace('<!--cjk-fonts-->', `<link rel="preload" as="style" href="${f}" onload="this.onload=null;this.rel='stylesheet'">\n<noscript><link rel="stylesheet" href="${f}"></noscript>`);
+  }
   return html;
 }
 
@@ -149,6 +172,7 @@ for (const [lang] of LANGS) {
     html = translateHtml(html, lang, dicts[lang], used);
     if (lang !== 'vi') html = localize(html, lang, p.path);
     else html = html.replace(/class="lang__opt" data-nolocal data-lang="vi"/g, 'class="lang__opt is-cur" aria-current="true" data-nolocal data-lang="vi"');
+    html = html.replace('<!--cjk-fonts-->\n', '');
     if (EXTRACT) continue;
     const file = lang === 'vi' ? join(out, p.file) : join(out, lang, p.file);
     mkdirSync(dirname(file), { recursive: true });
