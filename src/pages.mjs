@@ -1,5 +1,5 @@
 import { site } from './data/site.mjs';
-import { esc, icon, img, tel, photos } from './layout.mjs';
+import { esc, icon, img, tel, photos, logoImg, assetUrl, SZ } from './layout.mjs';
 import { spacesSection } from './pages-more.mjs';
 import { open247Band, studioTeaser, seasonStrip } from './pages-studio.mjs';
 import { spaces } from './data/content.mjs';
@@ -15,7 +15,7 @@ export const ringBadge = (text = 'TIỆM NHÀ AN • MỘT LY TRÀ • MỘT CH�
 <div class="ring" aria-hidden="true">
   <svg viewBox="0 0 120 120"><defs><path id="rp" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
   <text><textPath href="#rp" textLength="286" lengthAdjust="spacing">${text}</textPath></text></svg>
-  <img src="/assets/img/brand/logo-circle.png" alt="" width="56" height="56">
+  ${logoImg('circle', 56)}
 </div>`;
 
 export const contactStrip = () => `
@@ -169,9 +169,9 @@ export function home() {
     </div>
     <div class="hero__media">
       <figure class="hero__main">${img('oolong-hero', 'Chén trà ô long rang củi bên hoa hướng dương', { eager: true })}</figure>
-      <figure class="hero__sm hero__sm--a">${img('tiramisu', 'Bánh tiramisu')}</figure>
-      <figure class="hero__sm hero__sm--b">${img('macarons', 'Bánh macaron nhiều màu')}</figure>
-      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>5 chi nhánh · Sài Gòn · Đà Nẵng</span></div>
+      <figure class="hero__sm hero__sm--a">${img('tiramisu', 'Bánh tiramisu', { sizes: '(max-width: 900px) 46vw, 250px' })}</figure>
+      <figure class="hero__sm hero__sm--b">${img('macarons', 'Bánh macaron nhiều màu', { sizes: '(max-width: 900px) 36vw, 200px' })}</figure>
+      <div class="hero__badge">${logoImg('circle', 48)}<span><strong>Coming Soon</strong>5 chi nhánh · Sài Gòn · Đà Nẵng</span></div>
     </div>
   </div>
 </section>
@@ -240,7 +240,7 @@ ${open247Band()}
         ['berry-soda', 'Soda dâu', 'g--tall'],
         ['lotus', 'Góc sen', 'g--wide'],
         ['icecream', 'Kem ốc quế', ''],
-      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t)}<figcaption>${t}</figcaption></figure>`).join('')}
+      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t, { sizes: c.includes('wide') ? undefined : SZ.tile })}<figcaption>${t}</figcaption></figure>`).join('')}
     </div>
   </div>
 </section>
@@ -255,7 +255,7 @@ ${open247Band()}
         ['cake', '15:00', 'Trà chiều', 'Ô long, matcha, trà sữa cùng cheesecake, tiramisu, croissant.', 'tiramisu'],
         ['moon', '22:00', 'Đêm 24/7', 'Đèn vẫn sáng cho deadline xuyên đêm: trà, soda, món chay khuya và góc yên lặng.', 'night-cafe'],
       ].map(([ic, t, h, p, k]) => `
-      <article class="day__c">${img(k, h)}<div><span class="time">${icon(ic)} ${t}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
+      <article class="day__c">${img(k, h, { sizes: SZ.card4 })}<div><span class="time">${icon(ic)} ${t}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
     </div>
   </div>
 </section>
@@ -264,7 +264,7 @@ ${open247Band()}
   <div class="wrap club">
     <div class="club__card" aria-hidden="true">
       <div class="mcard">
-        <div class="mcard__top"><img src="/assets/img/brand/logo-circle.png" alt="" width="48" height="48"><span>NHÀ AN CLUB</span></div>
+        <div class="mcard__top">${logoImg('circle', 48)}<span>NHÀ AN CLUB</span></div>
         <div class="mcard__dots">${Array(10).fill(0).map((_, i) => `<i class="${i < 7 ? 'on' : ''}"></i>`).join('')}</div>
         <div class="mcard__foot"><span>Thành viên</span><strong>Ly thứ 10 · Quà từ Nhà An</strong></div>
       </div>
@@ -294,7 +294,7 @@ ${open247Band()}
         ['cake', 'Lớp bánh', 'Bánh ngọt cuối tuần', 'Cùng thợ bánh của Nhà An làm cheesecake, mochi và bánh chuối thuần chay.'],
         ['friends-laptop', 'Đêm nhạc', 'Acoustic &amp; board game', 'Tối cuối tuần nhạc mộc, board game và trà trái cây cho cả hội.'],
       ].map(([k, tag, h, p]) => `
-      <article class="event">${img(k, h)}<div><span class="tile__tag">${icon('calendar')} ${tag}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
+      <article class="event">${img(k, h, { sizes: SZ.card3 })}<div><span class="tile__tag">${icon('calendar')} ${tag}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
     </div>
   </div>
 </section>
@@ -370,7 +370,7 @@ export function experience() {
   <div class="wrap">
     ${head('Không gian', 'Bốn góc, <em>bốn tâm trạng</em>', 'Xem chi tiết 4 khu làm việc, học tập và đặt chỗ tại trang <a class="link" href="/khong-gian">Không gian</a>.')}
     <div class="zones">
-      ${spaces.map((sp) => `<a class="zone" href="/khong-gian#${sp.id}">${img(sp.img, sp.name)}<div class="zone__body">${icon(sp.icon)}<h3>${sp.name}</h3><p>${sp.short}</p></div></a>`).join('')}
+      ${spaces.map((sp) => `<a class="zone" href="/khong-gian#${sp.id}">${img(sp.img, sp.name, { sizes: SZ.card4 })}<div class="zone__body">${icon(sp.icon)}<h3>${sp.name}</h3><p>${sp.short}</p></div></a>`).join('')}
     </div>
   </div>
 </section>
@@ -401,7 +401,7 @@ ${marquee('marquee--pink')}
         ['macarons', 'Hộp quà trà &amp; bánh', 'Trà ô long đóng túi cùng macaron, cookie, phù hợp làm quà tặng, quà Tết.', 'gift'],
         ['tea-flatlay', 'Tiệc trà văn phòng', 'Set trà chiều giao tận nơi cho buổi họp, sự kiện nội bộ.', 'briefcase'],
         ['friends-laptop', 'Tiệc nhỏ tại tiệm', 'Sinh nhật, họp lớp, tiệc chia tay đến 30 khách, có trang trí.', 'users'],
-      ].map(([k, h, p, ic]) => `<article class="offer">${img(k, h)}<div>${icon(ic)}<h3>${h}</h3><p>${p}</p></div></article>`).join('')}
+      ].map(([k, h, p, ic]) => `<article class="offer">${img(k, h, { sizes: SZ.card4 })}<div>${icon(ic)}<h3>${h}</h3><p>${p}</p></div></article>`).join('')}
     </div>
     <div class="callout">
       <div><h3>Đặt tiệc, đặt bánh, đặt quà?</h3><p>Gọi hoặc nhắn Zalo cho Nhà An, hoặc gửi email kèm ngày giờ và số khách.</p></div>
@@ -417,7 +417,7 @@ ${marquee('marquee--pink')}
   <div class="wrap club club--dark">
     <div class="club__card" aria-hidden="true">
       <div class="mcard">
-        <div class="mcard__top"><img src="/assets/img/brand/logo-circle.png" alt="" width="48" height="48"><span>NHÀ AN CLUB</span></div>
+        <div class="mcard__top">${logoImg('circle', 48)}<span>NHÀ AN CLUB</span></div>
         <div class="mcard__dots">${Array(10).fill(0).map((_, i) => `<i class="${i < 4 ? 'on' : ''}"></i>`).join('')}</div>
         <div class="mcard__foot"><span>Thành viên</span><strong>Ghé đều, quà đều</strong></div>
       </div>
@@ -463,7 +463,7 @@ export function about() {
       <p>Logo của Nhà An là một mái nhà che chở đóa sen hồng, bên cạnh là chồi lá non vươn lên từ ống khói. Mái nhà là sự ấm áp. Đóa sen là sự thanh tịnh của bữa chay Việt. Chồi lá là lá trà, thứ gắn kết mọi người quanh một chiếc bàn.</p>
       <p>Chúng tôi lớn lên với những buổi sáng mẹ nấu nồi phở chay ngày rằm, những buổi chiều bà ngồi pha ấm trà sen. Nhà An muốn giữ lại những điều đó và kể lại bằng ngôn ngữ của hôm nay: trà sữa ô long, matcha đánh tay, croissant bơ, bên cạnh tô bún Huế chay và ổ bánh mì pa-tê nấm.</p>
     </div>
-    <div class="story__imgs">${img('tea-glass', 'Ly trà nóng')}${img('cozy-tea', 'Trà sữa nóng')}</div>
+    <div class="story__imgs">${img('tea-glass', 'Ly trà nóng', { sizes: SZ.tile })}${img('cozy-tea', 'Trà sữa nóng', { sizes: SZ.tile })}</div>
   </div>
 </section>
 
@@ -490,7 +490,7 @@ export function about() {
         ['fruit-tea', 'Trái cây theo mùa', 'Dâu Đà Lạt, vải Lục Ngạn, xoài Hòa Lộc.'],
         ['tofu-noodle', 'Bếp chay Nhà An', 'Đậu hũ non làm mỗi sáng, rau hữu cơ.'],
         ['croissant', 'Bếp bánh Nhà An', 'Bột mì và bơ lên men, nướng từ 5 giờ sáng.'],
-      ].map(([k, t, d]) => `<figure class="origin">${img(k, t)}<figcaption><strong>${t}</strong><span>${d}</span></figcaption></figure>`).join('')}
+      ].map(([k, t, d]) => `<figure class="origin">${img(k, t, { sizes: SZ.card3 })}<figcaption><strong>${t}</strong><span>${d}</span></figcaption></figure>`).join('')}
     </div>
   </div>
 </section>
@@ -522,9 +522,9 @@ export function about() {
       </div>
     </div>
     <div class="logos">
-      <figure class="logos__wide"><img src="/assets/img/brand/logo-horizontal.webp" alt="Logo ngang Tiệm Nhà An" width="660" height="210" loading="lazy"></figure>
-      <figure><img src="/assets/img/brand/logo-circle.png" alt="Logo tròn Tiệm Nhà An" width="328" height="328" loading="lazy"></figure>
-      <figure><img src="/assets/img/brand/logo-app.png" alt="Biểu tượng ứng dụng Tiệm Nhà An" width="342" height="342" loading="lazy"></figure>
+      <figure class="logos__wide"><img src="${assetUrl('/assets/img/brand/logo-horizontal.webp')}" alt="Logo ngang Tiệm Nhà An" width="660" height="204" loading="lazy"></figure>
+      <figure>${logoImg('circle', 160, 'Logo tròn Tiệm Nhà An', 'loading="lazy"')}</figure>
+      <figure>${logoImg('app', 160, 'Biểu tượng ứng dụng Tiệm Nhà An', 'loading="lazy"')}</figure>
     </div>
   </div>
 </section>
@@ -663,7 +663,7 @@ export function credits() {
   <div class="wrap">
     <div class="credits">
       ${Object.entries(photos).map(([k, p]) => `
-      <figure>${img(k, p.title || k)}<figcaption>
+      <figure>${img(k, p.title || k, { sizes: SZ.small })}<figcaption>
         <strong>${esc(p.title || k)}</strong>
         <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : p.source === 'flickr' ? 'Flickr' : p.source === 'wikimedia' ? 'Wikimedia Commons' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
       </figcaption></figure>`).join('')}
@@ -676,7 +676,7 @@ export function notFound() {
   return `
 <section class="section nf">
   <div class="wrap narrow center">
-    <img src="/assets/img/brand/logo-app.png" alt="" width="160" height="160">
+    ${logoImg('app', 160)}
     <p class="eyebrow">Lạc đường rồi</p>
     <h1>Trang này đã đi <em>pha trà</em> mất rồi</h1>
     <p class="lead">Không tìm thấy trang bạn cần. Quay về nhà nhé!</p>

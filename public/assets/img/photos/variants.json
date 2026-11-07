@@ -1,0 +1,804 @@
+{
+ "aodai-blue": {
+  "hash": "cce469e9c5",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-group": {
+  "hash": "952c2377bd",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-hoian": {
+  "hash": "53209b678c",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-lake": {
+  "hash": "c9dc6372f0",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-lantern": {
+  "hash": "26bf63beee",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-pink": {
+  "hash": "079bb2e319",
+  "w320": true,
+  "w800": true
+ },
+ "banh-xeo": {
+  "hash": "2c950d9e0d",
+  "w320": true,
+  "w800": true
+ },
+ "banh-xeo-2": {
+  "hash": "664bde531d",
+  "w320": true,
+  "w800": true
+ },
+ "berry-soda": {
+  "hash": "a6c216a71d",
+  "w320": true,
+  "w800": true
+ },
+ "cafe-bright": {
+  "hash": "01cc7a83ba",
+  "w320": true,
+  "w800": true
+ },
+ "cafe-counter": {
+  "hash": "f731f1b37d",
+  "w320": true,
+  "w800": true
+ },
+ "cafe-garden": {
+  "hash": "5321433574",
+  "w320": true,
+  "w800": true
+ },
+ "cafe-long": {
+  "hash": "813dc5b8d5",
+  "w320": true,
+  "w800": true
+ },
+ "cafe-plants": {
+  "hash": "a3d108c4bd",
+  "w320": true,
+  "w800": true
+ },
+ "cake": {
+  "hash": "0531e5ceba",
+  "w320": true
+ },
+ "chat-cafe": {
+  "hash": "d8f997e35c",
+  "w320": true,
+  "w800": true
+ },
+ "chat-drinks": {
+  "hash": "5cad088c1f",
+  "w320": true,
+  "w800": true
+ },
+ "chat-friends": {
+  "hash": "ca6a4942ba",
+  "w320": true,
+  "w800": true
+ },
+ "chat-table": {
+  "hash": "af49a92840",
+  "w320": true,
+  "w800": true
+ },
+ "cheers": {
+  "hash": "1e72d4dbfb",
+  "w320": true,
+  "w800": true
+ },
+ "cheesecake": {
+  "hash": "b1826ce2a4",
+  "w320": true,
+  "w800": true
+ },
+ "cowork-cafe": {
+  "hash": "b08d57153f",
+  "w320": true,
+  "w800": true
+ },
+ "cowork-plan": {
+  "hash": "821091249b",
+  "w320": true,
+  "w800": true
+ },
+ "cowork-space": {
+  "hash": "669f885b9d",
+  "w320": true,
+  "w800": true
+ },
+ "cowork-team": {
+  "hash": "dc59fba479",
+  "w320": true,
+  "w800": true
+ },
+ "cowork-top": {
+  "hash": "aa59733418",
+  "w320": true,
+  "w800": true
+ },
+ "cozy-cocoa": {
+  "hash": "f495743409",
+  "w320": true,
+  "w800": true
+ },
+ "cozy-desk": {
+  "hash": "382f81551b",
+  "w320": true,
+  "w800": true
+ },
+ "cozy-lounge": {
+  "hash": "f78c520ebe",
+  "w320": true,
+  "w800": true
+ },
+ "cozy-sofa": {
+  "hash": "b5689dbe26",
+  "w320": true,
+  "w800": true
+ },
+ "cozy-tea": {
+  "hash": "615ab79cd6",
+  "w320": true
+ },
+ "croissant": {
+  "hash": "47c020565d",
+  "w320": true,
+  "w800": true
+ },
+ "croissants": {
+  "hash": "948ed8e7a4",
+  "w320": true
+ },
+ "danang-cathedral": {
+  "hash": "b1d268d679",
+  "w320": true,
+  "w800": true
+ },
+ "danang-coast": {
+  "hash": "742540d94e",
+  "w320": true,
+  "w800": true
+ },
+ "danang-night": {
+  "hash": "a60554f64e",
+  "w320": true,
+  "w800": true
+ },
+ "dragon-bridge": {
+  "hash": "40f653363a",
+  "w320": true,
+  "w800": true
+ },
+ "dragon-bridge-2": {
+  "hash": "5a75d09f84",
+  "w320": true,
+  "w800": true
+ },
+ "duyxuyen-field": {
+  "hash": "f4537aa079",
+  "w320": true,
+  "w800": true
+ },
+ "flower-wall": {
+  "hash": "1fe278609a",
+  "w320": true,
+  "w800": true
+ },
+ "focus-books": {
+  "hash": "cda29510cb",
+  "w320": true,
+  "w800": true
+ },
+ "focus-coffee": {
+  "hash": "04bbbeac83",
+  "w320": true,
+  "w800": true
+ },
+ "focus-laptop": {
+  "hash": "d15b1f5998",
+  "w320": true,
+  "w800": true
+ },
+ "focus-man": {
+  "hash": "32c25f1fd1",
+  "w320": true,
+  "w800": true
+ },
+ "focus-write": {
+  "hash": "528b97f4eb",
+  "w320": true,
+  "w800": true
+ },
+ "friends-group": {
+  "hash": "a14f7c6769",
+  "w320": true,
+  "w800": true
+ },
+ "friends-laptop": {
+  "hash": "4a216745e5",
+  "w320": true,
+  "w800": true
+ },
+ "fruit-tea": {
+  "hash": "27238ea8ce",
+  "w320": true,
+  "w800": true
+ },
+ "golden-bridge": {
+  "hash": "32a860eb7f",
+  "w320": true,
+  "w800": true
+ },
+ "han-river": {
+  "hash": "dfe5779331",
+  "w320": true,
+  "w800": true
+ },
+ "hero-boba": {
+  "hash": "1c937960d5",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-boats": {
+  "hash": "4652aab79d",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-boats-2": {
+  "hash": "0c97205b0f",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-bridge": {
+  "hash": "7e36327556",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-bridge-night": {
+  "hash": "d4128633dc",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-houses": {
+  "hash": "a2d9d36b0a",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-lanterns": {
+  "hash": "2ae5aaa69d",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-lanterns-2": {
+  "hash": "8f3de515a4",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-lanterns-3": {
+  "hash": "5c89e7d3ba",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-river": {
+  "hash": "0da6910199",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-river-2": {
+  "hash": "22381341fa",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-street": {
+  "hash": "81af3c5d54",
+  "w320": true,
+  "w800": true
+ },
+ "hoian-town": {
+  "hash": "0da6910199",
+  "w320": true,
+  "w800": true
+ },
+ "icecream": {
+  "hash": "5dccaf4205",
+  "w320": true,
+  "w800": true
+ },
+ "iced-latte": {
+  "hash": "ce2f308855",
+  "w320": true,
+  "w800": true
+ },
+ "iced-milktea-duo": {
+  "hash": "01f8331811",
+  "w320": true,
+  "w800": true
+ },
+ "iced-tea": {
+  "hash": "8cd3a123ec",
+  "w320": true,
+  "w800": true
+ },
+ "landmark81": {
+  "hash": "c3278903d5",
+  "w320": true,
+  "w800": true
+ },
+ "latte-plants": {
+  "hash": "a0c8591321",
+  "w320": true
+ },
+ "lemonade": {
+  "hash": "428ed9a630",
+  "w320": true
+ },
+ "lime-soda": {
+  "hash": "0d7194c507",
+  "w320": true
+ },
+ "lm-anbang": {
+  "hash": "ae8a919649",
+  "w320": true,
+  "w800": true
+ },
+ "lm-benthanh-night": {
+  "hash": "2916c0e8d3",
+  "w320": true,
+  "w800": true
+ },
+ "lm-dragon-fireworks": {
+  "hash": "3418a5c12f",
+  "w320": true,
+  "w800": true
+ },
+ "lm-dragon-night": {
+  "hash": "e283131878",
+  "w320": true,
+  "w800": true
+ },
+ "lm-han-bridge": {
+  "hash": "c427d22fd7",
+  "w320": true,
+  "w800": true
+ },
+ "lm-hoian-lanterns": {
+  "hash": "2497a3f120",
+  "w320": true,
+  "w800": true
+ },
+ "lm-hoian-night-boat": {
+  "hash": "5390a07d97",
+  "w320": true,
+  "w800": true
+ },
+ "lm-hoian-riverside": {
+  "hash": "283373bafc",
+  "w320": true,
+  "w800": true
+ },
+ "lm-japanese-bridge": {
+  "hash": "65c1c4c4c5",
+  "w320": true,
+  "w800": true
+ },
+ "lm-japanese-bridge-2": {
+  "hash": "3399bad7b8",
+  "w320": true,
+  "w800": true
+ },
+ "lm-japanese-bridge-inside": {
+  "hash": "c4ef6a89ee",
+  "w320": true,
+  "w800": true
+ },
+ "lm-landmark81-day": {
+  "hash": "d698918992",
+  "w320": true,
+  "w800": true
+ },
+ "lm-landmark81-fountain": {
+  "hash": "c60371615b",
+  "w320": true,
+  "w800": true
+ },
+ "lm-landmark81-night": {
+  "hash": "5ca935714c",
+  "w320": true,
+  "w800": true
+ },
+ "lm-linhung-stairs": {
+  "hash": "79926bb80a",
+  "w320": true,
+  "w800": true
+ },
+ "lm-mykhe": {
+  "hash": "7b799bc82a",
+  "w320": true,
+  "w800": true
+ },
+ "lm-myson-aerial": {
+  "hash": "c8aa6943c8",
+  "w320": true,
+  "w800": true
+ },
+ "lm-myson-lawn": {
+  "hash": "e1ef77b2b2",
+  "w320": true,
+  "w800": true
+ },
+ "lm-myson-towers": {
+  "hash": "1606765d29",
+  "w320": true,
+  "w800": true
+ },
+ "lm-nguhanhson": {
+  "hash": "bedcac630b",
+  "w320": true,
+  "w800": true
+ },
+ "lm-notre-dame": {
+  "hash": "3fc45a7752",
+  "w320": true,
+  "w800": true
+ },
+ "lm-postoffice": {
+  "hash": "a2d6397705",
+  "w320": true,
+  "w800": true
+ },
+ "lm-saigon-bridge": {
+  "hash": "9de3ead5b2",
+  "w320": true,
+  "w800": true
+ },
+ "lm-tsn-plane": {
+  "hash": "982c6e3768",
+  "w320": true,
+  "w800": true
+ },
+ "lm-tsn-terminal": {
+  "hash": "7cc463ea38",
+  "w320": true,
+  "w800": true
+ },
+ "lotus": {
+  "hash": "3eefb62dd0",
+  "w320": true,
+  "w800": true
+ },
+ "macarons": {
+  "hash": "531e9e0523",
+  "w320": true,
+  "w800": true
+ },
+ "mango": {
+  "hash": "d41defbce2",
+  "w320": true
+ },
+ "matcha-art": {
+  "hash": "76f6795383",
+  "w320": true,
+  "w800": true
+ },
+ "matcha-red": {
+  "hash": "19e71ccf8a",
+  "w320": true,
+  "w800": true
+ },
+ "matcha-whisk": {
+  "hash": "fef600482c",
+  "w320": true,
+  "w800": true
+ },
+ "matcha-work": {
+  "hash": "becd24cc04",
+  "w320": true
+ },
+ "meet-brick": {
+  "hash": "4e40577368",
+  "w320": true,
+  "w800": true
+ },
+ "meet-room": {
+  "hash": "5be1c28eb0",
+  "w320": true,
+  "w800": true
+ },
+ "meet-team": {
+  "hash": "aed811100f",
+  "w320": true,
+  "w800": true
+ },
+ "mi-quang": {
+  "hash": "bdf1e023a8",
+  "w320": true,
+  "w800": true
+ },
+ "milkshakes": {
+  "hash": "f5031e5949",
+  "w320": true
+ },
+ "milktea-bottles": {
+  "hash": "f1b33c9d08",
+  "w320": true,
+  "w800": true
+ },
+ "milktea-cup": {
+  "hash": "fd1097a0b5",
+  "w320": true
+ },
+ "mooncake-tea": {
+  "hash": "d24afc9518",
+  "w320": true,
+  "w800": true
+ },
+ "mykhe-1": {
+  "hash": "99e53100a3",
+  "w320": true,
+  "w800": true
+ },
+ "mykhe-2": {
+  "hash": "6666b4b8df",
+  "w320": true,
+  "w800": true
+ },
+ "mykhe-3": {
+  "hash": "b7c19fd6d8",
+  "w320": true,
+  "w800": true
+ },
+ "myson-1": {
+  "hash": "0be0c9ba94",
+  "w320": true,
+  "w800": true
+ },
+ "myson-2": {
+  "hash": "9914228996",
+  "w320": true,
+  "w800": true
+ },
+ "myson-3": {
+  "hash": "c68eb7cab8",
+  "w320": true,
+  "w800": true
+ },
+ "night-acoustic": {
+  "hash": "a0b69abf8d",
+  "w320": true,
+  "w800": true
+ },
+ "night-cafe": {
+  "hash": "41150766ae",
+  "w320": true,
+  "w800": true
+ },
+ "noodle-soup": {
+  "hash": "7b0326f555",
+  "w320": true,
+  "w800": true
+ },
+ "oolong-hero": {
+  "hash": "6209417bec",
+  "w320": true,
+  "w800": true
+ },
+ "oolong-set": {
+  "hash": "11a6a9c0da",
+  "w320": true,
+  "w800": true
+ },
+ "oolong-steam": {
+  "hash": "08f8db3e7b",
+  "w320": true,
+  "w800": true
+ },
+ "pannacotta": {
+  "hash": "288cd9ae03",
+  "w320": true
+ },
+ "parfait": {
+  "hash": "cf57e2ab11",
+  "w320": true
+ },
+ "phin-1": {
+  "hash": "b99e57d9be",
+  "w320": true,
+  "w800": true
+ },
+ "phin-2": {
+  "hash": "0eaf1d0590",
+  "w320": true,
+  "w800": true
+ },
+ "pho-chay": {
+  "hash": "5349b9b647",
+  "w320": true,
+  "w800": true
+ },
+ "photo-studio": {
+  "hash": "11aa6ea49f",
+  "w320": true,
+  "w800": true
+ },
+ "pink-drinks": {
+  "hash": "da092e9b93",
+  "w320": true,
+  "w800": true
+ },
+ "polaroid-wall": {
+  "hash": "0d2791893d",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-dusk": {
+  "hash": "c3278903d5",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-night-street": {
+  "hash": "6113710b6d",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-old": {
+  "hash": "787ebc0473",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-skyline": {
+  "hash": "b5a6c4a218",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-street-cafe": {
+  "hash": "4f078fb8ae",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-traffic": {
+  "hash": "f8c5cb8a97",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-vendor": {
+  "hash": "d1a47953e0",
+  "w320": true,
+  "w800": true
+ },
+ "saigon-vespa": {
+  "hash": "c96107dfe3",
+  "w320": true,
+  "w800": true
+ },
+ "silk": {
+  "hash": "dfcde5b9b3",
+  "w320": true,
+  "w800": true
+ },
+ "smoothies": {
+  "hash": "ebae55a3be",
+  "w320": true,
+  "w800": true
+ },
+ "spring-rolls": {
+  "hash": "782e0af162",
+  "w320": true,
+  "w800": true
+ },
+ "tea-bright": {
+  "hash": "4275677d63",
+  "w320": true,
+  "w800": true
+ },
+ "tea-flatlay": {
+  "hash": "3566c587da",
+  "w320": true,
+  "w800": true
+ },
+ "tea-glass": {
+  "hash": "7b793d3692",
+  "w320": true
+ },
+ "tea-leaves": {
+  "hash": "c0b72736bb",
+  "w320": true
+ },
+ "tea-leaves-cup": {
+  "hash": "2d70df72ef",
+  "w320": true,
+  "w800": true
+ },
+ "tea-pour": {
+  "hash": "5e290e9e6c",
+  "w320": true
+ },
+ "tet-blossom": {
+  "hash": "e13698c969",
+  "w320": true,
+  "w800": true
+ },
+ "tet-dao": {
+  "hash": "6da76fad6d",
+  "w320": true,
+  "w800": true
+ },
+ "tet-fireworks": {
+  "hash": "7321ce1279",
+  "w320": true,
+  "w800": true
+ },
+ "thubon-fishing": {
+  "hash": "de80bdb045",
+  "w320": true,
+  "w800": true
+ },
+ "thubon-sunset": {
+  "hash": "ffcac4695b",
+  "w320": true,
+  "w800": true
+ },
+ "tiramisu": {
+  "hash": "e79cf6573a",
+  "w320": true
+ },
+ "tofu-bowl": {
+  "hash": "d53db62f3b",
+  "w320": true,
+  "w800": true
+ },
+ "tofu-noodle": {
+  "hash": "15d7adb4ba",
+  "w320": true,
+  "w800": true
+ },
+ "trungthu-lanterns": {
+  "hash": "2f804e047a",
+  "w320": true,
+  "w800": true
+ },
+ "trungthu-street": {
+  "hash": "312406efd8",
+  "w320": true,
+  "w800": true
+ },
+ "tsn-airport": {
+  "hash": "ba7ef51840",
+  "w320": true,
+  "w800": true
+ },
+ "valentine-roses": {
+  "hash": "0841299895",
+  "w320": true,
+  "w800": true
+ },
+ "veg-bowl-2": {
+  "hash": "e33d300baa",
+  "w320": true
+ },
+ "veg-noodles": {
+  "hash": "db2c104bf2",
+  "w320": true
+ },
+ "vegan-bowl": {
+  "hash": "5c9ff1a27d",
+  "w320": true,
+  "w800": true
+ },
+ "xmas-lights": {
+  "hash": "11f434db29",
+  "w320": true,
+  "w800": true
+ }
+}

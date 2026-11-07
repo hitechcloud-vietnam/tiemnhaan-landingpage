@@ -1,5 +1,5 @@
 import { site } from './data/site.mjs';
-import { icon, img, tel } from './layout.mjs';
+import { icon, img, tel, SZ } from './layout.mjs';
 import { head, signup, salaryCards, JOBS, branchCards, contactStrip } from './pages.mjs';
 
 const sparkles = (n = 18) =>
@@ -12,7 +12,7 @@ const dishGrid = (list) => `
 <div class="dishes">
   ${list.map(([k, name, en, desc, tag]) => `
   <article class="rdish">
-    <div class="rdish__media">${img(k, name)}${tag ? `<span class="rdish__tag">${tag}</span>` : ''}</div>
+    <div class="rdish__media">${img(k, name, { sizes: SZ.card3 })}${tag ? `<span class="rdish__tag">${tag}</span>` : ''}</div>
     <div class="rdish__body"><h3>${name}</h3><p class="rdish__en">${en}</p><p>${desc}</p></div>
   </article>`).join('')}
 </div>`;
@@ -32,7 +32,7 @@ const regionBranches = (id) => {
 export function saigon() {
   return `
 <section class="rhero rhero--saigon">
-  ${img('saigon-dusk', 'Sài Gòn lúc hoàng hôn', { cls: 'rhero__bg', eager: true })}
+  ${img('saigon-dusk', 'Sài Gòn lúc hoàng hôn', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   ${sparkles(24)}
   <div class="wrap rhero__in">
     <p class="eyebrow">Nhà An Sài Gòn</p>
@@ -74,7 +74,7 @@ ${Array(2).fill(['Phố đi bộ', 'Cà phê phin', 'Gạch bông', 'Vespa xưa'
         ['lm-saigon-bridge', 'Cầu Sài Gòn', 'g--wide'],
         ['phin-1', 'Cà phê phin', ''],
         ['cafe-bright', 'Tiệm trà gạch bông', ''],
-      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t)}<figcaption>${t}</figcaption></figure>`).join('')}
+      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t, { sizes: c.includes('wide') ? undefined : SZ.tile })}<figcaption>${t}</figcaption></figure>`).join('')}
     </div>
   </div>
 </section>
@@ -100,7 +100,7 @@ ${contactStrip()}`;
 export function mientrung() {
   return `
 <section class="rhero rhero--hoian">
-  ${img('hoian-lanterns', 'Đèn lồng Hội An', { cls: 'rhero__bg', eager: true })}
+  ${img('hoian-lanterns', 'Đèn lồng Hội An', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   ${lanterns(9)}
   ${sparkles(28)}
   <div class="wrap rhero__in">
@@ -144,7 +144,7 @@ ${Array(2).fill(['Biển Mỹ Khê', 'Cầu Rồng', 'Cầu Vàng Bà Nà', 'Ph�
         ['lm-hoian-lanterns', 'Đèn lồng Hội An', 'g--tall'],
         ['golden-bridge', 'Cầu Vàng Bà Nà', ''],
         ['lm-myson-aerial', 'Thánh địa Mỹ Sơn', ''],
-      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t)}<figcaption>${t}</figcaption></figure>`).join('')}
+      ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t, { sizes: c.includes('wide') ? undefined : SZ.tile })}<figcaption>${t}</figcaption></figure>`).join('')}
     </div>
   </div>
 </section>

@@ -60,13 +60,45 @@ const ICONS = {
 export const icon = (name, cls = 'ic') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ''}</svg>`;
 
-export const img = (key, alt, { cls = '', eager = false } = {}) => {
+// Ảnh nhiều kích cỡ do scripts/images.py tạo (w320, w800). Chỉ dùng bản thu nhỏ khi nó
+// được tạo từ đúng ảnh gốc hiện tại (so mã hash), tránh hiển thị ảnh cũ sau khi thay ảnh.
+const VARIANTS_FILE = new URL('../public/assets/img/photos/variants.json', import.meta.url);
+const variants = existsSync(VARIANTS_FILE) ? JSON.parse(readFileSync(VARIANTS_FILE, 'utf8')) : {};
+const hasVariant = (key, size) => {
+  const v = variants[key];
+  return !!(v && v[size] && v.hash === fileHash(`/assets/img/photos/${key}.webp`));
+};
+export const photoUrl = (key, size) => {
+  if (!photos[key]) throw new Error('Không có ảnh: ' + key);
+  const v = fileHash(`/assets/img/photos/${key}.webp`);
+  return size && hasVariant(key, size) ? `/assets/img/photos/${size}/${key}.webp?v=${v}` : `/assets/img/photos/${key}.webp?v=${v}`;
+};
+
+export const img = (key, alt, { cls = '', eager = false, sizes = '(max-width: 700px) 92vw, 600px' } = {}) => {
   const p = photos[key];
   if (!p) throw new Error('Không có ảnh: ' + key);
   const [w, h] = p.size;
-  const sm = w > 700 && existsSync(new URL(`../public/assets/img/photos/sm/${key}.webp`, import.meta.url));
-  const srcset = sm ? ` srcset="/assets/img/photos/sm/${key}.webp 640w, /assets/img/photos/${key}.webp ${w}w" sizes="(max-width: 700px) 100vw, 50vw"` : '';
-  return `<img src="/assets/img/photos/${key}.webp"${srcset} alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
+  const set = [];
+  if (hasVariant(key, 'w320')) set.push(`${photoUrl(key, 'w320')} 320w`);
+  if (hasVariant(key, 'w800')) set.push(`${photoUrl(key, 'w800')} 800w`);
+  set.push(`${photoUrl(key)} ${w}w`);
+  const srcset = set.length > 1 ? ` srcset="${set.join(', ')}" sizes="${sizes}"` : '';
+  return `<img src="${photoUrl(key)}"${srcset} alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
+};
+
+// Cỡ hiển thị chuẩn của các lưới ảnh (giúp trình duyệt chọn bản ảnh vừa đủ nét)
+export const SZ = {
+  card3: '(max-width: 600px) 92vw, (max-width: 1000px) 46vw, 380px',
+  card4: '(max-width: 600px) 92vw, (max-width: 1000px) 46vw, 290px',
+  tile: '(max-width: 860px) 46vw, 300px',
+  small: '(max-width: 600px) 46vw, 240px',
+};
+
+// Logo cỡ nhỏ (webp) cho màn hình thường và màn hình nét
+export const logoImg = (kind, display, alt = '', attrs = '') => {
+  const [a, b] = kind === 'app' ? ['/assets/img/brand/logo-app-320.webp', '/assets/img/brand/logo-app-320.webp'] : display <= 48 ? ['/assets/img/brand/logo-circle-96.webp', '/assets/img/brand/logo-circle-192.webp'] : ['/assets/img/brand/logo-circle-192.webp', '/assets/img/brand/logo-circle-192.webp'];
+  const srcset = a !== b ? ` srcset="${assetUrl(a)} 1x, ${assetUrl(b)} 2x"` : '';
+  return `<img src="${assetUrl(a)}"${srcset} alt="${esc(alt)}" width="${display}" height="${display}"${attrs ? ' ' + attrs : ''}>`;
 };
 
 
@@ -86,7 +118,7 @@ const SPACES = [
   ['rom-ra', 'Sân Rôm Rả', 'Hội bạn, học nhóm, board game', 'chat-friends'],
 ];
 
-const thumb = (k) => `<img src="/assets/img/photos/${k}.webp" alt="" width="64" height="64" loading="lazy">`;
+const thumb = (k) => `<img src="${photoUrl(k, 'w320')}" alt="" width="64" height="64" loading="lazy" decoding="async">`;
 
 const megaExplore = () => `
 <div class="mega" role="region" aria-label="Khám phá">
@@ -108,7 +140,7 @@ const megaExplore = () => `
       </ul>
     </div>
     <a class="mega__card" href="/khong-gian">
-      <img src="/assets/img/photos/cowork-cafe.webp" alt="" width="400" height="260" loading="lazy">
+      <img src="${photoUrl('cowork-cafe', 'w800')}" alt="" width="400" height="260" loading="lazy" decoding="async">
       <span class="mega__card-body"><small>Mới</small><strong>Nơi chạy deadline của giới trẻ</strong><em>Khám phá ngay →</em></span>
     </a>
   </div>
@@ -119,7 +151,7 @@ const megaBranches = () => `
   <div class="mega__in mega__in--3">
     ${site.regions.map((r) => `
     <div>
-      <a class="mega__region" href="${r.path}"><img src="/assets/img/photos/${r.img}.webp" alt="" width="400" height="200" loading="lazy"><span>${r.name}</span></a>
+      <a class="mega__region" href="${r.path}"><img src="${photoUrl(r.img, 'w800')}" alt="" width="400" height="200" loading="lazy" decoding="async"><span>${r.name}</span></a>
       <ul class="mega__list">
         ${site.branches.filter((b) => b.region === r.id).map((b) => `<li><a href="/chi-nhanh/${b.id}">${icon('pin')}<span><strong>${b.city}</strong><small>${b.area}</small></span></a></li>`).join('')}
       </ul>
@@ -144,7 +176,7 @@ const megaAbout = () => `
       <li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tuyển dụng</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li>
     </ul>
     <a class="mega__card" href="/tuyen-dung">
-      <img src="/assets/img/photos/chat-friends.webp" alt="" width="400" height="260" loading="lazy">
+      <img src="${photoUrl('chat-friends', 'w800')}" alt="" width="400" height="260" loading="lazy" decoding="async">
       <span class="mega__card-body"><small>Đang tuyển</small><strong>Về làm nhà với Nhà An</strong><em>BHXH, BHYT đầy đủ →</em></span>
     </a>
   </div>
@@ -162,12 +194,12 @@ const NAV = [
 const navItem = (page) => ([href, label, key, mega, keys = [key]]) => {
   const cur = keys.includes(page);
   if (!mega) return `<li><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
-  return `<li class="has-mega"><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''} aria-haspopup="true">${label} <span class="caret" aria-hidden="true">▾</span></a>${mega()}</li>`;
+  return `<li class="has-mega"><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''} aria-haspopup="true" aria-expanded="false">${label} <span class="caret" aria-hidden="true">▾</span></a>${mega()}</li>`;
 };
 
 const langSwitch = (path, cls = '') => `
 <div class="lang ${cls}">
-  <button class="lang__btn" type="button" aria-haspopup="true" aria-label="Ngôn ngữ">${icon('globe')}<span class="lang__cur">VI</span></button>
+  <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Ngôn ngữ: </span>${icon('globe')}<span class="lang__cur">VI</span></button>
   <ul class="lang__menu">${LANGS.map(([l, name, short]) => `<li><a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}"><b>${short}</b> ${name}</a></li>`).join('')}</ul>
 </div>`;
 
@@ -175,7 +207,7 @@ const drawer = (path, page) => `
 <div class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
-      <a href="/"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="204"></a>
+      <a href="/"><img src="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')}" srcset="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')} 360w, ${assetUrl('/assets/img/brand/logo-horizontal.webp')} 660w" sizes="180px" alt="${site.name}" width="660" height="204"></a>
       <button class="drawer__close" type="button" data-drawer-close aria-label="Đóng menu">${icon('close')}</button>
     </div>
     <div class="drawer__langs">${LANGS.map(([l, , short]) => `<a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}">${short}</a>`).join('')}</div>
@@ -252,7 +284,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
     '@id': `${site.url}/chi-nhanh/${b.id}`,
     name: `${site.name} — ${b.city}`,
     url: `${site.url}/chi-nhanh/${b.id}`,
-    image: `${site.url}/assets/img/photos/${b.img}.webp`,
+    image: `${site.url}${photoUrl(b.img, 'w800')}`,
     telephone: tel(),
     email: site.email,
     priceRange: '25.000đ – 120.000đ',
@@ -263,10 +295,11 @@ export function layout({ page, title, description, path, body, scripts = [], ima
     parentOrganization: { '@id': `${site.url}/#org` },
     amenityFeature: ['Wifi tốc độ cao', 'Ổ cắm mọi chỗ ngồi', 'Phòng họp', 'Khu yên lặng'].map((n) => ({ '@type': 'LocationFeatureSpecification', name: n, value: true })),
   }));
+  const parent = [['/tin-tuc/', 'Tin tức', '/tin-tuc'], ['/chi-nhanh/', 'Chi nhánh', '/chi-nhanh']].find(([pre]) => path.startsWith(pre));
   const crumbs = path === '/' ? [] : [
     { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: `${site.url}/` },
-    ...(path.startsWith('/tin-tuc/') ? [{ '@type': 'ListItem', position: 2, name: 'Tin tức', item: `${site.url}/tin-tuc` }] : []),
-    { '@type': 'ListItem', position: path.startsWith('/tin-tuc/') ? 3 : 2, name: title || site.name, item: url },
+    ...(parent ? [{ '@type': 'ListItem', position: 2, name: parent[1], item: `${site.url}${parent[2]}` }] : []),
+    { '@type': 'ListItem', position: parent ? 3 : 2, name: title || site.name, item: url },
   ];
   const graph = [
     org,
@@ -354,7 +387,7 @@ ${type === 'article' && date ? `<meta property="article:published_time" content=
 </div></aside>
 <header class="header" id="top">
   <div class="wrap header__in">
-    <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="204"></a>
+    <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')}" srcset="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')} 360w, ${assetUrl('/assets/img/brand/logo-horizontal.webp')} 660w" sizes="180px" alt="${site.name}" width="660" height="204"></a>
     <nav class="nav" id="nav" aria-label="Điều hướng chính">
       <ul class="nav__list">${NAV.map(navItem(page)).join('')}</ul>
     </nav>
@@ -379,7 +412,7 @@ ${body}
   </div>
   <div class="wrap footer__grid">
     <div class="footer__brand">
-      <img src="/assets/img/brand/logo-circle.png" alt="" width="88" height="88">
+      ${logoImg('circle', 72)}
       <p class="script">${site.tagline}</p>
       <p>Trà sữa, ô long rang củi, bánh ngọt, đồ chay và không gian chạy deadline cho giới trẻ.</p>
       <div class="social">${socialLinks()}</div>

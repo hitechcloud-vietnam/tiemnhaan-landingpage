@@ -63,13 +63,32 @@ Website đã gắn **Vercel Web Analytics** và **Speed Insights**. Bật hai m�
 
 ## Chạy và build
 
-Không cần cài thư viện, chỉ cần Node 18 trở lên.
+Cần Node 18 trở lên, không cần cài thư viện.
 
 ```bash
-npm run build   # sinh lại public/ (5 ngôn ngữ), sitemap.xml, robots.txt
+npm run build   # sinh lại public/ (5 ngôn ngữ), nén CSS, sitemap.xml, rss.xml
 npm run i18n    # xuất danh sách câu cần dịch
 npm run dev     # build và chạy thử tại http://localhost:3000
 ```
+
+## Thay ảnh thật của tiệm
+
+1. Ghi đè file cùng tên trong `public/assets/img/photos/` (định dạng `.webp`), hoặc thêm ảnh mới và khai báo trong `src/data/photos.json`.
+2. Tạo các cỡ ảnh nhỏ cho điện thoại và menu (cần Python 3 và Pillow: `pip install Pillow`):
+
+```bash
+python3 scripts/images.py
+```
+
+3. Chạy `npm run build`.
+
+Nếu quên bước 2, website vẫn hiển thị đúng ảnh mới (chỉ là nặng hơn trên điện thoại), vì mỗi ảnh thu nhỏ được đối chiếu mã kiểm tra với ảnh gốc.
+
+## Hiệu năng và bộ nhớ đệm
+
+- CSS nguồn ở `public/assets/css/style.css`; bản build tự nén thành `style.min.css`.
+- Mọi CSS, JS, ảnh đều được gắn mã phiên bản (`?v=...`), nên trình duyệt lưu đệm 1 năm nhưng vẫn nhận bản mới ngay sau mỗi lần cập nhật.
+- Dọn CSS không còn dùng (sau khi build): `python3 scripts/purge-css.py --dry-run` để xem trước, bỏ `--dry-run` để áp dụng.
 
 ## Deploy lên Vercel
 

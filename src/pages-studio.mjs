@@ -1,6 +1,6 @@
 import { site } from './data/site.mjs';
 import { spaces, photoSpots, aodai, seasons, weekly } from './data/content.mjs';
-import { icon, img, tel } from './layout.mjs';
+import { icon, img, tel, SZ } from './layout.mjs';
 import { head, signup, contactStrip } from './pages.mjs';
 
 const AREAS = [
@@ -82,7 +82,7 @@ export const seasonStrip = () => `
   <div class="wrap">
     ${head('Lễ Tết & sự kiện', 'Mỗi mùa một <em>câu chuyện</em>', 'Trang trí, set chụp ảnh và hoạt động thay đổi theo từng dịp lễ trong năm.')}
     <div class="seasons seasons--strip">
-      ${seasons.map((s) => `<a class="season" href="/su-kien#${s.id}">${img(s.img, s.name)}<span class="season__body"><small>${s.month}</small><strong>${s.name}</strong></span></a>`).join('')}
+      ${seasons.map((s) => `<a class="season" href="/su-kien#${s.id}">${img(s.img, s.name, { sizes: SZ.small })}<span class="season__body"><small>${s.month}</small><strong>${s.name}</strong></span></a>`).join('')}
     </div>
     <div class="center"><a class="btn btn--primary" href="/su-kien">Xem lịch sự kiện ${icon('arrow')}</a></div>
   </div>
@@ -92,7 +92,7 @@ export const seasonStrip = () => `
 export function studio() {
   return `
 <section class="rhero rhero--aodai">
-  ${img('aodai-lantern', 'Chụp ảnh áo dài với đèn lồng', { cls: 'rhero__bg', eager: true })}
+  ${img('aodai-lantern', 'Chụp ảnh áo dài với đèn lồng', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   <div class="wrap rhero__in">
     <p class="eyebrow">Studio áo dài &amp; Góc check-in</p>
     <h1>Tà áo dài<br><em>giữa hương trà</em></h1>
@@ -106,7 +106,7 @@ export function studio() {
     ${head('Studio áo dài', 'Áo dài cho mọi <em>khoảnh khắc</em>', 'Chụp kỷ yếu, ảnh Tết, ảnh đôi, ảnh gia đình hay chỉ đơn giản là lưu lại một ngày đẹp trời ở Nhà An.')}
     <div class="aodai-gallery">
       ${[['aodai-hoian', 'g--tall'], ['aodai-blue', 'g--wide'], ['aodai-pink', ''], ['aodai-group', ''], ['aodai-lake', 'g--wide']]
-        .map(([k, c]) => `<figure class="g ${c}">${img(k, 'Chụp ảnh áo dài')}</figure>`).join('')}
+        .map(([k, c]) => `<figure class="g ${c}">${img(k, 'Chụp ảnh áo dài', { sizes: c.includes('wide') ? undefined : SZ.tile })}</figure>`).join('')}
     </div>
     <div class="services">
       ${aodai.services.map(([t, d, ic]) => `<div class="service">${icon(ic)}<h3>${t}</h3><p>${d}</p></div>`).join('')}
@@ -137,7 +137,7 @@ export function studio() {
     <div class="spots">
       ${photoSpots.map((p, i) => `
       <article class="spot">
-        ${img(p.img, p.name)}
+        ${img(p.img, p.name, { sizes: SZ.card3 })}
         <div class="spot__body"><span class="spot__n">0${i + 1}</span><h3>${p.name}</h3><p>${p.desc}</p><small>${icon('sun')} ${p.tip}</small></div>
       </article>`).join('')}
     </div>
@@ -148,7 +148,7 @@ export function studio() {
   <div class="wrap">
     ${head('Set chụp theo mùa', 'Tết, Trung thu, <em>Giáng sinh</em>')}
     <div class="seasons seasons--strip">
-      ${seasons.filter((s) => ['tet', 'valentine', 'trung-thu', '20-10', 'noel'].includes(s.id)).map((s) => `<a class="season" href="/su-kien#${s.id}">${img(s.img, s.name)}<span class="season__body"><small>${s.month}</small><strong>${s.name}</strong></span></a>`).join('')}
+      ${seasons.filter((s) => ['tet', 'valentine', 'trung-thu', '20-10', 'noel'].includes(s.id)).map((s) => `<a class="season" href="/su-kien#${s.id}">${img(s.img, s.name, { sizes: SZ.small })}<span class="season__body"><small>${s.month}</small><strong>${s.name}</strong></span></a>`).join('')}
     </div>
   </div>
 </section>
@@ -171,7 +171,7 @@ ${contactStrip()}`;
 export function events() {
   return `
 <section class="rhero rhero--tet">
-  ${img('tet-fireworks', 'Pháo hoa năm mới', { cls: 'rhero__bg', eager: true })}
+  ${img('tet-fireworks', 'Pháo hoa năm mới', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   <div class="wrap rhero__in">
     <p class="eyebrow">Lễ Tết &amp; sự kiện</p>
     <h1>Một năm ở Nhà An,<br><em>mùa nào cũng vui</em></h1>
@@ -296,7 +296,7 @@ export function partners() {
   <div class="wrap">
     ${head('Hình thức hợp tác', 'Nhà An có thể <em>đồng hành cùng bạn</em>')}
     <div class="offers offers--3">
-      ${B2B.map(([ic, t, d, k]) => `<article class="offer">${img(k, t)}<div>${icon(ic)}<h3>${t}</h3><p>${d}</p></div></article>`).join('')}
+      ${B2B.map(([ic, t, d, k]) => `<article class="offer">${img(k, t, { sizes: SZ.card3 })}<div>${icon(ic)}<h3>${t}</h3><p>${d}</p></div></article>`).join('')}
     </div>
   </div>
 </section>

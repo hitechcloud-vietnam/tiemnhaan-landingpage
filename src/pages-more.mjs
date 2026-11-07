@@ -1,6 +1,6 @@
 import { site } from './data/site.mjs';
 import { spaces, amenities, posts, faqAll } from './data/content.mjs';
-import { icon, img, tel } from './layout.mjs';
+import { icon, img, tel, SZ } from './layout.mjs';
 import { head, signup, contactStrip } from './pages.mjs';
 
 // Khối 4 không gian dùng ở trang chủ
@@ -11,7 +11,7 @@ export const spacesSection = () => `
     <div class="spaces">
       ${spaces.map((s, i) => `
       <a class="space space--${s.id}" href="/khong-gian#${s.id}">
-        ${img(s.img, s.name)}
+        ${img(s.img, s.name, { sizes: SZ.card4 })}
         <div class="space__body">
           <span class="space__mood">${icon(s.icon)} ${s.mood}</span>
           <h3>${s.name}</h3>
@@ -52,7 +52,7 @@ const bookingForm = () => `
 export function spacesPage() {
   return `
 <section class="rhero rhero--focus">
-  ${img('cowork-cafe', 'Không gian làm việc tại Nhà An', { cls: 'rhero__bg', eager: true })}
+  ${img('cowork-cafe', 'Không gian làm việc tại Nhà An', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   <div class="wrap rhero__in">
     <p class="eyebrow">Không gian làm việc &amp; học tập</p>
     <h1>Nơi chạy deadline <em>của giới trẻ</em></h1>
@@ -75,7 +75,7 @@ ${spaces.map((s, i) => `
   <div class="wrap zd${i % 2 ? ' zd--rev' : ''}">
     <div class="zd__media">
       ${img(s.img, s.name, { cls: 'zd__main' })}
-      <div class="zd__thumbs">${s.imgs.map((k) => img(k, s.name)).join('')}</div>
+      <div class="zd__thumbs">${s.imgs.map((k) => img(k, s.name, { sizes: SZ.tile })).join('')}</div>
     </div>
     <div class="zd__body">
       <span class="space__mood">${icon(s.icon)} ${s.mood} · ${s.en}</span>

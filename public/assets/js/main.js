@@ -23,13 +23,30 @@
 
   // Drawer menu di động
   const burger = $('#burger'), drawer = $('#drawer');
+  let lastFocus = null;
   const setDrawer = (open) => {
     if (!drawer) return;
+    const wasOpen = document.body.classList.contains('drawer-open');
     document.body.classList.toggle('drawer-open', open);
     drawer.setAttribute('aria-hidden', String(!open));
     burger && burger.setAttribute('aria-expanded', String(open));
-    if (open) setTimeout(() => $('.drawer__close', drawer)?.focus(), 50);
+    if (open && !wasOpen) {
+      lastFocus = document.activeElement;
+      setTimeout(() => $('.drawer__close', drawer)?.focus(), 50);
+    } else if (!open && wasOpen && lastFocus && document.body.contains(lastFocus)) {
+      lastFocus.focus();
+      lastFocus = null;
+    }
   };
+  // Giữ phím Tab trong menu khi menu đang mở
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab' || !document.body.classList.contains('drawer-open')) return;
+    const items = $$('a[href], button, summary', $('.drawer__panel', drawer)).filter((x) => x.offsetParent !== null);
+    if (!items.length) return;
+    const first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && (document.activeElement === first || !drawer.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && (document.activeElement === last || !drawer.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+  });
   burger && burger.addEventListener('click', () => setDrawer(!document.body.classList.contains('drawer-open')));
   drawer && drawer.addEventListener('click', (e) => {
     if (e.target === drawer || e.target.closest('[data-drawer-close]') || e.target.closest('a')) setDrawer(false);
@@ -38,6 +55,15 @@
     if (e.key === 'Escape') { setDrawer(false); $$('.lang.is-open').forEach((l) => l.classList.remove('is-open')); }
   });
 
+  // Mega menu: báo trạng thái mở/đóng cho trình đọc màn hình
+  $$('.has-mega').forEach((li) => {
+    const a = $('.nav__link', li);
+    const set = (v) => a.setAttribute('aria-expanded', String(v));
+    li.addEventListener('mouseenter', () => set(true));
+    li.addEventListener('mouseleave', () => set(li.contains(document.activeElement) || li.classList.contains('is-open')));
+    li.addEventListener('focusin', () => set(true));
+    li.addEventListener('focusout', (e) => { if (!li.contains(e.relatedTarget)) set(false); });
+  });
   // Mega menu: mở bằng bàn phím/chạm
   $$('.has-mega > .nav__link').forEach((a) => {
     a.addEventListener('click', (e) => {
@@ -52,12 +78,46 @@
   // Chọn ngôn ngữ
   $$('.lang').forEach((l) => {
     const btn = $('.lang__btn', l);
-    btn && btn.addEventListener('click', (e) => { e.stopPropagation(); l.classList.toggle('is-open'); });
+    btn && btn.addEventListener('click', (e) => { e.stopPropagation(); btn.setAttribute('aria-expanded', String(l.classList.toggle('is-open'))); });
   });
-  document.addEventListener('click', () => $$('.lang.is-open').forEach((l) => l.classList.remove('is-open')));
+  document.addEventListener('click', () => $$('.lang.is-open').forEach((l) => { l.classList.remove('is-open'); $('.lang__btn', l)?.setAttribute('aria-expanded', 'false'); }));
   $$('.lang__opt').forEach((a) => a.addEventListener('click', () => {
     try { localStorage.setItem('nhaan-lang', a.dataset.lang); } catch (err) { /* bỏ qua */ }
   }));
+
+  // Gợi ý ngôn ngữ theo trình duyệt: hiện một lần, không tự chuyển trang
+  (() => {
+    let seen = null;
+    try { seen = localStorage.getItem('nhaan-lang') || localStorage.getItem('nhaan-langtip'); } catch (err) { return; }
+    if (seen) return;
+    const prefs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || '']).map((l) => String(l).slice(0, 2).toLowerCase());
+    const want = prefs.find((l) => ['vi', 'en', 'ja', 'ko', 'zh'].includes(l));
+    if (!want || want === LANG) return;
+    const alt = $(`link[rel="alternate"][hreflang="${want === 'zh' ? 'zh-Hans' : want}"]`);
+    if (!alt) return;
+    const T = {
+      vi: ['Trang này có bản tiếng Việt.', 'Xem tiếng Việt', 'Đóng'],
+      en: ['This page is available in English.', 'View in English', 'Close'],
+      ja: ['このページは日本語でもご覧いただけます。', '日本語で見る', '閉じる'],
+      ko: ['이 페이지는 한국어로도 볼 수 있어요.', '한국어로 보기', '닫기'],
+      zh: ['本页面提供中文版本。', '查看中文版', '关闭'],
+    }[want];
+    const remember = (k) => { try { localStorage.setItem(k, want); } catch (err) { /* bỏ qua */ } };
+    const box = document.createElement('aside');
+    box.className = 'langtip';
+    box.lang = want === 'zh' ? 'zh-Hans' : want;
+    box.setAttribute('aria-label', T[0]);
+    box.innerHTML = `<span class="langtip__msg"></span><a class="langtip__go"></a><button type="button" class="langtip__x"><span aria-hidden="true">×</span></button>`;
+    $('.langtip__msg', box).textContent = T[0];
+    const go = $('.langtip__go', box);
+    go.textContent = T[1];
+    go.href = new URL(alt.href).pathname;
+    go.hreflang = box.lang;
+    $('.langtip__x', box).setAttribute('aria-label', T[2]);
+    go.addEventListener('click', () => remember('nhaan-lang'));
+    $('.langtip__x', box).addEventListener('click', () => { remember('nhaan-langtip'); box.remove(); });
+    document.body.appendChild(box);
+  })();
 
   // Toast
   const toast = $('#toast');

@@ -1,6 +1,6 @@
 import { site } from './data/site.mjs';
 import { spaces } from './data/content.mjs';
-import { icon, img, tel } from './layout.mjs';
+import { icon, img, tel, SZ } from './layout.mjs';
 import { head, contactStrip } from './pages.mjs';
 import { reserveForm } from './pages-studio.mjs';
 
@@ -10,7 +10,7 @@ export function branchPage(b) {
   const others = site.branches.filter((x) => x.id !== b.id);
   return `
 <section class="rhero rhero--branch rhero--${b.region}">
-  ${img(b.img, b.city, { cls: 'rhero__bg', eager: true })}
+  ${img(b.img, b.city, { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   <div class="wrap rhero__in">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a><span>/</span><a href="/chi-nhanh">Chi nhánh</a><span>/</span><span>${b.short}</span></nav>
     <p class="eyebrow">Chi nhánh ${b.no} · ${b.area}</p>
@@ -39,7 +39,7 @@ export function branchPage(b) {
       <ul class="tags">${b.tags.map((t) => `<li>${t}</li>`).join('')}</ul>
     </div>
     <div class="bintro__gallery">
-      ${b.gallery.map((k, i) => img(k, b.city, { cls: `bg-${i}` })).join('')}
+      ${b.gallery.map((k, i) => img(k, b.city, { cls: `bg-${i}`, sizes: SZ.tile })).join('')}
     </div>
   </div>
 </section>
@@ -59,7 +59,7 @@ export function branchPage(b) {
     <div class="dishes">
       ${b.signature.map(([k, n, d]) => `
       <article class="rdish">
-        <div class="rdish__media">${img(k, n)}</div>
+        <div class="rdish__media">${img(k, n, { sizes: SZ.card3 })}</div>
         <div class="rdish__body"><h3>${n}</h3><p>${d}</p></div>
       </article>`).join('')}
     </div>
@@ -70,7 +70,7 @@ export function branchPage(b) {
   <div class="wrap">
     ${head('Không gian tại chi nhánh', '4 khu làm việc &amp; học tập')}
     <div class="bspaces">
-      ${spaces.map((s) => `<a class="bspace" href="/khong-gian#${s.id}"><img src="/assets/img/photos/${s.img}.webp" alt="" width="1400" height="933" loading="lazy" decoding="async"><span>${icon(s.icon)} ${s.name}</span></a>`).join('')}
+      ${spaces.map((s) => `<a class="bspace" href="/khong-gian#${s.id}">${img(s.img, '', { sizes: '(max-width: 860px) 46vw, 290px' })}<span>${icon(s.icon)} ${s.name}</span></a>`).join('')}
     </div>
     <div class="center"><a class="btn btn--light" href="/chup-anh">${icon('camera')} Studio áo dài &amp; Góc check-in</a></div>
   </div>
@@ -111,7 +111,7 @@ export function branchPage(b) {
   <div class="wrap">
     ${head('Chi nhánh khác', 'Ghé thêm những <em>căn nhà khác</em>')}
     <div class="ominis">
-      ${others.map((o) => `<a class="omini" href="/chi-nhanh/${o.id}">${img(o.img, o.city)}<span><small>Chi nhánh ${o.no} · ${o.area}</small><strong>${o.city}</strong></span></a>`).join('')}
+      ${others.map((o) => `<a class="omini" href="/chi-nhanh/${o.id}">${img(o.img, o.city, { sizes: SZ.card4 })}<span><small>Chi nhánh ${o.no} · ${o.area}</small><strong>${o.city}</strong></span></a>`).join('')}
     </div>
     <div class="center"><a class="btn btn--ghost" href="${r.path}">Khám phá ${r.name}</a></div>
   </div>
