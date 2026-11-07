@@ -65,7 +65,7 @@ export function spacesPage() {
   <div class="wrap">
     ${head('4 khu, 4 tâm trạng', 'Hôm nay bạn <em>cần gì</em>?')}
     <div class="moods">
-      ${spaces.map((s, i) => `<a class="mood mood--${s.id}" href="#${s.id}"><span class="mood__n">0${i + 1}</span>${icon(s.icon)}<strong>${s.mood}</strong><small>${s.best}</small></a>`).join('')}
+      ${spaces.map((s, i) => `<a class="mood mood--${s.id}" href="#${s.id}"><span class="mood__n" data-n="0${i + 1}" aria-hidden="true"></span>${icon(s.icon)}<strong>${s.mood}</strong><small>${s.best}</small></a>`).join('')}
     </div>
   </div>
 </section>
@@ -133,7 +133,7 @@ const postCard = (p, big = false) => `
   ${img(p.img, p.title)}
   <div class="post__body">
     <span class="post__meta"><b>${p.tag}</b> · <time datetime="${p.date}">${p.dateText}</time></span>
-    <h3>${p.title}</h3>
+    <h2 class="post__title">${p.title}</h2>
     <p>${p.excerpt}</p>
     <span class="link">Đọc tiếp ${icon('arrow')}</span>
   </div>

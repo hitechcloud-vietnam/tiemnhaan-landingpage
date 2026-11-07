@@ -1119,5 +1119,17 @@ html[lang="ja"] .branch-tagline, html[lang="ko"] .branch-tagline, html[lang="zh-
 .g figcaption { color: var(--forest); }
 /* Banner: chữ nhấn rõ ràng, không lệch nền */
 .hero--classic h1 em { background: none; color: var(--lotus-ink); }
-.hero--classic .hero__main img { object-position: center 35%; }
+.hero--classic .hero__main img { object-position: 68% center; }
 .hero--classic .hero__sm--a img { object-position: center 85%; }
+
+/* Rà soát trợ năng: tương phản & cấu trúc */
+.steps span { color: var(--lotus-ink); }
+.link--light { color: #FFD3D1; }
+.form { color: var(--forest); }
+.swatches small { opacity: 1; }
+.post__title { margin: 0; font-size: 20px; line-height: 1.3; }
+.post--big .post__title { font-size: clamp(24px, 2.6vw, 32px); }
+.region__title { font-size: clamp(28px, 3.4vw, 44px); color: #fff; margin: 10px 0 0; }
+.mood__n::before { content: attr(data-n); }
+.section--green .eyebrow, .apply-wrap .eyebrow { color: #FFD3D1; }
+.swatches span.light[style*="F5747E"] { color: #1F301D; }

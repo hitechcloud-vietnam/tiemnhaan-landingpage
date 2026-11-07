@@ -141,7 +141,7 @@ export const regionCards = () => `
     ${img(r.img, r.name)}
     <div class="region__body">
       <span class="region__count">${site.branches.filter((b) => b.region === r.id).length} chi nhánh · Coming Soon</span>
-      <h3>${r.name}</h3>
+      <h2 class="region__title">${r.name}</h2>
       <p class="script">${r.tagline}</p>
       <span class="btn btn--light">Khám phá ${r.name} ${icon('arrow')}</span>
     </div>
@@ -168,7 +168,7 @@ export function home() {
       </dl>
     </div>
     <div class="hero__media">
-      <figure class="hero__main">${img('hero-boba', 'Ly trà sữa trân châu nhà làm', { eager: true })}</figure>
+      <figure class="hero__main">${img('oolong-hero', 'Chén trà ô long rang củi bên hoa hướng dương', { eager: true })}</figure>
       <figure class="hero__sm hero__sm--a">${img('tiramisu', 'Bánh tiramisu')}</figure>
       <figure class="hero__sm hero__sm--b">${img('macarons', 'Bánh macaron nhiều màu')}</figure>
       <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>5 chi nhánh · Sài Gòn · Đà Nẵng</span></div>
@@ -516,7 +516,7 @@ export function about() {
       <div class="swatches">
         <span style="--c:#31492E">Xanh rêu<br><small>#31492E</small></span>
         <span style="--c:#41593D">Xanh lá<br><small>#41593D</small></span>
-        <span style="--c:#F5747E">Hồng sen<br><small>#F5747E</small></span>
+        <span style="--c:#F5747E" class="light">Hồng sen<br><small>#F5747E</small></span>
         <span style="--c:#FBB2B0" class="light">Hồng phấn<br><small>#FBB2B0</small></span>
         <span style="--c:#FCFAF5" class="light">Kem<br><small>#FCFAF5</small></span>
       </div>
@@ -620,7 +620,7 @@ export function contact() {
         <label>Lời nhắn<textarea name="message" rows="5" required placeholder="Nhà An có thể giúp gì cho bạn?"></textarea></label>
         <button class="btn btn--primary" type="submit">Gửi lời nhắn ${icon('arrow')}</button>
       </form>
-      <aside class="contact__side">
+      <div class="contact__side">
         <div class="infocard">
           <h3>Chi nhánh</h3>
           <ul class="info">${site.branches.map((b) => `<li>${icon('pin')}<span><strong>${b.city}</strong>Coming Soon. ${b.address}.</span></li>`).join('')}</ul>
@@ -629,7 +629,7 @@ export function contact() {
           <h3>Giờ mở cửa dự kiến</h3>
           <ul class="hours">${site.hours.map(([k, v]) => `<li><span>${k}</span><strong>${v}</strong></li>`).join('')}</ul>
         </div>
-      </aside>
+      </div>
     </div>
   </div>
 </section>

@@ -70,7 +70,7 @@ export function branchPage(b) {
   <div class="wrap">
     ${head('Không gian tại chi nhánh', '4 khu làm việc &amp; học tập')}
     <div class="bspaces">
-      ${spaces.map((s) => `<a class="bspace" href="/khong-gian#${s.id}">${img(s.img, s.name)}<span>${icon(s.icon)} ${s.name}</span></a>`).join('')}
+      ${spaces.map((s) => `<a class="bspace" href="/khong-gian#${s.id}"><img src="/assets/img/photos/${s.img}.webp" alt="" width="1400" height="933" loading="lazy" decoding="async"><span>${icon(s.icon)} ${s.name}</span></a>`).join('')}
     </div>
     <div class="center"><a class="btn btn--light" href="/chup-anh">${icon('camera')} Studio áo dài &amp; Góc check-in</a></div>
   </div>

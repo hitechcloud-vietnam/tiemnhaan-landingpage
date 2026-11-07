@@ -331,10 +331,10 @@ ${type === 'article' && date ? `<meta property="article:published_time" content=
 </head>
 <body data-page="${page}" data-email="${esc(site.email)}"${site.formEndpoint ? ` data-endpoint="${esc(site.formEndpoint)}"` : ''}>
 <a class="skip" href="#main">Bỏ qua tới nội dung</a>
-<div class="topbar"><div class="wrap topbar__in">
+<aside class="topbar" aria-label="Thông báo"><div class="wrap topbar__in">
   <span class="topbar__news">${icon('clock')}<strong>Mở cửa 24/7</strong> · ${icon('sprout')}<strong>Sắp khai trương</strong> 5 chi nhánh Sài Gòn &amp; Đà Nẵng – Quảng Nam · <a href="/chi-nhanh#dang-ky">Nhận ưu đãi ${icon('arrow')}</a></span>
   <span class="topbar__contact"><a href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a><a href="mailto:${site.email}">${icon('mail')} ${site.email}</a></span>
-</div></div>
+</div></aside>
 <header class="header" id="top">
   <div class="wrap header__in">
     <a class="brand" href="/" aria-label="${site.name} — Trang chủ"><img src="/assets/img/brand/logo-horizontal.webp" alt="${site.name}" width="660" height="204"></a>
@@ -406,10 +406,10 @@ ${body}
     <span class="footer__legal"><a href="/chinh-sach-bao-mat">Chính sách bảo mật</a><a href="/dieu-khoan">Điều khoản sử dụng</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a></span>
   </div>
 </footer>
-<div class="fab" aria-label="Liên hệ nhanh">
+<aside class="fab" aria-label="Liên hệ nhanh">
   <a class="fab__btn fab__btn--zalo" href="${esc(site.social.zalo)}" target="_blank" rel="noopener" aria-label="Chat Zalo với Nhà An">Zalo</a>
   <a class="fab__btn fab__btn--call" href="tel:${tel()}" aria-label="Gọi ${site.phoneDisplay}">${icon('phone')}</a>
-</div>
+</aside>
 ${tabbar(page)}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/js/main.js" defer></script>

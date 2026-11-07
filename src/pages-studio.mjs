@@ -244,7 +244,7 @@ export function reserve() {
 <section class="section section--tight" id="dat-ban">
   <div class="wrap reserve">
     ${reserveForm()}
-    <aside class="reserve__side">
+    <div class="reserve__side">
       <div class="infocard">
         <h3>Chọn khu phù hợp</h3>
         <ul class="area-list">
@@ -262,7 +262,7 @@ export function reserve() {
         <h3>Lưu ý</h3>
         <ul class="checks"><li>Giữ bàn 15 phút sau giờ hẹn</li><li>Nhóm từ 10 người, tiệc và studio nên đặt trước 1 ngày</li><li>Dịp lễ Tết nên đặt sớm</li></ul>
       </div>
-    </aside>
+    </div>
   </div>
 </section>
 ${contactStrip()}`;
