@@ -71,6 +71,21 @@ def main():
             im = im.convert('RGBA')
             im.thumbnail((size, size), Image.LANCZOS)
             im.save(os.path.join(brand, out), 'WEBP', quality=88, method=6)
+    # Biểu tượng màn hình chính: nền xanh thương hiệu phủ kín, logo nằm trong vùng an toàn
+    with Image.open(os.path.join(brand, 'logo-circle.png')) as im:
+        im = im.convert('RGBA')
+        # Mép đĩa logo có điểm ảnh bán trong suốt màu kem → tô lại màu nền để không lộ viền sáng
+        px = im.load()
+        for y in range(im.height):
+            for x in range(im.width):
+                r, g, b, a = px[x, y]
+                if a < 250:
+                    px[x, y] = (65, 89, 61, a)
+        for out, size, scale in [('icon-maskable-512.png', 512, 0.86), ('apple-touch-icon.png', 180, 0.92)]:
+            canvas = Image.new('RGBA', (size, size), (65, 89, 61, 255))
+            logo = im.resize((round(size * scale), round(size * scale)), Image.LANCZOS)
+            canvas.alpha_composite(logo, ((size - logo.width) // 2, (size - logo.height) // 2))
+            canvas.convert('RGB').save(os.path.join(brand, out), optimize=True)
     print(f'{len(manifest)} ảnh gốc, tạo mới {made} ảnh thu nhỏ')
 
 

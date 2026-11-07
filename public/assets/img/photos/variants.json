@@ -1,16 +1,21 @@
 {
+ "aodai-bicycle": {
+  "hash": "ecdbbab127",
+  "w320": true,
+  "w800": true
+ },
  "aodai-blue": {
   "hash": "cce469e9c5",
   "w320": true,
   "w800": true
  },
- "aodai-group": {
-  "hash": "952c2377bd",
+ "aodai-duo": {
+  "hash": "eee5ae2fc8",
   "w320": true,
   "w800": true
  },
- "aodai-hoian": {
-  "hash": "53209b678c",
+ "aodai-hoian-house": {
+  "hash": "0c1d1d13c0",
   "w320": true,
   "w800": true
  },
@@ -24,8 +29,18 @@
   "w320": true,
   "w800": true
  },
- "aodai-pink": {
-  "hash": "079bb2e319",
+ "aodai-lotus": {
+  "hash": "7e25875b64",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-steps": {
+  "hash": "f3ef46cd1f",
+  "w320": true,
+  "w800": true
+ },
+ "aodai-tet": {
+  "hash": "80751e440c",
   "w320": true,
   "w800": true
  },
@@ -413,18 +428,8 @@
   "w320": true,
   "w800": true
  },
- "saigon-dusk": {
-  "hash": "c3278903d5",
-  "w320": true,
-  "w800": true
- },
  "saigon-night-street": {
   "hash": "6113710b6d",
-  "w320": true,
-  "w800": true
- },
- "saigon-old": {
-  "hash": "787ebc0473",
   "w320": true,
   "w800": true
  },

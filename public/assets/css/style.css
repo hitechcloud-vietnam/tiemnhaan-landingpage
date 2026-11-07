@@ -1126,3 +1126,13 @@ html[lang="ja"] .langtip, html[lang="ko"] .langtip, html[lang="zh-Hans"] .langti
 .langtip { padding-right: 56px; }
 .langtip__x { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); }
 @media (max-width: 1060px) { .langtip__x { top: 10px; transform: none; } .langtip__msg { flex-basis: 100%; } }
+.g--top img { object-position: center 18%; }
+.spots:focus-visible { outline: 3px solid var(--blush); outline-offset: 6px; border-radius: var(--radius-lg); }
+
+/* Trang 404: liên kết cho khách dùng ngôn ngữ khác */
+.nf-langs { list-style: none; padding: 0; margin: 40px auto 0; display: grid; gap: 8px; max-width: 460px; }
+.nf-langs a { display: block; padding: 11px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); text-decoration: none; font-size: 14.5px; font-weight: 600; }
+.nf-langs a:hover { border-color: var(--forest-700); }
+.nf-langs a[lang="ja"] { font-family: "Hiragino Sans", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif; }
+.nf-langs a[lang="ko"] { font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Noto Sans CJK KR", sans-serif; }
+.nf-langs a[lang="zh-Hans"] { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }

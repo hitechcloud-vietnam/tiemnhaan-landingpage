@@ -32,7 +32,7 @@ const regionBranches = (id) => {
 export function saigon() {
   return `
 <section class="rhero rhero--saigon">
-  ${img('saigon-dusk', 'Sài Gòn lúc hoàng hôn', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
+  ${img('lm-benthanh-night', 'Chợ Bến Thành về đêm', { cls: 'rhero__bg', eager: true, sizes: '100vw' })}
   ${sparkles(24)}
   <div class="wrap rhero__in">
     <p class="eyebrow">Nhà An Sài Gòn</p>
@@ -68,8 +68,8 @@ ${Array(2).fill(['Phố đi bộ', 'Cà phê phin', 'Gạch bông', 'Vespa xưa'
       ${[
         ['lm-landmark81-night', 'Landmark 81 về đêm', 'g--wide'],
         ['lm-notre-dame', 'Nhà thờ Đức Bà', 'g--tall'],
-        ['saigon-old', 'Phố xưa Sài Gòn', ''],
-        ['lm-benthanh-night', 'Chợ Bến Thành', ''],
+        ['saigon-night-street', 'Phố đêm Sài Gòn', ''],
+        ['lm-landmark81-fountain', 'Nhạc nước Vinhomes Central Park', ''],
         ['lm-postoffice', 'Bưu điện Trung tâm', 'g--tall'],
         ['lm-saigon-bridge', 'Cầu Sài Gòn', 'g--wide'],
         ['phin-1', 'Cà phê phin', ''],

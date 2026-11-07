@@ -407,18 +407,6 @@
    683
   ]
  },
- "saigon-dusk": {
-  "source": "flickr",
-  "title": "Landmark 81, 461 mètre!!! Ho Chi Minh City, Vietnam",
-  "creator": "QuiHaiDuoi (The Best Xiuren)",
-  "license": "pdm",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/145283084@N04/42018982531",
-  "size": [
-   1024,
-   600
-  ]
- },
  "saigon-vendor": {
   "source": "flickr",
   "title": "saigon streets",
@@ -429,18 +417,6 @@
   "size": [
    1023,
    699
-  ]
- },
- "saigon-old": {
-  "source": "flickr",
-  "title": "Saigon street 1967 - đường Nguyễn Văn Thinh (nay Mac Thi Buoi) Q1 - Donald Jellema Collection",
-  "creator": "Tommy Japan 79",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/97930879@N02/10090972576",
-  "size": [
-   1023,
-   692
   ]
  },
  "phin-1": {
@@ -671,30 +647,6 @@
    640
   ]
  },
- "aodai-hoian": {
-  "source": "flickr",
-  "title": "Áo dài ở Hội An",
-  "creator": "4512 Image Hosting - 最高质量的照片",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/27914389@N02/46107834662",
-  "size": [
-   1024,
-   683
-  ]
- },
- "aodai-pink": {
-  "source": "flickr",
-  "title": "Áo dài hồng",
-  "creator": "super_parazi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/53780903@N07/50508199038",
-  "size": [
-   989,
-   1024
-  ]
- },
  "aodai-blue": {
   "source": "flickr",
   "title": "Áo dài xanh",
@@ -729,18 +681,6 @@
   "size": [
    1024,
    683
-  ]
- },
- "aodai-group": {
-  "source": "flickr",
-  "title": "Áo dài vàng và nón lá",
-  "creator": "Nguyen Vu Hung (vuhung)",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/77987497@N00/2878797623",
-  "size": [
-   1024,
-   448
   ]
  },
  "tet-blossom": {
@@ -1173,6 +1113,78 @@
   "size": [
    1024,
    711
+  ]
+ },
+ "aodai-hoian-house": {
+  "source": "wikimedia",
+  "title": "Áo dài trước nhà vàng Hội An",
+  "creator": "Pauloleong2002",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=86531748",
+  "size": [
+   960,
+   1600
+  ]
+ },
+ "aodai-lotus": {
+  "source": "wikimedia",
+  "title": "Áo dài bên đầm sen",
+  "creator": "Tuan Le",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=47408643",
+  "size": [
+   1067,
+   1600
+  ]
+ },
+ "aodai-bicycle": {
+  "source": "wikimedia",
+  "title": "Áo dài trắng, xe đạp và nón lá",
+  "creator": "twintiger007",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=128241974",
+  "size": [
+   960,
+   598
+  ]
+ },
+ "aodai-tet": {
+  "source": "wikimedia",
+  "title": "Áo dài đỏ ngày Tết",
+  "creator": "Zeus Studio",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=96222759",
+  "size": [
+   1067,
+   1600
+  ]
+ },
+ "aodai-duo": {
+  "source": "wikimedia",
+  "title": "Hai tà áo dài xanh",
+  "creator": "phuckieu_photo",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=60334560",
+  "size": [
+   1064,
+   1600
+  ]
+ },
+ "aodai-steps": {
+  "source": "wikimedia",
+  "title": "Áo dài trắng trên bậc đá",
+  "creator": "phuckieu_photo",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=62184762",
+  "size": [
+   1280,
+   853
   ]
  }
 }

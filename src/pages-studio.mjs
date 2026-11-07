@@ -55,7 +55,7 @@ export const studioTeaser = () => `
 <section class="section section--studio">
   <div class="wrap studio-teaser">
     <div class="studio-teaser__imgs">
-      ${img('aodai-hoian', 'Chụp áo dài', { cls: 'st-a' })}
+      ${img('aodai-lotus', 'Chụp áo dài bên đầm sen', { cls: 'st-a' })}
       ${img('flower-wall', 'Tường hoa', { cls: 'st-b' })}
       ${img('tet-blossom', 'Set chụp Tết', { cls: 'st-c' })}
       <span class="sticker sticker--a sticker--narrow">Studio áo dài</span>
@@ -105,7 +105,7 @@ export function studio() {
   <div class="wrap">
     ${head('Studio áo dài', 'Áo dài cho mọi <em>khoảnh khắc</em>', 'Chụp kỷ yếu, ảnh Tết, ảnh đôi, ảnh gia đình hay chỉ đơn giản là lưu lại một ngày đẹp trời ở Nhà An.')}
     <div class="aodai-gallery">
-      ${[['aodai-hoian', 'g--tall'], ['aodai-blue', 'g--wide'], ['aodai-pink', ''], ['aodai-group', ''], ['aodai-lake', 'g--wide']]
+      ${[['aodai-tet', 'g--tall'], ['aodai-blue', 'g--wide'], ['aodai-duo', ''], ['aodai-steps', ''], ['aodai-lake', 'g--wide g--top']]
         .map(([k, c]) => `<figure class="g ${c}">${img(k, 'Chụp ảnh áo dài', { sizes: c.includes('wide') ? undefined : SZ.tile })}</figure>`).join('')}
     </div>
     <div class="services">
@@ -134,7 +134,7 @@ export function studio() {
 <section class="section section--night" id="check-in">
   <div class="wrap">
     ${head('Góc check-in', '6 góc chụp ảnh <em>đẹp nhất</em> Nhà An', 'Được thiết kế cho khách của tiệm, mở cửa đón bạn cả ngày lẫn đêm.')}
-    <div class="spots">
+    <div class="spots" tabindex="0" role="region" aria-label="6 góc check-in">
       ${photoSpots.map((p, i) => `
       <article class="spot">
         ${img(p.img, p.name, { sizes: SZ.card3 })}

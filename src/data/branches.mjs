@@ -95,7 +95,7 @@ export const branches = [
     map: 'Phố cổ Hội An',
     address: 'Phố cổ Hội An — số nhà sẽ được công bố trong thời gian tới',
     img: 'lm-japanese-bridge',
-    gallery: ['lm-hoian-riverside', 'lm-hoian-lanterns', 'lm-hoian-night-boat', 'aodai-hoian'],
+    gallery: ['lm-hoian-riverside', 'lm-hoian-lanterns', 'lm-hoian-night-boat', 'aodai-hoian-house'],
     tagline: 'Căn nhà vàng giữa phố đèn lồng',
     note: 'Căn nhà vàng giữa phố cổ Hội An, trà sen thả hoa đăng buổi tối, studio áo dài với đèn lồng và bánh xèo chay giòn rụm.',
     intro: 'Nhà An Hội An là căn nhà vàng tường rêu giữa phố cổ, mái ngói âm dương và giếng trời nhỏ. Mỗi tối, tiệm thắp đèn lồng, pha trà sen và mời khách thả hoa đăng trên sông Hoài. Đây cũng là chi nhánh có studio áo dài lớn nhất, chụp cùng đèn lồng và phố cổ.',

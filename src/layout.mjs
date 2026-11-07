@@ -342,8 +342,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
 <meta name="geo.placename" content="Hồ Chí Minh, Đà Nẵng, Hội An">
 ${verify}
 <link rel="canonical" href="${url}" data-canonical>
-${LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n')}
-<link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>
+${page === '404' ? '' : LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>`}
 <link rel="alternate" type="application/rss+xml" title="${site.name} — Tin tức" href="${site.url}/rss.xml" data-nolocal>
 <meta name="theme-color" content="#41593D">
 <meta property="og:type" content="${type}">
@@ -372,12 +371,11 @@ ${type === 'article' && date ? `<meta property="article:published_time" content=
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap" data-async-css>
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,600;1,500;1,600&display=swap"></noscript>
 <!--cjk-fonts-->
 <link rel="stylesheet" href="${assetUrl('/assets/css/style.min.css')}">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
-<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); }; window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>

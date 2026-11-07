@@ -37,7 +37,7 @@ export const site = {
     ['Món chay khuya', '22:00 – 04:00'],
   ],
   regions: [
-    { id: 'sai-gon', name: 'Sài Gòn', full: 'TP. Hồ Chí Minh', path: '/sai-gon', img: 'saigon-dusk', tagline: 'Sài Gòn hoa lệ, một ly trà an' },
+    { id: 'sai-gon', name: 'Sài Gòn', full: 'TP. Hồ Chí Minh', path: '/sai-gon', img: 'lm-benthanh-night', tagline: 'Sài Gòn hoa lệ, một ly trà an' },
     { id: 'mien-trung', name: 'Đà Nẵng – Quảng Nam', full: 'Đà Nẵng, Hội An & Duy Xuyên', path: '/da-nang-quang-nam', img: 'hoian-lanterns', tagline: 'Phố biển, phố đèn lồng, một chút an' },
   ],
   // 5 chi nhánh — xem src/data/branches.mjs

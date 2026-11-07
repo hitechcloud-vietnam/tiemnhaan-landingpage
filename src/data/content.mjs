@@ -165,7 +165,7 @@ export const seasons = [
   { id: '8-3', month: 'Tháng 3', name: 'Quốc tế Phụ nữ 8/3', img: 'aodai-lake', desc: 'Tặng hoa cho khách nữ, chụp áo dài cùng mẹ, chị em và bạn bè.', tags: ['Tặng hoa', 'Chụp áo dài cùng mẹ'] },
   { id: 'he', month: 'Tháng 5 – 7', name: 'Mùa hè & mùa thi', img: 'focus-man', desc: 'Mùa ôn thi, chạy deadline xuyên đêm 24/7. Ưu đãi cho học sinh, sinh viên mùa thi.', tags: ['Ôn thi 24/7', 'Ưu đãi mùa thi'] },
   { id: 'trung-thu', month: 'Tháng 9', name: 'Trung Thu', img: 'trungthu-lanterns', desc: 'Phố đèn lồng, bánh trung thu chay nhà làm, đêm rước đèn cho các bé và workshop làm lồng đèn.', tags: ['Bánh trung thu chay', 'Workshop lồng đèn', 'Chụp ảnh đèn lồng'] },
-  { id: '20-10', month: 'Tháng 10', name: 'Phụ nữ Việt Nam 20/10', img: 'aodai-pink', desc: 'Set chụp áo dài, quà tặng hoa và trà cho những người phụ nữ thân yêu.', tags: ['Chụp áo dài', 'Quà tặng'] },
+  { id: '20-10', month: 'Tháng 10', name: 'Phụ nữ Việt Nam 20/10', img: 'aodai-bicycle', desc: 'Set chụp áo dài, quà tặng hoa và trà cho những người phụ nữ thân yêu.', tags: ['Chụp áo dài', 'Quà tặng'] },
   { id: 'noel', month: 'Tháng 12', name: 'Giáng sinh & Năm mới', img: 'xmas-lights', desc: 'Cây thông, đèn dây lấp lánh, đêm nhạc acoustic, đếm ngược đón năm mới tại tiệm.', tags: ['Đêm nhạc Noel', 'Đếm ngược năm mới'] },
 ];
 
@@ -196,7 +196,7 @@ export const morePosts = [
     date: '2026-11-07',
     dateText: '07/11/2026',
     tag: 'Chụp ảnh',
-    img: 'aodai-hoian',
+    img: 'aodai-lotus',
     title: 'Studio áo dài và 6 góc check-in tại Tiệm Nhà An',
     excerpt: 'Cho thuê áo dài, phòng studio riêng, thợ ảnh và trang điểm, cùng 6 góc check-in được thiết kế riêng, từ tường hoa đến góc đèn lồng.',
     body: [

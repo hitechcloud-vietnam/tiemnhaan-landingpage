@@ -681,6 +681,12 @@ export function notFound() {
     <h1>Trang này đã đi <em>pha trà</em> mất rồi</h1>
     <p class="lead">Không tìm thấy trang bạn cần. Quay về nhà nhé!</p>
     <div class="hero__cta center"><a class="btn btn--primary" href="/">Về trang chủ</a><a class="btn btn--ghost" href="/trai-nghiem">Khám phá trải nghiệm</a></div>
+    <ul class="nf-langs">
+      <li><a href="/en" hreflang="en" lang="en" data-nolocal>Page not found — English home page</a></li>
+      <li><a href="/ja" hreflang="ja" lang="ja" data-nolocal>ページが見つかりません — 日本語トップへ</a></li>
+      <li><a href="/ko" hreflang="ko" lang="ko" data-nolocal>페이지를 찾을 수 없어요 — 한국어 홈으로</a></li>
+      <li><a href="/zh" hreflang="zh-Hans" lang="zh-Hans" data-nolocal>找不到页面 — 前往中文首页</a></li>
+    </ul>
   </div>
 </section>`;
 }

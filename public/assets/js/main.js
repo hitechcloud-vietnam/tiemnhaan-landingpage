@@ -3,6 +3,9 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const LANG = (document.documentElement.lang || 'vi').slice(0, 2);
 
+  // Bật font Google đã tải trước (không chặn hiển thị trang)
+  $$('link[data-async-css]').forEach((l) => { l.rel = 'stylesheet'; });
+
   // Thông báo theo ngôn ngữ
   const MSG = {
     vi: { fill: 'Bạn điền giúp Nhà An các ô còn trống nhé.', thanks: 'Cảm ơn {n}! Nhà An đã nhận và sẽ liên hệ sớm.', signup: 'Cảm ơn {n}! Nhà An sẽ báo tin khai trương sớm nhất.', mail: 'Đang mở ứng dụng email để gửi tới Nhà An…', fail: 'Gửi chưa thành công, bạn thử lại hoặc nhắn Zalo nhé.', copied: 'Đã sao chép liên kết!', you: 'bạn' },
