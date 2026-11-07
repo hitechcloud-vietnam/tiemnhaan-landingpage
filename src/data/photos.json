@@ -1518,5 +1518,305 @@
    1024,
    671
   ]
+ },
+ "lm-landmark81-night": {
+  "source": "wikimedia",
+  "title": "Landmark 81 về đêm, Bình Thạnh",
+  "creator": "Phucduongqb",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=71277743",
+  "size": [
+   1280,
+   853
+  ]
+ },
+ "lm-landmark81-day": {
+  "source": "wikimedia",
+  "title": "Landmark 81 và sông Sài Gòn",
+  "creator": "Christine und Hagen Graf",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=85016119",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-landmark81-fountain": {
+  "source": "wikimedia",
+  "title": "Nhạc nước công viên Vinhomes Central Park",
+  "creator": "Xuanphuocle",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=155556053",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-saigon-bridge": {
+  "source": "wikimedia",
+  "title": "Cầu Sài Gòn nhìn từ trên cao",
+  "creator": "Frank Starmer",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=10604514",
+  "size": [
+   1280,
+   801
+  ]
+ },
+ "lm-tsn-terminal": {
+  "source": "wikimedia",
+  "title": "Nhà ga sân bay Tân Sơn Nhất",
+  "creator": "MinhVN123",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=175729511",
+  "size": [
+   1280,
+   853
+  ]
+ },
+ "lm-tsn-plane": {
+  "source": "wikimedia",
+  "title": "Sân đỗ sân bay Tân Sơn Nhất",
+  "creator": "David McKelvey from Brisbane, Australia",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=105177415",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "lm-notre-dame": {
+  "source": "wikimedia",
+  "title": "Nhà thờ Đức Bà Sài Gòn",
+  "creator": "Terrazzo from Vernon Hills, IL, USA",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=140021244",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "lm-benthanh-night": {
+  "source": "wikimedia",
+  "title": "Chợ Bến Thành về đêm",
+  "creator": "Ngô Trung",
+  "license": "by",
+  "version": "3.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=12868202",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-postoffice": {
+  "source": "wikimedia",
+  "title": "Bưu điện Trung tâm Sài Gòn",
+  "creator": "Prenn",
+  "license": "by-sa",
+  "version": "3.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=20928539",
+  "size": [
+   1280,
+   1030
+  ]
+ },
+ "lm-dragon-night": {
+  "source": "wikimedia",
+  "title": "Cầu Rồng về đêm, Đà Nẵng",
+  "creator": "Supanut Arunoprayote",
+  "license": "by",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=90217890",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "lm-dragon-fireworks": {
+  "source": "wikimedia",
+  "title": "Pháo hoa bên sông Hàn",
+  "creator": "Vivu Vietnam",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=189582544",
+  "size": [
+   1280,
+   609
+  ]
+ },
+ "lm-han-bridge": {
+  "source": "wikimedia",
+  "title": "Cầu sông Hàn",
+  "creator": null,
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=156457302",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "lm-linhung-stairs": {
+  "source": "wikimedia",
+  "title": "Bậc rồng chùa Linh Ứng",
+  "creator": "CEphoto, Uwe Aranas",
+  "license": "by-sa",
+  "version": "3.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=37235816",
+  "size": [
+   1280,
+   853
+  ]
+ },
+ "lm-nguhanhson": {
+  "source": "wikimedia",
+  "title": "Ngũ Hành Sơn",
+  "creator": "Hiroki Ogawa",
+  "license": "by",
+  "version": "3.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=60663683",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-mykhe": {
+  "source": "wikimedia",
+  "title": "Bãi biển Mỹ Khê",
+  "creator": "Jpatokal",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=119843702",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-japanese-bridge": {
+  "source": "wikimedia",
+  "title": "Chùa Cầu, Hội An",
+  "creator": "Vuong Tri Binh",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=63546597",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "lm-japanese-bridge-2": {
+  "source": "wikimedia",
+  "title": "Chùa Cầu bên kênh",
+  "creator": "Avi Alpert",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=140197457",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-japanese-bridge-inside": {
+  "source": "wikimedia",
+  "title": "Bên trong Chùa Cầu",
+  "creator": "David McKelvey from Brisbane, Australia",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=101289019",
+  "size": [
+   1280,
+   719
+  ]
+ },
+ "lm-hoian-lanterns": {
+  "source": "wikimedia",
+  "title": "Đèn lồng Hội An",
+  "creator": "Oscar Saunders",
+  "license": "by",
+  "version": "3.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=71441557",
+  "size": [
+   1280,
+   1261
+  ]
+ },
+ "lm-hoian-night-boat": {
+  "source": "wikimedia",
+  "title": "Thuyền hoa đăng sông Hoài",
+  "creator": "Kuroczynski",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=96341157",
+  "size": [
+   1200,
+   1600
+  ]
+ },
+ "lm-myson-towers": {
+  "source": "wikimedia",
+  "title": "Tháp Chăm thánh địa Mỹ Sơn",
+  "creator": "Ms Sarah Welch",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=132593234",
+  "size": [
+   1280,
+   890
+  ]
+ },
+ "lm-myson-aerial": {
+  "source": "wikimedia",
+  "title": "Thánh địa Mỹ Sơn nhìn từ trên cao",
+  "creator": "Ms Sarah Welch",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=132593237",
+  "size": [
+   1280,
+   872
+  ]
+ },
+ "lm-myson-lawn": {
+  "source": "wikimedia",
+  "title": "Đền tháp Mỹ Sơn",
+  "creator": "Ms Sarah Welch",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=132625838",
+  "size": [
+   1280,
+   960
+  ]
+ },
+ "lm-hoian-riverside": {
+  "source": "wikimedia",
+  "title": "Phố cổ Hội An bên sông Thu Bồn",
+  "creator": "Dennis G. Jarvis",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=17516037",
+  "size": [
+   1280,
+   850
+  ]
+ },
+ "lm-anbang": {
+  "source": "wikimedia",
+  "title": "Biển An Bàng, Hội An",
+  "creator": "Adirach Toumlamoon",
+  "license": "by-sa",
+  "version": "4.0",
+  "url": "https://commons.wikimedia.org/w/index.php?curid=148471196",
+  "size": [
+   1280,
+   853
+  ]
  }
 }

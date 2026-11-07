@@ -66,13 +66,14 @@ ${Array(2).fill(['Phố đi bộ', 'Cà phê phin', 'Gạch bông', 'Vespa xưa'
     ${head('Sài Gòn trong mắt Nhà An', 'Phố xưa, <em>đèn mới</em>')}
     <div class="gallery">
       ${[
-        ['saigon-skyline', 'Sài Gòn lên đèn', 'g--wide'],
-        ['saigon-old', 'Phố xưa', 'g--tall'],
-        ['saigon-vespa', 'Vespa xưa', ''],
+        ['lm-landmark81-night', 'Landmark 81 về đêm', 'g--wide'],
+        ['lm-notre-dame', 'Nhà thờ Đức Bà', 'g--tall'],
+        ['saigon-old', 'Phố xưa Sài Gòn', ''],
+        ['lm-benthanh-night', 'Chợ Bến Thành', ''],
+        ['lm-postoffice', 'Bưu điện Trung tâm', 'g--tall'],
+        ['lm-saigon-bridge', 'Cầu Sài Gòn', 'g--wide'],
         ['phin-1', 'Cà phê phin', ''],
-        ['saigon-vendor', 'Gánh hàng rong', 'g--tall'],
-        ['cafe-bright', 'Tiệm trà gạch bông', 'g--wide'],
-        ['cafe-garden', 'Góc sen giữa phố', ''],
+        ['cafe-bright', 'Tiệm trà gạch bông', ''],
       ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t)}<figcaption>${t}</figcaption></figure>`).join('')}
     </div>
   </div>
@@ -135,13 +136,14 @@ ${Array(2).fill(['Biển Mỹ Khê', 'Cầu Rồng', 'Cầu Vàng Bà Nà', 'Ph�
     ${head('Miền Trung trong mắt Nhà An', 'Lung linh <em>đêm phố cổ</em>')}
     <div class="gallery">
       ${[
-        ['hoian-lanterns-2', 'Đèn lồng Hội An', 'g--tall'],
-        ['hoian-river', 'Sông Hoài', 'g--wide'],
+        ['lm-dragon-night', 'Cầu Rồng về đêm', 'g--wide'],
+        ['lm-japanese-bridge', 'Chùa Cầu, Hội An', 'g--tall'],
+        ['lm-linhung-stairs', 'Chùa Linh Ứng', ''],
+        ['lm-nguhanhson', 'Ngũ Hành Sơn', ''],
+        ['lm-mykhe', 'Biển Mỹ Khê', 'g--wide'],
+        ['lm-hoian-lanterns', 'Đèn lồng Hội An', 'g--tall'],
         ['golden-bridge', 'Cầu Vàng Bà Nà', ''],
-        ['dragon-bridge', 'Cầu Rồng', ''],
-        ['mykhe-3', 'Biển Mỹ Khê', 'g--wide'],
-        ['hoian-lanterns-3', 'Phố đèn lồng', 'g--tall'],
-        ['hoian-boats', 'Thuyền Cửa Đại', ''],
+        ['lm-myson-aerial', 'Thánh địa Mỹ Sơn', ''],
       ].map(([k, t, c]) => `<figure class="g ${c}">${img(k, t)}<figcaption>${t}</figcaption></figure>`).join('')}
     </div>
   </div>
@@ -150,11 +152,11 @@ ${Array(2).fill(['Biển Mỹ Khê', 'Cầu Rồng', 'Cầu Vàng Bà Nà', 'Ph�
 <section class="section">
   <div class="wrap two-cities">
     <article class="city city--sea">
-      ${img('mykhe-2', 'Biển Mỹ Khê, Đà Nẵng')}
+      ${img('lm-mykhe', 'Biển Mỹ Khê, Đà Nẵng')}
       <div class="city__body"><span class="pill pill--soon">${icon('pin')} Đà Nẵng</span><h3>Thành phố biển</h3><p>Sáng đi biển Mỹ Khê, ghé Nhà An ăn tô mì Quảng chay, chiều ngồi ban công uống ô long pha lạnh nhìn hoàng hôn trên sông Hàn.</p></div>
     </article>
     <article class="city city--lantern">
-      ${img('hoian-street', 'Phố cổ Hội An')}
+      ${img('lm-japanese-bridge-2', 'Phố cổ Hội An')}
       <div class="city__body"><span class="pill pill--soon">${icon('pin')} Hội An, Quảng Nam</span><h3>Phố đèn lồng</h3><p>Căn nhà vàng giữa phố cổ. Tối đến thắp đèn lồng, pha trà sen, thả hoa đăng trên sông Hoài cùng khách ghé thăm.</p></div>
     </article>
   </div>

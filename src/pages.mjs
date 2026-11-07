@@ -656,7 +656,7 @@ export function credits() {
   <div class="wrap">
     <p class="eyebrow">Tín dụng hình ảnh</p>
     <h1>Cảm ơn các nhiếp ảnh gia</h1>
-    <p class="lead">Ảnh trên website là ảnh minh họa từ Unsplash (Unsplash License), Rawpixel (CC0) và Flickr (Creative Commons, ghi công tác giả bên dưới), đều được phép dùng thương mại. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương.</p>
+    <p class="lead">Ảnh trên website là ảnh minh họa từ Unsplash (Unsplash License), Rawpixel (CC0), Flickr và Wikimedia Commons (Creative Commons, ghi công tác giả bên dưới), đều được phép dùng thương mại. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương.</p>
   </div>
 </section>
 <section class="section section--tight">
@@ -665,7 +665,7 @@ export function credits() {
       ${Object.entries(photos).map(([k, p]) => `
       <figure>${img(k, p.title || k)}<figcaption>
         <strong>${esc(p.title || k)}</strong>
-        <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : p.source === 'flickr' ? 'Flickr' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
+        <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : p.source === 'flickr' ? 'Flickr' : p.source === 'wikimedia' ? 'Wikimedia Commons' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
       </figcaption></figure>`).join('')}
     </div>
   </div>
