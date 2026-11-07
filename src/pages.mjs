@@ -1,6 +1,7 @@
 import { site } from './data/site.mjs';
 import { esc, icon, img, tel, photos } from './layout.mjs';
 import { spacesSection } from './pages-more.mjs';
+import { open247Band, studioTeaser, seasonStrip } from './pages-studio.mjs';
 import { spaces } from './data/content.mjs';
 
 export const head = (eyebrow, title, lead = '', cls = 'shead--center') => `
@@ -34,7 +35,7 @@ export const signup = (id = 'dang-ky') => `
     <div class="signup__text">
       <p class="eyebrow">Ưu đãi khai trương</p>
       <h2>Là người <em>đầu tiên</em> ghé Nhà An</h2>
-      <p>Để lại thông tin, Nhà An sẽ báo bạn ngày khai trương 4 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam, kèm <strong>ưu đãi khai trương dành riêng</strong> cho người đăng ký sớm.</p>
+      <p>Để lại thông tin, Nhà An sẽ báo bạn ngày khai trương 5 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam, kèm <strong>ưu đãi khai trương dành riêng</strong> cho người đăng ký sớm.</p>
       <ul class="ticks"><li>Chỉ gửi tin khai trương, sự kiện và món mới</li><li>Không spam, hủy bất kỳ lúc nào</li></ul>
     </div>
     <form class="form" data-form="signup" novalidate>
@@ -51,7 +52,7 @@ export const signup = (id = 'dang-ky') => `
 </section>`;
 
 const FAQ = [
-  ['Khi nào Tiệm Nhà An khai trương?', '4 chi nhánh (2 tại TP. Hồ Chí Minh, 2 tại Đà Nẵng – Quảng Nam) đang được hoàn thiện. Ngày khai trương và địa chỉ chính xác sẽ được thông báo trên website, Zalo và tới những bạn đã đăng ký nhận tin.'],
+  ['Khi nào Tiệm Nhà An khai trương?', '5 chi nhánh (Bình Thạnh, Tân Bình tại TP. Hồ Chí Minh; trung tâm Đà Nẵng, phố cổ Hội An và Duy Xuyên) đang được hoàn thiện. Ngày khai trương và địa chỉ chính xác sẽ được thông báo trên website, Zalo và tới những bạn đã đăng ký nhận tin.'],
   ['Đồ ăn ở tiệm có hoàn toàn là đồ chay không?', 'Có. Toàn bộ món ăn sáng và trưa là món chay, nước dùng nấu từ củ quả và không dùng bột ngọt. Món thuần chay (không trứng, không sữa) được ghi chú riêng tại quầy.'],
   ['Có thể chọn mức đường và loại sữa không?', 'Được. Mọi ly có thể chọn mức đường từ 0% đến 100%, ít hoặc nhiều đá, và đổi sữa tươi sang sữa yến mạch.'],
   ['Tiệm có chỗ ngồi làm việc, học bài không?', 'Có. Mỗi chi nhánh có góc làm việc yên tĩnh với ổ cắm ở từng bàn và wifi mạnh, cùng khu bàn dài cho nhóm bạn.'],
@@ -99,7 +100,7 @@ export const hiringTeaser = () => `
     <div>
       <p class="eyebrow">Tuyển dụng</p>
       <h2>Nhà An đang <em>tìm bạn</em> đồng hành</h2>
-      <p class="lead">Barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay cho 4 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam. Không cần kinh nghiệm, được đào tạo từ đầu.</p>
+      <p class="lead">Barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay cho 5 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam. Không cần kinh nghiệm, được đào tạo từ đầu.</p>
       <div class="party__btns">
         <a class="btn btn--pink" href="/tuyen-dung">Xem chi tiết tuyển dụng ${icon('arrow')}</a>
         <a class="btn btn--light" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
@@ -121,12 +122,13 @@ export const branchCards = (list = site.branches) => `
     const r = site.regions.find((x) => x.id === b.region);
     return `
   <article class="branch">
-    <div class="branch__media">${img(b.img, b.city)}<span class="stamp">Coming<br>Soon</span><span class="branch__area">${icon('pin')} ${b.area}</span></div>
+    <a class="branch__media" href="/chi-nhanh/${b.id}">${img(b.img, b.city)}<span class="stamp">Coming<br>Soon</span><span class="branch__area">${icon('pin')} ${b.area}</span></a>
     <div class="branch__body">
+      <p class="branch__no">Chi nhánh ${b.no}</p>
       <h3>${b.city}</h3>
       <p>${b.note}</p>
       <ul class="tags">${b.tags.map((t) => `<li>${t}</li>`).join('')}</ul>
-      <a class="link" href="${r.path}#${b.id}">Khám phá ${r.name} ${icon('arrow')}</a>
+      <a class="link" href="/chi-nhanh/${b.id}">Xem chi nhánh ${icon('arrow')}</a>
     </div>
   </article>`;
   }).join('')}
@@ -169,7 +171,7 @@ export function home() {
       <figure class="hero__main">${img('tea-pour', 'Rót trà ô long nóng', { eager: true })}</figure>
       <figure class="hero__sm hero__sm--a">${img('cheesecake', 'Cheesecake việt quất')}</figure>
       <figure class="hero__sm hero__sm--b">${img('pho-chay', 'Phở chay nấm')}</figure>
-      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>Sài Gòn · Đà Nẵng · Hội An</span></div>
+      <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>5 chi nhánh · Sài Gòn · Đà Nẵng</span></div>
     </div>
   </div>
 </section>
@@ -177,6 +179,8 @@ export function home() {
 ${marquee()}
 
 ${spacesSection()}
+
+${open247Band()}
 
 <section class="section">
   <div class="wrap">
@@ -243,13 +247,13 @@ ${spacesSection()}
 
 <section class="section section--green">
   <div class="wrap">
-    ${head('Một ngày ở Nhà An', 'Sáng chay · Trưa an · Chiều trà · Tối chill')}
+    ${head('24 giờ ở Nhà An', 'Sáng chay · Trưa an · Chiều trà · <em>Đêm chạy deadline</em>', 'Nhà An mở cửa 24/7, kể cả lễ Tết. Lúc nào cần một chỗ ngồi, một ly trà, đèn ở Nhà An vẫn sáng.')}
     <div class="day">
       ${[
-        ['sun', '06:30', 'Điểm tâm chay', 'Phở chay nấm đông cô, bánh mì pa-tê nấm, xôi bắp, cháo hạt sen.', 'pho-chay'],
+        ['sun', '06:00', 'Điểm tâm chay', 'Phở chay nấm đông cô, bánh mì pa-tê nấm, xôi bắp, cháo hạt sen.', 'pho-chay'],
         ['bowl', '11:00', 'Cơm trưa văn phòng', 'Cơm gạo lứt, đậu hũ non, canh rau củ, hộp cơm đổi món mỗi ngày.', 'tofu-bowl'],
         ['cake', '15:00', 'Trà chiều', 'Ô long, matcha, trà sữa cùng cheesecake, tiramisu, croissant.', 'tiramisu'],
-        ['moon', '19:00', 'Tối chill', 'Trà trái cây, soda, nhạc nhẹ và những buổi acoustic cuối tuần.', 'lime-soda'],
+        ['moon', '22:00', 'Đêm 24/7', 'Đèn vẫn sáng cho deadline xuyên đêm: trà, soda, món chay khuya và góc yên lặng.', 'night-cafe'],
       ].map(([ic, t, h, p, k]) => `
       <article class="day__c">${img(k, h)}<div><span class="time">${icon(ic)} ${t}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
     </div>
@@ -288,7 +292,7 @@ ${spacesSection()}
       ${[
         ['matcha-whisk', 'Workshop', 'Pha trà ô long &amp; đánh matcha', 'Học cách pha trà nóng, pha lạnh và đánh matcha đúng chuẩn, mang về một túi trà nhỏ.'],
         ['cake', 'Lớp bánh', 'Bánh ngọt cuối tuần', 'Cùng thợ bánh của Nhà An làm cheesecake, mochi và bánh chuối thuần chay.'],
-        ['friends-laptop', 'Chill night', 'Acoustic &amp; board game', 'Tối cuối tuần nhạc mộc, board game và trà trái cây cho cả hội.'],
+        ['friends-laptop', 'Đêm nhạc', 'Acoustic &amp; board game', 'Tối cuối tuần nhạc mộc, board game và trà trái cây cho cả hội.'],
       ].map(([k, tag, h, p]) => `
       <article class="event">${img(k, h)}<div><span class="tile__tag">${icon('calendar')} ${tag}</span><h3>${h}</h3><p>${p}</p></div></article>`).join('')}
     </div>
@@ -310,9 +314,13 @@ ${spacesSection()}
   </div></div>
 </section>
 
+${studioTeaser()}
+
+${seasonStrip()}
+
 <section class="section section--cream">
   <div class="wrap">
-    ${head('Chi nhánh', '4 chi nhánh, <em>hai miền thương nhớ</em>', '2 chi nhánh tại Sài Gòn và 2 chi nhánh tại Đà Nẵng – Quảng Nam, mỗi nơi mang một màu riêng của vùng đất.')}
+    ${head('Chi nhánh', '5 chi nhánh, <em>hai miền thương nhớ</em>', 'Bình Thạnh và Tân Bình ở Sài Gòn; trung tâm Đà Nẵng, phố cổ Hội An và Duy Xuyên ở miền Trung. Mỗi nơi mang một màu riêng của vùng đất.')}
     ${regionCards()}
     <div class="gap"></div>
     ${branchCards()}
@@ -325,7 +333,7 @@ ${hiringTeaser()}
   <div class="wrap numbers__in">
     <div><strong>4</strong><span>chi nhánh sắp mở</span></div>
     <div><strong>100%</strong><span>món ăn là món chay</span></div>
-    <div><strong>4h</strong><span>cốt trà được ủ mới</span></div>
+    <div><strong>24/7</strong><span>mở cửa cả ngày lẫn đêm</span></div>
     <div><strong>5:00</strong><span>bánh bắt đầu ra lò</span></div>
   </div>
 </section>
@@ -376,7 +384,7 @@ ${marquee('marquee--pink')}
       ${[
         ['matcha-whisk', 'Workshop trà', 'Pha trà ô long &amp; đánh matcha', ['Phân biệt ô long rang, lài, sen', 'Pha nóng và pha lạnh tại nhà', 'Đánh matcha bằng chổi tre', 'Mang về một túi trà nhỏ']],
         ['cake', 'Lớp bánh', 'Bánh ngọt cuối tuần', ['Cheesecake, mochi, bánh chuối thuần chay', 'Làm theo nhóm nhỏ', 'Mang bánh về nhà', 'Phù hợp cả người mới']],
-        ['friends-group', 'Chill night', 'Acoustic &amp; board game', ['Nhạc mộc tối cuối tuần', 'Board game cho cả hội', 'Trà trái cây và soda', 'Không gian ấm, ánh đèn vàng']],
+        ['friends-group', 'Đêm nhạc', 'Acoustic &amp; board game', ['Nhạc mộc tối cuối tuần', 'Board game cho cả hội', 'Trà trái cây và soda', 'Không gian ấm, ánh đèn vàng']],
         ['veg-noodles', 'Bếp chay', 'Nấu chay ngon tại nhà', ['Nước dùng rau củ không bột ngọt', 'Đậu hũ non tự làm', 'Món chay cho bữa cơm gia đình', 'Công thức mang về']],
       ].map(([k, tag, h, li]) => `
       <article class="event">${img(k, h)}<div><span class="tile__tag">${icon('calendar')} ${tag}</span><h3>${h}</h3><ul class="checks">${li.map((x) => `<li>${x}</li>`).join('')}</ul></div></article>`).join('')}
@@ -493,8 +501,8 @@ export function about() {
     <ol class="timeline">
       <li><span>Khởi đầu</span><h3>Gian bếp gia đình</h3><p>Những mẻ trà ô long rang thử và công thức phở chay của mẹ.</p></li>
       <li><span>Hoàn thiện</span><h3>Thử và chọn công thức</h3><p>Nếm và chọn lọc từ hàng trăm công thức trà, bánh và món chay.</p></li>
-      <li><span>Sắp tới</span><h3>2 chi nhánh Sài Gòn</h3><p>Nhà phố có góc sen và tiệm trà Sài Gòn xưa, Coming Soon.</p></li>
-      <li><span>Sắp tới</span><h3>Đà Nẵng &amp; Hội An</h3><p>Tiệm trà gần biển và căn nhà vàng phố đèn lồng, Coming Soon.</p></li>
+      <li><span>Sắp tới</span><h3>Bình Thạnh &amp; Tân Bình</h3><p>2 chi nhánh Sài Gòn: nhà phố có góc sen và tiệm trà gạch bông, Coming Soon.</p></li>
+      <li><span>Sắp tới</span><h3>Đà Nẵng, Hội An &amp; Duy Xuyên</h3><p>Bên sông Hàn, giữa phố cổ và bên dòng Thu Bồn, Coming Soon.</p></li>
     </ol>
   </div>
 </section>
@@ -530,8 +538,8 @@ export function branches() {
   <div class="wrap phero__in">
     <div>
       <p class="eyebrow">Chi nhánh</p>
-      <h1>4 căn nhà, <em>hai miền thương nhớ</em></h1>
-      <p class="lead">2 chi nhánh tại Sài Gòn và 2 chi nhánh tại Đà Nẵng – Quảng Nam đang được hoàn thiện. Đăng ký để là người đầu tiên biết địa chỉ và nhận ưu đãi khai trương.</p>
+      <h1>5 căn nhà, <em>hai miền thương nhớ</em></h1>
+      <p class="lead">2 chi nhánh tại Sài Gòn (Bình Thạnh, Tân Bình) và 3 chi nhánh tại Đà Nẵng – Quảng Nam (trung tâm Đà Nẵng, phố cổ Hội An, Duy Xuyên) đang được hoàn thiện. Đăng ký để là người đầu tiên biết địa chỉ và nhận ưu đãi khai trương.</p>
       <div class="hero__cta"><a class="btn btn--primary btn--lg" href="#dang-ky">Đăng ký nhận tin ${icon('arrow')}</a><a class="btn btn--ghost btn--lg" href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a></div>
     </div>
     <figure class="phero__img">${img('cafe-counter', 'Quầy pha chế', { eager: true })}</figure>
@@ -550,8 +558,9 @@ ${site.regions.map((r, ri) => `
     <article class="bigbranch${i % 2 ? ' bigbranch--rev' : ''}" id="${b.id}">
       <div class="bigbranch__media">${img(b.img, b.city)}<span class="stamp">Coming<br>Soon</span></div>
       <div class="bigbranch__body">
-        <span class="pill pill--soon">${icon('calendar')} Sắp khai trương · ${b.area}</span>
+        <span class="pill pill--soon">${icon('calendar')} Chi nhánh ${b.no} · Sắp khai trương</span>
         <h2>${b.city}</h2>
+        <p class="branch-area">${icon('pin')} ${b.area}</p>
         <p class="lead">${b.note}</p>
         <ul class="tags">${b.tags.map((t) => `<li>${t}</li>`).join('')}</ul>
         <ul class="info">
@@ -559,7 +568,7 @@ ${site.regions.map((r, ri) => `
           <li>${icon('clock')}<span><strong>Giờ mở cửa dự kiến</strong>${site.hours.map(([k, v]) => `${k}: ${v}`).join('<br>')}</span></li>
           <li>${icon('phone')}<span><strong>Hotline</strong><a href="tel:${tel()}">${site.phoneDisplay}</a> · <a href="mailto:${site.email}">${site.email}</a></span></li>
         </ul>
-        <div class="party__btns"><a class="btn btn--primary" href="#dang-ky" data-branch="${b.short}">Báo tôi khi mở cửa ${icon('arrow')}</a><a class="btn btn--ghost" href="${r.path}">Chất ${r.name}</a></div>
+        <div class="party__btns"><a class="btn btn--primary" href="#dang-ky" data-branch="${b.short}">Báo tôi khi mở cửa ${icon('arrow')}</a><a class="btn btn--ghost" href="/chi-nhanh/${b.id}">Xem trang chi nhánh</a></div>
       </div>
     </article>`).join('')}
   </div>
@@ -569,7 +578,7 @@ ${site.regions.map((r, ri) => `
     ${head('Ở mỗi chi nhánh', 'Bạn sẽ tìm thấy')}
     <div class="promise promise--dark">
       <div>${icon('cup')}<h3>Quầy trà mở</h3><p>Xem barista pha ô long và đánh matcha ngay trước mặt.</p></div>
-      <div>${icon('cake')}<h3>Tủ bánh trong ngày</h3><p>Bánh nướng từ 5 giờ sáng, hết là hết.</p></div>
+      <div>${icon('cake')}<h3>Tủ bánh trong ngày</h3><p>Bánh nướng mới mỗi sáng từ 5 giờ, số lượng có hạn mỗi ngày.</p></div>
       <div>${icon('bowl')}<h3>Bếp chay</h3><p>Điểm tâm và cơm trưa chay, thêm món riêng của từng vùng.</p></div>
       <div>${icon('camera')}<h3>Góc check-in</h3><p>Góc sen, gạch bông Sài Gòn, đèn lồng Hội An.</p></div>
     </div>

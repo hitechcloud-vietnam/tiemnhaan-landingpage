@@ -1,3 +1,4 @@
+import { branches } from './branches.mjs';
 // Cấu hình chung của website — sửa ở đây rồi chạy `npm run build`.
 export const site = {
   name: 'Tiệm Nhà An',
@@ -27,60 +28,18 @@ export const site = {
     tiktok: '',
     zalo: 'https://zalo.me/0865920041',
   },
+  open247: true,
   hours: [
-    ['Điểm tâm chay', '06:30 – 10:30'],
+    ['Mở cửa', '24/7, cả ngày lẫn đêm'],
+    ['Trà, bánh & đồ uống', '24/7'],
+    ['Điểm tâm chay', '06:00 – 10:30'],
     ['Cơm & bún trưa chay', '10:30 – 14:00'],
-    ['Trà & bánh ngọt', '06:30 – 22:00'],
+    ['Món chay khuya', '22:00 – 04:00'],
   ],
   regions: [
     { id: 'sai-gon', name: 'Sài Gòn', full: 'TP. Hồ Chí Minh', path: '/sai-gon', img: 'saigon-dusk', tagline: 'Sài Gòn hoa lệ, một ly trà an' },
-    { id: 'mien-trung', name: 'Đà Nẵng – Quảng Nam', full: 'Đà Nẵng & Hội An', path: '/da-nang-quang-nam', img: 'hoian-lanterns', tagline: 'Phố biển, phố đèn lồng, một chút an' },
+    { id: 'mien-trung', name: 'Đà Nẵng – Quảng Nam', full: 'Đà Nẵng, Hội An & Duy Xuyên', path: '/da-nang-quang-nam', img: 'hoian-lanterns', tagline: 'Phố biển, phố đèn lồng, một chút an' },
   ],
-  // 4 chi nhánh: 2 tại TP.HCM, 2 tại Đà Nẵng – Quảng Nam
-  branches: [
-    {
-      id: 'sai-gon-1',
-      region: 'sai-gon',
-      city: 'Nhà An Sài Gòn 1',
-      area: 'TP. Hồ Chí Minh',
-      short: 'Sài Gòn 1',
-      address: 'Địa chỉ sẽ được công bố trong thời gian tới',
-      note: 'Nhà phố giữa lòng Sài Gòn, sân trước trồng sen, góc làm việc yên tĩnh cho dân văn phòng và bàn dài cho cả hội bạn.',
-      img: 'cafe-garden',
-      tags: ['Góc sen', 'Góc làm việc', 'Bàn dài nhóm bạn', 'Workshop cuối tuần'],
-    },
-    {
-      id: 'sai-gon-2',
-      region: 'sai-gon',
-      city: 'Nhà An Sài Gòn 2',
-      area: 'TP. Hồ Chí Minh',
-      short: 'Sài Gòn 2',
-      address: 'Địa chỉ sẽ được công bố trong thời gian tới',
-      note: 'Tiệm trà kiểu Sài Gòn xưa: gạch bông, cửa sổ gỗ, phin cà phê và ly trà ô long đá cho buổi chiều tan ca.',
-      img: 'cafe-bright',
-      tags: ['Gạch bông Sài Gòn xưa', 'Bạc xỉu ô long', 'Mở tới 22:00', 'Chill night'],
-    },
-    {
-      id: 'da-nang',
-      region: 'mien-trung',
-      city: 'Nhà An Đà Nẵng',
-      area: 'Đà Nẵng – Quảng Nam',
-      short: 'Đà Nẵng',
-      address: 'Địa chỉ sẽ được công bố trong thời gian tới',
-      note: 'Tiệm trà gần biển Mỹ Khê, ban công đón gió chiều, ô long pha lạnh và mì Quảng chay cho bữa sáng.',
-      img: 'mykhe-2',
-      tags: ['Gần biển', 'Ban công đón gió', 'Mì Quảng chay', 'Ô long pha lạnh'],
-    },
-    {
-      id: 'hoi-an',
-      region: 'mien-trung',
-      city: 'Nhà An Hội An',
-      area: 'Đà Nẵng – Quảng Nam',
-      short: 'Hội An',
-      address: 'Địa chỉ sẽ được công bố trong thời gian tới',
-      note: 'Căn nhà vàng bên phố đèn lồng, trà sen thả hoa đăng buổi tối và bánh xèo chay giòn rụm.',
-      img: 'hoian-street',
-      tags: ['Phố đèn lồng', 'Trà sen Hội An', 'Bánh xèo chay', 'Đêm phố cổ'],
-    },
-  ],
+  // 5 chi nhánh — xem src/data/branches.mjs
+  branches,
 };

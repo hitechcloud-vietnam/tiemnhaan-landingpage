@@ -88,6 +88,7 @@
   }));
   preset('data-job', '#job');
   preset('data-space', '#space');
+  preset('data-area', '#area');
   preset('data-branch', null, 'branch');
 
   // Sao chép liên kết bài viết
@@ -102,7 +103,7 @@
   // Form
   const endpoint = document.body.dataset.endpoint || '';
   const email = document.body.dataset.email || '';
-  const SUBJECT = { signup: 'Đăng ký nhận tin khai trương', contact: 'Lời nhắn liên hệ', booking: 'Yêu cầu đặt chỗ / phòng họp', apply: 'Hồ sơ ứng tuyển' };
+  const SUBJECT = { signup: 'Đăng ký nhận tin khai trương', contact: 'Lời nhắn liên hệ', booking: 'Yêu cầu đặt chỗ / phòng họp', apply: 'Hồ sơ ứng tuyển', reserve: 'Yêu cầu đặt bàn' };
   const mailto = (data) => {
     const lines = Object.entries(data).filter(([k, v]) => v && !['form', 'website'].includes(k)).map(([k, v]) => `${k}: ${v}`);
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(`[Website] ${SUBJECT[data.form] || 'Liên hệ'} — ${data.name}`)}&body=${encodeURIComponent(lines.join('\n'))}`;

@@ -1038,5 +1038,485 @@
    960,
    640
   ]
+ },
+ "aodai-hoian": {
+  "source": "flickr",
+  "title": "Áo dài ở Hội An",
+  "creator": "4512 Image Hosting - 最高质量的照片",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/27914389@N02/46107834662",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "aodai-pink": {
+  "source": "flickr",
+  "title": "Áo dài hồng",
+  "creator": "super_parazi",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/53780903@N07/50508199038",
+  "size": [
+   989,
+   1024
+  ]
+ },
+ "aodai-blue": {
+  "source": "flickr",
+  "title": "Áo dài xanh",
+  "creator": "Kyo (今日 ) Photographer",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/65762384@N04/9653418778",
+  "size": [
+   1024,
+   508
+  ]
+ },
+ "aodai-lantern": {
+  "source": "flickr",
+  "title": "Áo dài và đèn lồng",
+  "creator": "Kyo (今日 ) Photographer",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/65762384@N04/9597968225",
+  "size": [
+   1023,
+   690
+  ]
+ },
+ "aodai-lake": {
+  "source": "flickr",
+  "title": "Áo dài trắng bên hồ",
+  "creator": "Trần Sơn Hải",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/9007742@N02/17538120346",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "aodai-group": {
+  "source": "flickr",
+  "title": "Áo dài vàng và nón lá",
+  "creator": "Nguyen Vu Hung (vuhung)",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/77987497@N00/2878797623",
+  "size": [
+   1024,
+   448
+  ]
+ },
+ "tet-blossom": {
+  "source": "flickr",
+  "title": "Hoa đào Tết",
+  "creator": "fra-NCIS",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/94837166@N00/5839277994",
+  "size": [
+   1024,
+   681
+  ]
+ },
+ "tet-fireworks": {
+  "source": "flickr",
+  "title": "Pháo hoa năm mới",
+  "creator": "staffan.scherz",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/31638323@N08/5412370371",
+  "size": [
+   1024,
+   680
+  ]
+ },
+ "tet-dao": {
+  "source": "flickr",
+  "title": "Hoa xuân",
+  "creator": "iSam's",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/34443099@N03/16560550895",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "trungthu-lanterns": {
+  "source": "flickr",
+  "title": "Đèn lồng Trung thu",
+  "creator": "GeorgeTan#3 - OFF permanently",
+  "license": "pdm",
+  "version": "1.0",
+  "url": "https://www.flickr.com/photos/190270151@N02/51498605534",
+  "size": [
+   1024,
+   551
+  ]
+ },
+ "trungthu-street": {
+  "source": "flickr",
+  "title": "Phố đèn lồng",
+  "creator": "Nicolas Lannuzel",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/79022843@N00/8027095052",
+  "size": [
+   1024,
+   684
+  ]
+ },
+ "mooncake-tea": {
+  "source": "flickr",
+  "title": "Bánh trung thu và trà",
+  "creator": "flossyflotsam",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/8260474@N07/15197693656",
+  "size": [
+   1024,
+   680
+  ]
+ },
+ "photo-studio": {
+  "source": "flickr",
+  "title": "Phòng chụp ảnh",
+  "creator": "SparkFunElectronics",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/41898857@N04/3945197245",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "flower-wall": {
+  "source": "flickr",
+  "title": "Tường hoa",
+  "creator": "rasdourian",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/46958049@N00/2666117937",
+  "size": [
+   1024,
+   768
+  ]
+ },
+ "night-cafe": {
+  "source": "flickr",
+  "title": "Quán về đêm",
+  "creator": "pavlinajane",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/60291025@N05/11038343086",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "night-acoustic": {
+  "source": "flickr",
+  "title": "Đêm nhạc acoustic",
+  "creator": "jus10h",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/39400957@N03/10322592413",
+  "size": [
+   1024,
+   698
+  ]
+ },
+ "valentine-roses": {
+  "source": "flickr",
+  "title": "Hoa hồng Valentine",
+  "creator": "GraceFamily",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/59518841@N00/5446368791",
+  "size": [
+   1024,
+   768
+  ]
+ },
+ "xmas-lights": {
+  "source": "flickr",
+  "title": "Đèn Giáng sinh",
+  "creator": "Wonderlane",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/71401718@N00/2982873133",
+  "size": [
+   1024,
+   681
+  ]
+ },
+ "polaroid-wall": {
+  "source": "flickr",
+  "title": "Tường ảnh polaroid",
+  "creator": "ngader",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/49503047029@N01/392805261",
+  "size": [
+   1024,
+   681
+  ]
+ },
+ "myson-1": {
+  "source": "flickr",
+  "title": "Thánh địa Mỹ Sơn",
+  "creator": "Paul Mannix",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/19511776@N00/33584667432",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "myson-2": {
+  "source": "flickr",
+  "title": "Tháp Chăm Mỹ Sơn",
+  "creator": "Paul Mannix",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/19511776@N00/32898235024",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "myson-3": {
+  "source": "flickr",
+  "title": "Đền tháp Mỹ Sơn",
+  "creator": "joxeankoret",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/7752891@N06/1463130509",
+  "size": [
+   1024,
+   766
+  ]
+ },
+ "thubon-sunset": {
+  "source": "flickr",
+  "title": "Hoàng hôn sông Thu Bồn",
+  "creator": "Nguyen Duc Loi",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/85675121@N04/8752900803",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "thubon-fishing": {
+  "source": "flickr",
+  "title": "Thả lưới trên sông Thu Bồn",
+  "creator": "paularps",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/21160385@N02/23646469613",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "duyxuyen-field": {
+  "source": "flickr",
+  "title": "Cánh đồng Duy Xuyên",
+  "creator": "cosmicwindblown1",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://www.flickr.com/photos/191211375@N03/50694044826",
+  "size": [
+   1023,
+   475
+  ]
+ },
+ "silk": {
+  "source": "flickr",
+  "title": "Lụa dệt thủ công",
+  "creator": "alex.ch",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/38101324@N00/411591109",
+  "size": [
+   1023,
+   685
+  ]
+ },
+ "hoian-bridge-night": {
+  "source": "flickr",
+  "title": "Chùa Cầu về đêm",
+  "creator": "@felixtriller",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/21480682@N03/5058507814",
+  "size": [
+   1024,
+   768
+  ]
+ },
+ "hoian-bridge": {
+  "source": "flickr",
+  "title": "Chùa Cầu Hội An",
+  "creator": "u07ch",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/76705972@N00/20922636168",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "hoian-river-2": {
+  "source": "flickr",
+  "title": "Phố cổ bên sông",
+  "creator": "David McKelvey",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/94735786@N00/6944149036",
+  "size": [
+   1024,
+   576
+  ]
+ },
+ "hoian-houses": {
+  "source": "flickr",
+  "title": "Nhà cổ Hội An",
+  "creator": "David McKelvey",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/94735786@N00/6944560052",
+  "size": [
+   1024,
+   575
+  ]
+ },
+ "hoian-boats-2": {
+  "source": "flickr",
+  "title": "Thuyền trên sông Hoài",
+  "creator": "David McKelvey",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/94735786@N00/7090217101",
+  "size": [
+   1024,
+   576
+  ]
+ },
+ "dragon-bridge-2": {
+  "source": "flickr",
+  "title": "Cầu Rồng",
+  "creator": "Gary Lee Todd, Ph.D.",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://www.flickr.com/photos/101561334@N08/15405127606",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "han-river": {
+  "source": "flickr",
+  "title": "Sông Hàn",
+  "creator": "Gary Lee Todd, Ph.D.",
+  "license": "cc0",
+  "version": "1.0",
+  "url": "https://www.flickr.com/photos/101561334@N08/15428173695",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "danang-night": {
+  "source": "flickr",
+  "title": "Đà Nẵng về đêm",
+  "creator": "biron.clark",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/143467920@N02/27788656012",
+  "size": [
+   1024,
+   576
+  ]
+ },
+ "danang-cathedral": {
+  "source": "flickr",
+  "title": "Nhà thờ Con Gà, Đà Nẵng",
+  "creator": "4512 Image Hosting - 最高质量的照片",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/27914389@N02/44341521140",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "landmark81": {
+  "source": "flickr",
+  "title": "Landmark 81, Bình Thạnh",
+  "creator": "QuiHaiDuoi (The Best Xiuren)",
+  "license": "pdm",
+  "version": "1.0",
+  "url": "https://www.flickr.com/photos/145283084@N04/42018982531",
+  "size": [
+   1024,
+   600
+  ]
+ },
+ "saigon-night-street": {
+  "source": "flickr",
+  "title": "Phố đêm Sài Gòn",
+  "creator": "Ken Lund",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/75683070@N00/7981744754",
+  "size": [
+   1024,
+   768
+  ]
+ },
+ "saigon-street-cafe": {
+  "source": "flickr",
+  "title": "Quán vỉa hè Sài Gòn",
+  "creator": "shankar s.",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/77742560@N06/32134331855",
+  "size": [
+   1024,
+   683
+  ]
+ },
+ "tsn-airport": {
+  "source": "flickr",
+  "title": "Sân bay Tân Sơn Nhất",
+  "creator": "archer10 (Dennis)",
+  "license": "by-sa",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/22490717@N02/3381403835",
+  "size": [
+   1024,
+   680
+  ]
+ },
+ "saigon-traffic": {
+  "source": "flickr",
+  "title": "Phố Tân Bình",
+  "creator": "Tommy Japan 79",
+  "license": "by",
+  "version": "2.0",
+  "url": "https://www.flickr.com/photos/97930879@N02/10181045806",
+  "size": [
+   1024,
+   671
+  ]
  }
 }

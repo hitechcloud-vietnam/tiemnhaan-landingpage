@@ -8,6 +8,8 @@ import { layout, photos, LANGS, langPath } from '../src/layout.mjs';
 import * as P from '../src/pages.mjs';
 import * as X from '../src/pages-extra.mjs';
 import * as M from '../src/pages-more.mjs';
+import * as S from '../src/pages-studio.mjs';
+import { branchPage } from '../src/pages-branch.mjs';
 import { posts, faqAll } from '../src/data/content.mjs';
 import { JOBS } from '../src/pages.mjs';
 import { site } from '../src/data/site.mjs';
@@ -23,7 +25,7 @@ const faqSchema = { '@type': 'FAQPage', mainEntity: faqAll.flatMap(([, qs]) => q
 const jobSchema = JOBS.map(([job, kind, pay], i) => ({
   '@type': 'JobPosting',
   title: `${job} — ${kind}`,
-  description: `<p>Tiệm Nhà An tuyển ${job} (${kind}) cho 4 chi nhánh tại Sài Gòn, Đà Nẵng và Hội An. Không cần kinh nghiệm, được đào tạo từ đầu. Mức lương: ${pay}.${pay.includes('tháng') ? ' Đóng BHXH, BHYT đầy đủ.' : ' Ca linh hoạt.'}</p>`,
+  description: `<p>Tiệm Nhà An tuyển ${job} (${kind}) cho 5 chi nhánh tại Sài Gòn (Bình Thạnh, Tân Bình), Đà Nẵng, Hội An và Duy Xuyên. Không cần kinh nghiệm, được đào tạo từ đầu. Mức lương: ${pay}.${pay.includes('tháng') ? ' Đóng BHXH, BHYT đầy đủ.' : ' Ca linh hoạt.'}</p>`,
   identifier: { '@type': 'PropertyValue', name: site.name, value: `job-${i + 1}` },
   datePosted: '2026-11-04',
   validThrough: '2027-03-31T23:59:59+07:00',
@@ -32,6 +34,7 @@ const jobSchema = JOBS.map(([job, kind, pay], i) => ({
   jobLocation: [
     { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: 'Thành phố Hồ Chí Minh', addressRegion: 'Hồ Chí Minh', addressCountry: 'VN' } },
     { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: 'Đà Nẵng', addressRegion: 'Đà Nẵng', addressCountry: 'VN' } },
+    { '@type': 'Place', address: { '@type': 'PostalAddress', addressLocality: 'Hội An', addressRegion: 'Đà Nẵng', addressCountry: 'VN' } },
   ],
   baseSalary: pay.includes('giờ')
     ? { '@type': 'MonetaryAmount', currency: 'VND', value: { '@type': 'QuantitativeValue', minValue: 30000, maxValue: 35000, unitText: 'HOUR' } }
@@ -51,11 +54,15 @@ const articleSchema = (p) => ({
 
 const pages = [
   { file: 'index.html', path: '/', page: 'home', body: P.home() },
-  { file: 'khong-gian.html', path: '/khong-gian', page: 'spaces', title: 'Không gian làm việc & học tập — Nơi chạy deadline của giới trẻ', description: '4 khu làm việc, học tập riêng biệt tại Tiệm Nhà An: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline, Sân Rôm Rả. Wifi mạnh, ổ cắm mọi chỗ, mở tới 22:00.', body: M.spacesPage(), image: 'cowork-cafe' },
+  { file: 'khong-gian.html', path: '/khong-gian', page: 'spaces', title: 'Không gian làm việc & học tập — Nơi chạy deadline của giới trẻ', description: '4 khu làm việc, học tập riêng biệt tại Tiệm Nhà An: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline, Sân Rôm Rả. Wifi mạnh, ổ cắm mọi chỗ, mở cửa 24/7.', body: M.spacesPage(), image: 'cowork-cafe' },
+  { file: 'dat-ban.html', path: '/dat-ban', page: 'reserve', title: 'Đặt bàn 24/7', description: 'Đặt bàn tại Tiệm Nhà An 24/7: bàn thường, bàn nhóm, phòng họp, Phòng Chạy Deadline, studio áo dài, tiệc và sự kiện. Gọi/Zalo 0865 920 041.', body: S.reserve(), image: 'cafe-long' },
+  { file: 'chup-anh.html', path: '/chup-anh', page: 'studio', title: 'Studio áo dài & Góc check-in', description: 'Cho thuê áo dài, studio chụp ảnh riêng, thợ ảnh và trang điểm, 6 góc check-in tại Tiệm Nhà An. Set chụp Tết, Trung thu, Valentine, Giáng sinh.', body: S.studio(), image: 'aodai-lantern' },
+  { file: 'su-kien.html', path: '/su-kien', page: 'events', title: 'Lễ Tết & sự kiện', description: 'Lịch sự kiện cả năm tại Tiệm Nhà An: Tết Nguyên Đán, Valentine, 8/3, mùa thi, Trung thu, 20/10, Giáng sinh, đêm acoustic và workshop hằng tuần.', body: S.events(), image: 'tet-fireworks' },
   { file: 'trai-nghiem.html', path: '/trai-nghiem', page: 'experience', title: 'Trải nghiệm — Workshop, Đặt tiệc, Nhà An Club', description: 'Không gian, workshop pha trà và làm bánh, đặt tiệc và quà tặng, Nhà An Club tại Tiệm Nhà An.', body: P.experience() },
-  { file: 'chi-nhanh.html', path: '/chi-nhanh', page: 'branches', title: '4 chi nhánh Sài Gòn & Đà Nẵng – Quảng Nam — Coming Soon', description: 'Tiệm Nhà An sắp khai trương 4 chi nhánh: 2 tại TP. Hồ Chí Minh, Đà Nẵng và Hội An. Đăng ký nhận tin và ưu đãi khai trương.', body: P.branches() },
+  { file: 'chi-nhanh.html', path: '/chi-nhanh', page: 'branches', title: '5 chi nhánh: Bình Thạnh, Tân Bình, Đà Nẵng, Hội An, Duy Xuyên', description: 'Tiệm Nhà An sắp khai trương 5 chi nhánh mở cửa 24/7: Bình Thạnh và Tân Bình (TP. Hồ Chí Minh), trung tâm Đà Nẵng, phố cổ Hội An và Duy Xuyên.', body: P.branches() },
+  ...site.branches.map((b) => ({ file: `chi-nhanh/${b.id}.html`, path: `/chi-nhanh/${b.id}`, page: 'branch', title: `${b.city} — Chi nhánh ${b.no}, ${b.area}`, description: `${b.city} (${b.area}): ${b.note} Mở cửa 24/7. Hotline/Zalo ${site.phoneDisplay}.`, body: branchPage(b), image: b.img })),
   { file: 'sai-gon.html', path: '/sai-gon', page: 'saigon', title: 'Nhà An Sài Gòn — 2 chi nhánh TP.HCM', description: 'Nhà An Sài Gòn: 2 chi nhánh tại TP. Hồ Chí Minh, món mang chất Sài Gòn như bạc xỉu ô long, trà tắc xí muội, cà phê phin muối. Coming Soon.', body: X.saigon(), image: 'saigon-dusk' },
-  { file: 'da-nang-quang-nam.html', path: '/da-nang-quang-nam', page: 'mientrung', title: 'Nhà An Đà Nẵng – Quảng Nam — Đà Nẵng & Hội An', description: 'Nhà An Đà Nẵng – Quảng Nam: chi nhánh gần biển Mỹ Khê và căn nhà vàng phố cổ Hội An, mì Quảng chay, trà sen Hội An. Coming Soon.', body: X.mientrung(), image: 'hoian-lanterns' },
+  { file: 'da-nang-quang-nam.html', path: '/da-nang-quang-nam', page: 'mientrung', title: 'Nhà An Đà Nẵng – Quảng Nam — Đà Nẵng, Hội An, Duy Xuyên', description: 'Nhà An Đà Nẵng – Quảng Nam: chi nhánh trung tâm Đà Nẵng, căn nhà vàng phố cổ Hội An và nhà vườn Duy Xuyên, mì Quảng chay, trà sen Hội An. Coming Soon.', body: X.mientrung(), image: 'hoian-lanterns' },
   { file: 'tuyen-dung.html', path: '/tuyen-dung', page: 'hiring', schema: jobSchema, title: 'Tuyển dụng — Lương 30.000–35.000đ/giờ, 10–15 triệu/tháng', description: 'Tiệm Nhà An tuyển barista, phục vụ, thu ngân, thợ bánh, phụ bếp chay. Part-time 30.000–35.000đ/giờ, chính thức 10–15 triệu/tháng, BHXH, BHYT đầy đủ.', body: X.hiring() },
   { file: 'tin-tuc.html', path: '/tin-tuc', page: 'news', title: 'Tin tức', description: 'Tin khai trương, không gian, workshop, tuyển dụng và câu chuyện từ Tiệm Nhà An.', body: M.news() },
   ...posts.map((p) => ({ file: `tin-tuc/${p.slug}.html`, path: `/tin-tuc/${p.slug}`, page: 'article', type: 'article', date: p.date, schema: [articleSchema(p)], title: p.title, description: p.excerpt, body: M.article(p), image: p.img })),
