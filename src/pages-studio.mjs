@@ -58,7 +58,7 @@ export const studioTeaser = () => `
       ${img('aodai-hoian', 'Chụp áo dài', { cls: 'st-a' })}
       ${img('flower-wall', 'Tường hoa', { cls: 'st-b' })}
       ${img('tet-blossom', 'Set chụp Tết', { cls: 'st-c' })}
-      <span class="sticker sticker--a">Studio<br>áo dài</span>
+      <span class="sticker sticker--a sticker--narrow">Studio áo dài</span>
     </div>
     <div>
       <p class="eyebrow">Studio áo dài &amp; Góc check-in</p>

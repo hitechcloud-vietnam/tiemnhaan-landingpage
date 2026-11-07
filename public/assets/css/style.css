@@ -1114,3 +1114,4 @@ html[lang="ja"] .branch-tagline, html[lang="ko"] .branch-tagline, html[lang="zh-
 .omini strong { font-size: 18px; }
 @media (max-width: 900px) { .ominis { grid-template-columns: 1fr 1fr; } }
 .footer__branch a { color: inherit; }
+.sticker--narrow { max-width: 110px; }
