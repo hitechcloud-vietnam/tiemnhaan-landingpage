@@ -90,6 +90,12 @@ Nếu quên bước 2, website vẫn hiển thị đúng ảnh mới (chỉ là 
 - Mọi CSS, JS, ảnh đều được gắn mã phiên bản (`?v=...`), nên trình duyệt lưu đệm 1 năm nhưng vẫn nhận bản mới ngay sau mỗi lần cập nhật.
 - Dọn CSS không còn dùng (sau khi build): `python3 scripts/purge-css.py --dry-run` để xem trước, bỏ `--dry-run` để áp dụng.
 
+## Bảo mật (CSP)
+
+Website gửi header `Content-Security-Policy` (khai báo trong `vercel.json`): trình duyệt chỉ chạy script của chính website, chỉ tải font từ Google Fonts và chỉ nhúng bản đồ Google Maps.
+
+Khi gắn thêm dịch vụ bên ngoài (Facebook Pixel, Google Analytics/Tag Manager, khung chat, video YouTube…), cần thêm tên miền của dịch vụ đó vào đúng mục trong CSP (`script-src`, `connect-src`, `img-src`, `frame-src`…), nếu không trình duyệt sẽ chặn. Không viết mã JavaScript trực tiếp trong HTML; đặt mã vào `public/assets/js/`.
+
 ## Deploy lên Vercel
 
 1. Vào vercel.com, chọn **Add New → Project** rồi import repo GitHub này.
