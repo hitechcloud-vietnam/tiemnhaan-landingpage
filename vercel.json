@@ -81,6 +81,21 @@
       "source": "/thuc-don.html",
       "destination": "/trai-nghiem",
       "permanent": true
+    },
+    {
+      "source": "/:lang(en|ja|ko|zh)?/tin-tuc/nha-an-sap-khai-truong-4-chi-nhanh",
+      "destination": "/:lang/tin-tuc/nha-an-sap-khai-truong-5-chi-nhanh",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|ja|ko|zh)?/tin-tuc/tuyen-dung-nhan-vien-4-chi-nhanh",
+      "destination": "/:lang/tin-tuc/tuyen-dung-nhan-vien-5-chi-nhanh",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|ja|ko|zh)?/tin-tuc/studio-ao-dai-va-goc-song-ao",
+      "destination": "/:lang/tin-tuc/studio-ao-dai-va-goc-check-in",
+      "permanent": true
     }
   ]
 }

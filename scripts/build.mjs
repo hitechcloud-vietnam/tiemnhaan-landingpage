@@ -1,7 +1,7 @@
 // Sinh website tĩnh đa ngôn ngữ vào public/ — chạy: npm run build
 // Tiếng Việt là ngôn ngữ gốc. Các bản en/ja/ko/zh được dịch từ src/i18n/<lang>.json
 // (khóa = chuỗi tiếng Việt, giá trị = bản dịch). Chạy `npm run i18n` để xuất danh sách chuỗi cần dịch.
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { layout, photos, LANGS, langPath } from '../src/layout.mjs';
@@ -167,6 +167,11 @@ if (EXTRACT) {
   console.log(`✔ ${seen.size} chuỗi tiếng Việt → src/i18n/strings.json`);
   process.exit(0);
 }
+
+// Dọn các trang HTML cũ không còn được sinh ra (ví dụ bài viết đổi đường dẫn)
+const built = new Set(LANGS.flatMap(([l]) => pages.map((p) => (l === 'vi' ? join(out, p.file) : join(out, l, p.file)))));
+const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? (e.name === 'assets' ? [] : walk(join(dir, e.name))) : e.name.endsWith('.html') ? [join(dir, e.name)] : []));
+for (const f of walk(out)) if (!built.has(f)) { unlinkSync(f); console.log('  – xóa trang cũ', f.replace(out, '')); }
 
 // sitemap đa ngôn ngữ
 const now = new Date().toISOString().slice(0, 10);

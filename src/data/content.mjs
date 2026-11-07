@@ -65,7 +65,7 @@ export const amenities = [
 
 export const posts = [
   {
-    slug: 'nha-an-sap-khai-truong-4-chi-nhanh',
+    slug: 'nha-an-sap-khai-truong-5-chi-nhanh',
     date: '2026-11-06',
     dateText: '06/11/2026',
     tag: 'Tin tiệm',
@@ -95,7 +95,7 @@ export const posts = [
     ],
   },
   {
-    slug: 'tuyen-dung-nhan-vien-4-chi-nhanh',
+    slug: 'tuyen-dung-nhan-vien-5-chi-nhanh',
     date: '2026-11-04',
     dateText: '04/11/2026',
     tag: 'Tuyển dụng',
