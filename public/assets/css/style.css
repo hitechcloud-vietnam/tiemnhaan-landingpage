@@ -898,9 +898,9 @@ p { margin: 0 0 1em; }
 }
 
 /* ===================== Ngôn ngữ CJK ===================== */
-html[lang="ja"] { --f-sans: "Be Vietnam Pro", "Noto Sans JP", system-ui, sans-serif; }
-html[lang="ko"] { --f-sans: "Be Vietnam Pro", "Noto Sans KR", system-ui, sans-serif; }
-html[lang="zh-Hans"] { --f-sans: "Be Vietnam Pro", "Noto Sans SC", system-ui, sans-serif; }
+html[lang="ja"] { --f-sans: "Be Vietnam Pro", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif; }
+html[lang="ko"] { --f-sans: "Be Vietnam Pro", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Noto Sans CJK KR", sans-serif; }
+html[lang="zh-Hans"] { --f-sans: "Be Vietnam Pro", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
 html[lang="ja"] .eyebrow, html[lang="ko"] .eyebrow, html[lang="zh-Hans"] .eyebrow,
 html[lang="ja"] .script, html[lang="ko"] .script, html[lang="zh-Hans"] .script { font-family: var(--f-sans); font-weight: 700; font-size: 17px; letter-spacing: .04em; }
 html[lang="ja"] h1 em, html[lang="ko"] h1 em, html[lang="zh-Hans"] h1 em,

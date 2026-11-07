@@ -1,14 +1,4 @@
 {
- "hero-boba": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1558857563-b371033873b8",
-  "size": [
-   1200,
-   1800
-  ],
-  "title": "Trà sữa trân châu"
- },
  "milktea-bottles": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -58,26 +48,6 @@
    823
   ],
   "title": "Không gian quán sáng"
- },
- "matcha-art": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7",
-  "size": [
-   1200,
-   800
-  ],
-  "title": "Matcha latte"
- },
- "matcha-work": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a",
-  "size": [
-   800,
-   1200
-  ],
-  "title": "Matcha bên laptop"
  },
  "pannacotta": {
   "source": "Unsplash",
@@ -129,16 +99,6 @@
   ],
   "title": "Bàn dài"
  },
- "iced-latte": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1559496417-e7f25cb247f3",
-  "size": [
-   960,
-   1200
-  ],
-  "title": "Latte đá"
- },
  "tea-glass": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -148,16 +108,6 @@
    1200
   ],
   "title": "Trà nóng"
- },
- "parfait": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
-  "size": [
-   675,
-   1200
-  ],
-  "title": "Parfait"
  },
  "tiramisu": {
   "source": "Unsplash",
@@ -178,16 +128,6 @@
    1200
   ],
   "title": "Mì xào rau củ"
- },
- "tea-bright": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2",
-  "size": [
-   1200,
-   800
-  ],
-  "title": "Trà chiều"
  },
  "tea-flatlay": {
   "source": "Unsplash",
@@ -219,16 +159,6 @@
   ],
   "title": "Trà trái cây hồng"
  },
- "smoothies": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8",
-  "size": [
-   1200,
-   675
-  ],
-  "title": "Sinh tố"
- },
  "berry-soda": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -238,16 +168,6 @@
    1200
   ],
   "title": "Soda dâu"
- },
- "lime-soda": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1556881286-fc6915169721",
-  "size": [
-   800,
-   1200
-  ],
-  "title": "Soda chanh"
  },
  "cozy-tea": {
   "source": "Unsplash",
@@ -278,16 +198,6 @@
    1200
   ],
   "title": "Quán cà phê nhiều cây"
- },
- "cafe-plants": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1445116572660-236099ec97a0",
-  "size": [
-   1200,
-   800
-  ],
-  "title": "Ban công cây xanh"
  },
  "friends-group": {
   "source": "Unsplash",
@@ -339,16 +249,6 @@
   ],
   "title": "Croissant"
  },
- "cheesecake": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad",
-  "size": [
-   1200,
-   800
-  ],
-  "title": "Cheesecake việt quất"
- },
  "lotus": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -379,36 +279,6 @@
   ],
   "title": "Trà trái cây"
  },
- "lemonade": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1621263764928-df1444c5e859",
-  "size": [
-   800,
-   1200
-  ],
-  "title": "Nước chanh"
- },
- "milkshakes": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1505252585461-04db1eb84625",
-  "size": [
-   844,
-   1200
-  ],
-  "title": "Milkshake"
- },
- "mango": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1546173159-315724a31696",
-  "size": [
-   800,
-   1200
-  ],
-  "title": "Trà xoài"
- },
  "iced-tea": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -426,18 +296,6 @@
   "license": "cc0",
   "version": "1.0",
   "url": "https://www.rawpixel.com/image/5904829/photo-image-public-domain-free-drink",
-  "size": [
-   1024,
-   683
-  ]
- },
- "matcha-red": {
-  "source": "rawpixel",
-  "title": "Green tea, matcha latte",
-  "creator": null,
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.rawpixel.com/image/6028471/photo-image-public-domain-free-tea",
   "size": [
    1024,
    683
@@ -479,18 +337,6 @@
    1024
   ]
  },
- "veg-bowl-2": {
-  "source": "rawpixel",
-  "title": "Free vegan falafel image",
-  "creator": null,
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.rawpixel.com/image/5918629/image-public-domain-greens-food",
-  "size": [
-   683,
-   1024
-  ]
- },
  "tofu-noodle": {
   "source": "rawpixel",
   "title": "Sautéed Tofu and Broccoli",
@@ -498,18 +344,6 @@
   "license": "cc0",
   "version": "1.0",
   "url": "https://www.rawpixel.com/image/8735012/sauteed-tofu-and-broccoli",
-  "size": [
-   1024,
-   683
-  ]
- },
- "noodle-soup": {
-  "source": "rawpixel",
-  "title": "Free noodle image",
-  "creator": null,
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.rawpixel.com/image/5923808/free-noodle-image-public-domain-food-cc0-photo",
   "size": [
    1024,
    683
@@ -527,18 +361,6 @@
    683
   ]
  },
- "spring-rolls": {
-  "source": "rawpixel",
-  "title": "Takeaway Vietnamese fresh spring rolls",
-  "creator": "Jakub Kapusnak",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.rawpixel.com/image/447669/free-photo-image-takeaway-pho-goi-cuon",
-  "size": [
-   1024,
-   683
-  ]
- },
  "golden-bridge": {
   "source": "Unsplash",
   "license": "unsplash",
@@ -548,50 +370,6 @@
    1125
   ],
   "title": "Cầu Vàng, Bà Nà"
- },
- "saigon-skyline": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1583417319070-4a69db38a482",
-  "size": [
-   1800,
-   1201
-  ],
-  "title": "Sài Gòn lên đèn"
- },
- "tea-leaves-cup": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "url": "https://images.unsplash.com/photo-1567922045116-2a00fae2ed03",
-  "size": [
-   1350,
-   1800
-  ],
-  "title": "Chén trà giữa lá xanh"
- },
- "hoian-town": {
-  "source": "flickr",
-  "title": "Hoi An, Vietnam",
-  "creator": "Nguyen Duc Loi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/85675121@N04/12981155364",
-  "size": [
-   1024,
-   683
-  ]
- },
- "hoian-boats": {
-  "source": "flickr",
-  "title": "Peaceful morning, Hoi An, Vietnam",
-  "creator": "Nguyen Duc Loi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/85675121@N04/8651305052",
-  "size": [
-   1024,
-   683
-  ]
  },
  "hoian-lanterns": {
   "source": "flickr",
@@ -617,54 +395,6 @@
    768
   ]
  },
- "hoian-lanterns-3": {
-  "source": "flickr",
-  "title": "It's Lantern City here!",
-  "creator": "PiktourUK",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/69706441@N03/33263496771",
-  "size": [
-   1024,
-   610
-  ]
- },
- "hoian-river": {
-  "source": "flickr",
-  "title": "Hoi An, Vietnam",
-  "creator": "Nguyen Duc Loi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/85675121@N04/12981155364",
-  "size": [
-   1024,
-   683
-  ]
- },
- "hoian-street": {
-  "source": "flickr",
-  "title": "Hoi An.",
-  "creator": "Nguyen Duc Loi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/85675121@N04/12810464585",
-  "size": [
-   1024,
-   683
-  ]
- },
- "danang-coast": {
-  "source": "flickr",
-  "title": "Quiet Beach in Da Nang",
-  "creator": "Christopher Crouzet",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/25338288@N05/16725119130",
-  "size": [
-   1024,
-   378
-  ]
- },
  "mykhe-1": {
   "source": "flickr",
   "title": "My Khe Beach (China Beach), Da Nang, Vietnam",
@@ -675,42 +405,6 @@
   "size": [
    1024,
    683
-  ]
- },
- "mykhe-2": {
-  "source": "flickr",
-  "title": "My Khe Beach (China Beach), Da Nang, Vietnam",
-  "creator": "Gary Lee Todd, Ph.D.",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/101561334@N08/15241435629",
-  "size": [
-   1024,
-   683
-  ]
- },
- "mykhe-3": {
-  "source": "flickr",
-  "title": "My Khe Beach (China Beach), Da Nang, Vietnam",
-  "creator": "Gary Lee Todd, Ph.D.",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/101561334@N08/15241438419",
-  "size": [
-   1024,
-   683
-  ]
- },
- "dragon-bridge": {
-  "source": "flickr",
-  "title": "Dragon Bridge, Da Nang, Vietnam",
-  "creator": "nicksarebi",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/34517490@N00/48944946922",
-  "size": [
-   1024,
-   587
   ]
  },
  "saigon-dusk": {
@@ -747,18 +441,6 @@
   "size": [
    1023,
    692
-  ]
- },
- "saigon-vespa": {
-  "source": "flickr",
-  "title": "Saigon 1967 - Motor Scooters on Saigon Street",
-  "creator": "Tommy Japan 79",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/97930879@N02/9452899535",
-  "size": [
-   1024,
-   682
   ]
  },
  "phin-1": {
@@ -861,31 +543,11 @@
    933
   ]
  },
- "cozy-desk": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "title": "Bàn làm việc và cà phê",
-  "url": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
-  "size": [
-   1400,
-   933
-  ]
- },
  "focus-man": {
   "source": "Unsplash",
   "license": "unsplash",
   "title": "Tập trung làm việc",
   "url": "https://images.unsplash.com/photo-1513258496099-48168024aec0",
-  "size": [
-   1400,
-   933
-  ]
- },
- "focus-write": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "title": "Ghi chép",
-  "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
   "size": [
    1400,
    933
@@ -899,16 +561,6 @@
   "size": [
    1400,
    1050
-  ]
- },
- "focus-books": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "title": "Sách vở",
-  "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8",
-  "size": [
-   1400,
-   1051
   ]
  },
  "chat-friends": {
@@ -926,16 +578,6 @@
   "license": "unsplash",
   "title": "Bàn dài rôm rả",
   "url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
-  "size": [
-   1400,
-   933
-  ]
- },
- "chat-drinks": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "title": "Gặp gỡ buổi tối",
-  "url": "https://images.unsplash.com/photo-1515169067868-5387ec356754",
   "size": [
    1400,
    933
@@ -979,16 +621,6 @@
   "size": [
    1400,
    935
-  ]
- },
- "cowork-plan": {
-  "source": "Unsplash",
-  "license": "unsplash",
-  "title": "Lên kế hoạch",
-  "url": "https://images.unsplash.com/photo-1552664730-d307ca884978",
-  "size": [
-   1400,
-   933
   ]
  },
  "meet-brick": {
@@ -1135,18 +767,6 @@
    680
   ]
  },
- "tet-dao": {
-  "source": "flickr",
-  "title": "Hoa xuân",
-  "creator": "iSam's",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/34443099@N03/16560550895",
-  "size": [
-   1024,
-   683
-  ]
- },
  "trungthu-lanterns": {
   "source": "flickr",
   "title": "Đèn lồng Trung thu",
@@ -1157,42 +777,6 @@
   "size": [
    1024,
    551
-  ]
- },
- "trungthu-street": {
-  "source": "flickr",
-  "title": "Phố đèn lồng",
-  "creator": "Nicolas Lannuzel",
-  "license": "by-sa",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/79022843@N00/8027095052",
-  "size": [
-   1024,
-   684
-  ]
- },
- "mooncake-tea": {
-  "source": "flickr",
-  "title": "Bánh trung thu và trà",
-  "creator": "flossyflotsam",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/8260474@N07/15197693656",
-  "size": [
-   1024,
-   680
-  ]
- },
- "photo-studio": {
-  "source": "flickr",
-  "title": "Phòng chụp ảnh",
-  "creator": "SparkFunElectronics",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/41898857@N04/3945197245",
-  "size": [
-   1024,
-   683
   ]
  },
  "flower-wall": {
@@ -1267,42 +851,6 @@
    681
   ]
  },
- "myson-1": {
-  "source": "flickr",
-  "title": "Thánh địa Mỹ Sơn",
-  "creator": "Paul Mannix",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/19511776@N00/33584667432",
-  "size": [
-   1024,
-   683
-  ]
- },
- "myson-2": {
-  "source": "flickr",
-  "title": "Tháp Chăm Mỹ Sơn",
-  "creator": "Paul Mannix",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/19511776@N00/32898235024",
-  "size": [
-   1024,
-   683
-  ]
- },
- "myson-3": {
-  "source": "flickr",
-  "title": "Đền tháp Mỹ Sơn",
-  "creator": "joxeankoret",
-  "license": "by-sa",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/7752891@N06/1463130509",
-  "size": [
-   1024,
-   766
-  ]
- },
  "thubon-sunset": {
   "source": "flickr",
   "title": "Hoàng hôn sông Thu Bồn",
@@ -1327,18 +875,6 @@
    683
   ]
  },
- "duyxuyen-field": {
-  "source": "flickr",
-  "title": "Cánh đồng Duy Xuyên",
-  "creator": "cosmicwindblown1",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/191211375@N03/50694044826",
-  "size": [
-   1023,
-   475
-  ]
- },
  "silk": {
   "source": "flickr",
   "title": "Lụa dệt thủ công",
@@ -1351,126 +887,6 @@
    685
   ]
  },
- "hoian-bridge-night": {
-  "source": "flickr",
-  "title": "Chùa Cầu về đêm",
-  "creator": "@felixtriller",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/21480682@N03/5058507814",
-  "size": [
-   1024,
-   768
-  ]
- },
- "hoian-bridge": {
-  "source": "flickr",
-  "title": "Chùa Cầu Hội An",
-  "creator": "u07ch",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/76705972@N00/20922636168",
-  "size": [
-   1024,
-   683
-  ]
- },
- "hoian-river-2": {
-  "source": "flickr",
-  "title": "Phố cổ bên sông",
-  "creator": "David McKelvey",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/94735786@N00/6944149036",
-  "size": [
-   1024,
-   576
-  ]
- },
- "hoian-houses": {
-  "source": "flickr",
-  "title": "Nhà cổ Hội An",
-  "creator": "David McKelvey",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/94735786@N00/6944560052",
-  "size": [
-   1024,
-   575
-  ]
- },
- "hoian-boats-2": {
-  "source": "flickr",
-  "title": "Thuyền trên sông Hoài",
-  "creator": "David McKelvey",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/94735786@N00/7090217101",
-  "size": [
-   1024,
-   576
-  ]
- },
- "dragon-bridge-2": {
-  "source": "flickr",
-  "title": "Cầu Rồng",
-  "creator": "Gary Lee Todd, Ph.D.",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/101561334@N08/15405127606",
-  "size": [
-   1024,
-   683
-  ]
- },
- "han-river": {
-  "source": "flickr",
-  "title": "Sông Hàn",
-  "creator": "Gary Lee Todd, Ph.D.",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/101561334@N08/15428173695",
-  "size": [
-   1024,
-   683
-  ]
- },
- "danang-night": {
-  "source": "flickr",
-  "title": "Đà Nẵng về đêm",
-  "creator": "biron.clark",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/143467920@N02/27788656012",
-  "size": [
-   1024,
-   576
-  ]
- },
- "danang-cathedral": {
-  "source": "flickr",
-  "title": "Nhà thờ Con Gà, Đà Nẵng",
-  "creator": "4512 Image Hosting - 最高质量的照片",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/27914389@N02/44341521140",
-  "size": [
-   1024,
-   683
-  ]
- },
- "landmark81": {
-  "source": "flickr",
-  "title": "Landmark 81, Bình Thạnh",
-  "creator": "QuiHaiDuoi (The Best Xiuren)",
-  "license": "pdm",
-  "version": "1.0",
-  "url": "https://www.flickr.com/photos/145283084@N04/42018982531",
-  "size": [
-   1024,
-   600
-  ]
- },
  "saigon-night-street": {
   "source": "flickr",
   "title": "Phố đêm Sài Gòn",
@@ -1481,42 +897,6 @@
   "size": [
    1024,
    768
-  ]
- },
- "saigon-street-cafe": {
-  "source": "flickr",
-  "title": "Quán vỉa hè Sài Gòn",
-  "creator": "shankar s.",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/77742560@N06/32134331855",
-  "size": [
-   1024,
-   683
-  ]
- },
- "tsn-airport": {
-  "source": "flickr",
-  "title": "Sân bay Tân Sơn Nhất",
-  "creator": "archer10 (Dennis)",
-  "license": "by-sa",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/22490717@N02/3381403835",
-  "size": [
-   1024,
-   680
-  ]
- },
- "saigon-traffic": {
-  "source": "flickr",
-  "title": "Phố Tân Bình",
-  "creator": "Tommy Japan 79",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://www.flickr.com/photos/97930879@N02/10181045806",
-  "size": [
-   1024,
-   671
   ]
  },
  "lm-landmark81-night": {
@@ -1723,18 +1103,6 @@
    960
   ]
  },
- "lm-japanese-bridge-inside": {
-  "source": "wikimedia",
-  "title": "Bên trong Chùa Cầu",
-  "creator": "David McKelvey from Brisbane, Australia",
-  "license": "by",
-  "version": "2.0",
-  "url": "https://commons.wikimedia.org/w/index.php?curid=101289019",
-  "size": [
-   1280,
-   719
-  ]
- },
  "lm-hoian-lanterns": {
   "source": "wikimedia",
   "title": "Đèn lồng Hội An",
@@ -1783,18 +1151,6 @@
    872
   ]
  },
- "lm-myson-lawn": {
-  "source": "wikimedia",
-  "title": "Đền tháp Mỹ Sơn",
-  "creator": "Ms Sarah Welch",
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://commons.wikimedia.org/w/index.php?curid=132625838",
-  "size": [
-   1280,
-   960
-  ]
- },
  "lm-hoian-riverside": {
   "source": "wikimedia",
   "title": "Phố cổ Hội An bên sông Thu Bồn",
@@ -1807,18 +1163,6 @@
    850
   ]
  },
- "lm-anbang": {
-  "source": "wikimedia",
-  "title": "Biển An Bàng, Hội An",
-  "creator": "Adirach Toumlamoon",
-  "license": "by-sa",
-  "version": "4.0",
-  "url": "https://commons.wikimedia.org/w/index.php?curid=148471196",
-  "size": [
-   1280,
-   853
-  ]
- },
  "oolong-hero": {
   "source": "rawpixel",
   "title": "Chén trà ô long",
@@ -1829,18 +1173,6 @@
   "size": [
    1024,
    711
-  ]
- },
- "oolong-steam": {
-  "source": "rawpixel",
-  "title": "Ly trà ô long nóng",
-  "creator": null,
-  "license": "cc0",
-  "version": "1.0",
-  "url": "https://www.rawpixel.com/image/5911919/image-public-domain-black-glass",
-  "size": [
-   1024,
-   680
   ]
  }
 }

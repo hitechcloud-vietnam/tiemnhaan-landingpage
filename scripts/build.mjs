@@ -4,7 +4,7 @@
 import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { layout, photos, LANGS, langPath } from '../src/layout.mjs';
+import { layout, photos, LANGS, langPath, ogUrl, hasOg } from '../src/layout.mjs';
 import * as P from '../src/pages.mjs';
 import * as X from '../src/pages-extra.mjs';
 import * as M from '../src/pages-more.mjs';
@@ -44,7 +44,7 @@ const articleSchema = (p) => ({
   '@type': 'NewsArticle',
   headline: p.title,
   description: p.excerpt,
-  image: [`${site.url}/assets/img/og/${p.img}.jpg`],
+  image: [ogUrl(p.img)],
   datePublished: `${p.date}T08:00:00+07:00`,
   dateModified: `${p.date}T08:00:00+07:00`,
   author: { '@type': 'Organization', name: site.name, url: site.url },
@@ -95,6 +95,12 @@ const pages = [
   { file: 'tin-dung-anh.html', path: '/tin-dung-anh', page: 'credits', title: 'Tín dụng hình ảnh', description: 'Nguồn và giấy phép của hình ảnh minh họa trên website Tiệm Nhà An.', body: P.credits() },
   { file: '404.html', path: '/404', page: '404', title: 'Không tìm thấy trang', body: P.notFound() },
 ];
+
+// Cảnh báo trang có ảnh riêng nhưng chưa có ảnh chia sẻ 1200x630
+{
+  const need = [...new Set(pages.map((p) => p.image).filter((k) => k && !hasOg(k)))];
+  if (need.length) console.log(`  ⚠ thiếu ảnh chia sẻ, chạy: python3 scripts/images.py --og ${need.join(' ')}`);
+}
 
 // ───────────── Dịch ─────────────
 const decode = (s) => s.replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
@@ -150,11 +156,7 @@ function localize(html, lang, path) {
   html = html.replace(`<meta property="og:locale:alternate" content="${locale}">`, '<meta property="og:locale:alternate" content="vi_VN">');
   html = html.replace(/<span class="lang__cur">VI<\/span>/g, `<span class="lang__cur">${short}</span>`);
   html = html.replace(new RegExp(`class="lang__opt" data-nolocal data-lang="${lang}"`, 'g'), `class="lang__opt is-cur" aria-current="true" data-nolocal data-lang="${lang}"`);
-  const cjk = { ja: 'Noto+Sans+JP', ko: 'Noto+Sans+KR', zh: 'Noto+Sans+SC' }[lang];
-  if (cjk) {
-    const f = `https://fonts.googleapis.com/css2?family=${cjk}:wght@400;500;700;800&display=swap`;
-    html = html.replace('<!--cjk-fonts-->', `<link rel="preload" as="style" href="${f}" onload="this.onload=null;this.rel='stylesheet'">\n<noscript><link rel="stylesheet" href="${f}"></noscript>`);
-  }
+  // Chữ Nhật/Hàn/Trung dùng font hệ thống (Hiragino, Yu Gothic, Apple SD Gothic, Malgun, PingFang, YaHei…), không tải font web nặng
   return html;
 }
 

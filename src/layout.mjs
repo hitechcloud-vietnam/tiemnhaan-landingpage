@@ -17,6 +17,10 @@ export const fileHash = (path) => {
 };
 export const assetUrl = (path) => (fileHash(path) ? `${path}?v=${fileHash(path)}` : path);
 
+// Ảnh chia sẻ mạng xã hội (1200x630) theo trang; thiếu thì dùng ảnh mặc định của thương hiệu
+export const hasOg = (key) => !!key && existsSync(new URL(`../public/assets/img/og/${key}.jpg`, import.meta.url));
+export const ogUrl = (key) => (hasOg(key) ? `${site.url}/assets/img/og/${key}.jpg` : `${site.url}/assets/img/brand/og-image.jpg`);
+
 export const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -109,7 +113,7 @@ export const LANGS = [
   ['ko', '한국어', 'KO', 'ko_KR'],
   ['zh', '中文', '中文', 'zh_CN'],
 ];
-export const langPath = (lang, path) => (lang === 'vi' ? path : `/${lang}${path === '/' ? '/' : path}`);
+export const langPath = (lang, path) => (lang === 'vi' ? path : `/${lang}${path === '/' ? '' : path}`);
 
 const SPACES = [
   ['hop', 'Phòng Họp Hanh Thông', 'Họp team, đồ án, phỏng vấn', 'meet-room'],
@@ -264,9 +268,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
   const full = title ? `${title} | ${site.name}` : `${site.name} — Trà Sữa · Ô Long · Bánh Ngọt · Đồ Chay`;
   const desc = description || site.description;
   const url = site.url + (path === '/' ? '' : path);
-  const ogImg = image && existsSync(new URL(`../public/assets/img/og/${image}.jpg`, import.meta.url))
-    ? `${site.url}/assets/img/og/${image}.jpg`
-    : `${site.url}/assets/img/brand/og-image.jpg`;
+  const ogImg = ogUrl(image);
   const seo = site.seo || {};
   const org = {
     '@type': 'Organization',

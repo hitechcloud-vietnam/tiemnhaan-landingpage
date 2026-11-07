@@ -64,22 +64,12 @@
   "w320": true,
   "w800": true
  },
- "cafe-plants": {
-  "hash": "a3d108c4bd",
-  "w320": true,
-  "w800": true
- },
  "cake": {
   "hash": "0531e5ceba",
   "w320": true
  },
  "chat-cafe": {
   "hash": "d8f997e35c",
-  "w320": true,
-  "w800": true
- },
- "chat-drinks": {
-  "hash": "5cad088c1f",
   "w320": true,
   "w800": true
  },
@@ -98,18 +88,8 @@
   "w320": true,
   "w800": true
  },
- "cheesecake": {
-  "hash": "b1826ce2a4",
-  "w320": true,
-  "w800": true
- },
  "cowork-cafe": {
   "hash": "b08d57153f",
-  "w320": true,
-  "w800": true
- },
- "cowork-plan": {
-  "hash": "821091249b",
   "w320": true,
   "w800": true
  },
@@ -130,11 +110,6 @@
  },
  "cozy-cocoa": {
   "hash": "f495743409",
-  "w320": true,
-  "w800": true
- },
- "cozy-desk": {
-  "hash": "382f81551b",
   "w320": true,
   "w800": true
  },
@@ -161,43 +136,8 @@
   "hash": "948ed8e7a4",
   "w320": true
  },
- "danang-cathedral": {
-  "hash": "b1d268d679",
-  "w320": true,
-  "w800": true
- },
- "danang-coast": {
-  "hash": "742540d94e",
-  "w320": true,
-  "w800": true
- },
- "danang-night": {
-  "hash": "a60554f64e",
-  "w320": true,
-  "w800": true
- },
- "dragon-bridge": {
-  "hash": "40f653363a",
-  "w320": true,
-  "w800": true
- },
- "dragon-bridge-2": {
-  "hash": "5a75d09f84",
-  "w320": true,
-  "w800": true
- },
- "duyxuyen-field": {
-  "hash": "f4537aa079",
-  "w320": true,
-  "w800": true
- },
  "flower-wall": {
   "hash": "1fe278609a",
-  "w320": true,
-  "w800": true
- },
- "focus-books": {
-  "hash": "cda29510cb",
   "w320": true,
   "w800": true
  },
@@ -213,11 +153,6 @@
  },
  "focus-man": {
   "hash": "32c25f1fd1",
-  "w320": true,
-  "w800": true
- },
- "focus-write": {
-  "hash": "528b97f4eb",
   "w320": true,
   "w800": true
  },
@@ -241,41 +176,6 @@
   "w320": true,
   "w800": true
  },
- "han-river": {
-  "hash": "dfe5779331",
-  "w320": true,
-  "w800": true
- },
- "hero-boba": {
-  "hash": "1c937960d5",
-  "w320": true,
-  "w800": true
- },
- "hoian-boats": {
-  "hash": "4652aab79d",
-  "w320": true,
-  "w800": true
- },
- "hoian-boats-2": {
-  "hash": "0c97205b0f",
-  "w320": true,
-  "w800": true
- },
- "hoian-bridge": {
-  "hash": "7e36327556",
-  "w320": true,
-  "w800": true
- },
- "hoian-bridge-night": {
-  "hash": "d4128633dc",
-  "w320": true,
-  "w800": true
- },
- "hoian-houses": {
-  "hash": "a2d9d36b0a",
-  "w320": true,
-  "w800": true
- },
  "hoian-lanterns": {
   "hash": "2ae5aaa69d",
   "w320": true,
@@ -286,38 +186,8 @@
   "w320": true,
   "w800": true
  },
- "hoian-lanterns-3": {
-  "hash": "5c89e7d3ba",
-  "w320": true,
-  "w800": true
- },
- "hoian-river": {
-  "hash": "0da6910199",
-  "w320": true,
-  "w800": true
- },
- "hoian-river-2": {
-  "hash": "22381341fa",
-  "w320": true,
-  "w800": true
- },
- "hoian-street": {
-  "hash": "81af3c5d54",
-  "w320": true,
-  "w800": true
- },
- "hoian-town": {
-  "hash": "0da6910199",
-  "w320": true,
-  "w800": true
- },
  "icecream": {
   "hash": "5dccaf4205",
-  "w320": true,
-  "w800": true
- },
- "iced-latte": {
-  "hash": "ce2f308855",
   "w320": true,
   "w800": true
  },
@@ -331,27 +201,9 @@
   "w320": true,
   "w800": true
  },
- "landmark81": {
-  "hash": "c3278903d5",
-  "w320": true,
-  "w800": true
- },
  "latte-plants": {
   "hash": "a0c8591321",
   "w320": true
- },
- "lemonade": {
-  "hash": "428ed9a630",
-  "w320": true
- },
- "lime-soda": {
-  "hash": "0d7194c507",
-  "w320": true
- },
- "lm-anbang": {
-  "hash": "ae8a919649",
-  "w320": true,
-  "w800": true
  },
  "lm-benthanh-night": {
   "hash": "2916c0e8d3",
@@ -398,11 +250,6 @@
   "w320": true,
   "w800": true
  },
- "lm-japanese-bridge-inside": {
-  "hash": "c4ef6a89ee",
-  "w320": true,
-  "w800": true
- },
  "lm-landmark81-day": {
   "hash": "d698918992",
   "w320": true,
@@ -430,11 +277,6 @@
  },
  "lm-myson-aerial": {
   "hash": "c8aa6943c8",
-  "w320": true,
-  "w800": true
- },
- "lm-myson-lawn": {
-  "hash": "e1ef77b2b2",
   "w320": true,
   "w800": true
  },
@@ -483,28 +325,10 @@
   "w320": true,
   "w800": true
  },
- "mango": {
-  "hash": "d41defbce2",
-  "w320": true
- },
- "matcha-art": {
-  "hash": "76f6795383",
-  "w320": true,
-  "w800": true
- },
- "matcha-red": {
-  "hash": "19e71ccf8a",
-  "w320": true,
-  "w800": true
- },
  "matcha-whisk": {
   "hash": "fef600482c",
   "w320": true,
   "w800": true
- },
- "matcha-work": {
-  "hash": "becd24cc04",
-  "w320": true
  },
  "meet-brick": {
   "hash": "4e40577368",
@@ -526,10 +350,6 @@
   "w320": true,
   "w800": true
  },
- "milkshakes": {
-  "hash": "f5031e5949",
-  "w320": true
- },
  "milktea-bottles": {
   "hash": "f1b33c9d08",
   "w320": true,
@@ -539,38 +359,8 @@
   "hash": "fd1097a0b5",
   "w320": true
  },
- "mooncake-tea": {
-  "hash": "d24afc9518",
-  "w320": true,
-  "w800": true
- },
  "mykhe-1": {
   "hash": "99e53100a3",
-  "w320": true,
-  "w800": true
- },
- "mykhe-2": {
-  "hash": "6666b4b8df",
-  "w320": true,
-  "w800": true
- },
- "mykhe-3": {
-  "hash": "b7c19fd6d8",
-  "w320": true,
-  "w800": true
- },
- "myson-1": {
-  "hash": "0be0c9ba94",
-  "w320": true,
-  "w800": true
- },
- "myson-2": {
-  "hash": "9914228996",
-  "w320": true,
-  "w800": true
- },
- "myson-3": {
-  "hash": "c68eb7cab8",
   "w320": true,
   "w800": true
  },
@@ -584,11 +374,6 @@
   "w320": true,
   "w800": true
  },
- "noodle-soup": {
-  "hash": "7b0326f555",
-  "w320": true,
-  "w800": true
- },
  "oolong-hero": {
   "hash": "6209417bec",
   "w320": true,
@@ -599,17 +384,8 @@
   "w320": true,
   "w800": true
  },
- "oolong-steam": {
-  "hash": "08f8db3e7b",
-  "w320": true,
-  "w800": true
- },
  "pannacotta": {
   "hash": "288cd9ae03",
-  "w320": true
- },
- "parfait": {
-  "hash": "cf57e2ab11",
   "w320": true
  },
  "phin-1": {
@@ -624,11 +400,6 @@
  },
  "pho-chay": {
   "hash": "5349b9b647",
-  "w320": true,
-  "w800": true
- },
- "photo-studio": {
-  "hash": "11aa6ea49f",
   "w320": true,
   "w800": true
  },
@@ -657,48 +428,13 @@
   "w320": true,
   "w800": true
  },
- "saigon-skyline": {
-  "hash": "b5a6c4a218",
-  "w320": true,
-  "w800": true
- },
- "saigon-street-cafe": {
-  "hash": "4f078fb8ae",
-  "w320": true,
-  "w800": true
- },
- "saigon-traffic": {
-  "hash": "f8c5cb8a97",
-  "w320": true,
-  "w800": true
- },
  "saigon-vendor": {
   "hash": "d1a47953e0",
   "w320": true,
   "w800": true
  },
- "saigon-vespa": {
-  "hash": "c96107dfe3",
-  "w320": true,
-  "w800": true
- },
  "silk": {
   "hash": "dfcde5b9b3",
-  "w320": true,
-  "w800": true
- },
- "smoothies": {
-  "hash": "ebae55a3be",
-  "w320": true,
-  "w800": true
- },
- "spring-rolls": {
-  "hash": "782e0af162",
-  "w320": true,
-  "w800": true
- },
- "tea-bright": {
-  "hash": "4275677d63",
   "w320": true,
   "w800": true
  },
@@ -715,22 +451,12 @@
   "hash": "c0b72736bb",
   "w320": true
  },
- "tea-leaves-cup": {
-  "hash": "2d70df72ef",
-  "w320": true,
-  "w800": true
- },
  "tea-pour": {
   "hash": "5e290e9e6c",
   "w320": true
  },
  "tet-blossom": {
   "hash": "e13698c969",
-  "w320": true,
-  "w800": true
- },
- "tet-dao": {
-  "hash": "6da76fad6d",
   "w320": true,
   "w800": true
  },
@@ -768,24 +494,10 @@
   "w320": true,
   "w800": true
  },
- "trungthu-street": {
-  "hash": "312406efd8",
-  "w320": true,
-  "w800": true
- },
- "tsn-airport": {
-  "hash": "ba7ef51840",
-  "w320": true,
-  "w800": true
- },
  "valentine-roses": {
   "hash": "0841299895",
   "w320": true,
   "w800": true
- },
- "veg-bowl-2": {
-  "hash": "e33d300baa",
-  "w320": true
  },
  "veg-noodles": {
   "hash": "db2c104bf2",
