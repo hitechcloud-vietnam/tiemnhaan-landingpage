@@ -1,0 +1,217 @@
+{
+  "slug": "chi-nhanh/duy-xuyen/quanh-day",
+  "group": "space",
+  "nav": "Quanh Nhà An Duy Xuyên",
+  "navDesc": "Mỹ Sơn, Mã Châu, lịch trình nửa ngày",
+  "icon": "map",
+  "title": "Quanh Nhà An Duy Xuyên: Mỹ Sơn, Mã Châu và sông Thu Bồn",
+  "description": "Đi đâu quanh Duy Xuyên? Thánh địa Mỹ Sơn, Trà Kiệu, làng lụa Mã Châu, làng chiếu Bàn Thạch, sen Trà Lý và lịch trình nửa ngày bên sông Thu Bồn.",
+  "image": "@quangnam|đường làng ven sông Thu Bồn ở Duy Xuyên giữa bãi bắp và đồng lúa xanh",
+  "hero": {
+    "eyebrow": "Quanh Nhà An Duy Xuyên",
+    "title": "Bên dòng Thu Bồn, *đi chậm để thấy nhiều*",
+    "lead": "Mỹ Sơn, Trà Kiệu, làng lụa Mã Châu, làng chiếu Bàn Thạch và mùa sen Trà Lý: gợi ý điểm đến quanh nhà vườn Nhà An bên sông Thu Bồn, kèm lịch trình nửa ngày cho người thích đi chậm.",
+    "img": "@quangnam|đường làng ven sông Thu Bồn ở Duy Xuyên giữa bãi bắp và đồng lúa xanh",
+    "alt": "Đường làng ven sông Thu Bồn giữa bãi bắp và đồng lúa xanh ở Duy Xuyên",
+    "ctas": [
+      { "label": "Xem lịch trình nửa ngày", "href": "#nua-ngay", "style": "primary" },
+      { "label": "Nhà An Duy Xuyên", "href": "/chi-nhanh/duy-xuyen", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "duy-xuyen",
+      "eyebrow": "Vùng đất",
+      "title": "Một miền quê *nằm giữa hai di sản*",
+      "paras": [
+        "Duy Xuyên là vùng quê xứ Quảng, từ ngày 1/7/2025 thuộc TP. Đà Nẵng. Khu đền tháp Mỹ Sơn nằm ngay trên vùng đất này, phố cổ Hội An chỉ cách một quãng ngắn; cả hai cùng được UNESCO công nhận là di sản văn hóa thế giới năm 1999.",
+        "Giữa hai di sản, sông Thu Bồn bồi nên những bãi bắp, ruộng dâu và đồng lác xanh mướt. Nhà An Duy Xuyên là một nhà vườn bên sông, trên đường từ Hội An lên Mỹ Sơn. Số nhà sẽ được công bố sau, nên các khoảng cách trên trang này chỉ là ước tính."
+      ],
+      "bullets": [
+        "Mỹ Sơn cách phố cổ Hội An khoảng 40 km",
+        "Mùa khô, dễ đi: khoảng tháng 2 đến tháng 8",
+        "Mùa sen Trà Lý: khoảng tháng 5 đến tháng 8"
+      ],
+      "img": "thubon-fishing",
+      "alt": "Người dân thả lưới đánh cá trên sông Thu Bồn",
+      "cta": { "label": "Xem chi nhánh Duy Xuyên", "href": "/chi-nhanh/duy-xuyen" }
+    },
+    {
+      "type": "cards",
+      "id": "diem-gan",
+      "eyebrow": "Điểm đến gần",
+      "title": "Sáu điểm hẹn *quanh nhà vườn*",
+      "lead": "Từ di sản Chăm Pa đến làng nghề ven sông. Giờ mở cửa và vé có thể thay đổi, hãy kiểm tra thông tin mới nhất trước khi đi.",
+      "items": [
+        {
+          "img": "lm-myson-towers",
+          "alt": "Những ngọn tháp gạch Chăm ở thánh địa Mỹ Sơn giữa rừng cây",
+          "title": "Thánh địa Mỹ Sơn",
+          "tag": "Di sản UNESCO",
+          "text": "Thung lũng đền tháp Chăm Pa, được xây dựng và tu sửa từ khoảng thế kỷ 4 đến thế kỷ 13. Đến sớm khi trời mát, lúc nắng xiên ấm lên những bức tường gạch.",
+          "href": "/diem-den/thanh-dia-my-son"
+        },
+        {
+          "img": "@quangnam|phù điêu vũ nữ Chăm Pa bằng sa thạch chạm khắc tinh xảo",
+          "alt": "Phù điêu vũ nữ Chăm Pa bằng sa thạch chạm khắc tinh xảo",
+          "title": "Trà Kiệu, kinh đô xưa",
+          "tag": "Lịch sử",
+          "text": "Nơi các nhà nghiên cứu xác định là kinh đô Simhapura (Sư Tử Thành) của Chăm Pa thời kỳ đầu. Trên mặt đất còn rất ít dấu tích; nhiều hiện vật đang ở Bảo tàng Điêu khắc Chăm Đà Nẵng.",
+          "href": "/tin-tuc/my-son-va-duy-xuyen"
+        },
+        {
+          "img": "silk",
+          "alt": "Tấm lụa dệt thủ công với sợi tơ óng mềm",
+          "title": "Làng lụa Mã Châu",
+          "tag": "Làng nghề",
+          "text": "Nghề trồng dâu, nuôi tằm, dệt lụa có gốc rễ khoảng năm thế kỷ. Khung cửi không còn đông như xưa, nhưng vẫn có xưởng dệt để bạn xem sợi tơ thành tấm lụa.",
+          "href": "/tin-tuc/lang-lua-ma-chau"
+        },
+        {
+          "img": "@craftvn|những chiếc chiếu cói nhuộm nhiều màu phơi nắng bên đường làng",
+          "alt": "Những chiếc chiếu cói nhiều màu phơi nắng bên đường làng",
+          "title": "Làng chiếu Bàn Thạch",
+          "tag": "Làng nghề",
+          "text": "Đồng lác ven sông, sợi lác nhuộm đỏ, xanh, tím phơi kín sân, mỗi khung dệt cần hai người phối hợp. Gần đó có vài lò gạch cũ giữa đồng; nhiều chỗ là đất tư, hãy hỏi trước khi vào chụp ảnh."
+        },
+        {
+          "img": "@lotus|cánh đồng sen hồng nở rộ dưới nắng sớm ở vùng quê",
+          "alt": "Cánh đồng sen hồng nở rộ dưới nắng sớm",
+          "title": "Đầm sen Trà Lý",
+          "tag": "Theo mùa",
+          "text": "Cánh đồng sen ở vùng quê Duy Sơn, cách phố cổ Hội An khoảng 30 km. Sen nở khoảng tháng 5 đến tháng 8, đẹp nhất tầm 6–9 giờ sáng khi sương còn đọng trên lá."
+        },
+        {
+          "img": "thubon-sunset",
+          "alt": "Hoàng hôn buông xuống mặt sông Thu Bồn",
+          "title": "Bờ sông Thu Bồn",
+          "tag": "Sông nước",
+          "text": "Dòng sông mẹ của xứ Quảng, dịu dàng nhất lúc chiều buông trên bãi bồi. Tháng Hai âm lịch có lễ hội Bà Thu Bồn với lễ rước nước và đua ghe trên sông.",
+          "href": "/tin-tuc/song-thu-bon"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "di-xa-hon",
+      "eyebrow": "Đi xa hơn một chút",
+      "title": "Xuôi sông *về phía biển*",
+      "lead": "Theo dòng Thu Bồn về hướng Cửa Đại là phố cổ, rừng dừa nước và lối ra đảo.",
+      "items": [
+        {
+          "img": "lm-hoian-riverside",
+          "alt": "Dãy nhà cổ Hội An soi bóng bên bờ sông Thu Bồn",
+          "title": "Phố cổ Hội An",
+          "tag": "Di sản UNESCO",
+          "text": "Thương cảng xưa với nhà gỗ, tường vàng và đèn lồng, nơi Nhà An Hội An sắp mở cửa. Xem gợi ý dạo phố cổ.",
+          "href": "/chi-nhanh/hoi-an/quanh-day"
+        },
+        {
+          "img": "@hoian|thuyền thúng giữa rừng dừa nước Cẩm Thanh dưới nắng chiều",
+          "alt": "Thuyền thúng giữa rừng dừa nước Cẩm Thanh",
+          "title": "Rừng dừa Bảy Mẫu",
+          "tag": "Sông nước",
+          "text": "Rừng dừa nước ở vùng nước lợ gần cửa biển. Ngồi thuyền thúng len giữa những tàu dừa, nhớ mặc áo phao.",
+          "href": "/diem-den/rung-dua-bay-mau"
+        },
+        {
+          "img": "@quangnam|canô cập bến đảo Cù Lao Chàm giữa làn nước biển xanh trong",
+          "alt": "Canô cập bến đảo Cù Lao Chàm giữa làn nước biển xanh trong",
+          "title": "Cù Lao Chàm",
+          "tag": "Biển đảo",
+          "text": "Cụm đảo cách Cửa Đại khoảng 15 km, đi canô từ bến Cửa Đại. Chuyến đi phụ thuộc thời tiết, hãy hỏi lịch tàu trước.",
+          "href": "/diem-den/cu-lao-cham"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "nua-ngay",
+      "eyebrow": "Lịch trình gợi ý",
+      "title": "Nửa ngày *theo dòng Thu Bồn*",
+      "lead": "Tính từ trung tâm Duy Xuyên, thời gian di chuyển chỉ là ước tính. Thích đi chiều? Ghé làng nghề trước, ra bờ sông đón hoàng hôn sau.",
+      "items": [
+        { "label": "05:30", "title": "Trà nóng trước bình minh", "text": "Khi khai trương, Nhà An Duy Xuyên mở cửa 24/7. Một ấm trà gừng vườn hoặc ô long nóng, thêm chiếc bánh vừa ra lò cho chuyến đi." },
+        { "label": "06:00", "title": "Lên đường về phía tây", "text": "Đi qua Trà Kiệu và những cánh đồng còn đẫm sương. Trời còn tối thì bật đèn và đi chậm." },
+        { "label": "06:45", "title": "Mỹ Sơn buổi sớm", "text": "Vào khi khu di tích vừa mở cửa (nên kiểm tra giờ mới nhất), đi xe điện vào gần các cụm tháp rồi dạo bộ khoảng hai tiếng." },
+        { "label": "09:30", "title": "Ghé Trà Kiệu", "text": "Dừng chân ở vùng đất từng là kinh đô Chăm Pa thời kỳ đầu, nghe kể chuyện Sư Tử Thành." },
+        { "label": "10:30", "title": "Khung cửi Mã Châu", "text": "Xem người thợ dệt, hỏi chuyện nghề và chọn một chiếc khăn lụa nhỏ làm quà." },
+        { "label": "11:30", "title": "Cơm chay quê bên vườn", "text": "Về Nhà An dùng cơm chay quê, canh rau vườn, chén chè bắp, rồi nghỉ trưa ở Góc Ấm." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "theo-mua",
+      "eyebrow": "Lịch hội & mùa đẹp",
+      "title": "Ghé Duy Xuyên *đúng mùa*",
+      "lead": "Lễ hội làng tính theo âm lịch, nên mỗi năm rơi vào một ngày dương lịch khác.",
+      "items": [
+        { "icon": "calendar", "title": "Tháng Giêng âm lịch", "text": "Lễ hội Bà Chiêm Sơn (10–12 tháng Giêng) ở làng Chiêm Sơn: rước sắc, hát bài chòi, múa lân, chợ quê. Di sản văn hóa phi vật thể quốc gia từ năm 2025." },
+        { "icon": "users", "title": "Tháng Hai âm lịch", "text": "Lễ hội Bà Thu Bồn (10–12 tháng Hai): rước nước, đua ghe, thả hoa đăng, hát bội, bài chòi. Cũng là di sản văn hóa phi vật thể quốc gia." },
+        { "icon": "sun", "title": "Tháng 2 đến tháng 8", "text": "Mùa khô, trời trong, hợp đi Mỹ Sơn và làng nghề. Những ngày hè nắng gắt, nên đi sáng sớm hoặc chiều muộn." },
+        { "icon": "flower", "title": "Tháng 5 đến tháng 8", "text": "Mùa sen Trà Lý. Ngắm sen cùng nắng mai; không hái hoa, không lội xuống ruộng của người dân." },
+        { "icon": "droplet", "title": "Tháng 9 đến tháng 12", "text": "Mùa mưa miền Trung, lũ thường lên cao khoảng tháng 10–11. Xem dự báo thời tiết và tình hình nước sông trước khi đi." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo",
+      "eyebrow": "Mẹo nhỏ",
+      "title": "Đi chậm, *đi tử tế*",
+      "cols": [
+        {
+          "title": "Đi lại",
+          "icon": "bike",
+          "items": [
+            "Xe máy, ô tô là tiện nhất; đường làng nhỏ, có đoạn sát sông, hãy đi chậm.",
+            "Từ Hội An có thể thuê xe hoặc đặt xe, thống nhất lộ trình trước.",
+            "Mang áo mưa mỏng vì trời miền Trung đổi nhanh.",
+            "Khi có địa chỉ chính thức, Nhà An sẽ chỉ đường qua Zalo."
+          ]
+        },
+        {
+          "title": "Giờ đẹp",
+          "icon": "sun",
+          "items": [
+            "Mỹ Sơn: sáng sớm, trời mát, ít khách.",
+            "Sen Trà Lý: khoảng 6–9 giờ sáng.",
+            "Sông Thu Bồn: chiều muộn, lúc hoàng hôn.",
+            "Ngày hè, tránh đi bộ ngoài trời khoảng 11–14 giờ."
+          ]
+        },
+        {
+          "title": "Ứng xử",
+          "icon": "heart",
+          "items": [
+            "Không leo trèo, ngồi hay viết vẽ lên tháp và hiện vật.",
+            "Hỏi ý người thợ trước khi chụp ảnh trong xưởng dệt.",
+            "Mua một món nhỏ để ủng hộ làng nghề.",
+            "Mang rác về, hạn chế đồ nhựa dùng một lần."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về Duy Xuyên*",
+      "items": [
+        { "q": "Nhà An Duy Xuyên nằm ở đâu?", "a": "Một nhà vườn bên sông Thu Bồn, trên đường từ Hội An lên Mỹ Sơn, gần làng lụa Mã Châu. Số nhà và ngày khai trương sẽ được công bố trên website và Zalo 0865 920 041." },
+        { "q": "Từ Hội An đi Mỹ Sơn mất bao lâu?", "a": "Mỹ Sơn cách phố cổ Hội An khoảng 40 km, đi xe chừng một tiếng tùy đường và phương tiện. Tuyến này đi ngang Duy Xuyên, tiện ghé Trà Kiệu, Mã Châu hoặc nghỉ chân ở Nhà An." },
+        { "q": "Đi Duy Xuyên mùa nào đẹp?", "a": "Khoảng tháng 2 đến tháng 8 trời khô ráo; tháng 5 đến tháng 8 có thêm mùa sen Trà Lý. Tháng 9 đến tháng 12 là mùa mưa, lũ hay lên vào tháng 10–11, nên xem dự báo trước khi đi." },
+        { "q": "Có chỗ nghỉ chân và làm việc không?", "a": "Có. Khi khai trương, Nhà An Duy Xuyên mở cửa 24/7 với đủ 4 khu như mọi chi nhánh: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline và Sân Rôm Rả, có wifi tốc độ cao và ổ cắm ở mọi chỗ ngồi." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn ở *nhà vườn bên sông*",
+      "text": "Nhà An Duy Xuyên đang hoàn thiện và sắp khai trương. Đặt bàn trước cho nhóm của bạn, Nhà An sẽ gọi lại xác nhận.",
+      "ctas": [
+        { "label": "Xem Nhà An Duy Xuyên", "href": "/chi-nhanh/duy-xuyen", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/chi-nhanh/duy-xuyen", "/diem-den/thanh-dia-my-son", "/tin-tuc/my-son-va-duy-xuyen", "/tin-tuc/lang-lua-ma-chau", "/tin-tuc/song-thu-bon", "/diem-den"]
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "tuyen-dung/lo-trinh",
+  "group": "careers",
+  "nav": "Lộ trình phát triển",
+  "navDesc": "Nhân viên, trưởng ca, quản lý cửa hàng",
+  "icon": "star",
+  "title": "Lộ trình phát triển: nhân viên, trưởng ca, quản lý cửa hàng",
+  "description": "Lộ trình thăng tiến ở Tiệm Nhà An: từ nhân viên lên trưởng ca, quản lý cửa hàng, kèm tiêu chí từng bậc và cách Nhà An đồng hành. Ứng tuyển ngay.",
+  "image": "@cafe|trưởng ca đứng cạnh hướng dẫn nhân viên mới thao tác tại quầy pha chế",
+  "hero": {
+    "eyebrow": "Tuyển dụng",
+    "title": "Từ ly trà đầu tiên *đến quản lý cửa hàng*",
+    "lead": "Ai cũng bắt đầu từ những việc nhỏ ở quầy, ở bếp. Khi tay nghề đã vững và bạn sẵn sàng nhận thêm trách nhiệm, con đường lên trưởng ca rồi quản lý cửa hàng ở Nhà An đã được vạch sẵn.",
+    "img": "@cafe|trưởng ca đứng cạnh hướng dẫn nhân viên mới thao tác tại quầy pha chế",
+    "alt": "Trưởng ca đứng cạnh hướng dẫn nhân viên mới thao tác tại quầy pha chế",
+    "ctas": [
+      { "label": "Xem ba bậc phát triển", "href": "#ba-bac", "style": "primary" },
+      { "label": "Ứng tuyển ngay", "href": "#ung-tuyen", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "nguyen-tac",
+      "eyebrow": "Nguyên tắc",
+      "title": "Lên bậc bằng năng lực, *không chỉ bằng thâm niên*",
+      "paras": [
+        "Lộ trình phát triển ở Nhà An gồm ba bậc: nhân viên, trưởng ca và quản lý cửa hàng. Không có mốc thời gian cố định: bạn được xem xét lên bậc khi đáp ứng tiêu chí và chi nhánh có nhu cầu.",
+        "Cả 5 chi nhánh đều mở cửa 24/7, nên ca sáng, chiều hay đêm đều cần người dẫn dắt. Đó là cơ hội cho những ai bắt đầu cùng Nhà An từ ngày đầu."
+      ],
+      "bullets": [
+        "Tiêu chí rõ ràng cho từng bậc",
+        "Có người kèm cặp ở mỗi bước",
+        "Bắt đầu được từ bán thời gian hoặc chính thức"
+      ],
+      "img": "@origin|lối đi nhỏ uốn quanh những luống chè xanh trên đồi",
+      "alt": "Lối đi nhỏ uốn quanh những luống chè xanh trên đồi"
+    },
+    {
+      "type": "timeline",
+      "id": "ba-bac",
+      "eyebrow": "Ba bậc",
+      "title": "Con đường *ba bậc* ở Nhà An",
+      "lead": "Mỗi bậc thêm một phần trách nhiệm, và thêm nhiều điều để học.",
+      "items": [
+        {
+          "label": "Khởi đầu",
+          "title": "Học việc có người kèm",
+          "text": "Làm quen quy trình, an toàn thực phẩm và cách đón khách kiểu Nhà An, luôn có người hướng dẫn bên cạnh. Bạn nhận lương từ ngày đầu.",
+          "img": "@leaf|cận cảnh búp trà non một tôm hai lá trên cành",
+          "alt": "Cận cảnh búp trà non một tôm hai lá trên cành"
+        },
+        {
+          "label": "Bậc 1",
+          "title": "Nhân viên vững nghề",
+          "text": "Làm chủ công việc của mình: đúng công thức, đúng quy trình, khu vực luôn gọn sạch và tự tin trò chuyện với khách.",
+          "img": "oolong-hero",
+          "alt": "Chén trà thủy tinh màu hổ phách bên những bông hoa vàng"
+        },
+        {
+          "label": "Bậc 2",
+          "title": "Trưởng ca",
+          "text": "Dẫn dắt một ca: nhận và bàn giao ca, phân việc, giữ nhịp giờ đông khách, xử lý tình huống, kiểm đếm cuối ca và kèm bạn mới.",
+          "img": "@meet|nhóm nhân viên đứng quanh bàn gỗ họp ngắn trước giờ vào ca",
+          "alt": "Nhóm nhân viên đứng quanh bàn gỗ họp ngắn trước giờ vào ca"
+        },
+        {
+          "label": "Bậc 3",
+          "title": "Quản lý cửa hàng",
+          "text": "Chịu trách nhiệm cả chi nhánh: lịch ca, chất lượng đồ uống và món chay, nguyên liệu, đào tạo đội ngũ và phối hợp với các chi nhánh khác.",
+          "img": "meet-team",
+          "alt": "Trao đổi kế hoạch làm việc bên máy tính xách tay và sổ tay"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "tieu-chi",
+      "eyebrow": "Tiêu chí chung",
+      "title": "Cần gì để *lên bậc tiếp theo?*",
+      "lead": "Áp dụng cho mọi vị trí; từng chi nhánh có thể bổ sung theo thực tế vận hành.",
+      "head": ["Tiêu chí", "Nhân viên", "Trưởng ca", "Quản lý cửa hàng"],
+      "rows": [
+        ["Tay nghề", "Làm đúng công thức, quy trình của vị trí", "Thạo việc của mình, hiểu việc các vị trí khác trong ca", "Nắm vận hành quầy, bếp và khu phục vụ"],
+        ["An toàn thực phẩm", "Tuân thủ quy tắc vệ sinh mỗi ngày", "Nhắc cả ca cùng tuân thủ", "Xây dựng, giám sát quy trình cả chi nhánh"],
+        ["Khách hàng", "Niềm nở, gợi ý món hợp vị", "Bình tĩnh xử lý góp ý, tình huống khó", "Theo dõi góp ý, cải thiện trải nghiệm của khách"],
+        ["Đội ngũ", "Đúng giờ, sẵn lòng hỗ trợ đồng đội", "Phân việc hợp lý, bàn giao ca đầy đủ, kèm bạn mới", "Lập lịch ca, tuyển chọn, đào tạo và đánh giá đội ngũ"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "dong-hanh",
+      "eyebrow": "Đồng hành",
+      "title": "Nhà An đi cùng bạn *ở từng bước*",
+      "lead": "Người kèm cặp có ngay từ ngày đầu; các mục ghi dự kiến đang được chuẩn bị cho ngày khai trương.",
+      "items": [
+        { "icon": "users", "title": "Người kèm cặp", "text": "Người đi trước hướng dẫn tại quầy, tại bếp, từ bước cơ bản nhất đến khi bạn tự tin làm một mình." },
+        { "icon": "chat", "title": "Trò chuyện định kỳ", "text": "Gặp riêng trưởng ca hoặc quản lý để nhìn lại chặng đã qua, đặt mục tiêu mới (dự kiến)." },
+        { "icon": "briefcase", "title": "Chuẩn bị dẫn ca", "text": "Hướng dẫn riêng về phân việc, bàn giao ca, xử lý tình huống trước khi bạn dẫn ca lần đầu (dự kiến)." },
+        { "icon": "map", "title": "Cơ hội ở chi nhánh khác", "text": "Ưu tiên người trong đội khi chi nhánh cần trưởng ca, quản lý, kể cả ở thành phố khác (dự kiến)." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "chuan-bi",
+      "eyebrow": "Mẹo nhỏ",
+      "title": "Chuẩn bị gì *cho bậc tiếp theo?*",
+      "lead": "Thói quen nhỏ giúp bạn tiến bộ đều, dù đang ở bậc nào.",
+      "cols": [
+        {
+          "title": "Tháng đầu tiên",
+          "icon": "sprout",
+          "items": [
+            "Ghi chú quy trình vào sổ tay riêng",
+            "Chưa chắc thì hỏi ngay, đừng đoán",
+            "Đến đúng giờ, bàn giao ca đầy đủ"
+          ]
+        },
+        {
+          "title": "Khi đã vững việc",
+          "icon": "leaf",
+          "items": [
+            "Nhận kèm một bạn mới vào ca",
+            "Học thêm một vị trí khác trong ca",
+            "Để ý những chỗ khiến khách phải chờ lâu"
+          ]
+        },
+        {
+          "title": "Khi muốn dẫn ca",
+          "icon": "star",
+          "items": [
+            "Nói rõ mong muốn với quản lý chi nhánh",
+            "Tập giữ bình tĩnh trong giờ đông khách",
+            "Đề xuất một cải tiến nhỏ cho ca làm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "vi-tri",
+      "eyebrow": "Điểm xuất phát",
+      "title": "Bắt đầu từ *vị trí nào?*",
+      "lead": "Vị trí nào cũng dẫn tới cùng một lộ trình.",
+      "items": [
+        {
+          "img": "@brew|barista rót nước nóng từ ấm cổ ngỗng vào ấm trà trên quầy",
+          "alt": "Barista rót nước nóng từ ấm cổ ngỗng vào ấm trà trên quầy",
+          "title": "Barista / Pha chế",
+          "tag": "Bán thời gian & chính thức",
+          "text": "Pha ô long, trà sữa nhà làm, cà phê phin theo công thức, tư vấn khách chọn mức đường.",
+          "href": "/tuyen-dung/barista"
+        },
+        {
+          "img": "cafe-garden",
+          "alt": "Quán nhiều cây xanh với đèn mây treo và bàn ghế gỗ đón khách",
+          "title": "Phục vụ & thu ngân",
+          "tag": "Bán thời gian",
+          "text": "Đón khách, giới thiệu không gian, ghi nhận đặt bàn và thu ngân.",
+          "href": "/tuyen-dung/phuc-vu-thu-ngan"
+        },
+        {
+          "img": "croissant",
+          "alt": "Hai chiếc croissant rắc đường bột trên khay đá đen",
+          "title": "Thợ bánh",
+          "tag": "Chính thức",
+          "text": "Chuẩn bị bột, nướng bánh Âu và bánh chay từ 5 giờ sáng.",
+          "href": "/tuyen-dung/tho-banh"
+        },
+        {
+          "img": "@market|rổ rau củ tươi vừa rửa sạch đặt cạnh thớt gỗ trong bếp",
+          "alt": "Rổ rau củ tươi vừa rửa sạch đặt cạnh thớt gỗ trong bếp",
+          "title": "Phụ bếp chay",
+          "tag": "Chính thức",
+          "text": "Sơ chế rau củ, nấu nước dùng từ củ quả, chuẩn bị món chay theo ca.",
+          "href": "/tuyen-dung/phu-bep-chay"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về lộ trình*",
+      "items": [
+        { "q": "Mất bao lâu để lên trưởng ca?", "a": "Không có mốc cố định; tùy việc bạn đáp ứng tiêu chí từng bậc và nhu cầu của chi nhánh. Điều quan trọng là đi vững." },
+        { "q": "Làm bán thời gian có lên trưởng ca được không?", "a": "Trưởng ca và quản lý cửa hàng cần gắn bó toàn thời gian. Bạn có thể đề xuất chuyển sang chính thức khi chi nhánh có vị trí phù hợp, rồi đi tiếp lộ trình." },
+        { "q": "Đã làm quản lý ở nơi khác, có ứng tuyển thẳng vị trí cao hơn không?", "a": "Hiện Nhà An tuyển các vị trí nhân viên. Nếu đã từng dẫn ca hay quản lý, bạn hãy ghi rõ trong hồ sơ để hai bên trao đổi khi phỏng vấn." },
+        { "q": "Lên bậc thì thu nhập có thay đổi không?", "a": "Mỗi bậc đi kèm trách nhiệm lớn hơn; thu nhập và quyền lợi của vai trò mới được trao đổi rõ khi bạn được đề xuất lên bậc." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Quyền lợi đi cùng *từng bước*",
+      "text": "Lương công khai, BHXH và BHYT cho nhân viên chính thức, đào tạo từ đầu. Xem đầy đủ quyền lợi trước khi gửi hồ sơ.",
+      "ctas": [
+        { "label": "Xem quyền lợi", "href": "/tuyen-dung/quyen-loi", "style": "primary" },
+        { "label": "Tất cả vị trí", "href": "/tuyen-dung", "style": "ghost" }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "ung-tuyen",
+      "kind": "apply",
+      "eyebrow": "Ứng tuyển",
+      "title": "Bắt đầu lộ trình cùng Nhà An",
+      "lead": "Chọn vị trí và chi nhánh, để lại số điện thoại hoặc Zalo. Nhà An sẽ gọi lại hẹn phỏng vấn trong 3 ngày làm việc."
+    }
+  ],
+  "related": ["/tuyen-dung", "/tuyen-dung/quyen-loi", "/tuyen-dung/dao-tao", "/tuyen-dung/van-hoa", "/tuyen-dung/quy-trinh", "/tin-tuc/tuyen-dung-nhan-vien-5-chi-nhanh"]
+}

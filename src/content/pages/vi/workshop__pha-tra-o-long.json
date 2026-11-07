@@ -1,0 +1,185 @@
+{
+  "slug": "workshop/pha-tra-o-long",
+  "group": "community",
+  "nav": "Workshop pha trà ô long",
+  "navDesc": "Pha ấm nhỏ, đánh thức trà, nhiều lần hãm",
+  "icon": "cup",
+  "title": "Workshop pha trà ô long: ấm nhỏ, đánh thức trà, hãm nhiều lần",
+  "description": "Workshop pha trà ô long ở Tiệm Nhà An: tráng ấm, đánh thức trà, canh giờ từng lần hãm với ô long rang củi Bảo Lộc. Lớp nhỏ, đăng ký giữ chỗ trước.",
+  "image": "@club|nhóm nhỏ ngồi quanh bàn gỗ học pha trà bằng ấm gốm",
+  "hero": {
+    "eyebrow": "Workshop",
+    "title": "Pha ô long bằng ấm nhỏ, *nếm từng nước trà*",
+    "lead": "Một buổi thứ Bảy, một chiếc ấm gốm nhỏ và ô long rang củi Bảo Lộc. Bạn sẽ học tráng ấm, đánh thức trà, canh từng giây cho mỗi lần hãm và mang công thức của riêng mình về nhà.",
+    "img": "@club|nhóm nhỏ ngồi quanh bàn gỗ học pha trà bằng ấm gốm",
+    "alt": "Nhóm nhỏ ngồi quanh bàn gỗ học pha trà bằng ấm gốm",
+    "ctas": [
+      { "label": "Đăng ký giữ chỗ", "href": "#dang-ky", "style": "primary" },
+      { "label": "Các workshop khác", "href": "/workshop", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Về buổi học",
+      "title": "Một ấm nhỏ, *nhiều lần hãm*",
+      "paras": [
+        "Ô long là loại trà càng pha càng thú vị: cùng một nắm trà, mỗi lần hãm lại mở ra một tầng hương khác. Buổi workshop hướng dẫn bạn pha theo kiểu ấm nhỏ, từ tráng ấm, đánh thức trà đến canh giây cho từng nước, để nước nào cũng có nét riêng mà không đắng chát.",
+        "Trà dùng trong lớp là ô long một tôm hai lá Bảo Lộc, rang củi nhãn theo mẻ nhỏ, cũng là dòng trà chủ lực ở quầy Nhà An. Lớp ít người, nhịp chậm, ai cũng được tự tay pha, nếm và hỏi đến khi hiểu."
+      ],
+      "bullets": [
+        "Dành cho cả người chưa từng cầm ấm",
+        "Ấm chén và trà chuẩn bị sẵn",
+        "Lớp nhỏ, đăng ký trước để giữ chỗ"
+      ],
+      "img": "oolong-set",
+      "alt": "Ấm đất nhỏ và cốc trà màu hổ phách trên khay trà tre",
+      "cta": { "label": "Tìm hiểu ô long rang củi", "href": "/tra-viet/o-long-rang-cui" }
+    },
+    {
+      "type": "checklist",
+      "id": "noi-dung",
+      "eyebrow": "Nội dung",
+      "title": "Học gì, mang về gì, *dành cho ai?*",
+      "cols": [
+        {
+          "title": "Bạn sẽ học",
+          "icon": "book",
+          "items": [
+            "Ô long là gì, khác trà xanh và trà đen ở mức oxy hóa",
+            "Phân biệt ô long rang củi và ô long thanh hương",
+            "Chọn ấm, chén tống, chén quân và tráng ấm đúng cách",
+            "Định lượng trà theo dung tích ấm, chọn nhiệt độ nước",
+            "Đánh thức trà, rót kiệt và canh giờ từng lần hãm",
+            "Ngửi, nếm và ghi lại hương vị đổi thay qua mỗi nước"
+          ]
+        },
+        {
+          "title": "Mang về",
+          "icon": "gift",
+          "items": [
+            "Phiếu công thức pha ô long cho ấm nhỏ, cốc và bình lớn",
+            "Trang ghi chép nếm trà của riêng bạn",
+            "Gợi ý chọn trà và bộ ấm chén để bắt đầu ở nhà",
+            "Sự tự tin pha một ấm trà mời gia đình, bạn bè"
+          ]
+        },
+        {
+          "title": "Phù hợp với",
+          "icon": "users",
+          "items": [
+            "Người mới bắt đầu uống trà",
+            "Người thích ô long muốn pha đều tay hơn",
+            "Nhóm bạn, cặp đôi tìm một hoạt động cuối tuần chậm rãi",
+            "Dân văn phòng muốn tự pha trà cho buổi làm việc"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "buoi-hoc",
+      "eyebrow": "Lịch trình",
+      "title": "Một buổi học *diễn ra thế nào?*",
+      "lead": "Khung buổi học dự kiến; nhịp cụ thể có thể điều chỉnh theo từng lớp.",
+      "items": [
+        { "title": "Chén trà chào khách", "text": "Ngồi vào bàn, nhận chén ô long nóng đầu tiên và làm quen với cả lớp." },
+        { "title": "Làm quen với ô long", "text": "Xem, ngửi trà khô và nghe hành trình từ búp một tôm hai lá Bảo Lộc đến bếp lửa củi nhãn." },
+        { "title": "Tráng ấm, cân trà", "text": "Làm nóng ấm chén, cân trà theo dung tích ấm và ngửi hương trà khô khi gặp hơi ấm." },
+        { "title": "Đánh thức trà, hãm nước đầu", "text": "Rót nước nóng ngập lá rồi chắt ra sau khoảng 5 giây, sau đó hãm nước đầu và rót kiệt sang chén tống." },
+        { "title": "Hãm nhiều nước, so sánh", "text": "Tăng dần thời gian hãm, nếm từng nước và ghi lại hương, vị, màu nước thay đổi ra sao." },
+        { "title": "Tự pha và mời trà", "text": "Mỗi người tự pha một ấm từ đầu, mời bạn cùng bàn rồi nhận phiếu công thức mang về." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "thong-so",
+      "eyebrow": "Mang về nhà",
+      "title": "Thông số pha ô long *tham khảo*",
+      "lead": "Điểm khởi đầu để bạn luyện tập; hãy điều chỉnh theo loại trà, chiếc ấm và khẩu vị của mình.",
+      "head": ["Cách pha", "Lượng trà", "Nhiệt độ nước", "Thời gian hãm"],
+      "rows": [
+        ["Ấm nhỏ, ô long rang củi", "5–6 g cho 100 ml", "90–95°C", "Đánh thức 5 giây; nước đầu khoảng 30 giây, mỗi nước sau thêm 10–15 giây"],
+        ["Ấm nhỏ, ô long thanh hương", "Khoảng 5 g cho 100 ml", "85–90°C", "Đánh thức 5 giây; nước đầu 30–40 giây, mỗi nước sau thêm 10–15 giây"],
+        ["Cốc hoặc bình lọc", "Khoảng 3 g cho 250 ml", "85–95°C tùy loại", "2–3 phút với thanh hương, 3–4 phút với rang củi"],
+        ["Bình lớn kiểu văn phòng", "8–10 g cho 1 lít", "90–95°C", "3–5 phút rồi nhấc lõi lọc ra"],
+        ["Ủ lạnh", "Khoảng 10 g cho 1 lít", "Nước lọc nguội, để ngăn mát", "6–8 tiếng, lọc bỏ lá, dùng trong 1–2 ngày"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thong-tin",
+      "eyebrow": "Thông tin dự kiến",
+      "title": "Trước khi *đăng ký*",
+      "lead": "Các thông tin dưới đây là dự kiến và sẽ được xác nhận khi Nhà An công bố lịch lớp.",
+      "items": [
+        { "icon": "clock", "title": "Khoảng 90 phút", "text": "Đủ thời gian pha nhiều nước, nếm, ghi chép và tự tay pha lại từ đầu." },
+        { "icon": "users", "title": "Lớp nhỏ 6–8 người", "text": "Ít người để ai cũng được hướng dẫn tận tay và hỏi thoải mái." },
+        { "icon": "cup", "title": "Dụng cụ có sẵn", "text": "Ấm gốm, chén tống, chén quân, cân, nhiệt kế và trà đã chuẩn bị; bạn chỉ cần đến." },
+        { "icon": "calendar", "title": "Vào thứ Bảy", "text": "Workshop pha trà và làm bánh diễn ra vào thứ Bảy; ngày giờ từng lớp công bố sau khai trương." },
+        { "icon": "globe", "title": "Hướng dẫn bằng tiếng Việt", "text": "Nếu nhóm bạn cần hỗ trợ tiếng Anh, hãy ghi chú khi đăng ký để Nhà An sắp xếp khi có thể." },
+        { "icon": "pin", "title": "Tại chi nhánh Nhà An", "text": "Chi nhánh tổ chức từng lớp sẽ ghi rõ trong lịch; nhóm riêng có thể hẹn buổi theo yêu cầu." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Trong lớp",
+      "title": "Những khoảnh khắc *bên ấm trà*",
+      "items": [
+        { "img": "@brew|tráng ấm gốm và chén quân bằng nước sôi trên khay trà", "caption": "Tráng ấm và chén bằng nước sôi để dụng cụ nóng đều trước khi pha." },
+        { "img": "@leaf|trà ô long vo viên khô trên đĩa sứ trắng", "caption": "Ngắm và ngửi những viên ô long khô trước khi cho vào ấm." },
+        { "img": "@brew|đồng hồ cát nhỏ đặt cạnh ấm trà đang hãm", "caption": "Đồng hồ cát nhỏ giúp canh thời gian từng lần hãm." },
+        { "img": "@brew|rót trà từ chén tống ra những chén quân nhỏ", "caption": "Rót từ chén tống ra từng chén quân để chén nào cũng đều vị." },
+        { "img": "@leaf|lá ô long nở bung thành búp trà sau nhiều lần hãm", "caption": "Sau vài nước, viên trà nở bung thành búp một tôm hai lá." },
+        { "img": "@club|người học ghi chép hương vị trà vào sổ tay bên chén trà", "caption": "Ghi lại hương, vị và màu nước của từng lần hãm." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về workshop*",
+      "items": [
+        {
+          "q": "Chưa từng pha trà có theo kịp không?",
+          "a": "Theo kịp. Lớp được thiết kế cho người mới, bắt đầu từ cách cầm ấm, rót nước và đếm giây. Nếu đã quen pha, bạn có thể đi sâu hơn vào phần nếm và so sánh các nước."
+        },
+        {
+          "q": "Có cần mang dụng cụ hay trà không?",
+          "a": "Không cần. Nhà An chuẩn bị ấm chén, trà và nước nóng; bạn có thể mang theo sổ tay nếu thích ghi chép theo cách riêng."
+        },
+        {
+          "q": "Về nhà không có ấm nhỏ thì pha thế nào?",
+          "a": "Buổi học có phần pha bằng cốc, bình lọc và bình lớn kiểu văn phòng, kèm thông số tham khảo để bạn tự điều chỉnh với dụng cụ sẵn có."
+        },
+        {
+          "q": "Nếm nhiều chén trà có ảnh hưởng giấc ngủ không?",
+          "a": "Ô long có caffeine. Mỗi lượt nếm chỉ là một chén nhỏ, bạn có thể nhấp một ngụm rồi uống nước lọc xen kẽ. Nếu nhạy cảm với caffeine hoặc đang mang thai, hãy báo trước khi vào lớp và hỏi ý kiến bác sĩ khi cần."
+        },
+        {
+          "q": "Lịch lớp và học phí thế nào?",
+          "a": "Lịch lớp và học phí sẽ công bố sau khai trương trên website và Zalo. Thành viên Nhà An Club dự kiến được ưu tiên đăng ký; số chỗ mỗi lớp có hạn."
+        },
+        {
+          "q": "Có tổ chức buổi riêng cho nhóm bạn hay công ty không?",
+          "a": "Nhà An dự kiến nhận workshop riêng cho nhóm bạn, lớp học và doanh nghiệp. Hãy nhắn Zalo 0865 920 041 hoặc email contact@tiemnhaan.com để trao đổi."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Lịch chi tiết công bố sau khai trương. Số chỗ mỗi lớp có hạn, bạn nên đăng ký sớm để được báo lịch đầu tiên."
+    },
+    {
+      "type": "form",
+      "id": "dang-ky",
+      "kind": "reserve",
+      "eyebrow": "Đăng ký",
+      "title": "Giữ chỗ workshop pha trà ô long",
+      "lead": "Chọn chi nhánh và ngày bạn tiện, ghi chú số người đi cùng. Khi lịch lớp được công bố, Nhà An sẽ liên hệ để xác nhận chỗ cho bạn.",
+      "preset": "Workshop: Pha trà ô long"
+    }
+  ],
+  "related": ["/workshop", "/workshop/matcha", "/tra-viet/o-long-rang-cui", "/tra-viet/tu-dien/o-long-thanh-huong", "/tra-viet/pha-tra", "/tin-tuc/pha-o-long-tai-nha"]
+}

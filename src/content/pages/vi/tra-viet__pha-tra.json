@@ -1,0 +1,231 @@
+{
+  "slug": "tra-viet/pha-tra",
+  "group": "tea",
+  "nav": "Pha trà tại nhà",
+  "navDesc": "Tỉ lệ, nhiệt độ, thời gian hãm",
+  "icon": "droplet",
+  "title": "Pha trà tại nhà: tỉ lệ, nhiệt độ và thời gian hãm",
+  "description": "Pha trà ngon tại nhà với công cụ của Nhà An: chọn loại trà để biết lượng trà, nhiệt độ nước, thời gian từng lần hãm, kèm các bước và lỗi thường gặp.",
+  "image": "oolong-set",
+  "hero": {
+    "eyebrow": "Trà Việt",
+    "title": "Pha trà ngon tại nhà, *bắt đầu từ ba con số*",
+    "lead": "Lượng trà, nhiệt độ nước và thời gian hãm quyết định phần lớn hương vị trong chén. Chọn loại trà bạn đang có, công cụ của Nhà An gợi ý thông số cho từng lần hãm.",
+    "img": "@brew|ấm trà nhỏ rót nước trà vàng óng ra chén",
+    "alt": "Ấm trà nhỏ rót nước trà vàng óng ra chén",
+    "ctas": [
+      { "label": "Mở công cụ pha trà", "href": "#cong-cu", "style": "primary" },
+      { "label": "Xem các bước pha", "href": "#cac-buoc", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "ba-con-so",
+      "eyebrow": "Nguyên tắc",
+      "title": "Hiểu ba con số, *pha trà nào cũng dễ*",
+      "paras": [
+        "Pha trà không cần bí quyết cao siêu, chỉ cần ba con số đi cùng nhau. Nhiều trà thì hãm ngắn, ít trà thì hãm lâu hơn; trà xanh búp non ưa nước ấm vừa, ô long rang chịu được nước gần sôi.",
+        "Yếu tố thầm lặng còn lại là nước: nước lọc trong, không mùi giúp hương trà hiện rõ nhất."
+      ],
+      "bullets": [
+        "Lượng trà: số gam trà cho mỗi 100 ml nước",
+        "Nhiệt độ: khoảng 80°C cho trà xanh, 95°C cho ô long rang",
+        "Thời gian: tính bằng giây khi pha ấm nhỏ, bằng phút khi pha cốc lớn"
+      ],
+      "img": "tea-pour",
+      "alt": "Ấm gốm men xanh rót trà vào tách, phía trước là chiếc đồng hồ cát",
+      "cta": { "label": "Thử ngay với công cụ", "href": "#cong-cu" }
+    },
+    {
+      "type": "widget",
+      "name": "brew",
+      "id": "cong-cu",
+      "eyebrow": "Công cụ",
+      "title": "Chọn loại trà, *có ngay công thức*",
+      "lead": "Lượng trà tính cho mỗi 100 ml nước. Đây là mức khởi đầu phổ biến cho trà lá rời, hãy nếm rồi chỉnh dần theo khẩu vị.",
+      "data": {
+        "presets": [
+          {
+            "id": "o-long-rang",
+            "name": "Ô long rang",
+            "grams": 5,
+            "temp": 95,
+            "steeps": [30, 35, 45, 60, 80, 100],
+            "note": "Ô long rang hợp nước gần sôi; tráng trà nhanh khoảng 5 giây rồi đổ đi để viên trà nở đều trước lần hãm đầu."
+          },
+          {
+            "id": "tra-xanh",
+            "name": "Trà xanh",
+            "grams": 4,
+            "temp": 80,
+            "steeps": [20, 30, 45, 60],
+            "note": "Nước sôi già làm trà xanh đắng gắt, hãy để nước nguội bớt và rót nhẹ theo thành ấm."
+          },
+          {
+            "id": "tra-sen",
+            "name": "Trà sen",
+            "grams": 4,
+            "temp": 85,
+            "steeps": [30, 40, 55, 75],
+            "note": "Có thể bỏ bước tráng trà để giữ trọn hương sen, rót nước xong thì đậy nắp ngay."
+          },
+          {
+            "id": "shan-tuyet",
+            "name": "Shan Tuyết",
+            "grams": 4,
+            "temp": 90,
+            "steeps": [25, 35, 45, 60, 80],
+            "note": "Lông tơ trắng trên búp có thể làm nước trà hơi đục, đó là điều bình thường với Shan Tuyết."
+          },
+          {
+            "id": "tra-lai",
+            "name": "Trà lài",
+            "grams": 3,
+            "temp": 80,
+            "steeps": [30, 45, 60],
+            "note": "Muốn uống trà lài đá, dùng gấp đôi lượng trà rồi rót thẳng vào ly đầy đá để trà không bị nhạt."
+          },
+          {
+            "id": "u-lanh",
+            "name": "Trà ủ lạnh",
+            "grams": 1,
+            "temp": 25,
+            "steeps": [25200],
+            "note": "Dùng nước lọc nguội, đậy kín và ủ trong ngăn mát tủ lạnh 6–8 tiếng, lọc bỏ bã rồi dùng trong khoảng 1–2 ngày."
+          }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "cac-buoc",
+      "eyebrow": "Kiểu ấm nhỏ",
+      "title": "Pha trà bằng ấm nhỏ *trong sáu bước*",
+      "lead": "Ấm nhỏ, nhiều trà, hãm ngắn và uống nhiều lần nước. Cách pha này còn được gọi là kiểu công phu (gongfu).",
+      "items": [
+        { "title": "Đun nước, tráng ấm chén", "text": "Đun sôi nước lọc, tráng ấm, chén tống và chén quân bằng nước nóng. Ấm được làm nóng trước thì nhiệt độ nước ít bị tụt khi pha." },
+        { "title": "Cho trà vào ấm", "text": "Lấy lượng trà theo gợi ý của công cụ, ví dụ ấm 150 ml pha ô long cần khoảng 7–8 g. Đậy nắp, lắc nhẹ để hương trà khô dậy lên." },
+        { "title": "Đánh thức trà", "text": "Với ô long và Shan Tuyết, rót nước nóng ngập trà rồi đổ đi sau khoảng 5 giây. Trà xanh búp non và trà sen có thể bỏ qua bước này." },
+        { "title": "Hãm lần đầu", "text": "Rót nước đúng nhiệt độ, đậy nắp và bấm giờ. Hết giờ, chắt hết nước sang chén tống để trà không ngấm thêm." },
+        { "title": "Chia trà", "text": "Từ chén tống rót ra từng chén quân để chén nào cũng đậm nhạt như nhau. Mời người lớn tuổi trước là nét đẹp quen thuộc khi uống trà." },
+        { "title": "Hãm các lần tiếp theo", "text": "Mỗi lần sau tăng thêm vài giây đến vài chục giây. Khi nước nhạt màu và hương không còn rõ, đã đến lúc thay trà." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "cach-pha",
+      "eyebrow": "So sánh",
+      "title": "Ấm nhỏ, cốc lọc hay ủ lạnh: *chọn cách hợp nhịp sống*",
+      "lead": "Cùng một loại trà, mỗi cách pha cho một trải nghiệm khác nhau. Số liệu dưới đây là mức tham khảo cho trà lá rời.",
+      "head": ["Tiêu chí", "Ấm nhỏ", "Cốc, bình lọc", "Ủ lạnh"],
+      "rows": [
+        ["Lượng trà", "3–5 g cho 100 ml", "2–3 g cho cốc 250 ml", "Khoảng 10 g cho 1 lít"],
+        ["Nhiệt độ nước", "80–95°C tùy loại trà", "80–95°C tùy loại trà", "Nước lọc nguội"],
+        ["Thời gian", "Từ 20 giây đến gần 2 phút mỗi lần", "2–3 phút với trà xanh, 3–5 phút với ô long", "6–8 tiếng trong ngăn mát"],
+        ["Số lần pha", "4–6 lần nước", "1–2 lần", "1 lần"],
+        ["Hợp khi", "Ngồi thưởng trà, đãi bạn bè", "Pha nhanh ở bàn làm việc", "Ngày nóng, chuẩn bị từ tối hôm trước"]
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "dung-cu",
+      "eyebrow": "Chuẩn bị",
+      "title": "Dụng cụ pha trà: *ít mà đủ*",
+      "lead": "Không cần sắm cả bộ trà cụ cầu kỳ. Bắt đầu với vài món cơ bản, thiếu món nào đã có cách thay.",
+      "cols": [
+        {
+          "title": "Cơ bản",
+          "icon": "cup",
+          "items": ["Ấm gốm hoặc sứ 120–200 ml", "Chén tống để chia trà đều", "Vài chén quân nhỏ", "Ấm đun nước", "Lưới lọc bã trà"]
+        },
+        {
+          "title": "Nên có thêm",
+          "icon": "star",
+          "items": ["Cân tiểu ly chia vạch 0,1 g", "Nhiệt kế hoặc ấm đun chỉnh nhiệt", "Khay trà hứng nước tráng", "Hộp kín đựng trà khô"]
+        },
+        {
+          "title": "Thay thế tạm",
+          "icon": "home",
+          "items": ["Cốc sứ có lõi lọc thay cho ấm", "Bình thủy tinh có lưới lọc khi pha nhiều", "Thìa cà phê thay cân, nhưng nên cân thử một lần để biết mỗi thìa bao nhiêu gam", "Hẹn giờ trên điện thoại thay đồng hồ cát"]
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "loi-thuong-gap",
+      "eyebrow": "Tránh vấp",
+      "title": "Sáu lỗi thường gặp *và cách sửa*",
+      "items": [
+        { "icon": "flame", "title": "Nước quá nóng với trà xanh", "text": "Trà xanh, trà lài gặp nước vừa sôi dễ đắng gắt và mất hương. Để nước nguội bớt vài phút hoặc rót qua chén tống trước khi pha." },
+        { "icon": "timer", "title": "Hãm quá lâu", "text": "Quên ấm trà vài phút là vị chát lấn hết hương. Hết giờ, chắt hết nước ra chén tống thay vì để trà ngâm trong ấm." },
+        { "icon": "leaf", "title": "Bốc trà theo cảm tính", "text": "Lần đậm, lần nhạt vì mỗi lần bốc một ít. Cân trà vài lần đầu, quen tay rồi hãy ước lượng." },
+        { "icon": "droplet", "title": "Nước có mùi", "text": "Mùi clo trong nước máy làm át hương trà. Dùng nước lọc hoặc nước đóng chai, đun vừa đủ dùng." },
+        { "icon": "cup", "title": "Ấm chén còn lạnh", "text": "Rót nước nóng vào ấm lạnh, nhiệt độ tụt ngay. Tráng ấm chén bằng nước nóng trước khi pha, nhất là với ô long." },
+        { "icon": "box", "title": "Cất trà sai chỗ", "text": "Trà khô dễ hút ẩm và ám mùi. Cất trong hộp kín, tránh nắng, để xa bếp và gia vị." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "doc-them",
+      "eyebrow": "Đọc thêm",
+      "title": "Tìm hiểu thêm để *pha khéo hơn*",
+      "items": [
+        {
+          "img": "@leaf|trà ô long khô cuộn thành viên tròn",
+          "alt": "Trà ô long khô cuộn thành viên tròn",
+          "title": "Ô long rang củi",
+          "tag": "Trà Việt",
+          "text": "Món chủ lực của Nhà An: ô long Bảo Lộc rang củi nhãn, hương khói nhẹ, hậu ngọt và những cách thưởng thức.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@brew|rót trà từ ấm nhỏ sang chén tống",
+          "alt": "Rót trà từ ấm nhỏ sang chén tống",
+          "title": "Pha ô long tại nhà",
+          "tag": "Hướng dẫn",
+          "text": "Đi sâu từng bước: tráng ấm, đánh thức trà, số lần hãm và cách pha bình lớn cho cả văn phòng.",
+          "href": "/tin-tuc/pha-o-long-tai-nha"
+        },
+        {
+          "img": "@brew|bộ ấm chén gốm đặt trên khay trà gỗ",
+          "alt": "Bộ ấm chén gốm đặt trên khay trà gỗ",
+          "title": "Bộ ấm chén cho người mới",
+          "tag": "Dụng cụ",
+          "text": "Chọn ấm, chén tống, khay trà theo chất liệu và dung tích, kèm cách chăm sóc ấm cho bền.",
+          "href": "/tin-tuc/bo-am-chen-cho-nguoi-moi"
+        },
+        {
+          "img": "@drinks|bình trà ủ lạnh có đá và lát trái cây",
+          "alt": "Bình trà ủ lạnh có đá và lát trái cây",
+          "title": "Trà ủ lạnh cho ngày nóng",
+          "tag": "Mẹo hay",
+          "text": "Tỉ lệ, thời gian ủ trong tủ lạnh và cách biến tấu với trái cây theo mùa.",
+          "href": "/tin-tuc/tra-u-lanh-cold-brew"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về pha trà tại nhà",
+      "items": [
+        { "q": "Không có nhiệt kế thì canh nhiệt độ nước thế nào?", "a": "Đun sôi rồi mở nắp để nước nguội bớt: trà xanh, trà lài cần chờ lâu hơn ô long. Rót nước qua chén tống một lần cũng giúp hạ nhiệt nhanh. Nếu pha trà thường xuyên, một nhiệt kế nhỏ là món rất đáng mua." },
+        { "q": "Một ấm trà pha được mấy lần nước?", "a": "Tùy loại trà: ô long viên thường được 5–6 lần, trà xanh khoảng 3–4 lần. Khi nước nhạt màu và hương không còn rõ, hãy thay trà mới." },
+        { "q": "Trà pha từ hôm trước có nên uống tiếp?", "a": "Nhà An khuyên không nên. Trà pha nóng để lâu ở nhiệt độ phòng nhanh mất hương và biến vị; muốn có trà uống lạnh, hãy ủ lạnh trong tủ và dùng trong khoảng 1–2 ngày." },
+        { "q": "Buổi tối muốn uống trà thì pha thế nào?", "a": "Trà nào cũng có caffeine, nhiều hay ít tùy loại trà và cách pha. Buổi tối bạn có thể dùng ít trà hơn, hãm ngắn hơn và uống cách giờ ngủ vài tiếng; người nhạy cảm với caffeine nên hỏi ý kiến bác sĩ." },
+        { "q": "Tôi có thể mua trà của Nhà An về pha không?", "a": "Nhà An dự kiến có trà đóng túi tại quầy và hộp quà trà khi khai trương. Thông tin chi tiết sẽ được cập nhật trên website và Zalo 0865 920 041." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Muốn học tận tay? *Hẹn bạn ở workshop thứ Bảy*",
+      "text": "Sau khai trương, Nhà An dự kiến mở workshop pha trà nhóm nhỏ vào thứ Bảy hằng tuần: tráng ấm, canh nước và nếm trà cùng nhau. Lịch chi tiết sẽ công bố sau, số chỗ có hạn.",
+      "ctas": [
+        { "label": "Xem workshop", "href": "/workshop", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet", "/tra-viet/o-long-rang-cui", "/tin-tuc/pha-o-long-tai-nha", "/tin-tuc/bo-am-chen-cho-nguoi-moi"]
+}

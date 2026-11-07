@@ -1,0 +1,350 @@
+{
+  "slug": "lich-su-kien",
+  "group": "community",
+  "nav": "Lịch sự kiện",
+  "navDesc": "Hằng tuần & các dịp lễ 2026–2027",
+  "icon": "calendar",
+  "title": "Lịch sự kiện: đêm nhạc, workshop và các dịp lễ 2026–2027",
+  "description": "Lịch sự kiện dự kiến của Tiệm Nhà An: đêm acoustic thứ Sáu, workshop thứ Bảy, board game Chủ nhật và các dịp lễ 11/2026–10/2027. Lưu lịch, hẹn bạn bè.",
+  "image": "@festival|đèn lồng nhiều màu thắp sáng phố cổ Hội An trong đêm rằm",
+  "hero": {
+    "eyebrow": "Lịch sự kiện · 2026–2027",
+    "title": "Tuần nào cũng có hẹn, *mùa nào cũng có hội*",
+    "lead": "Đêm acoustic thứ Sáu, workshop thứ Bảy, board game Chủ nhật và những dịp lễ từ Giáng sinh, Tết đến Trung thu. Xem trước lịch dự kiến để rủ hội bạn hẹn nhau từ sớm.",
+    "img": "@festival|đèn lồng nhiều màu thắp sáng phố cổ Hội An trong đêm rằm",
+    "alt": "Đèn lồng nhiều màu thắp sáng phố cổ Hội An về đêm",
+    "ctas": [
+      { "label": "Xem lịch 12 tháng", "href": "#lich", "style": "primary" },
+      { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "widget",
+      "name": "calendar",
+      "id": "lich",
+      "eyebrow": "Lịch dự kiến",
+      "title": "Một năm ở Nhà An, *gom trong một tấm lịch*",
+      "lead": "Nhịp hoạt động mỗi tuần và các dịp lễ từ tháng 11/2026 đến tháng 10/2027. Ngày diễn ra ở từng chi nhánh sẽ được xác nhận sau khai trương.",
+      "data": {
+        "weekly": [
+          {
+            "day": 5,
+            "time": "20:00",
+            "title": "Đêm acoustic",
+            "text": "Nhạc mộc, trà trái cây và hội bạn. Ai muốn hát, đọc thơ hay kể chuyện có thể đăng ký trước để lên sân khấu mở.",
+            "href": "/san-khau-mo"
+          },
+          {
+            "day": 6,
+            "time": "Theo lịch lớp",
+            "title": "Workshop pha trà & làm bánh",
+            "text": "Lớp nhỏ học pha ô long, đánh matcha, làm bánh chay. Số chỗ có hạn, lịch lớp công bố sau khai trương.",
+            "href": "/workshop"
+          },
+          {
+            "day": 0,
+            "time": "Cả ngày",
+            "title": "Board game & studio áo dài",
+            "text": "Board game miễn phí ở Sân Rôm Rả, studio áo dài mở cả ngày cho hội bạn và gia đình.",
+            "href": "/chup-anh"
+          }
+        ],
+        "events": [
+          {
+            "start": "2026-11-20",
+            "title": "Ngày Nhà giáo Việt Nam",
+            "text": "Gợi ý quà tri ân thầy cô: hộp trà ô long và bánh nhà làm kèm thiệp viết tay, nhận đặt tại chi nhánh đã khai trương.",
+            "tag": "Ngày lễ",
+            "href": "/qua-tang"
+          },
+          {
+            "start": "2026-12-24",
+            "end": "2026-12-25",
+            "title": "Giáng sinh",
+            "text": "Cây thông, đèn dây và set chụp ảnh mùa lễ. Tối thứ Sáu 25/12 là đêm acoustic Noel.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/giang-sinh"
+          },
+          {
+            "start": "2026-12-31",
+            "end": "2027-01-01",
+            "title": "Đếm ngược đón năm 2027",
+            "text": "Nhạc mộc, trà nóng và đếm ngược lúc nửa đêm ngay tại tiệm. Nhà An mở cửa xuyên đêm nên không ai phải vội về.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/giang-sinh"
+          },
+          {
+            "start": "2027-01-08",
+            "end": "2027-02-05",
+            "title": "Tháng Chạp: chụp áo dài đón Tết",
+            "text": "Studio thay set hoa đào, hoa mai, câu đối đỏ; hộp quà trà ô long và mứt nhận đặt sớm. Nên giữ lịch chụp trước những ngày cận Tết.",
+            "tag": "Chụp ảnh",
+            "href": "/su-kien/tet"
+          },
+          {
+            "start": "2027-02-05",
+            "end": "2027-02-08",
+            "title": "Giao thừa & Tết Đinh Mùi",
+            "text": "Đón giao thừa tối thứ Sáu 5/2 (29 tháng Chạp), mùng 1 Tết là thứ Bảy 6/2/2027. Nhà An mở cửa xuyên Tết, ghé uống chén trà đầu năm cùng gia đình, bạn bè.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/tet"
+          },
+          {
+            "start": "2027-02-14",
+            "title": "Valentine",
+            "text": "Set trà đôi, góc hoa hồng và chụp áo dài cặp. Năm nay Valentine rơi vào mùng 9 Tết, phố phường vẫn còn sắc xuân.",
+            "tag": "Ngày lễ",
+            "href": "/chup-anh"
+          },
+          {
+            "start": "2027-02-20",
+            "title": "Rằm tháng Giêng – Ngày Thơ Việt Nam",
+            "text": "Ngày Thơ Việt Nam được tổ chức vào rằm tháng Giêng hằng năm. Nhà An dự kiến có đêm đọc thơ và nhạc mộc, ai cũng có thể đăng ký lên sân khấu mở.",
+            "tag": "Âm nhạc",
+            "href": "/san-khau-mo"
+          },
+          {
+            "start": "2027-03-08",
+            "title": "Quốc tế Phụ nữ 8/3",
+            "text": "Tặng hoa cho khách nữ, chụp áo dài cùng mẹ, chị em và bạn bè; set trà và bánh làm quà.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/ngay-cua-nang"
+          },
+          {
+            "start": "2027-04-21",
+            "title": "Ngày Sách và Văn hóa đọc Việt Nam",
+            "text": "Mang một cuốn, đổi một cuốn ở tủ sách Góc Ấm Nhà An (dự kiến), rồi đọc vài trang cùng chén trà nóng.",
+            "tag": "Cộng đồng",
+            "href": "/tu-sach"
+          },
+          {
+            "start": "2027-04-22",
+            "title": "Ngày Trái Đất",
+            "text": "Một ngày cho thói quen xanh: mang ly cá nhân khi ghé tiệm và tìm hiểu dự định gom bã trà làm phân bón cây của Nhà An.",
+            "tag": "Cộng đồng",
+            "href": "/song-xanh"
+          },
+          {
+            "start": "2027-05-01",
+            "end": "2027-07-31",
+            "title": "Mùa thi 2027",
+            "text": "Phòng Chạy Deadline yên tĩnh xuyên đêm, bàn nhóm cho hội ôn thi và ưu đãi học sinh, sinh viên (chi tiết công bố sau).",
+            "tag": "Mùa thi",
+            "href": "/su-kien/mua-thi"
+          },
+          {
+            "start": "2027-05-21",
+            "title": "Ngày Quốc tế Trà",
+            "text": "Ngày Liên Hợp Quốc chọn để tôn vinh cây trà và người trồng trà. Nhà An dự kiến có buổi thưởng trà ô long rang củi trước đêm acoustic thứ Sáu.",
+            "tag": "Trà",
+            "href": "/tra-viet"
+          },
+          {
+            "start": "2027-06-01",
+            "end": "2027-07-31",
+            "title": "Mùa sen",
+            "text": "Tháng 6–7 là lúc sen nở rộ ở nhiều đầm sen. Gợi ý trà sen theo mùa và những buổi chụp ảnh sáng sớm ở Góc Sen Hồng.",
+            "tag": "Trà",
+            "href": "/mua-vu"
+          },
+          {
+            "start": "2027-09-04",
+            "end": "2027-09-12",
+            "title": "Workshop làm lồng đèn Trung thu",
+            "text": "Các buổi cuối tuần làm đèn ông sao, lồng đèn giấy cho người lớn và các bé (dự kiến). Số chỗ có hạn, nên đăng ký sớm.",
+            "tag": "Workshop",
+            "href": "/su-kien/trung-thu"
+          },
+          {
+            "start": "2027-09-15",
+            "title": "Tết Trung thu",
+            "text": "Rằm tháng Tám rơi vào thứ Tư 15/9/2027. Đêm rước đèn cho các bé (có phụ huynh đi cùng), bánh trung thu chay nhà làm và set chụp áo dài với đèn lồng.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/trung-thu"
+          },
+          {
+            "start": "2027-10-20",
+            "title": "Ngày Phụ nữ Việt Nam 20/10",
+            "text": "Hoa, set trà và bánh làm quà; hẹn mẹ, chị em đi chụp áo dài ở studio Nhà An.",
+            "tag": "Ngày lễ",
+            "href": "/su-kien/ngay-cua-nang"
+          }
+        ]
+      }
+    },
+    {
+      "type": "note",
+      "text": "Lịch có thể thay đổi và chỉ áp dụng tại chi nhánh đã khai trương. Trước khi đến, bạn nhắn Zalo 0865 920 041 để Nhà An xác nhận ngày giờ ở chi nhánh gần bạn."
+    },
+    {
+      "type": "cards",
+      "id": "hang-tuan",
+      "eyebrow": "Hằng tuần",
+      "title": "Ba buổi hẹn *mỗi cuối tuần*",
+      "lead": "Ngày thường để tập trung, cuối tuần để gặp nhau. Ba hoạt động dự kiến lặp lại mỗi tuần ở Nhà An.",
+      "items": [
+        {
+          "img": "@club|ban nhạc mộc nhỏ chơi guitar trong quán buổi tối",
+          "alt": "Ban nhạc mộc nhỏ chơi guitar trong quán buổi tối",
+          "tag": "Thứ Sáu · từ 20:00",
+          "title": "Đêm acoustic",
+          "text": "Nhạc mộc, trà trái cây và hội bạn. Ai muốn hát, đọc thơ có thể đăng ký trước một lượt lên sân khấu mở.",
+          "href": "/san-khau-mo"
+        },
+        {
+          "img": "@club|lớp học pha trà nhỏ, người hướng dẫn rót trà cho học viên",
+          "alt": "Lớp học pha trà nhỏ, người hướng dẫn rót trà cho học viên",
+          "tag": "Thứ Bảy",
+          "title": "Workshop pha trà & làm bánh",
+          "text": "Lớp nhỏ học pha ô long, đánh matcha, làm bánh chay. Số chỗ có hạn, lịch lớp công bố sau khai trương.",
+          "href": "/workshop"
+        },
+        {
+          "img": "@club|nhóm bạn chơi board game quanh bàn gỗ dài",
+          "alt": "Nhóm bạn chơi board game quanh bàn gỗ dài",
+          "tag": "Chủ nhật · cả ngày",
+          "title": "Board game & studio áo dài",
+          "text": "Board game miễn phí ở Sân Rôm Rả, studio áo dài mở cả ngày cho hội bạn và gia đình.",
+          "href": "/chup-anh"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "goc-yen",
+      "eyebrow": "Hai nhịp sống",
+      "title": "Có hội vui, *góc yên vẫn yên*",
+      "paras": [
+        "Nhà An là chỗ làm việc, học tập 24/7, nên sự kiện được sắp xếp để hai nhịp sống không làm phiền nhau. Đêm nhạc, board game diễn ra ở khu sinh hoạt chung, còn Phòng Chạy Deadline vẫn giữ quy tắc giờ yên lặng.",
+        "Vì mở cửa cả lễ Tết, Nhà An có thể cùng bạn đón giao thừa, đếm ngược năm mới hay ngắm trăng rằm đến khuya. Bếp có món chay khuya từ 22:00 đến 04:00 cho những đêm vui kéo dài."
+      ],
+      "bullets": [
+        "Mở cửa 24/7, kể cả lễ Tết",
+        "Phòng Chạy Deadline giữ giờ yên lặng cả khi có sự kiện",
+        "Món chay khuya 22:00–04:00",
+        "Sân Rôm Rả nhận tiệc nhỏ đến 30 khách"
+      ],
+      "img": "@work|bạn trẻ đeo tai nghe làm việc với laptop trong góc quán yên tĩnh",
+      "alt": "Bạn trẻ đeo tai nghe làm việc với laptop trong góc quán yên tĩnh",
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "id": "mua-le",
+      "eyebrow": "Theo mùa",
+      "title": "Những mùa lễ *đáng mong chờ*",
+      "lead": "Mỗi mùa, Nhà An thay trang trí, mở set chụp ảnh và chuẩn bị quà riêng. Chọn một dịp để xem chi tiết.",
+      "items": [
+        {
+          "img": "xmas-lights",
+          "alt": "Ngôi nhà nhỏ trang trí đèn Giáng sinh lấp lánh",
+          "tag": "Tháng 12",
+          "title": "Giáng sinh & Năm mới",
+          "text": "Cây thông, đèn dây, đêm acoustic Noel và đếm ngược đón năm mới ngay tại tiệm.",
+          "href": "/su-kien/giang-sinh"
+        },
+        {
+          "img": "@tet|cành hoa đào hồng bên câu đối đỏ ngày Tết",
+          "alt": "Cành hoa đào hồng bên câu đối đỏ ngày Tết",
+          "tag": "Tháng 1 – 2",
+          "title": "Tết Nguyên Đán",
+          "text": "Set chụp áo dài với hoa đào, hoa mai, câu đối; hộp quà trà ô long và mứt; mở cửa xuyên Tết.",
+          "href": "/su-kien/tet"
+        },
+        {
+          "img": "@aodai|cô gái mặc áo dài cầm bó hoa tươi",
+          "alt": "Cô gái mặc áo dài cầm bó hoa tươi",
+          "tag": "8/3 & 20/10",
+          "title": "Ngày của nàng",
+          "text": "Hoa tặng khách nữ, chụp áo dài cùng mẹ, chị em và set trà bánh làm quà.",
+          "href": "/su-kien/ngay-cua-nang"
+        },
+        {
+          "img": "@work|bàn học buổi tối với sách vở, laptop và ly trà",
+          "alt": "Bàn học buổi tối với sách vở, laptop và ly trà",
+          "tag": "Tháng 5 – 7",
+          "title": "Mùa thi",
+          "text": "Ôn thi xuyên đêm ở Phòng Chạy Deadline, bàn nhóm cho hội học chung và ưu đãi học sinh, sinh viên.",
+          "href": "/su-kien/mua-thi"
+        },
+        {
+          "img": "@trungthu|đèn ông sao và lồng đèn giấy nhiều màu",
+          "alt": "Đèn ông sao và lồng đèn giấy nhiều màu",
+          "tag": "Tháng 9",
+          "title": "Trung thu",
+          "text": "Bánh trung thu chay nhà làm, workshop làm lồng đèn và đêm rước đèn cho các bé.",
+          "href": "/su-kien/trung-thu"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ngay-le",
+      "eyebrow": "Xem nhanh",
+      "title": "Các dịp lễ *11/2026 – 10/2027*",
+      "lead": "Những dịp tính theo âm lịch đã được quy đổi sang ngày dương lịch, để bạn xin nghỉ, đặt bàn và hẹn bạn bè từ sớm.",
+      "head": ["Dịp", "Ngày", "Ở Nhà An (dự kiến)"],
+      "rows": [
+        ["Ngày Nhà giáo Việt Nam", "Thứ Sáu, 20/11/2026", "Hộp quà trà và bánh tri ân thầy cô"],
+        ["Giáng sinh", "Thứ Năm – thứ Sáu, 24–25/12/2026", "Đêm acoustic Noel, set chụp mùa lễ"],
+        ["Đếm ngược năm mới", "Thứ Năm, 31/12/2026", "Nhạc mộc và đếm ngược lúc nửa đêm"],
+        ["Tết Nguyên Đán Đinh Mùi", "Giao thừa tối thứ Sáu 5/2; mùng 1 thứ Bảy 6/2/2027", "Mở cửa xuyên Tết, chén trà đầu năm"],
+        ["Valentine", "Chủ nhật, 14/2/2027 (mùng 9 Tết)", "Set trà đôi, chụp áo dài cặp"],
+        ["Rằm tháng Giêng, Ngày Thơ Việt Nam", "Thứ Bảy, 20/2/2027", "Đêm thơ và nhạc mộc"],
+        ["Quốc tế Phụ nữ", "Thứ Hai, 8/3/2027", "Tặng hoa khách nữ"],
+        ["Ngày Quốc tế Trà", "Thứ Sáu, 21/5/2027", "Buổi thưởng trà ô long rang củi"],
+        ["Tết Trung thu (rằm tháng Tám)", "Thứ Tư, 15/9/2027", "Đêm rước đèn, bánh trung thu chay"],
+        ["Ngày Phụ nữ Việt Nam", "Thứ Tư, 20/10/2027", "Hoa và set trà làm quà"]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "tham-gia",
+      "eyebrow": "Cách tham gia",
+      "title": "Giữ chỗ cho *một buổi hẹn*",
+      "lead": "Đêm acoustic và board game không bắt buộc đặt trước. Workshop và sự kiện mùa lễ nên đăng ký sớm vì số chỗ có hạn.",
+      "items": [
+        { "title": "Chọn sự kiện", "text": "Xem lịch, chọn dịp bạn thích và chi nhánh tiện đường nhất." },
+        { "title": "Gửi đăng ký", "text": "Đặt bàn trên trang Đặt bàn, gọi hoặc nhắn Zalo 0865 920 041, ghi rõ sự kiện và số người." },
+        { "title": "Nhận xác nhận", "text": "Nhà An gọi lại xác nhận chỗ, giờ bắt đầu và những gì cần chuẩn bị nếu có." },
+        { "title": "Đến và tận hưởng", "text": "Đến sớm vài phút để chọn chỗ, gọi ly trà quen rồi bắt đầu buổi hẹn." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về *lịch sự kiện*",
+      "items": [
+        {
+          "q": "Lịch sự kiện này đã chính thức chưa?",
+          "a": "Đây là lịch dự kiến trong thời gian Nhà An chuẩn bị khai trương. Sự kiện chỉ diễn ra ở chi nhánh đã mở cửa; ngày giờ chính thức sẽ cập nhật trên website và Zalo."
+        },
+        {
+          "q": "Tham gia sự kiện có mất phí không?",
+          "a": "Board game ở Sân Rôm Rả miễn phí cho khách của tiệm. Với workshop và một số sự kiện mùa lễ, chi phí (nếu có) sẽ ghi rõ khi công bố lịch chi tiết."
+        },
+        {
+          "q": "Cả 5 chi nhánh đều có sự kiện chứ?",
+          "a": "Nhịp hằng tuần dự kiến có ở cả 5 chi nhánh. Một số sự kiện có thể chỉ tổ chức ở vài nơi, chi nhánh cụ thể sẽ ghi rõ trong thông báo."
+        },
+        {
+          "q": "Mình muốn tổ chức sự kiện riêng cho nhóm hoặc công ty thì sao?",
+          "a": "Sân Rôm Rả nhận tiệc nhỏ đến 30 khách, đặt trước ít nhất 2 ngày; Phòng Họp Hanh Thông hợp cho nhóm 6–10 người. Với workshop riêng cho doanh nghiệp, bạn liên hệ qua trang Hợp tác."
+        },
+        {
+          "q": "Làm sao để không bỏ lỡ sự kiện?",
+          "a": "Đăng ký nhận tin ở cuối trang hoặc nhắn Zalo 0865 920 041. Nhà An sẽ báo ngày khai trương, lịch workshop và các dịp lễ sắp tới."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "kind": "signup",
+      "id": "nhan-tin",
+      "title": "Nhận lịch sự kiện sớm nhất",
+      "lead": "Để lại email hoặc số điện thoại, Nhà An sẽ báo ngày khai trương, lịch workshop và các dịp lễ sắp tới."
+    }
+  ],
+  "related": ["/workshop", "/su-kien", "/san-khau-mo", "/nha-an-club", "/tin-tuc/workshop-dau-tien-tai-nha-an"]
+}

@@ -1,0 +1,258 @@
+{
+  "slug": "su-kien/trung-thu",
+  "group": "season",
+  "nav": "Trung Thu",
+  "navDesc": "Bánh chay nhà làm, lồng đèn, rước đèn",
+  "icon": "moon",
+  "title": "Trung thu ở Nhà An: bánh chay nhà làm, lồng đèn, rước đèn",
+  "description": "Trung thu 2027 (thứ Tư 15/9) ở Tiệm Nhà An: bánh trung thu chay nhà làm, hộp quà trà, workshop làm đèn ông sao và đêm rước đèn cho bé. Đăng ký sớm.",
+  "image": "@trungthu|đèn ông sao đỏ và lồng đèn giấy treo rực rỡ trên phố đêm Trung thu",
+  "hero": {
+    "eyebrow": "Tết Trung thu · Rằm tháng Tám",
+    "title": "Đèn ông sao, bánh nhà làm *và một đêm trăng tròn*",
+    "lead": "Bánh trung thu chay làm theo mẻ nhỏ, workshop làm đèn ông sao cho cả nhà và đêm rước đèn cho các bé. Trung thu 2027 rơi vào thứ Tư 15/9, Nhà An hẹn bạn từ những ngày đầu tháng Tám âm lịch.",
+    "img": "@trungthu|đèn ông sao đỏ và lồng đèn giấy treo rực rỡ trên phố đêm Trung thu",
+    "alt": "Đèn ông sao đỏ và lồng đèn giấy treo rực rỡ trên phố đêm Trung thu",
+    "ctas": [
+      { "label": "Đăng ký workshop lồng đèn", "href": "#dang-ky", "style": "primary" },
+      { "label": "Lịch Trung thu 2027", "href": "#lich-2027", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "y-nghia",
+      "eyebrow": "Ý nghĩa Tết Trung thu",
+      "title": "Giữa mùa thu, *trăng tròn là lúc sum vầy*",
+      "paras": [
+        "Theo âm lịch, mùa thu gồm tháng Bảy, tháng Tám và tháng Chín, nên rằm tháng Tám nằm đúng giữa mùa. Dân gian tin trăng đêm ấy tròn và sáng nhất năm, nên người lớn bày cỗ trông trăng, trẻ nhỏ rước đèn rồi phá cỗ.",
+        "Vì thế Trung thu vừa là Tết của thiếu nhi, vừa là Tết đoàn viên. Ở Nhà An, các bé có lồng đèn tự tay làm, người lớn có ấm trà nóng và chiếc bánh chia đôi, cùng kể lại chuyện chú Cuội, chị Hằng."
+      ],
+      "bullets": [
+        "Rằm tháng Tám năm 2027: thứ Tư 15/9/2027",
+        "Bánh trung thu chay nhà làm",
+        "Workshop làm lồng đèn cho gia đình (dự kiến)",
+        "Đêm rước đèn, bé có phụ huynh đi cùng"
+      ],
+      "img": "@trungthu|bánh nướng, bánh dẻo bày trên đĩa cùng chén trà đêm rằm",
+      "alt": "Bánh nướng, bánh dẻo bày trên đĩa cùng chén trà trong đêm rằm",
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "id": "hoat-dong",
+      "eyebrow": "Trung thu ở Nhà An",
+      "title": "Sáu niềm vui *cho mùa trăng*",
+      "lead": "Từ lò bánh đến bàn trà, từ lớp làm đèn đến đêm rước đèn, Nhà An chuẩn bị cho cả người lớn lẫn các bé.",
+      "items": [
+        {
+          "img": "@vietcake|bánh trung thu nướng vàng cắt đôi lộ phần nhân",
+          "alt": "Bánh trung thu nướng vàng cắt đôi lộ phần nhân",
+          "tag": "Lò bánh",
+          "title": "Bánh trung thu chay nhà làm",
+          "text": "Bánh nướng, bánh dẻo làm theo mẻ nhỏ, nhân gợi ý đậu xanh, khoai môn, hạt sen. Bánh thuần chay được ghi chú riêng.",
+          "href": "/lo-banh"
+        },
+        {
+          "img": "@gift|hộp quà bánh trung thu kèm hộp trà và thiệp viết tay",
+          "alt": "Hộp quà bánh trung thu kèm hộp trà và thiệp viết tay",
+          "tag": "Quà tặng",
+          "title": "Hộp quà trung thu",
+          "text": "Bánh chay nhà làm đi cùng trà ô long rang củi hoặc trà sen, kèm thiệp viết tay. Nhận đặt cho gia đình và doanh nghiệp.",
+          "href": "/qua-tang"
+        },
+        {
+          "img": "@craftvn|đôi tay buộc khung tre làm đèn lồng thủ công",
+          "alt": "Đôi tay buộc khung tre làm đèn lồng thủ công",
+          "tag": "Workshop",
+          "title": "Workshop làm lồng đèn",
+          "text": "Buộc khung nan tre, dán giấy bóng kính, gắn tua giấy để có chiếc đèn ông sao của riêng mình. Lớp nhỏ, bé đi cùng phụ huynh.",
+          "href": "/workshop/long-den-trung-thu"
+        },
+        {
+          "img": "@trungthu|những chiếc đèn ông sao nhiều màu sáng lung linh trong đêm",
+          "alt": "Những chiếc đèn ông sao nhiều màu sáng lung linh trong đêm",
+          "tag": "Gia đình · dự kiến",
+          "title": "Đêm rước đèn cho bé",
+          "text": "Một vòng rước đèn ngắn quanh tiệm, nghe kể chuyện chú Cuội, chị Hằng rồi cùng phá cỗ. Bé nào cũng có phụ huynh đi cùng.",
+          "href": "#ruoc-den"
+        },
+        {
+          "img": "@aodai|thiếu nữ mặc áo dài đứng bên dãy đèn lồng phố cổ Hội An",
+          "alt": "Thiếu nữ mặc áo dài đứng bên dãy đèn lồng ở phố cổ Hội An",
+          "tag": "Studio áo dài",
+          "title": "Chụp áo dài với đèn lồng",
+          "text": "Set studio treo đèn lồng, đèn ông sao, có áo dài trẻ em để cả nhà chụp chung. Góc Đèn Lồng đẹp nhất sau 18:00.",
+          "href": "/chup-anh/goc-den-long"
+        },
+        {
+          "img": "@trungthu|trăng tròn rằm tháng Tám nhô lên sau mái ngói",
+          "alt": "Trăng tròn rằm tháng Tám nhô lên sau mái ngói",
+          "tag": "Trà Việt",
+          "title": "Bàn trà ngắm trăng",
+          "text": "Một ấm ô long nóng hay trà sen, đĩa bánh cắt sẵn và khoảng sân lộng gió: cách người lớn đón rằm thật chậm.",
+          "href": "/tra-viet"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "lich-2027",
+      "eyebrow": "Trung thu 2027",
+      "title": "Mùa trăng 2027, *lịch dự kiến*",
+      "lead": "Các mốc tính theo âm lịch Việt Nam. Ngày giờ ở từng chi nhánh sẽ được xác nhận trên website và Zalo 0865 920 041.",
+      "items": [
+        {
+          "label": "01/09",
+          "title": "Mùng 1 tháng Tám",
+          "text": "Thứ Tư 01/09/2027. Tiệm dự kiến treo đèn lồng, studio thay set Trung thu. Đơn hộp quà cho công ty nên chốt trước mốc này để kịp chuẩn bị thiệp và giao đúng hẹn."
+        },
+        {
+          "label": "04/09",
+          "title": "Hai cuối tuần làm lồng đèn",
+          "text": "Ngày 04–05/09 và 11–12/09/2027 (thứ Bảy, Chủ nhật): các lớp làm đèn ông sao cho gia đình (dự kiến). Lớp nhỏ, nên đăng ký sớm."
+        },
+        {
+          "label": "15/09",
+          "title": "Rằm tháng Tám",
+          "text": "Thứ Tư 15/09/2027, Tết Trung thu. Đêm rước đèn cho các bé, phá cỗ với bánh chay nhà làm và trà nóng cho người lớn (dự kiến)."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "tra-banh",
+      "eyebrow": "Trà & bánh",
+      "title": "Cặp trà – bánh *cho đêm trông trăng*",
+      "lead": "Bánh trung thu ngọt và béo, một chén trà đủ đượm giúp vị bánh tròn hơn. Vài cặp gợi ý từ quầy trà Nhà An.",
+      "head": ["Bánh", "Trà gợi ý", "Vì sao hợp"],
+      "rows": [
+        ["Bánh nướng nhân đậu xanh", "Ô long rang củi", "Hương rang và hậu ngọt của ô long cân lại vị bùi, ngọt của nhân đậu."],
+        ["Bánh dẻo nhân hạt sen", "Trà sen", "Vỏ dẻo, nhân sen bùi gặp hương sen thanh, một cặp nhẹ nhàng cho ông bà, cha mẹ."],
+        ["Bánh nướng nhân khoai môn", "Trà lài", "Vị chát dịu và hương lài làm phần nhân béo bớt ngấy."],
+        ["Bánh nướng nhân trà xanh", "Trà xanh Thái Nguyên", "Cùng một nền hương trà, vị chát nhẹ của chén trà giúp vị ngọt của nhân dịu lại."]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "lam-den-ong-sao",
+      "eyebrow": "Workshop lồng đèn",
+      "title": "Làm đèn ông sao *trong năm bước*",
+      "lead": "Các bước dự kiến trong buổi workshop. Nan tre được chuẩn bị sẵn, người lớn lo phần buộc khung, các bé trổ tài dán giấy và trang trí.",
+      "items": [
+        {
+          "title": "Buộc hai ngôi sao",
+          "text": "Dùng mười nan tre buộc thành hai ngôi sao năm cánh giống hệt nhau, mỗi ngôi sao năm nan."
+        },
+        {
+          "title": "Dựng khung nổi",
+          "text": "Ghép hai ngôi sao ở các đầu cánh, chèn vài nan ngắn vào giữa để khung phồng lên thành khối."
+        },
+        {
+          "title": "Dán giấy bóng kính",
+          "text": "Cắt giấy bóng kính đỏ, vàng theo từng mặt khung rồi dán thật phẳng, kín đều các cánh."
+        },
+        {
+          "title": "Gắn tua và cán cầm",
+          "text": "Gắn tua giấy vào cánh đèn cho thêm duyên, rồi buộc một cán tre dài để cầm đi rước."
+        },
+        {
+          "title": "Thắp sáng an toàn",
+          "text": "Đặt một bóng đèn LED nhỏ bên trong thay cho nến, an toàn hơn khi các bé chạy nhảy."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "ruoc-den",
+      "eyebrow": "Đêm rước đèn",
+      "title": "Rước đèn thật vui, *về nhà an toàn*",
+      "lead": "Đêm rước đèn dành cho các bé, luôn có phụ huynh đi cùng. Vài lưu ý nhỏ để cả nhà yên tâm tận hưởng.",
+      "cols": [
+        {
+          "title": "Trước khi đi",
+          "icon": "home",
+          "items": [
+            "Chọn đèn dùng bóng LED thay cho nến",
+            "Cho bé mặc đồ thoáng, đi giày êm",
+            "Ghi số điện thoại phụ huynh vào thẻ nhỏ bỏ túi bé",
+            "Đăng ký trước để Nhà An chuẩn bị đủ chỗ"
+          ]
+        },
+        {
+          "title": "Trong lúc rước đèn",
+          "icon": "moon",
+          "items": [
+            "Phụ huynh đi cạnh bé suốt buổi",
+            "Đi theo hàng, không chen lấn, xô đẩy",
+            "Cầm đèn thẳng, không vung vào người bên cạnh",
+            "Cho bé uống nước, nghỉ chân khi mệt"
+          ]
+        },
+        {
+          "title": "Khi phá cỗ",
+          "icon": "heart",
+          "items": [
+            "Cắt bánh thành miếng nhỏ cho bé dễ ăn",
+            "Hỏi nhân viên về thành phần nếu bé dị ứng",
+            "Nhắc bé cảm ơn và cùng dọn gọn chỗ ngồi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khong-khi",
+      "eyebrow": "Mùa đèn lồng",
+      "title": "Trung thu *trong khung hình*",
+      "lead": "Những khung cảnh quen của mùa trăng, từ phố lồng đèn Hà Nội đến phố cổ Hội An lên đèn.",
+      "items": [
+        { "img": "@trungthu|phố Hàng Mã Hà Nội treo kín đèn ông sao và đồ chơi Trung thu", "caption": "Phố Hàng Mã ở Hà Nội rực rỡ đèn ông sao mỗi mùa trăng" },
+        { "img": "trungthu-lanterns", "caption": "Lồng đèn giấy tròn vẽ hoa văn nhiều màu treo kín trần" },
+        { "img": "hoian-lanterns", "caption": "Đèn lồng lụa Hội An sáng rực khi phố cổ lên đèn" },
+        { "img": "@trungthu|đoàn múa lân đầu lân đỏ biểu diễn trên phố đêm Trung thu", "caption": "Múa lân rộn ràng trên phố đêm Trung thu" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi đáp *Trung thu ở Nhà An*",
+      "items": [
+        {
+          "q": "Tết Trung thu năm 2027 rơi vào ngày nào?",
+          "a": "Rằm tháng Tám âm lịch năm 2027 là thứ Tư 15/9/2027. Đêm rước đèn và phá cỗ ở Nhà An dự kiến diễn ra tối hôm đó."
+        },
+        {
+          "q": "Bánh trung thu chay của Nhà An có những vị nào?",
+          "a": "Dự kiến có bánh nướng và bánh dẻo với các nhân như đậu xanh, khoai môn, hạt sen. Danh sách vị chính thức sẽ công bố khi mở nhận đặt bánh."
+        },
+        {
+          "q": "Bánh có trứng hay sữa không?",
+          "a": "Thành phần từng vị sẽ được ghi rõ, bánh thuần chay (không trứng, không sữa) có ghi chú riêng. Nếu bạn ăn chay trường hoặc có dị ứng, hãy hỏi nhân viên trước khi chọn."
+        },
+        {
+          "q": "Bé nhỏ có tham gia workshop làm lồng đèn được không?",
+          "a": "Được. Workshop dành cho gia đình, bé nào cũng có một phụ huynh ngồi cùng. Các bé dán giấy, trang trí; phần buộc khung và dùng kéo, dao để người lớn đảm nhận."
+        },
+        {
+          "q": "Công ty muốn đặt nhiều hộp quà trung thu thì làm thế nào?",
+          "a": "Bạn gửi yêu cầu ở trang Quà tặng, gọi hoặc nhắn Zalo 0865 920 041. Nhà An nhận thiết kế hộp quà và thiệp viết tay theo yêu cầu; đơn số lượng lớn nên đặt sớm."
+        },
+        {
+          "q": "Mang đèn từ nhà đến đêm rước đèn được không?",
+          "a": "Được, càng đông càng vui. Bạn nhớ ưu tiên đèn dùng bóng LED thay cho nến để an toàn cho các bé."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "dang-ky",
+      "kind": "reserve",
+      "eyebrow": "Workshop lồng đèn",
+      "title": "Đăng ký workshop làm lồng đèn",
+      "lead": "Chọn chi nhánh, ngày muốn tham gia và tổng số người. Ở phần ghi chú, cho Nhà An biết số bé và độ tuổi để chuẩn bị đủ nan tre, giấy và đèn LED. Lịch lớp chính thức công bố sau khai trương.",
+      "preset": "Workshop lồng đèn"
+    }
+  ],
+  "related": ["/qua-tang", "/workshop", "/tin-tuc/trung-thu-xua-va-nay", "/workshop/long-den-trung-thu", "/lo-banh", "/lich-su-kien"]
+}

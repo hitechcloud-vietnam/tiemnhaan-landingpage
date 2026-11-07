@@ -1,0 +1,197 @@
+{
+  "slug": "tu-sach",
+  "group": "community",
+  "nav": "Tủ sách Nhà An",
+  "navDesc": "Đọc tại chỗ, đổi sách, góp sách",
+  "icon": "book",
+  "title": "Tủ sách Nhà An: đọc tại chỗ, đổi sách và góp sách",
+  "description": "Tủ sách ở Góc Ấm Nhà An: đọc tại chỗ bên đèn vàng và trà nóng, mang một cuốn đổi một cuốn, góp sách cho tủ. Xem quy tắc và gợi ý đọc theo tâm trạng.",
+  "image": "@books|kệ sách gỗ cao kín sách, bên cạnh là ghế bành và đèn đứng vàng ấm",
+  "hero": {
+    "eyebrow": "Tủ sách Nhà An",
+    "title": "Một kệ sách nhỏ, *một chỗ để chậm lại*",
+    "lead": "Ở Góc Ấm Nhà An có sofa, đèn vàng, chăn mỏng và một kệ sách để bạn đọc tại chỗ cùng ấm trà nóng. Đọc xong, bạn có thể đổi sách hoặc góp thêm một cuốn cho người đến sau.",
+    "img": "@books|kệ sách gỗ cao kín sách, bên cạnh là ghế bành và đèn đứng vàng ấm",
+    "alt": "Kệ sách gỗ cao bên ghế bành và đèn đứng vàng ấm",
+    "ctas": [
+      { "label": "Cách đổi sách", "href": "#doi-sach", "style": "primary" },
+      { "label": "Góp sách cho tủ", "href": "#gop-sach", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "goc-doc",
+      "eyebrow": "Góc Ấm Nhà An",
+      "title": "Tủ sách nằm ở *góc ấm nhất tiệm*",
+      "paras": [
+        "Chi nhánh nào của Nhà An cũng có một Góc Ấm: sofa và ghế bành bên cửa sổ, đèn vàng dịu, nhạc nhỏ, ít người qua lại. Kệ sách đặt ngay đó, để bạn rút một cuốn và ngồi xuống.",
+        "Sách trên kệ dành cho khách của Nhà An đọc tại chỗ, không cần đăng ký. Muốn thêm trà hay bánh, bạn quét mã gọi món ngay tại chỗ ngồi, khỏi phải gấp sách đứng dậy."
+      ],
+      "bullets": [
+        "Sofa, ghế bành, chăn mỏng",
+        "Đèn vàng dịu, nhạc nhỏ",
+        "Ổ cắm cạnh ghế cho máy đọc sách",
+        "Mở cửa 24/7, đọc khuya vẫn có chỗ"
+      ],
+      "img": "@cafe|góc sofa bên cửa sổ với chăn mỏng, gối tựa và đèn vàng dịu",
+      "alt": "Góc sofa bên cửa sổ với chăn mỏng và đèn vàng dịu",
+      "cta": { "label": "Xem Góc Ấm và 3 khu khác", "href": "/khong-gian#am" }
+    },
+    {
+      "type": "features",
+      "id": "cach-dung",
+      "eyebrow": "Dùng tủ sách",
+      "title": "Sáu điều *nên biết* về tủ sách",
+      "items": [
+        { "icon": "book", "title": "Đọc tại chỗ", "text": "Chọn cuốn bạn thích và đọc bao lâu tùy ý, từ vài trang lúc chờ hẹn đến trọn một buổi chiều." },
+        { "icon": "recycle", "title": "Mang một cuốn, đổi một cuốn", "text": "Dự kiến sau khai trương: mang một cuốn sách của bạn tới, chọn một cuốn ở kệ sách đổi để mang về." },
+        { "icon": "gift", "title": "Góp sách cho tủ", "text": "Cuốn sách hay bạn đã đọc xong có thể ở lại tủ, để thêm một người được đọc." },
+        { "icon": "cup", "title": "Trà nóng đi cùng", "text": "Một ấm ô long rang củi hay chén trà sen nóng, thêm chiếc bánh vừa ra lò sáng nay, cho vài chương sách." },
+        { "icon": "moon", "title": "Đọc khuya", "text": "Nhà An mở cửa 24/7, nên trang sách lúc nửa đêm vẫn có đèn vàng và trà nóng bầu bạn." },
+        { "icon": "laptop", "title": "Sách điện tử cũng được", "text": "Ổ cắm cạnh ghế và wifi tốc độ cao cho người quen đọc trên máy hay nghe sách nói." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "theo-tam-trang",
+      "eyebrow": "Gợi ý đọc",
+      "title": "Hôm nay đọc gì? *Chọn theo tâm trạng*",
+      "lead": "Nhà An không chọn sách thay bạn, chỉ gợi ý thể loại hợp với từng tâm trạng và một ly trà đi kèm.",
+      "items": [
+        {
+          "img": "@books|cuốn sách mở trang bên chén trà nóng và nhành hoa nhỏ",
+          "alt": "Cuốn sách mở bên chén trà nóng và nhành hoa nhỏ",
+          "tag": "Tản văn · Thơ",
+          "title": "Khi muốn chậm lại",
+          "text": "Tản văn, thơ, nhật ký ngắn: vài trang cũng đủ thấy lòng lắng xuống. Đi cùng chén trà sen nóng, hương thanh và nhẹ."
+        },
+        {
+          "img": "@work|sổ tay ghi kế hoạch đặt cạnh cuốn sách và ly trà",
+          "alt": "Sổ tay ghi kế hoạch đặt cạnh cuốn sách và ly trà",
+          "tag": "Hồi ký · Kỹ năng",
+          "title": "Khi cần thêm động lực",
+          "text": "Hồi ký người làm nghề, sách về thói quen và cách làm việc: đọc xong chỉ muốn bắt tay vào làm ngay. Thử cùng một ấm ô long rang củi."
+        },
+        {
+          "img": "@books|sách ảnh du lịch mở cạnh tấm bản đồ cũ",
+          "alt": "Sách ảnh du lịch mở cạnh tấm bản đồ cũ",
+          "tag": "Du ký · Sách ảnh",
+          "title": "Khi muốn đi xa",
+          "text": "Du ký, sách ảnh về các vùng đất cho những ngày chưa thể xách ba lô lên đường. Hợp với ly trà trái cây theo mùa."
+        },
+        {
+          "img": "@books|chồng sách bìa nhiều màu trên bàn gỗ cạnh cửa sổ",
+          "alt": "Chồng sách bìa nhiều màu trên bàn gỗ",
+          "tag": "Khoa học · Lịch sử",
+          "title": "Khi đang tò mò",
+          "text": "Khoa học phổ thông, lịch sử, văn hóa Việt: mỗi lần đọc là biết thêm một điều mới. Đi cùng chén trà xanh lài thơm nhẹ."
+        },
+        {
+          "img": "cozy-cocoa",
+          "alt": "Cuốn sách mở, cặp kính và cốc đồ uống ấm trên chăn len",
+          "tag": "Truyện tranh · Thiếu nhi",
+          "title": "Khi cần được vỗ về",
+          "text": "Truyện tranh, truyện thiếu nhi, tiểu thuyết nhẹ nhàng: đọc lại lần thứ mấy vẫn thấy ấm. Hợp với ly trà sữa nóng nhà làm."
+        },
+        {
+          "img": "@night|đèn bàn vàng chiếu lên trang sách mở trong đêm",
+          "alt": "Đèn bàn vàng chiếu lên trang sách mở về đêm",
+          "tag": "Truyện ngắn",
+          "title": "Khi đêm chưa muốn ngủ",
+          "text": "Truyện ngắn đọc trọn trong một lần ngồi, để đêm khép lại nhẹ nhàng. Về khuya, nhờ quầy gợi ý một ly ít caffeine nhé."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "doi-sach",
+      "eyebrow": "Dự kiến sau khai trương",
+      "title": "Mang một cuốn, *đổi một cuốn*",
+      "lead": "Hình thức đổi sách dự kiến áp dụng sau khai trương. Chi tiết sẽ cập nhật tại quầy và trên Zalo của Nhà An.",
+      "items": [
+        { "title": "Chọn một cuốn đã đọc xong", "text": "Sách còn nguyên trang, không ẩm mốc, không viết kín. Cuốn bạn từng thích sẽ là món quà tốt cho người đọc sau." },
+        { "title": "Mang tới quầy", "text": "Nhân viên cùng bạn xem nhanh tình trạng sách trước khi xếp vào kệ sách đổi." },
+        { "title": "Chọn một cuốn mang về", "text": "Chọn bất kỳ cuốn nào trên kệ sách đổi và mang về nhà, không cần hẹn ngày trả." },
+        { "title": "Đọc xong, chuyền tay tiếp", "text": "Mang cuốn ấy quay lại đổi tiếp, hoặc tặng một người bạn cũng đang cần." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "quy-tac",
+      "eyebrow": "Giữ sách",
+      "title": "Vài quy tắc nhỏ để *sách sống lâu*",
+      "lead": "Một cuốn sách được giữ gìn cẩn thận có thể đi qua tay rất nhiều người đọc.",
+      "cols": [
+        {
+          "title": "Khi đọc tại chỗ",
+          "icon": "book",
+          "items": ["Lau tay sạch sau khi ăn bánh", "Đặt ly trên lót ly, cách xa trang sách", "Không gấp mép, không viết vào sách, không úp sách xuống bàn"]
+        },
+        {
+          "title": "Khi đọc xong",
+          "icon": "home",
+          "items": ["Đặt sách lại kệ hoặc để trên bàn cho nhân viên xếp", "Sách ở kệ đọc tại chỗ xin được để lại tiệm", "Thấy sách rách, ướt, báo nhân viên để kịp chăm sóc"]
+        },
+        {
+          "title": "Giữ Góc Ấm dễ chịu",
+          "icon": "heart",
+          "items": ["Nói nhỏ, tắt chuông, dùng tai nghe khi xem video", "Không giữ chỗ khi vắng lâu vào giờ đông khách", "Cần thật yên để học, mời sang Phòng Chạy Deadline"]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "gop-sach",
+      "eyebrow": "Góp sách",
+      "title": "Góp sách cho tủ: *nhận gì, chưa nhận gì*",
+      "lead": "Trước khai trương, bạn có thể nhắn Zalo 0865 920 041 để Nhà An ghi nhận. Sách được nhận trực tiếp tại quầy khi tiệm mở cửa.",
+      "head": ["Loại sách", "Nhà An", "Vì sao"],
+      "rows": [
+        ["Văn học, tản văn, thơ", "Rất mong nhận", "Hợp nhịp đọc chậm ở Góc Ấm"],
+        ["Sách về trà, món chay, văn hóa và vùng đất Việt", "Rất mong nhận", "Gần với câu chuyện của Nhà An"],
+        ["Truyện tranh, sách thiếu nhi, sách ảnh", "Mong nhận", "Cho gia đình có bé, người thích đọc nhẹ"],
+        ["Sách ngoại ngữ, khoa học phổ thông, kỹ năng", "Mong nhận", "Cho người đang tự học, ôn thi"],
+        ["Sách in lậu, sách photo", "Xin phép không nhận", "Tôn trọng tác giả và nhà xuất bản"],
+        ["Sách ẩm mốc, rách trang, viết kín", "Xin phép không nhận", "Giữ tủ sách sạch, dễ đọc"],
+        ["Nội dung bạo lực, phản cảm, gây chia rẽ", "Xin phép không nhận", "Góc Ấm là chỗ chung của mọi lứa tuổi"]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "doc-cham",
+      "title": "Những buổi *đọc chậm*",
+      "lead": "Ảnh minh họa không khí Nhà An muốn giữ ở Góc Ấm: ít ồn, nhiều đèn vàng và trà nóng.",
+      "items": [
+        { "img": "@books|kệ sách gỗ kín sách cũ dưới ánh đèn vàng", "caption": "Kệ gỗ, gáy sách cũ và ánh đèn vàng" },
+        { "img": "@brew|ấm trà gốm và chén trà nóng đặt cạnh cuốn sách mở", "caption": "Một ấm trà nóng cho vài chương sách" },
+        { "img": "@cafe|ô cửa sổ quán nhìn ra cơn mưa, ly trà nóng trên bậu cửa", "caption": "Ngoài trời mưa, trong này có trà và sách" },
+        { "img": "@books|bàn tay lật trang sách giấy ngả vàng", "caption": "Lật chậm từng trang, không cần vội" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về *tủ sách*",
+      "items": [
+        { "q": "Đọc sách ở tủ sách có cần đăng ký không?", "a": "Không cần. Sách trên kệ dành cho khách của Nhà An đọc tại chỗ; bạn chọn cuốn mình thích và ngồi xuống là được." },
+        { "q": "Tôi có thể mượn sách về nhà không?", "a": "Sách ở kệ đọc tại chỗ xin được để lại tiệm để người sau còn đọc. Muốn mang sách về, bạn dùng hình thức mang một cuốn, đổi một cuốn, dự kiến áp dụng sau khai trương." },
+        { "q": "Chi nhánh nào có tủ sách?", "a": "Tủ sách đặt ở Góc Ấm Nhà An, khu có ở cả 5 chi nhánh. Đầu sách mỗi nơi có thể khác nhau, tùy sách bạn đọc góp tặng." },
+        { "q": "Ngày Sách và Văn hóa đọc Việt Nam 21/4, Nhà An có hoạt động gì không?", "a": "Dịp 21/4, Nhà An dự kiến có hoạt động đổi sách ở Góc Ấm để cùng lan tỏa thói quen đọc. Lịch cụ thể sẽ có trên trang Lịch sự kiện." },
+        { "q": "Lỡ làm đổ trà lên sách thì sao?", "a": "Bạn báo ngay nhân viên để lau và hong khô kịp thời. Ai cũng có lúc lỡ tay, Nhà An chỉ mong được biết sớm để chăm sóc cuốn sách." },
+        { "q": "Tôi muốn góp nhiều sách một lúc được không?", "a": "Được. Bạn nhắn Zalo 0865 920 041 hoặc email contact@tiemnhaan.com kèm danh sách hay ảnh chụp gáy sách, Nhà An sẽ hẹn thời gian và chi nhánh nhận phù hợp." }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "hen-ban",
+      "title": "Hẹn bạn ở *Góc Ấm Nhà An*",
+      "text": "Tủ sách sẽ có mặt ở Góc Ấm khi Nhà An khai trương. Nhắn Zalo để góp những cuốn sách đầu tiên, hoặc xem thêm các hoạt động cộng đồng của Nhà An.",
+      "ctas": [
+        { "label": "Nhắn Zalo góp sách", "href": "https://zalo.me/0865920041", "style": "primary" },
+        { "label": "Hoạt động cộng đồng", "href": "/cong-dong", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/khong-gian", "/cong-dong", "/lich-su-kien", "/tin-tuc/chon-cho-ngoi-theo-viec"]
+}

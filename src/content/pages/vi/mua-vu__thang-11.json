@@ -1,0 +1,247 @@
+{
+  "slug": "mua-vu/thang-11",
+  "group": "tea",
+  "nav": "Tháng 11",
+  "navDesc": "Cam vào vụ, rau vụ đông và dịp 20/11",
+  "icon": "calendar",
+  "title": "Lịch mùa vụ tháng 11: cam, hồng treo gió và dịp 20/11",
+  "description": "Lịch mùa vụ tháng 11: cam vào vụ, hồng treo gió, rau vụ đông, mùa hái cà phê; ngày 20/11, Tết cơm mới, rằm tháng Mười và gợi ý trà ấm ở Nhà An.",
+  "image": "@landscape|đồi hoa dã quỳ vàng rực bên con đường đất đỏ Tây Nguyên",
+  "hero": {
+    "eyebrow": "Lịch mùa vụ",
+    "title": "Tháng 11: cam chín, dã quỳ vàng và *chén trà đầu đông*",
+    "lead": "Miền Bắc chớm lạnh với cúc họa mi và rau vụ đông, Tây Nguyên vào mùa hái cà phê, miền Trung còn mưa dầm, miền Nam dần khô ráo. Đây là những gì nên ăn, nên biết và nên chuẩn bị cho tháng 11.",
+    "img": "@landscape|đồi hoa dã quỳ vàng rực bên con đường đất đỏ Tây Nguyên",
+    "alt": "Đồi hoa dã quỳ vàng rực bên con đường đất đỏ Tây Nguyên",
+    "ctas": [
+      { "label": "Xem nông sản tháng 11", "href": "#nong-san", "style": "primary" },
+      { "label": "Các dịp lễ trong tháng", "href": "#ngay-le", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "thoi-tiet",
+      "eyebrow": "Thời tiết ba miền",
+      "title": "Đầu đông, *mỗi miền một vẻ*",
+      "paras": [
+        "Miền Bắc chuyển dần sang đông: các đợt không khí lạnh về dày hơn, trời hanh khô, sáng sớm có sương. Hà Nội vào mùa cúc họa mi, chợ bắt đầu nhiều rau vụ đông. Người xưa nói “ngày tháng Mười chưa cười đã tối”, bởi tháng Mười âm lịch, thường rơi vào tháng 11, là lúc ngày ngắn dần.",
+        "Miền Trung vẫn trong mùa mưa lũ, nhiều nơi mưa lớn kéo dài đến cuối tháng. Tây Nguyên bước vào mùa khô, dã quỳ nở vàng và cà phê vào vụ hái. Miền Nam ở cuối mùa mưa, trời thưa mưa dần, sáng sớm và đêm khuya dễ chịu hơn."
+      ],
+      "bullets": [
+        "Miền Bắc: hanh khô, se lạnh, nhiều đợt gió mùa",
+        "Miền Trung: còn mưa dầm, đề phòng lũ",
+        "Tây Nguyên: đầu mùa khô, mùa dã quỳ và cà phê",
+        "Miền Nam: mưa thưa dần, sáng sớm mát"
+      ],
+      "img": "@brew|ấm trà nóng bốc khói bên cửa sổ ngày se lạnh",
+      "alt": "Ấm trà nóng bốc khói bên cửa sổ ngày se lạnh",
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "id": "nong-san",
+      "eyebrow": "Nông sản theo mùa",
+      "title": "Tháng 11 *có gì ngon*",
+      "lead": "Năm thứ quà của đầu đông, từ vườn cam miền núi đến nương cà phê Tây Nguyên. Thời điểm thực tế có thể sớm hoặc muộn vài tuần tùy năm và vùng trồng.",
+      "items": [
+        {
+          "img": "@market|vườn cam chín vàng trĩu cành ở vùng núi phía Bắc",
+          "alt": "Vườn cam chín vàng trĩu cành ở vùng núi phía Bắc",
+          "tag": "Cao Phong",
+          "title": "Cam vào vụ",
+          "text": "Cam Cao Phong thu hoạch rải rác từ tháng 9, vụ chính rơi vào khoảng tháng 11. Cam mọng nước, hợp ép tươi hay làm trà trái cây."
+        },
+        {
+          "img": "@market|những quả hồng treo gió đỏ nâu xếp trên khay tre",
+          "alt": "Những quả hồng treo gió đỏ nâu xếp trên khay tre",
+          "tag": "Đà Lạt",
+          "title": "Hồng treo gió",
+          "text": "Mùa làm hồng treo gió ở Đà Lạt kéo dài tới khoảng đầu tháng 12. Quả dẻo, ngọt đậm, nhâm nhi cùng chén trà nóng là vừa vặn."
+        },
+        {
+          "img": "@market|su hào, bắp cải và súp lơ xanh tươi trên sạp rau chợ sáng",
+          "alt": "Su hào, bắp cải và súp lơ xanh tươi trên sạp rau chợ sáng",
+          "tag": "Miền Bắc",
+          "title": "Rau vụ đông",
+          "text": "Tháng 11 là lúc su hào, bắp cải, súp lơ vụ đông bắt đầu nhiều ở chợ phía Bắc. Rau giòn ngọt, hợp xào, luộc hay nấu canh chay."
+        },
+        {
+          "img": "@landscape|người nông dân hái cà phê chín đỏ trên nương Tây Nguyên",
+          "alt": "Người nông dân hái cà phê chín đỏ trên nương Tây Nguyên",
+          "tag": "Tây Nguyên",
+          "title": "Mùa hái cà phê",
+          "text": "Từ giữa tháng 10 đến giữa tháng 11, các vùng cà phê Tây Nguyên lần lượt vào vụ hái, kéo dài khoảng ba tháng, đúng mùa dã quỳ nở vàng."
+        },
+        {
+          "img": "@market|bát cơm gạo mới trắng dẻo bốc khói bên bó lúa chín",
+          "alt": "Bát cơm gạo mới trắng dẻo bốc khói bên bó lúa chín",
+          "tag": "Cơm mới",
+          "title": "Gạo mới, nếp mới",
+          "text": "Gặt xong vụ mùa, nhà nhà có nồi cơm mới thơm dẻo. Nhiều làng quê làm lễ cơm mới trong tháng Mười âm lịch để tạ ơn mùa màng."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "ngay-le",
+      "eyebrow": "Dịp lễ trong tháng",
+      "title": "Những ngày *đáng nhớ* của tháng 11",
+      "lead": "Ngày âm lịch được quy đổi theo lịch Việt Nam (múi giờ +7). Muốn tra năm khác, hãy dùng công cụ đổi lịch âm dương của Nhà An.",
+      "items": [
+        {
+          "label": "Mùng 1 tháng 10 âm lịch",
+          "title": "Bước sang tháng Mười âm lịch",
+          "text": "Năm 2026 rơi vào thứ Hai 9/11, năm 2027 là thứ Sáu 29/10. Nhiều gia đình thắp hương ngày mùng một, ngày bắt đầu ngắn dần."
+        },
+        {
+          "label": "Mùng 10 tháng 10 âm lịch",
+          "title": "Tết Trùng Thập, Tết cơm mới",
+          "text": "Năm 2026 là thứ Tư 18/11, năm 2027 là Chủ nhật 7/11. Sau vụ gặt, nhiều làng quê phía Bắc nấu cơm gạo mới dâng tổ tiên, tạ ơn trời đất."
+        },
+        {
+          "label": "20/11",
+          "title": "Ngày Nhà giáo Việt Nam",
+          "text": "Chính thức từ năm 1982. Dịp hẹn họp lớp, viết thiệp và gửi thầy cô hộp trà, bánh nhà làm; năm 2026 rơi vào thứ Sáu."
+        },
+        {
+          "label": "Rằm tháng 10 âm lịch",
+          "title": "Tết Hạ Nguyên, lễ Oóc Om Bóc",
+          "text": "Năm 2026 là thứ Hai 23/11, năm 2027 là thứ Sáu 12/11. Đồng bào Khmer Nam Bộ mừng lễ Oóc Om Bóc với cúng trăng, thả đèn nước và đua ghe Ngo, sôi nổi trên sông Maspéro ở Sóc Trăng (nay thuộc TP. Cần Thơ)."
+        },
+        {
+          "label": "23/11",
+          "title": "Ngày Di sản Văn hóa Việt Nam",
+          "text": "Kỷ niệm Sắc lệnh số 65 về bảo tồn cổ tích ký ngày 23/11/1945, được chọn làm Ngày Di sản từ năm 2005. Hai Di sản Thế giới phố cổ Hội An và thánh địa Mỹ Sơn nằm gần chi nhánh Nhà An Hội An, Duy Xuyên."
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "goi-y",
+      "eyebrow": "Ở Nhà An",
+      "title": "Gợi ý trà & món *cho ngày se lạnh*",
+      "lead": "Thực đơn mùa lạnh sẽ tùy nguồn hàng của mỗi chi nhánh. Vài gợi ý dưới đây để bạn gọi món khi ghé tiệm hoặc tự pha ở nhà.",
+      "items": [
+        { "icon": "cup", "title": "Trà sữa ô long nóng", "text": "Cốt ô long ủ mới mỗi 4 tiếng, sữa tươi hoặc sữa yến mạch, mức đường từ 0% đến 100%." },
+        { "icon": "flame", "title": "Trà gừng sả ấm tay", "text": "Gừng, sả nấu cùng chút mật ong hay lát chanh; dễ làm ở nhà, Từ điển trà có hướng dẫn chi tiết." },
+        { "icon": "droplet", "title": "Trà trái cây cam", "text": "Gợi ý theo mùa: cam vụ mới trên nền trà thanh, ít đá cho những ngày trời se." },
+        { "icon": "leaf", "title": "Trà gạo rang, trà hoa cúc", "text": "Hương bùi của gạo rang hợp mùa cơm mới; trà hoa cúc dịu nhẹ cho buổi tối thong thả." },
+        { "icon": "bowl", "title": "Mì Quảng chay ngày mưa", "text": "Ở các chi nhánh miền Trung, tô mì Quảng chay nóng hợp những trưa mưa dầm." },
+        { "icon": "moon", "title": "Món chay khuya", "text": "Bếp có món chay khuya từ 22:00 đến 04:00 cho những đêm làm việc, ôn bài muộn." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "o-nha-an",
+      "eyebrow": "Hoạt động gợi ý",
+      "title": "Tháng 11 *ở Nhà An*",
+      "lead": "5 chi nhánh đang hoàn thiện và sắp khai trương. Khi mở cửa, đây là những buổi hẹn Nhà An muốn dành cho bạn trong tháng 11.",
+      "items": [
+        {
+          "img": "@gift|hộp trà buộc nơ kèm thiệp viết tay tặng thầy cô",
+          "alt": "Hộp trà buộc nơ kèm thiệp viết tay tặng thầy cô",
+          "tag": "20/11",
+          "title": "Tri ân thầy cô",
+          "text": "Hộp trà ô long và bánh nhà làm kèm thiệp viết tay; nên đặt trước vài ngày.",
+          "href": "/su-kien/nha-giao-20-11"
+        },
+        {
+          "img": "@cafe|bàn gỗ dài ngoài sân cây xanh bày sẵn cho buổi họp mặt",
+          "alt": "Bàn gỗ dài ngoài sân cây xanh bày sẵn cho buổi họp mặt",
+          "tag": "Họp lớp",
+          "title": "Họp lớp ở Sân Rôm Rả",
+          "text": "Bàn dài 8–12 người, nhận tiệc nhỏ đến 30 khách, đặt trước ít nhất 2 ngày.",
+          "href": "/khong-gian/san-rom-ra"
+        },
+        {
+          "img": "lm-myson-towers",
+          "alt": "Tháp Chăm cổ ở thánh địa Mỹ Sơn",
+          "tag": "23/11",
+          "title": "Về Mỹ Sơn dịp Ngày Di sản",
+          "text": "Thánh địa Mỹ Sơn nằm gần Nhà An Duy Xuyên; tháng 11 còn mưa nên hãy xem dự báo trước khi đi.",
+          "href": "/diem-den/thanh-dia-my-son"
+        },
+        {
+          "img": "@festival|cây thông trang trí đèn vàng trong quán ấm cúng",
+          "alt": "Cây thông trang trí đèn vàng trong quán ấm cúng",
+          "tag": "Cuối tháng",
+          "title": "Giữ chỗ mùa lễ",
+          "text": "Tiệc Giáng sinh, tất niên thường dồn vào tháng 12, nên giữ chỗ từ cuối tháng 11.",
+          "href": "/su-kien/giang-sinh"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo",
+      "eyebrow": "Mẹo nhỏ",
+      "title": "Ấm áp, *khỏe khoắn* tháng 11",
+      "cols": [
+        {
+          "title": "Chọn nông sản",
+          "icon": "sprout",
+          "items": [
+            "Cam chọn quả nặng tay, vỏ căng mịn, cuống còn tươi",
+            "Hồng treo gió chọn quả dẻo, màu đều, không ẩm mốc; cất ngăn mát tủ lạnh",
+            "Bắp cải chọn bắp cuộn chặt, nặng tay; su hào chọn củ vừa, vỏ non",
+            "Gạo mới dẻo và ngậm nước hơn gạo cũ, nấu bớt chút nước"
+          ]
+        },
+        {
+          "title": "Ấm áp mùa se lạnh",
+          "icon": "heart",
+          "items": [
+            "Khoác thêm áo mỏng khi ra đường sáng sớm, đêm muộn",
+            "Trời hanh khô: uống đủ nước, dưỡng ẩm da và môi",
+            "Buổi tối chọn đồ uống ấm, ít ngọt, ít caffeine",
+            "Có vấn đề sức khỏe riêng, hãy hỏi ý kiến bác sĩ"
+          ]
+        },
+        {
+          "title": "Đi chơi tháng 11",
+          "icon": "map",
+          "items": [
+            "Cúc họa mi Hà Nội chỉ rộ chừng 2–3 tuần, đẹp nhất vào giữa tháng",
+            "Dã quỳ và cỏ hồng Đà Lạt vào độ đẹp trong tháng 11",
+            "Miền Trung còn mưa lũ: xem dự báo, chuẩn bị phương án dự phòng",
+            "Kiểm tra lịch lễ hội mới nhất trước khi lên đường"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về tháng 11*",
+      "items": [
+        {
+          "q": "Tháng 11 có trái cây, nông sản gì?",
+          "a": "Cam vào vụ chính, hồng treo gió Đà Lạt, rau vụ đông miền Bắc như su hào, bắp cải, súp lơ và gạo mới sau vụ mùa; Tây Nguyên vào mùa hái cà phê. Thời điểm thực tế có thể lệch vài tuần tùy năm."
+        },
+        {
+          "q": "Tết cơm mới năm 2026 là ngày nào?",
+          "a": "Tết Trùng Thập, nhiều nơi gọi là Tết cơm mới, vào mùng 10 tháng 10 âm lịch, tức thứ Tư 18/11/2026; năm 2027 rơi vào Chủ nhật 7/11. Mỗi địa phương có thể làm lễ cơm mới vào ngày khác nhau."
+        },
+        {
+          "q": "Nên tặng gì cho thầy cô dịp 20/11?",
+          "a": "Món quà nhỏ mà chân thành thường được quý hơn quà đắt tiền: hộp trà, bánh nhà làm, tấm thiệp viết tay hay một buổi họp lớp. Nhà An dự kiến nhận đặt hộp quà trà và bánh tại chi nhánh đã khai trương."
+        },
+        {
+          "q": "Tháng 11 nên đi đâu?",
+          "a": "Hà Nội có cúc họa mi, Đà Lạt có dã quỳ, cỏ hồng và mùa hồng treo gió, Tây Nguyên vào mùa cà phê. Miền Trung vẫn có thể mưa lớn nên bạn cần lịch trình linh hoạt và theo dõi dự báo thời tiết."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn *mùa đông này*",
+      "text": "Xem trọn 12 tháng nông sản và dịp lễ, hoặc đặt bàn trước để nhận tin sớm khi 5 chi nhánh Nhà An khai trương.",
+      "ctas": [
+        { "label": "Lịch mùa vụ 12 tháng", "href": "/mua-vu", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/mua-vu", "/mua-vu/thang-10", "/mua-vu/thang-12", "/su-kien/nha-giao-20-11", "/tra-viet/tu-dien/tra-gung", "/cong-cu/lich-am"]
+}

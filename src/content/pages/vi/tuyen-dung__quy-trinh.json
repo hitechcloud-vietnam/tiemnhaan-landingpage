@@ -1,0 +1,219 @@
+{
+  "slug": "tuyen-dung/quy-trinh",
+  "group": "careers",
+  "nav": "Quy trình ứng tuyển",
+  "navDesc": "Gửi hồ sơ, phỏng vấn, nhận việc",
+  "icon": "card",
+  "title": "Quy trình ứng tuyển: 3 bước từ hồ sơ đến ca làm đầu tiên",
+  "description": "Quy trình ứng tuyển Tiệm Nhà An chỉ 3 bước: gửi form hoặc CV, nhận cuộc gọi hẹn phỏng vấn trong 3 ngày làm việc, học việc và nhận lương từ ngày đầu.",
+  "image": "@work|bạn trẻ điền thông tin ứng tuyển trên điện thoại bên ly trà và sổ tay",
+  "hero": {
+    "eyebrow": "Tuyển dụng",
+    "title": "Ba bước để *về làm nhà với Nhà An*",
+    "lead": "Gửi form hoặc CV, Nhà An gọi lại hẹn phỏng vấn trong 3 ngày làm việc, rồi bạn bắt đầu học việc có hướng dẫn và nhận lương từ ngày đầu. Trang này giúp bạn chuẩn bị cho từng bước.",
+    "img": "@work|bạn trẻ điền thông tin ứng tuyển trên điện thoại bên ly trà và sổ tay",
+    "alt": "Bạn trẻ điền thông tin ứng tuyển trên điện thoại bên ly trà và sổ tay",
+    "ctas": [
+      { "label": "Ứng tuyển ngay", "href": "#ung-tuyen", "style": "primary" },
+      { "label": "Xem ba bước", "href": "#cac-buoc", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "truoc-khi-bat-dau",
+      "eyebrow": "Trước khi bắt đầu",
+      "title": "Không cần CV đẹp, *chỉ cần bạn thật lòng*",
+      "paras": [
+        "Nhà An đang tuyển cho 5 chi nhánh sắp khai trương: Bình Thạnh, Tân Bình (TP. Hồ Chí Minh) và trung tâm Đà Nẵng, phố cổ Hội An, Duy Xuyên (TP. Đà Nẵng). Mọi vị trí đều không cần kinh nghiệm vì bạn sẽ được đào tạo từ đầu.",
+        "Chưa có CV vẫn ứng tuyển được. Bạn chỉ cần cho Nhà An biết mình là ai, muốn làm vị trí nào, ở chi nhánh nào và có thể làm những ca nào trong tuần."
+      ],
+      "bullets": [
+        "Bán thời gian 30.000–35.000đ/giờ, ca linh hoạt",
+        "Chính thức 10–15 triệu/tháng, hợp đồng lao động, BHXH, BHYT đầy đủ",
+        "Lộ trình lên trưởng ca, quản lý cửa hàng"
+      ],
+      "img": "chat-cafe",
+      "alt": "Ba bạn trẻ trò chuyện quanh bàn gỗ ở quán ngoài trời, một người đang mở laptop",
+      "cta": { "label": "Xem các vị trí đang tuyển", "href": "/tuyen-dung" }
+    },
+    {
+      "type": "steps",
+      "id": "cac-buoc",
+      "eyebrow": "Quy trình",
+      "title": "Ba bước, *rõ ràng từ đầu*",
+      "lead": "Không phí ứng tuyển, không vòng vèo: đây là toàn bộ hành trình từ lúc gửi hồ sơ đến ca làm đầu tiên.",
+      "items": [
+        { "title": "Gửi hồ sơ", "text": "Điền form ở cuối trang, chưa có CV cũng được. Đã có CV thì gửi thêm qua email contact@tiemnhaan.com, tiêu đề ghi rõ vị trí và chi nhánh." },
+        { "title": "Nhận cuộc gọi hẹn phỏng vấn", "text": "Trong 3 ngày làm việc, Nhà An gọi lại hoặc nhắn Zalo để hẹn lịch. Thời gian, địa điểm và hình thức phỏng vấn được báo rõ khi hẹn; trùng lịch học thì bạn cứ đề nghị đổi giờ." },
+        { "title": "Học việc và nhận lương", "text": "Thống nhất vị trí, ca làm và thu nhập xong, bạn bắt đầu học việc có người hướng dẫn và nhận lương từ ngày đầu. Nhân viên chính thức ký hợp đồng lao động, được đóng BHXH, BHYT đầy đủ." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "cach-gui-ho-so",
+      "eyebrow": "Cách gửi hồ sơ",
+      "title": "Chọn kênh *thuận tiện nhất với bạn*",
+      "lead": "Chọn một kênh là đủ, Nhà An xem mọi hồ sơ như nhau.",
+      "head": ["Kênh", "Cần chuẩn bị", "Phù hợp khi"],
+      "rows": [
+        ["Form trên website", "Họ tên, số điện thoại hoặc Zalo, vị trí, chi nhánh, năm sinh, khu vực, ca có thể làm", "Bạn muốn gửi nhanh ngay trên điện thoại"],
+        ["Email contact@tiemnhaan.com", "CV dạng PDF, tiêu đề ghi rõ vị trí và chi nhánh, vài dòng giới thiệu bản thân", "Bạn đã có CV hoặc muốn giới thiệu kỹ hơn"],
+        ["Gọi hoặc nhắn Zalo 0865 920 041", "Họ tên, vị trí quan tâm và điều bạn muốn hỏi", "Bạn cần hỏi thêm trước khi quyết định"]
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "chuan-bi-phong-van",
+      "eyebrow": "Chuẩn bị phỏng vấn",
+      "title": "Phỏng vấn là *một cuộc trò chuyện*",
+      "lead": "Không có câu hỏi đánh đố. Nhà An muốn hiểu bạn, và bạn cũng nên hiểu rõ công việc trước khi nhận lời.",
+      "cols": [
+        {
+          "title": "Trước buổi hẹn",
+          "icon": "calendar",
+          "items": [
+            "Đọc lại trang mô tả vị trí bạn ứng tuyển",
+            "Ghi ra các ca có thể làm, kể cả lịch học, lịch thi",
+            "Chuẩn bị vài câu muốn hỏi Nhà An",
+            "Đến sớm 5–10 phút, hoặc chọn chỗ yên tĩnh nếu trò chuyện qua điện thoại"
+          ]
+        },
+        {
+          "title": "Mang theo",
+          "icon": "box",
+          "items": [
+            "Giấy tờ tùy thân để đối chiếu khi cần",
+            "CV nếu có, không bắt buộc",
+            "Thời khóa biểu hoặc lịch làm việc hiện tại",
+            "Sổ tay và bút để ghi chú"
+          ]
+        },
+        {
+          "title": "Tác phong",
+          "icon": "heart",
+          "items": [
+            "Trang phục gọn gàng, sạch sẽ là đủ",
+            "Nói thật về thời gian có thể làm và điều bạn còn băn khoăn",
+            "Kể về một việc bạn từng làm chăm chỉ, dù nhỏ",
+            "Hỏi lại ngay khi chưa rõ về ca làm, thu nhập hay quyền lợi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "nha-an-quan-tam",
+      "eyebrow": "Điều Nhà An quan tâm",
+      "title": "Thái độ *đi trước kinh nghiệm*",
+      "lead": "Kỹ năng có thể học dần. Đây là những điều Nhà An mong tìm thấy ở người đồng hành.",
+      "items": [
+        { "icon": "heart", "title": "Tử tế", "text": "Lễ phép với khách, tôn trọng đồng đội, sẵn lòng giúp người bên cạnh lúc đông khách." },
+        { "icon": "clock", "title": "Đúng giờ, giữ lời", "text": "Một tiệm mở cửa 24/7 vận hành trơn tru nhờ từng ca đến đúng giờ và giao ca đầy đủ." },
+        { "icon": "sprout", "title": "Ham học", "text": "Dám hỏi khi chưa biết, đón nhận góp ý và muốn ly sau ngon hơn ly trước." },
+        { "icon": "hand", "title": "Sạch sẽ, gọn gàng", "text": "Thói quen giữ tay, quầy và bếp sạch là nền tảng của an toàn thực phẩm." },
+        { "icon": "chat", "title": "Giao tiếp rõ ràng", "text": "Chào khách ân cần, nói đủ ý và báo ngay trưởng ca khi có điều bất thường." },
+        { "icon": "calendar", "title": "Lịch làm phù hợp", "text": "Ca bạn có thể làm khớp với nhu cầu của chi nhánh; bán thời gian được chọn ca linh hoạt." }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "ung-tuyen-an-toan",
+      "eyebrow": "Ứng tuyển an toàn",
+      "title": "Nhận diện đúng *kênh tuyển dụng của Nhà An*",
+      "paras": [
+        "Tin tuyển dụng giả mạo, dụ nộp phí là chiêu lừa quen thuộc nhắm vào người trẻ tìm việc. Kênh liên hệ chính thức của Nhà An với ứng viên là hotline, Zalo 0865 920 041, email contact@tiemnhaan.com và trang tuyển dụng trên tiemnhaan.com.",
+        "Thông tin bạn gửi chỉ dùng cho việc tuyển dụng và được bảo vệ theo chính sách bảo mật thông tin ứng viên. Nghi ngờ một tin nào mang tên Nhà An, hãy gọi hotline để kiểm tra trước khi làm theo."
+      ],
+      "bullets": [
+        "Không thu phí hồ sơ, phí phỏng vấn hay học phí đào tạo",
+        "Không yêu cầu đặt cọc hay chuyển khoản trước",
+        "Không giữ bản chính giấy tờ tùy thân, văn bằng"
+      ],
+      "img": "@work|bàn tay cầm điện thoại đọc tin nhắn tuyển dụng bên cạnh laptop",
+      "alt": "Bàn tay cầm điện thoại đọc tin nhắn tuyển dụng bên cạnh laptop",
+      "reverse": true,
+      "cta": { "label": "Chính sách bảo mật ứng viên", "href": "/bao-mat-ung-vien" }
+    },
+    {
+      "type": "cards",
+      "id": "chi-nhanh",
+      "eyebrow": "Chọn chi nhánh",
+      "title": "Năm chi nhánh, *chọn nơi gần bạn*",
+      "lead": "Địa chỉ cụ thể và ngày khai trương sẽ được công bố trên website và Zalo. Bạn cứ chọn khu vực thuận tiện nhất để đi làm.",
+      "items": [
+        {
+          "img": "@hcm|tòa Landmark 81 và hàng cây xanh bên sông Sài Gòn",
+          "alt": "Tòa Landmark 81 và hàng cây xanh bên sông Sài Gòn",
+          "tag": "TP. Hồ Chí Minh",
+          "title": "Nhà An Bình Thạnh",
+          "text": "Nhà phố nhiều cây xanh gần Landmark 81, sân trước trồng sen, là điểm hẹn chạy deadline lớn nhất hệ thống.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "@hcm|máy bay chuẩn bị hạ cánh trên những mái nhà gần sân bay Tân Sơn Nhất",
+          "alt": "Máy bay chuẩn bị hạ cánh trên những mái nhà gần sân bay Tân Sơn Nhất",
+          "tag": "TP. Hồ Chí Minh",
+          "title": "Nhà An Tân Bình",
+          "text": "Tiệm trà gạch bông kiểu Sài Gòn xưa gần sân bay Tân Sơn Nhất, có chỗ gửi hành lý cho khách chờ chuyến bay.",
+          "href": "/chi-nhanh/tan-binh"
+        },
+        {
+          "img": "@danang|sông Hàn và những cây cầu ở trung tâm Đà Nẵng lúc chiều muộn",
+          "alt": "Sông Hàn và những cây cầu ở trung tâm Đà Nẵng lúc chiều muộn",
+          "tag": "TP. Đà Nẵng",
+          "title": "Nhà An Đà Nẵng",
+          "text": "Ngay trung tâm thành phố, gần sông Hàn, tiện cho bạn sống và học ở khu nội thành.",
+          "href": "/chi-nhanh/da-nang"
+        },
+        {
+          "img": "@hoian|dãy nhà tường vàng treo đèn lồng trong phố cổ Hội An",
+          "alt": "Dãy nhà tường vàng treo đèn lồng trong phố cổ Hội An",
+          "tag": "TP. Đà Nẵng",
+          "title": "Nhà An Hội An",
+          "text": "Căn nhà vàng trong phố cổ, nhiều đèn lồng, đón cả người dân địa phương lẫn du khách ghé thăm.",
+          "href": "/chi-nhanh/hoi-an"
+        },
+        {
+          "img": "@quangnam|bờ sông Thu Bồn ở Duy Xuyên với hàng tre xanh và thuyền nhỏ",
+          "alt": "Bờ sông Thu Bồn ở Duy Xuyên với hàng tre xanh và thuyền nhỏ",
+          "tag": "TP. Đà Nẵng",
+          "title": "Nhà An Duy Xuyên",
+          "text": "Nhà vườn bên sông Thu Bồn, gần thánh địa Mỹ Sơn và làng lụa Mã Châu.",
+          "href": "/chi-nhanh/duy-xuyen"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về quy trình*",
+      "items": [
+        { "q": "Không có CV có ứng tuyển được không?", "a": "Được. CV là điểm cộng, không bắt buộc. Form chỉ cần thông tin cơ bản và những ca bạn có thể làm trong tuần." },
+        { "q": "Quá 3 ngày làm việc chưa thấy ai gọi thì sao?", "a": "Có thể cuộc gọi bị lỡ hoặc số điện thoại bị gõ nhầm. Bạn nhắn Zalo 0865 920 041 kèm họ tên và vị trí đã ứng tuyển để Nhà An kiểm tra giúp." },
+        { "q": "Có thể ứng tuyển nhiều vị trí hoặc nhiều chi nhánh không?", "a": "Được. Bạn chọn vị trí và chi nhánh ưu tiên trong form, rồi ghi thêm lựa chọn khác vào ô thông tin cuối form. Khi phỏng vấn, hai bên sẽ cùng chọn vị trí phù hợp nhất." },
+        { "q": "Chi nhánh chưa khai trương thì phỏng vấn ở đâu?", "a": "Nhà An sẽ báo rõ thời gian, địa điểm hoặc hình thức phỏng vấn khi gọi hẹn. Nếu bạn ở xa, cứ nói trước để hai bên chọn cách thuận tiện nhất." },
+        { "q": "Đang đi học, chỉ làm được vài ca mỗi tuần có được không?", "a": "Được. Vị trí bán thời gian có ca linh hoạt, đăng ký theo tuần. Bạn ghi rõ các ca có thể làm để Nhà An sắp xếp khớp với lịch học." },
+        { "q": "Nếu lần này chưa phù hợp thì hồ sơ của mình ra sao?", "a": "Nhà An sẽ báo kết quả cho bạn. Nếu bạn đồng ý, hồ sơ được giữ lại để liên hệ khi có vị trí hoặc chi nhánh phù hợp, và bạn có thể yêu cầu xóa thông tin bất cứ lúc nào." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Còn băn khoăn? *Hỏi Nhà An trước*",
+      "text": "Nhắn Zalo để được giải đáp nhanh, hoặc xem thêm những câu hỏi ứng viên hay thắc mắc về lương, ca làm và quyền lợi.",
+      "ctas": [
+        { "label": "Nhắn Zalo 0865 920 041", "href": "https://zalo.me/0865920041", "style": "primary" },
+        { "label": "Hỏi đáp tuyển dụng", "href": "/tuyen-dung/cau-hoi", "style": "ghost" }
+      ]
+    },
+    {
+      "type": "form",
+      "kind": "apply",
+      "id": "ung-tuyen",
+      "eyebrow": "Ứng tuyển",
+      "title": "Gửi hồ sơ ứng tuyển",
+      "lead": "Chỉ mất vài phút. Gửi xong, bạn để ý điện thoại nhé: Nhà An sẽ gọi lại hoặc nhắn Zalo hẹn phỏng vấn trong 3 ngày làm việc."
+    }
+  ],
+  "related": ["/tuyen-dung", "/tuyen-dung/dao-tao", "/tuyen-dung/quyen-loi", "/tuyen-dung/van-hoa", "/tuyen-dung/sinh-vien", "/bao-mat-ung-vien"]
+}

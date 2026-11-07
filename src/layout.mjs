@@ -60,6 +60,33 @@ const ICONS = {
   tiktok: P('M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5') + P('M14 3c.5 2.5 2.5 4.5 5 4.5'),
   chat: P('M4 5h16v11H9l-5 4V5Z') + P('M8 10h8M8 13h5'),
   globe: '<circle cx="12" cy="12" r="9"/>' + P('M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z'),
+  book: P('M4 5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2V5Z') + P('M4 20a2 2 0 0 1 2-2h13v3H6a2 2 0 0 1-2-1Z') + P('M8 7h7M8 10.5h5'),
+  search: '<circle cx="11" cy="11" r="6.5"/>' + P('m16 16 4.5 4.5'),
+  timer: '<circle cx="12" cy="13.5" r="7.5"/>' + P('M12 9.5v4l2.5 2M9.5 2.5h5M12 2.5V6'),
+  recycle: P('M20 12a8 8 0 0 1-13.6 5.7') + P('M4 12a8 8 0 0 1 13.6-5.7') + P('M18 3v4h-4') + P('M6 21v-4h4'),
+  flower: '<circle cx="12" cy="7.2" r="3"/><circle cx="16.6" cy="10.6" r="3"/><circle cx="14.8" cy="16" r="3"/><circle cx="9.2" cy="16" r="3"/><circle cx="7.4" cy="10.6" r="3"/><circle cx="12" cy="11.6" r="1.4"/>',
+  flame: P('M12 22c4 0 7-2.7 7-6.6 0-3-1.6-5.3-3.5-7.4.2 2-1 3.5-2.5 4C13.5 8.2 12.4 5 9.6 2c.3 3.6-1.6 5.6-3.1 7.6C5.4 11.1 5 12.7 5 15.4 5 19.3 8 22 12 22Z'),
+  droplet: P('M12 3c3 4.2 6 7.4 6 11a6 6 0 0 1-12 0c0-3.6 3-6.8 6-11Z'),
+  map: P('M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z') + P('M9 4v14M15 6v14'),
+  bike: '<circle cx="6" cy="16" r="3.5"/><circle cx="18" cy="16" r="3.5"/>' + P('M6 16l4-7h5l3 7M10 9 8.5 5.5H6M15 9l-3 7'),
+  shield: P('M12 3 5 6v5c0 4.5 3 8.4 7 10 4-1.6 7-5.5 7-10V6l-7-3Z') + P('m9 12 2 2 4-4'),
+  palette: P('M12 3a9 9 0 0 0 0 18c1.2 0 2-.8 2-1.8 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8Z') + '<circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="14.5" cy="7" r="1"/>',
+  game: '<rect x="2.5" y="7" width="19" height="11" rx="5"/>' + P('M7 11v3M5.5 12.5h3') + '<circle cx="15.5" cy="11.5" r=".9"/><circle cx="17.5" cy="13.5" r=".9"/>',
+  mic: '<rect x="9" y="3" width="6" height="11" rx="3"/>' + P('M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6'),
+  box: P('M3 7.5 12 3l9 4.5v9L12 21l-9-4.5v-9Z') + P('M3 7.5 12 12l9-4.5M12 12v9'),
+  spark: P('M11 3l1.8 5.2L18 10l-5.2 1.8L11 17l-1.8-5.2L4 10l5.2-1.8Z') + P('M18.5 15.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7Z'),
+  quote: P('M10 8H6a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3v1a3 3 0 0 1-3 3') + P('M19 8h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3v1a3 3 0 0 1-3 3'),
+  x: P('M4 4l16 16M20 4 4 20'),
+  share: '<circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/>' + P('m8.2 10.8 7.6-4.6M8.2 13.2l7.6 4.6'),
+  bookmark: P('M6 3h12v18l-6-4-6 4V3Z'),
+  speaker: P('M4 9v6h4l5 4V5L8 9H4Z') + P('M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12'),
+  arrowUp: P('M12 19V5M6 11l6-6 6 6'),
+  play: P('M7 4.5v15L19.5 12 7 4.5Z'),
+  pause: P('M8 5v14M16 5v14'),
+  refresh: P('M20 11a8 8 0 1 0-2.3 5.7') + P('M20 4v7h-7'),
+  download: P('M12 3v12m-5-5 5 5 5-5') + P('M4 20h16'),
+  sunMoon: P('M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z'),
+  cube: P('M12 2.5 3.5 7v10l8.5 4.5 8.5-4.5V7L12 2.5Z') + P('M3.5 7 12 11.5 20.5 7M12 11.5v10'),
 };
 export const icon = (name, cls = 'ic') =>
   `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ''}</svg>`;
@@ -106,6 +133,31 @@ export const logoImg = (kind, display, alt = '', attrs = '') => {
 };
 
 
+// Trang cha (breadcrumb) theo tiền tố đường dẫn — dùng cho cả breadcrumb hiển thị và dữ liệu có cấu trúc
+export const PARENTS = [
+  ['/tra-viet/tu-dien/', 'Từ điển trà', '/tra-viet/tu-dien'],
+  ['/tra-viet/', 'Trà Việt', '/tra-viet'],
+  ['/su-kien/', 'Lễ Tết & sự kiện', '/su-kien'],
+  ['/tuyen-dung/', 'Tuyển dụng', '/tuyen-dung'],
+  ['/tin-tuc/', 'Cẩm nang', '/tin-tuc'],
+  ['/workshop/', 'Workshop', '/workshop'],
+  ['/khong-gian/', 'Không gian', '/khong-gian'],
+  ['/chup-anh/', 'Studio áo dài & Góc check-in', '/chup-anh'],
+  ['/diem-den/', 'Điểm đến', '/diem-den'],
+  ['/cong-cu/', 'Tiện ích', '/cong-cu'],
+  ['/mua-vu/', 'Lịch mùa vụ', '/mua-vu'],
+  ['/hoi-dap/', 'Hỏi đáp', '/hoi-dap'],
+  ['/chi-nhanh/', 'Chi nhánh', '/chi-nhanh'],
+];
+export const parentOf = (path) => {
+  const m = path.match(/^\/chi-nhanh\/([a-z-]+)\/[a-z-]+$/);
+  if (m) {
+    const b = site.branches.find((x) => x.id === m[1]);
+    if (b) return ['', b.city, `/chi-nhanh/${b.id}`];
+  }
+  return PARENTS.find(([pre]) => path.startsWith(pre)) || null;
+};
+
 export const LANGS = [
   ['vi', 'Tiếng Việt', 'VI', 'vi_VN'],
   ['en', 'English', 'EN', 'en_US'],
@@ -123,36 +175,113 @@ const SPACES = [
 ];
 
 const thumb = (k) => `<img src="${photoUrl(k, 'w320')}" alt="" width="64" height="64" loading="lazy" decoding="async">`;
+const li = ([href, ic, t, d]) => `<li><a href="${href}">${icon(ic)}<span><strong>${t}</strong>${d ? `<small>${d}</small>` : ''}</span></a></li>`;
+const card = (href, k, small, strong, em) => `
+    <a class="mega__card" href="${href}">
+      <img src="${photoUrl(k, 'w800')}" alt="" width="400" height="260" loading="lazy" decoding="async">
+      <span class="mega__card-body"><small>${small}</small><strong>${strong}</strong><em>${em}</em></span>
+    </a>`;
 
-const megaExplore = () => `
-<div class="mega" role="region" aria-label="Khám phá">
-  <div class="mega__in mega__in--3">
+// Nhóm liên kết dùng chung cho mega menu, menu di động và chân trang
+export const MENU = {
+  explore: [
+    ['/lam-viec-24-7', 'laptop', 'Làm việc 24/7', 'Wifi riêng, ổ cắm, xuyên đêm'],
+    ['/hoc-nhom', 'users', 'Học nhóm &amp; ôn thi', 'Bàn dài, bảng trắng'],
+    ['/phong-hop', 'briefcase', 'Phòng họp', '6–10 chỗ, màn hình, bảng trắng'],
+    ['/tiec-nho', 'gift', 'Sinh nhật &amp; tiệc nhỏ', 'Đến 30 khách'],
+    ['/dem-o-nha-an', 'moon', 'Nhà An về đêm', 'Món chay khuya, khu yên lặng'],
+    ['/chup-anh', 'camera', 'Studio áo dài &amp; Góc check-in', 'Thuê áo dài, 6 góc chụp ảnh'],
+    ['/dat-ban', 'calendar', 'Đặt bàn 24/7', 'Bàn, phòng họp, studio, tiệc'],
+  ],
+  tea: [
+    ['/tra-viet', 'leaf', 'Trà Việt', 'Các dòng trà của Nhà An'],
+    ['/tra-viet/o-long-rang-cui', 'flame', 'Ô long rang củi', 'Món ký tên'],
+    ['/tra-viet/vung-che', 'map', 'Vùng chè Việt', 'Thái Nguyên, Mộc Châu, Bảo Lộc…'],
+    ['/tra-viet/pha-tra', 'droplet', 'Pha trà tại nhà', 'Máy tính pha trà'],
+    ['/tra-sua', 'cup', 'Trà sữa nhà làm', 'Cốt trà thật, sữa tươi'],
+  ],
+  kitchen: [
+    ['/bep-chay', 'bowl', 'Bếp chay', 'Ăn sáng, ăn trưa, món khuya'],
+    ['/lo-banh', 'cake', 'Lò bánh', 'Nướng từ 5 giờ sáng'],
+    ['/nguyen-lieu', 'sprout', 'Nguồn nguyên liệu', 'Từ nông trại đến quầy'],
+    ['/mua-vu', 'calendar', 'Lịch mùa vụ', '12 tháng, 12 hương vị'],
+    ['/cam-ket', 'shield', 'Cam kết chất lượng', 'An toàn thực phẩm'],
+  ],
+  events: [
+    ['/lich-su-kien', 'calendar', 'Lịch sự kiện', 'Thêm vào lịch của bạn'],
+    ['/workshop', 'palette', 'Workshop', 'Trà, bánh, lồng đèn, thư pháp'],
+    ['/san-khau-mo', 'music', 'Đêm nhạc mộc', 'Thứ 6 từ 20:00'],
+    ['/su-kien', 'star', 'Lễ Tết &amp; sự kiện', 'Cả năm ở Nhà An'],
+  ],
+  seasons: [
+    ['/su-kien/tet', 'flower', 'Tết ở Nhà An', ''],
+    ['/su-kien/trung-thu', 'moon', 'Trung Thu', ''],
+    ['/su-kien/mua-thi', 'timer', 'Mùa thi', ''],
+    ['/su-kien/giang-sinh', 'spark', 'Giáng sinh &amp; Năm mới', ''],
+    ['/su-kien/ngay-cua-nang', 'heart', '8/3 &amp; 20/10', ''],
+  ],
+  community: [
+    ['/nha-an-club', 'star', 'Nhà An Club', 'Sắp ra mắt'],
+    ['/cong-dong', 'heart', 'Cộng đồng', ''],
+    ['/song-xanh', 'recycle', 'Sống xanh', ''],
+    ['/tu-sach', 'book', 'Tủ sách Nhà An', ''],
+    ['/qua-tang', 'gift', 'Quà tặng', ''],
+  ],
+  tools: [
+    ['/tim-kiem', 'search', 'Tìm kiếm', ''],
+    ['/thu-vien-anh', 'camera', 'Thư viện ảnh', ''],
+    ['/tap-trung', 'timer', 'Góc tập trung', 'Pomodoro &amp; âm thanh nền'],
+    ['/trac-nghiem-tra', 'spark', 'Bạn hợp vị trà nào?', 'Trắc nghiệm vui'],
+  ],
+  jobs: [
+    ['/tuyen-dung/barista', 'cup', 'Barista / Pha chế', 'Bán thời gian &amp; chính thức'],
+    ['/tuyen-dung/phuc-vu-thu-ngan', 'users', 'Phục vụ &amp; thu ngân', 'Bán thời gian'],
+    ['/tuyen-dung/tho-banh', 'cake', 'Thợ bánh', 'Chính thức'],
+    ['/tuyen-dung/phu-bep-chay', 'bowl', 'Phụ bếp chay', 'Chính thức'],
+  ],
+  about: [
+    ['/ve-chung-toi', 'home', 'Câu chuyện Nhà An', 'Mái nhà, đóa sen, chồi lá'],
+    ['/hop-tac', 'briefcase', 'Hợp tác &amp; Doanh nghiệp', 'Tiệc trà, quà tặng, sự kiện'],
+    ['/bao-chi', 'card', 'Báo chí &amp; nhận diện', 'Logo, màu sắc, thông tin'],
+    ['/hoi-dap', 'chat', 'Hỏi đáp', 'Câu hỏi thường gặp'],
+    ['/lien-he', 'mail', 'Liên hệ', 'Hotline, Zalo, email'],
+    ['/gop-y', 'heart', 'Góp ý', 'Lắng nghe để tốt hơn'],
+  ],
+};
+export const BLOG_CATS = [
+  ['tra', 'leaf', 'Trà'], ['bep', 'bowl', 'Bánh &amp; Bếp chay'], ['lam-viec', 'laptop', 'Làm việc &amp; Học tập'],
+  ['vung-mien', 'map', 'Vùng miền &amp; Du lịch'], ['van-hoa', 'flower', 'Văn hóa &amp; Lễ hội'], ['song-xanh', 'recycle', 'Sống xanh'], ['nha-an', 'home', 'Tin Nhà An'],
+];
+
+const mega = (label, cls, inner) => `
+<div class="mega${cls ? ' ' + cls : ''}" role="region" aria-label="${label}">
+  <div class="mega__in ${inner[0]}">${inner[1]}</div>
+</div>`;
+const col = (title, items, cls = 'mega__list') => `<div><p class="mega__title">${title}</p><ul class="${cls}">${items.map(li).join('')}</ul></div>`;
+
+const megaExplore = () => mega('Không gian', '', ['mega__in--3', `
     <div>
-      <p class="mega__title">Không gian làm việc &amp; học tập</p>
+      <p class="mega__title">4 không gian làm việc &amp; học tập</p>
       <ul class="mega__list mega__list--thumb">
         ${SPACES.map(([id, n, d, k]) => `<li><a href="/khong-gian#${id}">${thumb(k)}<span><strong>${n}</strong><small>${d}</small></span></a></li>`).join('')}
-      </ul>
-    </div>
-    <div>
-      <p class="mega__title">Trải nghiệm</p>
-      <ul class="mega__list">
         <li><a href="/khong-gian">${icon('laptop')}<span><strong>Tất cả không gian</strong><small>4 khu cho 4 tâm trạng</small></span></a></li>
-        <li><a href="/chup-anh">${icon('camera')}<span><strong>Studio áo dài &amp; Góc check-in</strong><small>Thuê áo dài, 6 góc chụp ảnh</small></span></a></li>
-        <li><a href="/su-kien">${icon('calendar')}<span><strong>Lễ Tết &amp; sự kiện</strong><small>Tết, Trung thu, Giáng sinh</small></span></a></li>
-        <li><a href="/dat-ban">${icon('cup')}<span><strong>Đặt bàn 24/7</strong><small>Bàn, phòng họp, studio, tiệc</small></span></a></li>
-        <li><a href="/trai-nghiem#club">${icon('star')}<span><strong>Nhà An Club</strong><small>Tích điểm, quà sinh nhật</small></span></a></li>
       </ul>
     </div>
-    <a class="mega__card" href="/khong-gian">
-      <img src="${photoUrl('cowork-cafe', 'w800')}" alt="" width="400" height="260" loading="lazy" decoding="async">
-      <span class="mega__card-body"><small>Mới</small><strong>Nơi chạy deadline của giới trẻ</strong><em>Khám phá ngay →</em></span>
-    </a>
-  </div>
-</div>`;
+    ${col('Dịch vụ', MENU.explore)}
+    ${card('/lam-viec-24-7', 'cowork-cafe', 'Mở cửa 24/7', 'Nơi chạy deadline của giới trẻ', 'Khám phá ngay →')}`]);
 
-const megaBranches = () => `
-<div class="mega" role="region" aria-label="Chi nhánh">
-  <div class="mega__in mega__in--3">
+const megaTea = () => mega('Trà &amp; Bếp', '', ['mega__in--3', `
+    ${col('Trà', MENU.tea)}
+    ${col('Bếp &amp; Bánh', MENU.kitchen)}
+    ${card('/trac-nghiem-tra', 'oolong-hero', 'Trắc nghiệm vui', 'Bạn hợp vị trà nào?', 'Làm thử 1 phút →')}`]);
+
+const megaEvents = () => mega('Sự kiện', '', ['mega__in--4', `
+    ${col('Sự kiện', MENU.events)}
+    ${col('Mùa lễ hội', MENU.seasons)}
+    ${col('Cộng đồng', MENU.community)}
+    ${card('/lich-su-kien', 'tet-blossom', 'Lịch sự kiện', 'Cả năm ở Nhà An', 'Xem lịch →')}`]);
+
+const megaBranches = () => mega('Chi nhánh', '', ['mega__in--3', `
     ${site.regions.map((r) => `
     <div>
       <a class="mega__region" href="${r.path}"><img src="${photoUrl(r.img, 'w800')}" alt="" width="400" height="200" loading="lazy" decoding="async"><span>${r.name}</span></a>
@@ -165,67 +294,69 @@ const megaBranches = () => `
       <p>Bình Thạnh, Tân Bình ở Sài Gòn; trung tâm Đà Nẵng, phố cổ Hội An, Duy Xuyên ở miền Trung. Mở cửa 24/7.</p>
       <a class="btn btn--primary" href="/chi-nhanh">Tất cả chi nhánh</a>
       <a class="btn btn--ghost" href="/chi-nhanh#dang-ky">Nhận tin khai trương</a>
-    </div>
-  </div>
-</div>`;
+    </div>`]);
 
-const megaAbout = () => `
-<div class="mega mega--sm" role="region" aria-label="Về Nhà An">
-  <div class="mega__in mega__in--2">
-    <ul class="mega__list">
-      <li><a href="/ve-chung-toi">${icon('home')}<span><strong>Câu chuyện Nhà An</strong><small>Mái nhà, đóa sen, chồi lá</small></span></a></li>
-      <li><a href="/tin-tuc">${icon('card')}<span><strong>Tin tức</strong><small>Khai trương, sự kiện, câu chuyện</small></span></a></li>
-      <li><a href="/hoi-dap">${icon('chat')}<span><strong>Hỏi đáp</strong><small>Những câu hỏi thường gặp</small></span></a></li>
-      <li><a href="/hop-tac">${icon('briefcase')}<span><strong>Hợp tác &amp; Doanh nghiệp</strong><small>Tiệc trà văn phòng, quà tặng, sự kiện</small></span></a></li>
-      <li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tuyển dụng</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li>
-    </ul>
-    <a class="mega__card" href="/tuyen-dung">
-      <img src="${photoUrl('chat-friends', 'w800')}" alt="" width="400" height="260" loading="lazy" decoding="async">
-      <span class="mega__card-body"><small>Đang tuyển</small><strong>Về làm nhà với Nhà An</strong><em>BHXH, BHYT đầy đủ →</em></span>
-    </a>
-  </div>
-</div>`;
+const megaNews = () => mega('Cẩm nang', '', ['mega__in--3', `
+    <div><p class="mega__title">Chủ đề</p><ul class="mega__list mega__list--2">${BLOG_CATS.map(([id, ic, n]) => li([`/tin-tuc/chu-de/${id}`, ic, n, ''])).join('')}<li><a href="/tin-tuc">${icon('card')}<span><strong>Tất cả bài viết</strong></span></a></li></ul></div>
+    ${col('Tiện ích', MENU.tools)}
+    ${card('/tin-tuc', 'tea-flatlay', 'Cẩm nang Nhà An', 'Chuyện trà, chuyện bếp và chuyện mình', 'Đọc ngay →')}`]);
+
+const megaJobs = () => mega('Tuyển dụng', 'mega--sm', ['mega__in--2', `
+    <div><p class="mega__title">Vị trí đang tuyển</p><ul class="mega__list">${MENU.jobs.map(li).join('')}<li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tất cả vị trí &amp; quyền lợi</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li></ul></div>
+    ${card('/tuyen-dung', 'chat-friends', 'Đang tuyển', 'Về làm nhà với Nhà An', 'BHXH, BHYT đầy đủ →')}`]);
+
+const megaAbout = () => mega('Về Nhà An', 'mega--sm', ['mega__in--2', `
+    <ul class="mega__list">${MENU.about.map(li).join('')}</ul>
+    ${card('/ve-chung-toi', 'lotus', 'Câu chuyện', 'Một ly trà, một chút an', 'Đọc câu chuyện →')}`]);
 
 const NAV = [
-  ['/khong-gian', 'Khám phá', 'explore', megaExplore, ['spaces', 'experience', 'studio', 'events', 'reserve']],
+  ['/khong-gian', 'Không gian', 'explore', megaExplore, ['spaces', 'experience', 'studio', 'reserve', 'space']],
+  ['/tra-viet', 'Trà &amp; Bếp', 'tea', megaTea, ['tea']],
+  ['/lich-su-kien', 'Sự kiện', 'events', megaEvents, ['events', 'community', 'season']],
   ['/chi-nhanh', 'Chi nhánh', 'branches', megaBranches, ['branches', 'saigon', 'mientrung', 'branch']],
-  ['/tuyen-dung', 'Tuyển dụng', 'hiring'],
-  ['/tin-tuc', 'Tin tức', 'news', null, ['news', 'article']],
-  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq', 'partners']],
-  ['/lien-he', 'Liên hệ', 'contact'],
+  ['/tin-tuc', 'Cẩm nang', 'news', megaNews, ['news', 'article', 'category', 'tools']],
+  ['/tuyen-dung', 'Tuyển dụng', 'hiring', megaJobs, ['hiring', 'careers']],
+  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq', 'partners', 'contact', 'brand', 'credits', 'legal', 'sitemap']],
 ];
 
-const navItem = (page) => ([href, label, key, mega, keys = [key]]) => {
+const navItem = (page) => ([href, label, key, megaFn, keys = [key]]) => {
   const cur = keys.includes(page);
-  if (!mega) return `<li><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
-  return `<li class="has-mega"><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''} aria-haspopup="true" aria-expanded="false">${label} <span class="caret" aria-hidden="true">▾</span></a>${mega()}</li>`;
+  if (!megaFn) return `<li><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''}>${label}</a></li>`;
+  return `<li class="has-mega"><a class="nav__link" href="${href}"${cur ? ' aria-current="page"' : ''} aria-haspopup="true" aria-expanded="false">${label} <span class="caret" aria-hidden="true">▾</span></a>${megaFn()}</li>`;
 };
 
-const langSwitch = (path, cls = '') => `
+const lp = (l, path, alts) => (!alts || alts.includes(l) ? langPath(l, path) : langPath(l, '/tin-tuc'));
+const langSwitch = (path, cls = '', alts) => `
 <div class="lang ${cls}">
   <button class="lang__btn" type="button" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Ngôn ngữ: </span>${icon('globe')}<span class="lang__cur">VI</span></button>
-  <ul class="lang__menu">${LANGS.map(([l, name, short]) => `<li><a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}"><b>${short}</b> ${name}</a></li>`).join('')}</ul>
+  <ul class="lang__menu">${LANGS.map(([l, name, short]) => `<li><a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${lp(l, path, alts)}"><b>${short}</b> ${name}</a></li>`).join('')}</ul>
 </div>`;
 
-const drawer = (path, page) => `
+const dgroup = (label, ic, open, items) => `
+      <details${open ? ' open' : ''}><summary>${icon(ic)} ${label}</summary>
+        <div class="drawer__sub">${items.map(([h, i2, t, d]) => `<a href="${h}">${icon(i2)}<span><strong>${t}</strong>${d ? `<small>${d}</small>` : ''}</span></a>`).join('')}</div>
+      </details>`;
+
+const drawer = (path, page, alts) => `
 <div class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
       <a href="/"><img src="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')}" srcset="${assetUrl('/assets/img/brand/logo-horizontal-360.webp')} 360w, ${assetUrl('/assets/img/brand/logo-horizontal.webp')} 660w" sizes="180px" alt="${site.name}" width="660" height="204"></a>
       <button class="drawer__close" type="button" data-drawer-close aria-label="Đóng menu">${icon('close')}</button>
     </div>
-    <div class="drawer__langs">${LANGS.map(([l, , short]) => `<a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${langPath(l, path)}">${short}</a>`).join('')}</div>
+    <div class="drawer__langs">${LANGS.map(([l, , short]) => `<a class="lang__opt" data-nolocal data-lang="${l}" hreflang="${l}" href="${lp(l, path, alts)}">${short}</a>`).join('')}</div>
+    <a class="drawer__search" href="/tim-kiem">${icon('search')}<span>Tìm trên website</span></a>
     <nav class="drawer__nav" aria-label="Menu di động">
       <a class="drawer__link${page === 'home' ? ' is-cur' : ''}" href="/">${icon('home')} Trang chủ</a>
       <a class="drawer__link drawer__link--hot${page === 'reserve' ? ' is-cur' : ''}" href="/dat-ban">${icon('calendar')} Đặt bàn <em class="drawer__badge">24/7</em></a>
-      <details${['spaces', 'experience', 'studio', 'events'].includes(page) ? ' open' : ''}><summary>${icon('laptop')} Khám phá</summary>
+      <details${['spaces', 'experience', 'studio', 'space'].includes(page) ? ' open' : ''}><summary>${icon('laptop')} Không gian</summary>
         <div class="drawer__sub">
           ${SPACES.map(([id, n, d, k]) => `<a href="/khong-gian#${id}">${thumb(k)}<span><strong>${n}</strong><small>${d}</small></span></a>`).join('')}
-          <a href="/chup-anh">${icon('camera')}<span><strong>Studio áo dài &amp; Góc check-in</strong><small>Thuê áo dài, 6 góc chụp ảnh</small></span></a>
-          <a href="/su-kien">${icon('calendar')}<span><strong>Lễ Tết &amp; sự kiện</strong><small>Tết, Trung thu, Giáng sinh</small></span></a>
-          <a href="/trai-nghiem">${icon('star')}<span><strong>Trải nghiệm</strong><small>Workshop, đặt tiệc, Nhà An Club</small></span></a>
+          ${MENU.explore.filter(([h]) => h !== '/dat-ban').map(([h, i2, t, d]) => `<a href="${h}">${icon(i2)}<span><strong>${t}</strong><small>${d}</small></span></a>`).join('')}
         </div>
       </details>
+      ${dgroup('Trà &amp; Bếp', 'leaf', page === 'tea', [...MENU.tea, ...MENU.kitchen])}
+      ${dgroup('Sự kiện &amp; Cộng đồng', 'calendar', ['events', 'community', 'season'].includes(page), [...MENU.events, ...MENU.seasons, ...MENU.community])}
       <details${['branches', 'saigon', 'mientrung', 'branch'].includes(page) ? ' open' : ''}><summary>${icon('pin')} Chi nhánh</summary>
         <div class="drawer__sub">
           ${site.regions.map((r) => `<a href="${r.path}">${thumb(r.img)}<span><strong>${r.name}</strong><small>${site.branches.filter((b) => b.region === r.id).map((b) => b.short).join(' · ')}</small></span></a>`).join('')}
@@ -233,14 +364,9 @@ const drawer = (path, page) => `
           <a href="/chi-nhanh">${icon('pin')}<span><strong>Tất cả 5 chi nhánh</strong><small>Sài Gòn · Đà Nẵng · Hội An · Duy Xuyên</small></span></a>
         </div>
       </details>
-      <a class="drawer__link${page === 'hiring' ? ' is-cur' : ''}" href="/tuyen-dung">${icon('briefcase')} Tuyển dụng <em class="drawer__badge">Đang tuyển</em></a>
-      <a class="drawer__link${['news', 'article'].includes(page) ? ' is-cur' : ''}" href="/tin-tuc">${icon('card')} Tin tức</a>
-      <details${['about', 'faq', 'partners'].includes(page) ? ' open' : ''}><summary>${icon('heart')} Về Nhà An</summary>
-        <div class="drawer__sub drawer__sub--plain">
-          <a href="/ve-chung-toi">Câu chuyện Nhà An</a><a href="/hoi-dap">Hỏi đáp</a><a href="/hop-tac">Hợp tác &amp; Doanh nghiệp</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a>
-        </div>
-      </details>
-      <a class="drawer__link${page === 'contact' ? ' is-cur' : ''}" href="/lien-he">${icon('mail')} Liên hệ</a>
+      ${dgroup('Cẩm nang &amp; tiện ích', 'card', ['news', 'article', 'category', 'tools'].includes(page), [['/tin-tuc', 'card', 'Tất cả bài viết', ''], ...BLOG_CATS.map(([id, ic, n]) => [`/tin-tuc/chu-de/${id}`, ic, n, '']), ...MENU.tools])}
+      ${dgroup('Tuyển dụng', 'briefcase', ['hiring', 'careers'].includes(page), [['/tuyen-dung', 'briefcase', 'Tất cả vị trí', '30–35k/giờ · 10–15 triệu/tháng'], ...MENU.jobs])}
+      ${dgroup('Về Nhà An', 'heart', ['about', 'faq', 'partners', 'brand', 'contact'].includes(page), MENU.about)}
     </nav>
     <div class="drawer__foot">
       <a class="btn btn--pink btn--block" href="/dat-ban">${icon('calendar')} Đặt bàn 24/7</a>
@@ -264,7 +390,8 @@ const socialLinks = () =>
     .map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener" aria-label="${k === 'zalo' ? 'Zalo' : k}">${k === 'zalo' ? '<b class="zalo-txt">Zalo</b>' : icon(k)}</a>`)
     .join('');
 
-export function layout({ page, title, description, path, body, scripts = [], image, schema = [], type = 'website', date }) {
+export function layout({ page, title, description, path, body, scripts = [], image, imageAlt, schema = [], type = 'website', date, modified, langs, robots }) {
+  const alts = langs || LANGS.map(([l]) => l);
   const full = title ? `${title} | ${site.name}` : `${site.name} — Trà Sữa · Ô Long · Bánh Ngọt · Đồ Chay`;
   const desc = description || site.description;
   const url = site.url + (path === '/' ? '' : path);
@@ -297,7 +424,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
     parentOrganization: { '@id': `${site.url}/#org` },
     amenityFeature: ['Wifi tốc độ cao', 'Ổ cắm mọi chỗ ngồi', 'Phòng họp', 'Khu yên lặng'].map((n) => ({ '@type': 'LocationFeatureSpecification', name: n, value: true })),
   }));
-  const parent = [['/tin-tuc/', 'Tin tức', '/tin-tuc'], ['/chi-nhanh/', 'Chi nhánh', '/chi-nhanh']].find(([pre]) => path.startsWith(pre));
+  const parent = parentOf(path);
   const crumbs = path === '/' ? [] : [
     { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: `${site.url}/` },
     ...(parent ? [{ '@type': 'ListItem', position: 2, name: parent[1], item: `${site.url}${parent[2]}` }] : []),
@@ -329,7 +456,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
 <meta name="description" content="${esc(desc)}">
 <meta name="keywords" content="${esc(seo.keywords || '')}">
 <meta name="author" content="${site.name}">
-<meta name="robots" content="${page === '404' ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}">
+<meta name="robots" content="${robots || (page === '404' ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')}">
 <meta name="application-name" content="${site.name}">
 <meta name="apple-mobile-web-app-title" content="${site.name}">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -342,7 +469,7 @@ export function layout({ page, title, description, path, body, scripts = [], ima
 <meta name="geo.placename" content="Hồ Chí Minh, Đà Nẵng, Hội An">
 ${verify}
 <link rel="canonical" href="${url}" data-canonical>
-${page === '404' ? '' : LANGS.map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>`}
+${page === '404' ? '' : LANGS.filter(([l]) => alts.includes(l)).map(([l]) => `<link rel="alternate" hreflang="${l === 'zh' ? 'zh-Hans' : l}" href="${site.url}${langPath(l, path) === '/' ? '' : langPath(l, path)}" data-nolocal>`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${url}" data-nolocal>`}
 <link rel="alternate" type="application/rss+xml" title="${site.name} — Tin tức" href="${site.url}/rss.xml" data-nolocal>
 <meta name="theme-color" content="#41593D">
 <meta property="og:type" content="${type}">
@@ -357,13 +484,13 @@ ${LANGS.slice(1).map(([, , , loc]) => `<meta property="og:locale:alternate" cont
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="${esc(full)}">
-${type === 'article' && date ? `<meta property="article:published_time" content="${date}T08:00:00+07:00">\n<meta property="article:author" content="${site.name}">` : ''}
+<meta property="og:image:alt" content="${esc(imageAlt || full)}">
+${type === 'article' && date ? `<meta property="article:published_time" content="${date}T08:00:00+07:00">\n<meta property="article:modified_time" content="${modified || date}T08:00:00+07:00">\n<meta property="article:author" content="${site.name}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(full)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${ogImg}">
-<meta name="twitter:image:alt" content="${esc(full)}">
+<meta name="twitter:image:alt" content="${esc(imageAlt || full)}">
 <meta name="pinterest-rich-pin" content="true">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/brand/favicon-32.png">
@@ -392,13 +519,14 @@ ${type === 'article' && date ? `<meta property="article:published_time" content=
       <ul class="nav__list">${NAV.map(navItem(page)).join('')}</ul>
     </nav>
     <div class="header__tools">
-      ${langSwitch(path)}
+      <a class="hsearch" href="/tim-kiem" aria-label="Tìm kiếm trên website">${icon('search')}</a>
+      ${langSwitch(path, '', alts)}
       <a class="btn btn--pink nav__cta" href="/dat-ban">${icon('calendar')} Đặt bàn</a>
       <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
-${drawer(path, page)}
+${drawer(path, page, alts)}
 <main id="main">
 ${body}
 </main>
@@ -414,17 +542,28 @@ ${body}
     <div class="footer__brand">
       ${logoImg('circle', 72)}
       <p class="script">${site.tagline}</p>
-      <p>Trà sữa, ô long rang củi, bánh ngọt, đồ chay và không gian chạy deadline cho giới trẻ.</p>
+      <p>Trà sữa, ô long rang củi, bánh ngọt, đồ chay và không gian chạy deadline cho giới trẻ. Mở cửa 24/7.</p>
+      <ul class="footer__contact">
+        <li>${icon('phone')}<a href="tel:${tel()}">${site.phoneDisplay}</a></li>
+        <li>${icon('mail')}<a href="mailto:${site.email}">${site.email}</a></li>
+        <li>${icon('clock')}<span>Mở cửa 24/7</span></li>
+      </ul>
       <div class="social">${socialLinks()}</div>
     </div>
     <div>
-      <h3>Khám phá</h3>
+      <h3>Không gian</h3>
       <ul>
-        <li><a href="/dat-ban">Đặt bàn 24/7</a></li><li><a href="/khong-gian">Không gian làm việc</a></li>
-        <li><a href="/chup-anh">Studio áo dài &amp; Góc check-in</a></li><li><a href="/su-kien">Lễ Tết &amp; sự kiện</a></li><li><a href="/trai-nghiem">Trải nghiệm</a></li>
-        <li><a href="/trai-nghiem#workshop">Workshop &amp; sự kiện</a></li><li><a href="/trai-nghiem#dat-tiec">Đặt tiệc &amp; quà tặng</a></li>
-        <li><a href="/trai-nghiem#club">Nhà An Club</a></li>
+        <li><a href="/khong-gian">4 không gian làm việc</a></li>
+        ${MENU.explore.map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
       </ul>
+    </div>
+    <div>
+      <h3>Trà &amp; Bếp</h3>
+      <ul>${[...MENU.tea, ...MENU.kitchen].map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}</ul>
+    </div>
+    <div>
+      <h3>Sự kiện &amp; Cộng đồng</h3>
+      <ul>${[...MENU.events, ...MENU.seasons.slice(0, 3), ...MENU.community].map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}</ul>
     </div>
     <div>
       <h3>Chi nhánh</h3>
@@ -433,27 +572,26 @@ ${body}
         ${site.regions.map((r) => `<li><a href="${r.path}">Nhà An ${r.name}</a></li>`).join('')}
         ${site.branches.map((b) => `<li class="footer__branch">${icon('pin')}<a href="/chi-nhanh/${b.id}">${b.city}</a></li>`).join('')}
       </ul>
+      <h3 class="footer__h3b">Tuyển dụng</h3>
+      <ul><li><a href="/tuyen-dung">Tất cả vị trí</a></li>${MENU.jobs.map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}</ul>
     </div>
     <div>
       <h3>Về Nhà An</h3>
       <ul>
-        <li><a href="/ve-chung-toi">Câu chuyện</a></li><li><a href="/tin-tuc">Tin tức</a></li><li><a href="/tuyen-dung">Tuyển dụng</a></li>
-        <li><a href="/hoi-dap">Hỏi đáp</a></li><li><a href="/hop-tac">Hợp tác &amp; Doanh nghiệp</a></li><li><a href="/lien-he">Liên hệ</a></li>
+        ${MENU.about.map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
+        <li><a href="/tin-tuc">Cẩm nang &amp; tin tức</a></li>
+        ${MENU.tools.map(([h, , t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
       </ul>
+      ${langSwitch(path, 'lang--footer', alts)}
     </div>
-    <div>
-      <h3>Liên hệ</h3>
-      <ul class="footer__contact">
-        <li>${icon('phone')}<a href="tel:${tel()}">${site.phoneDisplay}</a></li>
-        <li>${icon('mail')}<a href="mailto:${site.email}">${site.email}</a></li>
-        <li>${icon('clock')}<span>Mở cửa 24/7</span></li>
-      </ul>
-      ${langSwitch(path, 'lang--footer')}
-    </div>
+  </div>
+  <div class="wrap footer__notice">
+    ${icon('shield')}
+    <p><strong>Website đang trong giai đoạn thử nghiệm và chưa đưa vào bán hàng.</strong> Tiệm Nhà An chưa bán hàng, chưa nhận đặt hàng hay thanh toán trực tuyến trên website này. Các yêu cầu đặt bàn, đặt tiệc, đặt quà gửi qua website chỉ là yêu cầu liên hệ; Nhà An sẽ gọi lại để tư vấn và xác nhận. Thông tin về món, dịch vụ và chi nhánh mang tính giới thiệu và có thể thay đổi khi chính thức khai trương.</p>
   </div>
   <div class="wrap footer__bottom">
     <span>© ${new Date().getFullYear()} ${site.name}. Nấu bằng cả tấm lòng.</span>
-    <span class="footer__legal"><a href="/chinh-sach-bao-mat">Chính sách bảo mật</a><a href="/dieu-khoan">Điều khoản sử dụng</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a></span>
+    <span class="footer__legal"><a href="/chinh-sach-bao-mat">Chính sách bảo mật</a><a href="/dieu-khoan">Điều khoản sử dụng</a><a href="/so-do-trang">Sơ đồ trang</a></span>
   </div>
 </footer>
 <aside class="fab" aria-label="Liên hệ nhanh">

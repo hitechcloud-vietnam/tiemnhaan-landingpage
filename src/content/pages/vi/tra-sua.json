@@ -1,0 +1,184 @@
+{
+  "slug": "tra-sua",
+  "group": "tea",
+  "nav": "Trà sữa nhà làm",
+  "navDesc": "Cốt trà ủ mới, ngọt 0–100% tùy bạn",
+  "icon": "cup",
+  "title": "Trà sữa nhà làm: cốt trà ủ mới, sữa tươi, ngọt tùy chọn",
+  "description": "Trà sữa nhà làm ở Tiệm Nhà An: cốt trà ủ mới mỗi 4 tiếng, sữa tươi hoặc sữa yến mạch, đường 0–100%. Xem các dòng trà sữa và mẹo chọn ly hợp vị.",
+  "image": "@drinks|sữa tươi được rót vào ly trà đá, loang thành vân trắng trong ly thủy tinh",
+  "hero": {
+    "eyebrow": "Trà sữa nhà làm",
+    "title": "Trà sữa thơm vị trà, *ngọt đúng ý bạn*",
+    "lead": "Cốt ô long, trà lài, trà đen ủ mới mỗi 4 tiếng, gặp sữa tươi hoặc sữa yến mạch. Mức đường từ 0 đến 100%, ít hay nhiều đá: ly trà sữa nào ở Nhà An cũng là ly của riêng bạn.",
+    "img": "@drinks|sữa tươi được rót vào ly trà đá, loang thành vân trắng trong ly thủy tinh",
+    "alt": "Sữa tươi được rót vào ly trà đá, loang thành những vân trắng",
+    "ctas": [
+      { "label": "Xem các dòng trà sữa", "href": "#dong-tra-sua", "style": "primary" },
+      { "label": "Bạn hợp vị trà nào?", "href": "/trac-nghiem-tra", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "nha-lam",
+      "eyebrow": "Thế nào là nhà làm?",
+      "title": "Nhà làm, *bắt đầu từ cốt trà*",
+      "paras": [
+        "Ly trà sữa ở Nhà An bắt đầu từ lá trà thật: ô long rang củi, trà xanh ướp lài hay trà đen được ủ thành cốt trà rồi mới gặp sữa. Cốt trà ủ mới mỗi 4 tiếng, nên ly nào cũng thơm như vừa pha.",
+        "Nhà An chọn không dùng bột kem pha sẵn cho cốt trà. Vị thơm đến từ chính lá trà, độ béo đến từ sữa tươi hoặc sữa yến mạch, còn độ ngọt do bạn quyết định."
+      ],
+      "img": "@leaf|ba chén gốm nhỏ đựng trà ô long viên, trà xanh và trà đen khô trên bàn gỗ",
+      "alt": "Ba chén gốm nhỏ đựng ba loại trà khô trên bàn gỗ",
+      "cta": { "label": "Khám phá trà Việt ở Nhà An", "href": "/tra-viet" }
+    },
+    {
+      "type": "features",
+      "id": "nen-tra",
+      "eyebrow": "Nền trà và lớp sữa",
+      "title": "Ba nền trà, *ba lớp béo*",
+      "lead": "Cốt trà quyết định hương của ly, lớp sữa quyết định độ béo. Phối thế nào là tùy bạn.",
+      "items": [
+        { "icon": "flame", "title": "Ô long rang củi", "text": "Ô long Bảo Lộc rang củi nhãn: hương rang ấm, hậu ngọt, vẫn rõ vị trà khi gặp sữa béo." },
+        { "icon": "flower", "title": "Trà xanh ướp lài", "text": "Trà xanh Tân Cương ướp hoa lài: thanh, thơm hoa, cho ly trà sữa nhẹ nhàng và dễ uống." },
+        { "icon": "leaf", "title": "Trà đen", "text": "Còn gọi là hồng trà, oxy hóa gần như hoàn toàn: nước sẫm màu, vị đậm và chắc, gần với ly trà sữa quen thuộc." },
+        { "icon": "droplet", "title": "Sữa tươi", "text": "Béo thơm, tròn vị, là lựa chọn mặc định của các ly trà sữa." },
+        { "icon": "sprout", "title": "Sữa yến mạch", "text": "Béo nhẹ, thoảng vị ngũ cốc, hợp với bạn không dùng sữa bò. Ly nào cũng đổi được." },
+        { "icon": "spark", "title": "Kem mây", "text": "Kem sữa tươi đánh bông mịn, phủ dày trên mặt ly ô long sữa kem mây." }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "kem-may",
+      "eyebrow": "Món ký tên",
+      "title": "Ô long sữa kem mây, *ly đầu tiên nên thử*",
+      "paras": [
+        "Cốt ô long rang củi ủ lạnh hòa cùng sữa, trên cùng là lớp kem sữa tươi đánh bông mịn như mây. Hương rang ấm của trà gặp vị béo nhẹ của kem: đó là món ký tên của Nhà An.",
+        "Ngụm đầu, đừng vội khuấy: nhấp qua lớp kem rồi mới đến trà. Sau đó khuấy nhẹ cho kem tan dần, mỗi ngụm lại một khác."
+      ],
+      "bullets": [
+        "Ngon nhất khi uống lạnh",
+        "Chọn mức đường như mọi ly khác",
+        "Hợp với bánh chuối thuần chay của lò bánh"
+      ],
+      "img": "@drinks|ly ô long sữa phủ lớp kem trắng dày, nhìn rõ hai tầng trà và kem",
+      "alt": "Ly ô long sữa với lớp kem sữa trắng mịn phủ dày trên mặt",
+      "reverse": true,
+      "cta": { "label": "Chuyện ô long rang củi", "href": "/tra-viet/o-long-rang-cui" }
+    },
+    {
+      "type": "cards",
+      "id": "dong-tra-sua",
+      "eyebrow": "Quầy trà nhà làm",
+      "title": "Năm ly nhà làm *nên thử*",
+      "lead": "Từ ly trà sữa đậm hương rang đến ly trà trái cây mát lành. Món theo mùa có thể khác nhau giữa các chi nhánh.",
+      "items": [
+        {
+          "img": "@drinks|ly trà sữa ô long đá màu nâu caramel trên bàn gỗ",
+          "alt": "Ly trà sữa ô long đá màu nâu caramel trên bàn gỗ",
+          "title": "Trà sữa ô long",
+          "tag": "Đậm hương rang",
+          "text": "Cốt ô long rang củi gặp sữa tươi: thơm mùi rang, béo vừa phải, hậu ngọt lâu. Dành cho người thích vị trà rõ ràng.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@drinks|ly trà sữa lài màu kem nhạt bên nhành hoa lài trắng",
+          "alt": "Ly trà sữa lài màu kem nhạt bên nhành hoa lài trắng",
+          "title": "Trà sữa lài",
+          "tag": "Thơm hoa",
+          "text": "Trà xanh Tân Cương ướp lài hòa cùng sữa: thanh, thơm hoa, không gắt. Hợp với bạn đang tập uống ít ngọt.",
+          "href": "/tin-tuc/tra-tan-cuong-thai-nguyen"
+        },
+        {
+          "img": "@drinks|ly matcha latte đá hai tầng xanh lá và trắng sữa",
+          "alt": "Ly matcha latte đá hai tầng xanh lá và trắng sữa",
+          "title": "Matcha latte đánh tay",
+          "tag": "Xanh tươi",
+          "text": "Bột matcha được đánh tay bằng chổi tre cho mịn bọt rồi mới hòa với sữa: vị trà xanh đậm, béo mượt, hậu hơi đắng dễ chịu."
+        },
+        {
+          "img": "berry-soda",
+          "alt": "Những ly nước dâu tây với lá bạc hà và lát chanh",
+          "title": "Trà trái cây theo mùa",
+          "tag": "Đổi theo mùa",
+          "text": "Nền trà thanh cùng trái cây đúng mùa như dâu Đà Lạt, vải Lục Ngạn, xoài Hòa Lộc. Mát, chua ngọt dịu, hết mùa thì đổi quả.",
+          "href": "/mua-vu"
+        },
+        {
+          "img": "@drinks|ly trà tắc đá với quả tắc xanh cắt đôi và xí muội",
+          "alt": "Ly trà tắc đá với những quả tắc cắt đôi",
+          "title": "Trà tắc xí muội",
+          "tag": "Nhà An Tân Bình",
+          "text": "Ly trà đá vỉa hè Sài Gòn được nâng cấp: tắc tươi, xí muội chua mặn trên nền ô long thanh.",
+          "href": "/chi-nhanh/tan-binh"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "goi-mon",
+      "eyebrow": "Gọi món",
+      "title": "Bốn bước *gọi ly của riêng bạn*",
+      "lead": "Nói với barista hoặc quét mã gọi món ngay tại bàn, chỉ cần bốn lựa chọn nhỏ.",
+      "items": [
+        { "title": "Chọn món và loại sữa", "text": "Gọi theo dòng trà bạn thích, giữ sữa tươi hoặc đổi sang sữa yến mạch. Chưa biết chọn gì, cứ kể barista khẩu vị của bạn." },
+        { "title": "Chọn mức đường", "text": "Từ 0% là không thêm đường đến 100% là ngọt chuẩn. Đang tập giảm ngọt thì hạ dần từng nấc mỗi lần gọi." },
+        { "title": "Chọn lượng đá", "text": "Ít đá giữ vị trà đậm lâu hơn, nhiều đá mát rượi cho những trưa nắng." },
+        { "title": "Thêm topping", "text": "Topping làm tại bếp theo mẻ nhỏ và đổi theo mùa. Hỏi barista hôm nay có gì để chọn." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "meo-chon-ly",
+      "eyebrow": "Mẹo chọn ly",
+      "title": "Chọn ly *hợp khẩu vị*",
+      "lead": "Chưa biết gọi gì? Bắt đầu từ thói quen và tâm trạng hôm nay của bạn.",
+      "head": ["Nếu bạn", "Thử gọi", "Vì sao hợp"],
+      "rows": [
+        ["Lần đầu ghé Nhà An", "Ô long sữa kem mây", "Món ký tên, gói trọn hương ô long rang củi"],
+        ["Đang tập uống ít ngọt", "Trà sữa lài, đường 50% rồi hạ dần", "Hương lài giúp ly ít ngọt vẫn dễ uống"],
+        ["Mê vị trà thật đậm", "Trà sữa ô long hoặc trà đen, ít đá", "Ít đá thì ly không bị loãng nhanh"],
+        ["Không dùng sữa bò", "Ly trà sữa bất kỳ, đổi sữa yến mạch", "Béo nhẹ, thoảng vị ngũ cốc"],
+        ["Trưa nắng cần mát", "Trà trái cây theo mùa, hoặc trà tắc xí muội ở Tân Bình", "Chua ngọt, thanh mát, không nặng bụng"],
+        ["Ngồi lâu chạy deadline", "Matcha latte hoặc trà sữa ô long, đường 30%", "Thơm béo vừa phải, uống lâu không ngấy"],
+        ["Về khuya, sợ khó ngủ", "Ly ít trà, ít ngọt", "Nhẹ hơn nếu bạn nhạy cảm với caffeine"]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "sau-quay",
+      "eyebrow": "Phía sau quầy",
+      "title": "Một ly nhà làm *ra đời thế nào*",
+      "lead": "Những việc nhỏ diễn ra mỗi ngày sau quầy, trước khi ly trà đến tay bạn.",
+      "items": [
+        { "img": "@brew|bình thủy tinh lớn ủ cốt trà màu hổ phách trên quầy pha chế", "caption": "Cốt ô long, trà lài, trà đen được ủ mới mỗi 4 tiếng." },
+        { "img": "matcha-whisk", "caption": "Matcha đánh tay bằng chổi tre cho đến khi mịn bọt." },
+        { "img": "@drinks|kem sữa tươi đánh bông mịn được múc phủ lên mặt ly trà", "caption": "Kem mây đánh từ sữa tươi cho món ô long sữa kem mây." },
+        { "img": "milktea-bottles", "caption": "Topping làm tại bếp theo mẻ nhỏ." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về trà sữa*",
+      "items": [
+        { "q": "Trà sữa ở Nhà An có dùng bột kem pha sẵn không?", "a": "Với cốt trà, Nhà An chọn không dùng bột kem pha sẵn. Ly trà sữa được pha từ cốt trà ủ mới cùng sữa tươi hoặc sữa yến mạch." },
+        { "q": "Chọn đường 0% thì ly có còn ngọt không?", "a": "0% nghĩa là không thêm đường. Sữa, trái cây và topping vẫn có vị ngọt riêng, nên nếu cần hạn chế đường, bạn hãy hỏi barista về từng thành phần trong ly." },
+        { "q": "Ăn thuần chay có uống được trà sữa không?", "a": "Ly nào cũng đổi được sữa tươi sang sữa yến mạch. Riêng lớp kem mây được đánh từ sữa tươi, nên hãy báo barista để được gợi ý ly phù hợp." },
+        { "q": "Trà sữa có caffeine không?", "a": "Có, vì cốt trà và matcha đều làm từ lá trà; lượng caffeine tùy loại trà và độ đậm. Nếu dễ mất ngủ, hãy gọi ly ít trà và uống sớm hơn giờ ngủ vài tiếng. Người nhạy cảm với caffeine hoặc đang mang thai nên hỏi ý kiến bác sĩ." },
+        { "q": "Có những topping nào?", "a": "Topping được làm tại bếp theo mẻ nhỏ và có thể đổi theo mùa, theo chi nhánh. Danh sách cụ thể sẽ có tại quầy khi Nhà An khai trương." },
+        { "q": "Có đặt trà cho nhóm hay văn phòng không?", "a": "Có. Nhà An nhận đặt set trà cho văn phòng và tiệc trà giao tận nơi. Gọi hoặc nhắn Zalo 0865 920 041 để được tư vấn." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn *một ly trà sữa*",
+      "text": "Nhà An đang hoàn thiện 5 chi nhánh và sắp mở cửa. Làm trắc nghiệm vui để tìm ly hợp vị, rồi đặt bàn trước để hẹn ngày nếm thử.",
+      "ctas": [
+        { "label": "Làm trắc nghiệm vị trà", "href": "/trac-nghiem-tra", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet", "/trac-nghiem-tra", "/tin-tuc/tra-sua-nha-lam-khac-gi", "/tra-viet/o-long-rang-cui", "/lo-banh"]
+}

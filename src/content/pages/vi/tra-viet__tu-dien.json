@@ -1,0 +1,234 @@
+{
+  "slug": "tra-viet/tu-dien",
+  "group": "tea",
+  "nav": "Từ điển trà",
+  "navDesc": "Các loại trà và thuật ngữ cho người mới",
+  "icon": "book",
+  "title": "Từ điển trà: các loại trà và thuật ngữ trà cho người mới",
+  "description": "Từ điển trà của Nhà An: phân biệt ô long, trà xanh, trà sen, hồng trà, matcha, trà thảo mộc và hơn 20 thuật ngữ trà, giải thích ngắn gọn, dễ hiểu.",
+  "image": "@leaf|nhiều loại trà khô đựng trong những đĩa sứ nhỏ xếp cạnh nhau trên bàn gỗ",
+  "hero": {
+    "eyebrow": "Từ điển trà",
+    "title": "Gọi đúng tên, *thưởng đúng vị*",
+    "lead": "Ô long thanh hương khác ô long rang củi thế nào, “hãm” hay “đánh thức trà” nghĩa là gì? Từ điển trà của Nhà An giải thích từng loại trà, từng thuật ngữ bằng lời dễ hiểu, kèm cách pha tại nhà.",
+    "img": "@leaf|nhiều loại trà khô đựng trong những đĩa sứ nhỏ xếp cạnh nhau trên bàn gỗ",
+    "alt": "Nhiều loại trà khô đựng trong những đĩa sứ nhỏ xếp cạnh nhau trên bàn gỗ",
+    "ctas": [
+      { "label": "Xem các loại trà", "href": "#loai-tra", "style": "primary" },
+      { "label": "Tra thuật ngữ", "href": "#thuat-ngu", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "mot-cay-che",
+      "eyebrow": "Bắt đầu từ chiếc lá",
+      "title": "Một cây chè, *nhiều dòng trà*",
+      "paras": [
+        "Trà xanh, ô long, hồng trà, bạch trà hay phổ nhĩ đều làm từ búp và lá của cùng một loài cây chè, tên khoa học Camellia sinensis. Điều tạo nên khác biệt chủ yếu nằm ở cách người làm trà xử lý chiếc lá: làm héo bao lâu, để oxy hóa đến đâu, sao, rang hay ướp hương ra sao.",
+        "Người Việt cũng quen gọi là trà nhiều thức uống từ thảo mộc. Từ điển của Nhà An gom cả hai nhóm, để bạn hiểu mình đang uống gì và pha sao cho ngon."
+      ],
+      "bullets": [
+        "Mỗi loại trà một trang riêng, cùng bố cục để dễ so sánh",
+        "Thông tin nhanh về màu nước, hương vị, nhiệt độ và thời gian hãm",
+        "Hơn 20 thuật ngữ trà giải thích ngắn gọn"
+      ],
+      "img": "tea-leaves",
+      "alt": "Búp và lá chè non xanh mướt đọng sương trên cây chè",
+      "cta": { "label": "Khám phá vùng chè Việt", "href": "/tra-viet/vung-che" }
+    },
+    {
+      "type": "cards",
+      "id": "loai-tra",
+      "eyebrow": "Mục từ nổi bật",
+      "title": "Sáu loại trà *nên đọc trước*",
+      "lead": "Bắt đầu từ sáu dòng trà gần gũi với quầy trà Nhà An và các vùng chè Việt; các mục từ khác có ở cuối trang.",
+      "items": [
+        {
+          "img": "@leaf|cận cảnh những viên ô long xanh vo tròn chặt màu xanh lục",
+          "alt": "Cận cảnh những viên trà ô long xanh vo tròn chặt",
+          "title": "Ô long thanh hương",
+          "tag": "Bán oxy hóa",
+          "text": "Ô long oxy hóa nhẹ, rang rất nhẹ hoặc không rang thêm: nước vàng xanh, hương hoa, vị thanh ngọt.",
+          "href": "/tra-viet/tu-dien/o-long-thanh-huong"
+        },
+        {
+          "img": "@leaf|cánh trà xanh Thái Nguyên khô nhỏ xoăn như móc câu trên đĩa sứ trắng",
+          "alt": "Cánh trà xanh Thái Nguyên khô, nhỏ và xoăn trên đĩa sứ trắng",
+          "title": "Trà xanh móc câu",
+          "tag": "Trà xanh",
+          "text": "Cánh trà nhỏ, xoăn cong như lưỡi câu; nước xanh vàng, chát dịu rồi ngọt hậu. Đặc sản quen thuộc của Thái Nguyên.",
+          "href": "/tra-viet/tu-dien/tra-xanh-moc-cau"
+        },
+        {
+          "img": "@origin|búp chè Shan Tuyết phủ lông tơ trắng mịn trên cành chè cổ thụ",
+          "alt": "Búp chè Shan Tuyết phủ lông tơ trắng trên cành chè cổ thụ",
+          "title": "Trà Shan Tuyết",
+          "tag": "Chè vùng cao",
+          "text": "Búp non phủ lớp lông tơ trắng như tuyết, hái từ những cây chè cao lớn, nhiều cây cổ thụ, trên núi cao phía Bắc.",
+          "href": "/tra-viet/tu-dien/tra-shan-tuyet"
+        },
+        {
+          "img": "@lotus|nhúm trà khô đặt trong lòng bông sen hồng vừa hé",
+          "alt": "Nhúm trà khô đặt trong lòng bông sen hồng vừa hé nở",
+          "title": "Trà sen",
+          "tag": "Ướp hương",
+          "text": "Trà xanh ướp trong bông sen hoặc ướp bằng gạo sen qua nhiều lượt, nét thanh lịch trong thú trà của người Hà Nội.",
+          "href": "/tra-viet/tu-dien/tra-sen"
+        },
+        {
+          "img": "tea-flatlay",
+          "alt": "Bát hồng trà màu đỏ nâu bên thìa gỗ đựng lá trà khô",
+          "title": "Hồng trà",
+          "tag": "Oxy hóa hoàn toàn",
+          "text": "Người Việt quen gọi là trà đen: nước đỏ nâu, vị đậm, là nền của nhiều ly trà sữa.",
+          "href": "/tra-viet/tu-dien/hong-tra"
+        },
+        {
+          "img": "matcha-whisk",
+          "alt": "Bàn tay đánh matcha bằng chổi tre trong bát gốm",
+          "title": "Matcha",
+          "tag": "Bột trà",
+          "text": "Bột trà xanh nghiền mịn từ lá chè được che bóng trước khi hái, đánh bằng chổi tre đến khi mịn bọt.",
+          "href": "/tra-viet/tu-dien/matcha"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "ban-do-tra",
+      "eyebrow": "Bản đồ từ điển",
+      "title": "Ba nhóm *trong từ điển trà*",
+      "lead": "Mười tám mục từ xếp theo cách làm, để bạn biết loại trà mình thích nằm ở nhóm nào.",
+      "cols": [
+        {
+          "title": "Từ cây chè, khác ở cách làm",
+          "icon": "leaf",
+          "items": [
+            "Bạch trà: búp non làm héo rồi phơi hoặc sấy khô, ít can thiệp nhất",
+            "Trà xanh móc câu, matcha: diệt men sớm để giữ sắc xanh",
+            "Shan Tuyết: chè vùng cao, làm được trà xanh, bạch trà, hồng trà",
+            "Ô long thanh hương: bán oxy hóa, rang nhẹ",
+            "Hồng trà: oxy hóa hoàn toàn",
+            "Phổ nhĩ: lên men vi sinh, thường ép bánh",
+            "Hojicha: trà xanh Nhật đem rang nâu"
+          ]
+        },
+        {
+          "title": "Ướp hương và pha phối",
+          "icon": "flower",
+          "items": [
+            "Trà sen: ướp trong bông sen hoặc bằng gạo sen",
+            "Trà lài: trà xanh ướp hoa lài (nhài)",
+            "Trà gạo rang: trà xanh trộn gạo rang thơm bùi",
+            "Trà tắc: trà pha cùng nước cốt tắc, quen thuộc ở Sài Gòn"
+          ]
+        },
+        {
+          "title": "Thảo mộc, không từ cây chè",
+          "icon": "sprout",
+          "items": [
+            "Trà atiso, trà vối, trà hoa cúc",
+            "Trà gừng, trà sả",
+            "Trà hoa đậu biếc: nước xanh lam, đổi màu khi thêm chanh",
+            "Thường không có caffeine, trừ khi phối cùng lá trà"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "thuat-ngu",
+      "eyebrow": "Thuật ngữ trà",
+      "title": "Thuật ngữ trà *thường gặp*",
+      "lead": "Gặp những chữ này trên bao bì hay trong lớp pha trà? Đây là nghĩa ngắn gọn, xếp theo hành trình từ búp chè đến chén trà.",
+      "head": ["Thuật ngữ", "Giải thích"],
+      "rows": [
+        ["Tôm, một tôm hai lá", "Tôm là búp non chưa nở ở đầu cành chè; một tôm hai lá là búp ấy cùng hai lá non ngay bên dưới."],
+        ["Móc câu", "Kiểu cánh trà xanh nhỏ, xoăn cong như lưỡi câu, quen thuộc với trà Thái Nguyên."],
+        ["Làm héo", "Rải mỏng lá chè tươi cho mất bớt nước, lá mềm ra, dễ vò và bắt đầu chuyển hương."],
+        ["Oxy hóa", "Khi tế bào lá bị dập, enzyme trong lá thúc đẩy các chất trong lá phản ứng với oxy, làm lá ngả nâu và đổi hương. Nhiều người quen gọi nhầm là lên men."],
+        ["Sao diệt men", "Đảo lá trong chảo gang hoặc tôn quay nóng để dừng oxy hóa đúng lúc và làm lá mềm, dễ vò."],
+        ["Vò", "Lăn, nhào lá cho dập tế bào và cuộn thành sợi hay viên, để chất trong lá dễ tan khi pha."],
+        ["Lên hương", "Lượt sao lửa nhỏ cuối cùng khi làm trà xanh kiểu Thái Nguyên, giúp trà khô hẳn và dậy mùi thơm như cốm non."],
+        ["Rang, bồi hỏa", "Sấy lại trà khô trên lửa than, lửa củi hoặc bằng máy để giảm ẩm, chuyển hương sang mùi rang, mật ong, hạt nướng."],
+        ["Ướp hương", "Cho trà hút hương hoa tự nhiên như sen, lài, ngâu, thường bằng cách ủ chung rồi sàng bỏ hoa, sấy lại; có loại ướp nhiều lượt."],
+        ["Ủ hương", "Để trà nằm yên trong vò, hũ kín cho hương ngấm đều: ủ cùng hoa khi ướp, hoặc cho trà nghỉ sau khi rang để hơi lửa lắng xuống."],
+        ["Lên men vi sinh", "Quá trình có vi sinh vật tham gia sau khi lá đã sao và phơi khô, như ở phổ nhĩ; khác với oxy hóa nhờ enzyme của lá."],
+        ["Trà mộc", "Trà không ướp hương, không pha trộn, giữ nguyên mùi vị của lá chè."],
+        ["Tráng ấm", "Rót nước nóng vào ấm, chén rồi đổ đi để dụng cụ sạch và ấm đều trước khi pha."],
+        ["Đánh thức trà", "Rót nước nóng ngập lá rồi chắt ra sau vài giây để lá ngấm nước, bắt đầu nở; hay dùng với trà vo viên, trà ép bánh."],
+        ["Hãm", "Ngâm trà trong nước nóng cho hương vị tan ra; hãm càng lâu, trà càng đậm và chát."],
+        ["Nước đầu", "Lượt trà đầu tiên rót ra để uống, sau bước đánh thức trà nếu có. Những nước sau đổi dần sắc hương, thường dịu đi."],
+        ["Rót kiệt", "Rót hết nước trong ấm sau mỗi lần hãm để lá không ngâm tiếp, giúp nước sau không bị đắng."],
+        ["Chén tống", "Chén lớn hoặc bình nhỏ có vòi, đựng toàn bộ trà vừa rót từ ấm rồi chia ra các chén quân cho đều."],
+        ["Chén quân", "Những chén nhỏ để uống, thường xếp quanh chén tống, mỗi chén chừng vài ngụm."],
+        ["Màu nước", "Màu trà sau khi pha, từ xanh vàng, vàng mật ong đến hổ phách, đỏ nâu; trà tốt pha đúng cách thường cho nước trong, sáng."],
+        ["Chát", "Cảm giác se, hơi khô trên lưỡi do polyphenol trong lá trà; chát gắt thường do nhiều lá, nước quá nóng hay hãm quá lâu."],
+        ["Hậu vị, hậu ngọt", "Vị đọng lại sau khi nuốt. Với nhiều loại trà ngon, vị ngọt dâng lên nơi cổ họng vài giây sau ngụm trà."]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "cach-doc",
+      "eyebrow": "Hướng dẫn",
+      "title": "Cách đọc *một trang từ điển*",
+      "lead": "Mỗi loại trà có một trang riêng với cùng bố cục, để bạn so sánh nhanh và pha thử ngay.",
+      "items": [
+        { "icon": "map", "title": "Nguồn gốc", "text": "Trà đến từ vùng nào, ra đời ra sao, kèm vài nét lịch sử ngắn gọn." },
+        { "icon": "flame", "title": "Kiểu chế biến", "text": "Lá được làm héo, oxy hóa, sao, rang hay ướp thế nào: gốc rễ của màu nước và hương vị." },
+        { "icon": "droplet", "title": "Màu nước và hương vị", "text": "Mô tả bằng liên tưởng quen thuộc như cốm non, mật ong, hoa lài để bạn dễ hình dung." },
+        { "icon": "spark", "title": "Mức caffeine tương đối", "text": "Xếp thấp, vừa hay cao để so sánh giữa các loại; đây là mức tham khảo, không phải số đo." },
+        { "icon": "timer", "title": "Nhiệt độ và thời gian hãm", "text": "Con số khởi đầu để pha tại nhà; nếm thử rồi chỉnh theo khẩu vị và chiếc ấm của bạn." },
+        { "icon": "cake", "title": "Thưởng thức và kết hợp", "text": "Gợi ý uống nóng hay lạnh, món bánh, món chay hợp vị và vài câu hỏi đáp ngắn." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *trước khi tra cứu*",
+      "items": [
+        {
+          "q": "Trà đen và hồng trà có phải là một?",
+          "a": "Thường là một. Người Trung Hoa gọi trà oxy hóa hoàn toàn là hồng trà theo màu nước đỏ nâu; tiếng Anh gọi là black tea theo màu lá khô sẫm, nên người Việt hay gọi là trà đen. Đừng nhầm với hắc trà, nhóm trà lên men vi sinh như phổ nhĩ chín."
+        },
+        {
+          "q": "Trà thảo mộc có phải là trà không?",
+          "a": "Theo nghĩa hẹp thì không, vì trà là thức uống từ lá cây chè. Atiso, vối, gừng, sả, hoa cúc hay hoa đậu biếc là thảo mộc mà người Việt quen gọi chung là trà, và phần lớn không có caffeine."
+        },
+        {
+          "q": "Mức caffeine trong từ điển được xếp thế nào?",
+          "a": "Đó là mức tương đối để so sánh giữa các loại, không phải số đo. Lượng caffeine thực tế còn tùy giống chè, độ non của búp, lượng lá, nhiệt độ nước và thời gian hãm. Nếu nhạy cảm với caffeine hoặc đang mang thai, bạn nên hỏi ý kiến bác sĩ."
+        },
+        {
+          "q": "Mới bắt đầu uống trà thì nên đọc mục nào trước?",
+          "a": "Trà lài, ô long thanh hương hay trà gạo rang thơm, dễ uống và ít chát; sau đó thử dần trà xanh móc câu, ô long rang củi. Còn phân vân, hãy làm bài trắc nghiệm vị trà của Nhà An."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Đọc xong rồi, *pha thử một ấm*",
+      "text": "Mở công cụ pha trà để có gợi ý lượng trà, nhiệt độ và thời gian hãm, hoặc làm bài trắc nghiệm để tìm loại trà hợp vị bạn trước khi ghé Nhà An.",
+      "ctas": [
+        { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "primary" },
+        { "label": "Bạn hợp vị trà nào?", "href": "/trac-nghiem-tra", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": [
+    "/tra-viet/o-long-rang-cui",
+    "/tra-viet/tu-dien/tra-lai",
+    "/tra-viet/tu-dien/bach-tra",
+    "/tra-viet/tu-dien/pho-nhi",
+    "/tra-viet/tu-dien/hojicha",
+    "/tra-viet/tu-dien/tra-gao-rang",
+    "/tra-viet/tu-dien/tra-tac",
+    "/tra-viet/tu-dien/tra-atiso",
+    "/tra-viet/tu-dien/tra-voi",
+    "/tra-viet/tu-dien/tra-gung",
+    "/tra-viet/tu-dien/tra-sa",
+    "/tra-viet/tu-dien/tra-hoa-cuc",
+    "/tra-viet/tu-dien/tra-hoa-dau-biec"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "tra-viet",
+  "group": "tea",
+  "nav": "Trà Việt",
+  "navDesc": "Triết lý trà và các dòng trà Nhà An",
+  "icon": "leaf",
+  "title": "Trà Việt: từ đồi chè đến chén trà mỗi ngày",
+  "description": "Trà Việt ở Tiệm Nhà An: ô long rang củi Bảo Lộc, trà xanh Tân Cương ướp lài, trà sen Hồ Tây, trà sữa nhà làm. Tìm ly trà hợp vị của bạn.",
+  "image": "@origin|đồi chè xanh trải dài theo sườn đồi dưới nắng sớm",
+  "hero": {
+    "eyebrow": "Trà Việt",
+    "title": "Một ly trà Việt, *một chút an*",
+    "lead": "Ô long Bảo Lộc rang củi, trà xanh Tân Cương ướp lài, trà sen ướp gạo sen Hồ Tây. Nhà An chọn trà Việt, rang theo mẻ nhỏ, ủ cốt trà mới mỗi 4 tiếng và pha theo khẩu vị của riêng bạn.",
+    "img": "@origin|đồi chè xanh trải dài theo sườn đồi dưới nắng sớm",
+    "alt": "Đồi chè xanh trải dài theo sườn đồi dưới nắng sớm",
+    "ctas": [
+      { "label": "Xem các dòng trà", "href": "#dong-tra", "style": "primary" },
+      { "label": "Bạn hợp vị trà nào?", "href": "/trac-nghiem-tra", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "triet-ly",
+      "eyebrow": "Triết lý trà",
+      "title": "Trà thật, pha mới, *ngọt vừa đủ*",
+      "paras": [
+        "Một ly trà ngon bắt đầu từ chiếc lá được chọn kỹ và kết thúc ở khẩu vị của chính bạn. Vì vậy Nhà An chọn trà từ những vùng chè Việt Nam và làm việc trực tiếp với nông hộ.",
+        "Ô long được rang theo mẻ nhỏ, cốt trà ủ mới mỗi 4 tiếng để ly nào cũng thơm như vừa pha. Phần còn lại, bạn quyết định."
+      ],
+      "bullets": [
+        "Mức đường từ 0% đến 100%",
+        "Ít đá hoặc nhiều đá tùy thích",
+        "Đổi sữa tươi sang sữa yến mạch"
+      ],
+      "img": "tea-pour",
+      "alt": "Rót trà nóng từ ấm gốm ra chén",
+      "cta": { "label": "Xem nguồn nguyên liệu", "href": "/nguyen-lieu" }
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "num": "4 tiếng", "label": "Cốt trà lại được ủ mới" },
+        { "num": "0–100%", "label": "Mức đường bạn tự chọn" },
+        { "num": "24/7", "label": "Quầy trà mở cả ngày lẫn đêm" },
+        { "num": "5", "label": "Chi nhánh sắp khai trương" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "dong-tra",
+      "eyebrow": "Các dòng trà",
+      "title": "Năm dòng trà *ở quầy Nhà An*",
+      "lead": "Mỗi dòng trà một tính cách, từ chén ô long thơm lửa đến ly trà trái cây mát lành.",
+      "items": [
+        {
+          "img": "oolong-hero",
+          "alt": "Chén trà ô long màu hổ phách",
+          "title": "Ô long rang củi",
+          "tag": "Món chủ lực",
+          "text": "Ô long một tôm hai lá Bảo Lộc, rang củi nhãn theo mẻ nhỏ: hương rang ấm, hậu ngọt mật ong.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@leaf|trà xanh sợi xoăn khô bên những bông hoa lài trắng",
+          "alt": "Trà xanh khô bên những bông hoa lài trắng",
+          "title": "Trà xanh Tân Cương ướp lài",
+          "tag": "Thanh mát",
+          "text": "Trà xanh Tân Cương, Thái Nguyên ướp hoa lài: nước xanh vàng, chát dịu, thoảng hương hoa.",
+          "href": "/tin-tuc/tra-tan-cuong-thai-nguyen"
+        },
+        {
+          "img": "@lotus|chén trà sen bên bông sen hồng và gạo sen",
+          "alt": "Chén trà sen bên bông sen hồng",
+          "title": "Trà sen",
+          "tag": "Hương sen",
+          "text": "Trà ướp gạo sen Bách Diệp Hồ Tây, hương sen thanh mà sâu. Ở miền Trung, đừng bỏ lỡ trà sen Hội An.",
+          "href": "/tin-tuc/tra-sen-tay-ho"
+        },
+        {
+          "img": "iced-milktea-duo",
+          "alt": "Hai ly trà sữa đá",
+          "title": "Trà sữa nhà làm",
+          "tag": "Chọn độ ngọt",
+          "text": "Cốt trà thật ủ mới mỗi 4 tiếng, sữa tươi hoặc sữa yến mạch. Nên thử đầu tiên: ô long sữa kem mây.",
+          "href": "/tra-sua"
+        },
+        {
+          "img": "fruit-tea",
+          "alt": "Ly trà trái cây nhiều màu",
+          "title": "Trà trái cây theo mùa",
+          "tag": "Theo mùa",
+          "text": "Trái cây theo mùa như dâu Đà Lạt, vải Lục Ngạn, xoài Hòa Lộc trên nền trà thanh nhẹ.",
+          "href": "/mua-vu"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "tu-doi-che-den-chen-tra",
+      "eyebrow": "Hành trình chiếc lá",
+      "title": "Từ đồi chè *đến chén trà*",
+      "lead": "Trà nào cũng đi qua những công đoạn cơ bản này; khác biệt nằm ở mức oxy hóa, độ lửa và hương ướp.",
+      "items": [
+        { "title": "Hái búp", "text": "Chọn búp non một tôm hai lá: một búp chưa nở và hai lá non ngay bên dưới." },
+        { "title": "Làm héo", "text": "Lá được làm héo cho mềm, bớt nước. Với ô long, lá còn được lắc nhẹ cho mép lá dập và oxy hóa một phần." },
+        { "title": "Sao diệt men", "text": "Sao trong chảo gang hoặc tôn quay nóng để dừng oxy hóa. Trà xanh sao sớm để giữ vị tươi, ô long sao khi đã oxy hóa vừa đủ." },
+        { "title": "Vò và sấy", "text": "Vò cho lá cuộn thành sợi móc câu như trà Thái Nguyên hay viên tròn như ô long, rồi sấy khô." },
+        { "title": "Rang lửa, ướp hương", "text": "Ô long có thể được rang thêm cho hương ấm; trà xanh có thể ướp hoa lài hay gạo sen." },
+        { "title": "Ủ cốt, rót ly", "text": "Ở Nhà An, cốt trà ủ mới mỗi 4 tiếng, pha theo mức đường, lượng đá và loại sữa bạn chọn." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "chon-tra",
+      "eyebrow": "Gợi ý nhanh",
+      "title": "Chọn trà *theo khoảnh khắc*",
+      "lead": "Chưa biết gọi gì? Bắt đầu từ thời điểm trong ngày và tâm trạng của bạn.",
+      "head": ["Khoảnh khắc", "Gợi ý", "Vì sao hợp"],
+      "rows": [
+        ["Sáng sớm, bánh vừa ra lò", "Ô long nóng pha ấm", "Hương rang ấm hợp vị bơ của croissant"],
+        ["Trưa nắng", "Trà trái cây theo mùa, ô long đá", "Mát, thanh, dễ uống"],
+        ["Chiều chạy deadline", "Trà sữa ô long ít đường", "Thơm béo vừa phải, không ngọt gắt"],
+        ["Hẹn bạn, ngồi lâu", "Trà sen hoặc trà lài nóng", "Hương hoa nhẹ cho những cuộc trò chuyện dài"],
+        ["Tối muộn", "Ly ít trà, pha nhẹ, ít ngọt", "Dịu hơn nếu bạn nhạy cảm với caffeine"]
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "kham-pha",
+      "eyebrow": "Đi sâu hơn",
+      "title": "Hiểu trà hơn, *uống trà vui hơn*",
+      "lead": "Muốn hiểu thêm về trà Việt? Đây là những trang nên ghé tiếp.",
+      "items": [
+        {
+          "img": "@craft|tay người đảo trà ô long trong chảo gang trên bếp lửa củi",
+          "alt": "Bàn tay đảo trà ô long trong chảo gang trên bếp lửa củi",
+          "title": "Ô long rang củi",
+          "tag": "Câu chuyện",
+          "text": "Ô long là gì, vì sao rang trên lửa củi nhãn và năm cách thưởng thức ở Nhà An.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@origin|cây chè Shan Tuyết cổ thụ phủ rêu trên núi cao",
+          "alt": "Cây chè Shan Tuyết cổ thụ phủ rêu trên núi cao",
+          "title": "Vùng chè Việt",
+          "tag": "Bản đồ trà",
+          "text": "Từ Tân Cương, Mộc Châu đến Bảo Lộc, Cầu Đất và chè Shan Tuyết cổ thụ trên núi cao.",
+          "href": "/tra-viet/vung-che"
+        },
+        {
+          "img": "@brew|bộ ấm chén gốm nhỏ trên khay trà gỗ",
+          "alt": "Bộ ấm chén gốm nhỏ trên khay trà gỗ",
+          "title": "Pha trà tại nhà",
+          "tag": "Công cụ",
+          "text": "Công cụ gợi ý lượng trà, nhiệt độ nước và thời gian hãm cho từng loại trà.",
+          "href": "/tra-viet/pha-tra"
+        },
+        {
+          "img": "@drinks|nhiều ly trà sữa và trà trái cây đủ màu xếp cạnh nhau",
+          "alt": "Nhiều ly trà sữa và trà trái cây đủ màu xếp cạnh nhau",
+          "title": "Bạn hợp vị trà nào?",
+          "tag": "Trắc nghiệm",
+          "text": "Vài câu hỏi vui về nhịp sống và khẩu vị để tìm ly trà hợp với bạn.",
+          "href": "/trac-nghiem-tra"
+        }
+      ]
+    },
+    {
+      "type": "posts",
+      "id": "bai-viet",
+      "eyebrow": "Góc đọc",
+      "title": "Đọc thêm *chuyện trà*",
+      "category": "tra",
+      "limit": 3
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về trà*",
+      "items": [
+        { "q": "Trà có caffeine không?", "a": "Có. Trà làm từ lá cây chè đều có caffeine, thường ít hơn một ly cà phê cùng dung tích; lượng cụ thể tùy loại trà, lượng lá và thời gian hãm. Nếu nhạy cảm với caffeine hoặc đang mang thai, bạn nên hỏi ý kiến bác sĩ." },
+        { "q": "Buổi tối nên chọn trà gì?", "a": "Nếu dễ mất ngủ, hãy uống trà sớm hơn giờ ngủ vài tiếng và tránh ly quá đậm. Ở quầy, bạn có thể gọi ít trà, ít ngọt hoặc nhờ barista gợi ý một ly nhẹ nhàng hơn." },
+        { "q": "Có mua trà về nhà được không?", "a": "Nhà An dự kiến có trà đóng túi tại quầy và hộp quà trà, chi tiết sẽ được công bố khi khai trương." },
+        { "q": "Có chọn được độ ngọt và loại sữa không?", "a": "Được. Ly nào cũng chọn được mức đường từ 0% đến 100%, ít hoặc nhiều đá và đổi sữa tươi sang sữa yến mạch." },
+        { "q": "Mới bắt đầu uống trà thì nên thử gì?", "a": "Hãy bắt đầu với trà sữa ô long hoặc trà xanh lài ít ngọt, rồi thử dần một ấm ô long nóng. Còn phân vân, bài trắc nghiệm vị trà của Nhà An sẽ gợi ý giúp bạn." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn *ở quầy trà Nhà An*",
+      "text": "5 chi nhánh đang hoàn thiện và sắp khai trương. Đặt bàn trước hoặc nhắn Zalo để nhận tin ngày mở cửa sớm nhất.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Nhắn Zalo", "href": "https://zalo.me/0865920041", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet/o-long-rang-cui", "/tra-viet/vung-che", "/tra-viet/pha-tra", "/tra-sua", "/trac-nghiem-tra"]
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "tra-viet/tu-dien/tra-shan-tuyet",
+  "group": "tea",
+  "nav": "Trà Shan Tuyết",
+  "navDesc": "Chè cổ thụ núi cao, búp phủ lông tơ trắng",
+  "icon": "leaf",
+  "title": "Trà Shan Tuyết là gì? Chè cổ thụ núi cao và cách pha",
+  "description": "Trà Shan Tuyết là gì? Tìm hiểu giống chè cổ thụ vùng núi cao phía Bắc, búp phủ lông tơ trắng, nước vàng sáng, hậu ngọt sâu và cách pha ở 85–90°C.",
+  "image": "@origin|vườn chè Shan Tuyết cổ thụ thân cao vượt đầu người trên sườn núi mây phủ",
+  "hero": {
+    "eyebrow": "Từ điển trà",
+    "title": "Trà Shan Tuyết, *búp trắng trên núi mây*",
+    "lead": "Búp chè to mập, phủ lông tơ trắng như rắc tuyết, hái từ những cây chè thân gỗ trên núi cao phía Bắc. Pha ra nước vàng sáng, chát nhẹ rồi ngọt hậu sâu, bền qua nhiều nước.",
+    "img": "@origin|vườn chè Shan Tuyết cổ thụ thân cao vượt đầu người trên sườn núi mây phủ",
+    "alt": "Những cây chè Shan Tuyết cổ thụ thân cao vượt đầu người trên sườn núi mây phủ",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "la-gi",
+      "eyebrow": "Là gì?",
+      "title": "Một giống chè *của núi cao*",
+      "paras": [
+        "Shan Tuyết là tên quen gọi của giống chè Shan mọc ở vùng núi cao phía Bắc. Chữ “tuyết” thường được giải thích từ lớp lông tơ trắng mịn phủ trên búp chè; trà sao khéo vẫn giữ ánh trắng bạc ấy trên cánh trà khô.",
+        "Khác những hàng chè trung du được đốn thấp cho dễ hái, nhiều cây Shan Tuyết là cây thân gỗ cao vài mét, mọc rải rác trên sườn núi mây mù; có những quần thể được cho là đã hàng trăm năm tuổi. Đồng bào Mông, Dao ở nhiều bản vẫn trèo cây hái búp và sao trà bằng chảo gang trên bếp củi.",
+        "Vài vùng Shan Tuyết được người yêu trà nhắc đến nhiều:"
+      ],
+      "bullets": [
+        "Hà Giang cũ, nay thuộc tỉnh Tuyên Quang: Hoàng Su Phì, Vị Xuyên, quanh dãy Tây Côn Lĩnh",
+        "Suối Giàng, vùng Yên Bái cũ nay thuộc tỉnh Lào Cai",
+        "Tà Xùa ở Sơn La, Na Hang ở Tuyên Quang và nhiều vùng núi khác"
+      ],
+      "img": "@leaf|cánh trà Shan Tuyết khô xoăn to còn ánh lông tơ trắng bạc trên đĩa tre",
+      "alt": "Cánh trà Shan Tuyết khô, xoăn to, còn ánh lông tơ trắng bạc, bày trên đĩa tre",
+      "cta": { "label": "Đọc thêm: trà Shan Tuyết cổ thụ", "href": "/tin-tuc/tra-shan-tuyet-co-thu" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Trà Shan Tuyết *trong một bảng*",
+      "lead": "Thông số pha dưới đây dành cho trà xanh Shan Tuyết, dòng phổ biến nhất. Bạch trà, hồng trà hay trà ép bánh sẽ có cách pha riêng.",
+      "head": ["Mục", "Trà Shan Tuyết"],
+      "rows": [
+        ["Nguồn gốc", "Vùng núi cao phía Bắc: Hà Giang cũ, Suối Giàng, Tà Xùa, Na Hang và nhiều nơi khác"],
+        ["Giống chè", "Chè Shan: cây thân gỗ, lá to, búp mập phủ lông tơ trắng"],
+        ["Kiểu chế biến", "Phổ biến nhất là trà xanh sao chảo; ngoài ra có bạch trà, hồng trà và trà ép bánh"],
+        ["Màu nước", "Vàng sáng, hơi sánh; lông tơ có thể làm nước hơi đục"],
+        ["Hương vị", "Thơm thanh và sâu; chát nhẹ lúc đầu, hậu ngọt rõ và kéo dài"],
+        ["Mức caffeine tương đối", "Vừa; búp non thường nhiều caffeine hơn lá già, pha càng đậm thì càng nhiều"],
+        ["Nhiệt độ nước", "85–90°C với trà xanh; hồng trà và trà ép bánh dùng nước gần sôi"],
+        ["Lượng trà", "Khoảng 4 g cho mỗi 100 ml nước, tức 5–6 g cho ấm 150 ml"],
+        ["Thời gian hãm", "Ấm nhỏ: 20–30 giây cho nước đầu, các nước sau tăng dần; pha được nhiều nước"]
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "dong-tra",
+      "eyebrow": "Các dòng trà",
+      "title": "Một búp Shan Tuyết, *bốn cách làm trà*",
+      "lead": "Từ cùng một nguồn búp, người làm trà vùng cao ngày nay làm ra nhiều dòng trà. Có nơi còn làm trà ống lam: nhồi búp chè vào ống tre, ống nứa rồi hơ trên lửa.",
+      "items": [
+        {
+          "img": "@brew|chén trà Shan Tuyết nước vàng óng bên ấm đất nung trên bàn gỗ mộc",
+          "alt": "Chén trà Shan Tuyết nước vàng óng bên ấm đất nung trên bàn gỗ mộc",
+          "title": "Trà xanh sao chảo",
+          "tag": "Phổ biến nhất",
+          "text": "Sao diệt men trên chảo nóng, vò rồi sao khô. Nước vàng sáng, chát nhẹ, hậu ngọt sâu."
+        },
+        {
+          "img": "@leaf|búp bạch trà Shan Tuyết trắng bạc phơi trên nong tre",
+          "alt": "Những búp bạch trà Shan Tuyết trắng bạc phơi trên nong tre",
+          "title": "Bạch trà",
+          "tag": "Ít chế biến",
+          "text": "Thường chỉ dùng búp non, làm héo rồi sấy nhẹ, giữ lớp lông tơ trắng bạc; nước vàng nhạt, vị dịu.",
+          "href": "/tra-viet/tu-dien/bach-tra"
+        },
+        {
+          "img": "@leaf|cánh hồng trà xoắn màu nâu đỏ trong chén sứ",
+          "alt": "Cánh hồng trà xoắn màu nâu đỏ đựng trong chén sứ",
+          "title": "Hồng trà",
+          "tag": "Oxy hóa hoàn toàn",
+          "text": "Búp chè được vò kỹ, để oxy hóa trọn vẹn rồi sấy khô; nước đỏ nâu trong, vị ngọt tròn, ít chát.",
+          "href": "/tra-viet/tu-dien/hong-tra"
+        },
+        {
+          "img": "@leaf|bánh trà ép tròn đặt trên giấy gói và khay gỗ",
+          "alt": "Bánh trà ép hình tròn đặt trên giấy gói và khay gỗ",
+          "title": "Trà ép bánh",
+          "tag": "Lên men",
+          "text": "Một số hợp tác xã ép trà Shan Tuyết thành bánh, làm theo cách gần với trà phổ nhĩ để hương vị chuyển dần theo thời gian.",
+          "href": "/tra-viet/tu-dien/pho-nhi"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "tu-cay-den-chen",
+      "eyebrow": "Hành trình búp chè",
+      "title": "Từ cây cổ thụ *đến chén trà*",
+      "lead": "Cách làm trà xanh Shan Tuyết truyền thống ở nhiều bản vùng cao; mỗi nơi, mỗi nhà lại có kinh nghiệm riêng.",
+      "items": [
+        {
+          "label": "Sáng sớm",
+          "title": "Hái búp khi còn sương",
+          "text": "Người hái lên rừng từ sớm, trèo lên cây hoặc bắc thang để ngắt búp, thường là một tôm với một đến hai lá non. Búp được hái nhẹ tay để giữ lớp lông tơ trắng.",
+          "img": "@craft|bàn tay ngắt búp chè non phủ lông tơ trên cành cây cổ thụ",
+          "alt": "Bàn tay ngắt búp chè non phủ lông tơ trắng trên cành cây chè cổ thụ"
+        },
+        {
+          "label": "Trong ngày",
+          "title": "Làm héo",
+          "text": "Búp tươi được rải mỏng cho héo bớt, lá mềm ra và bớt mùi ngái, sẵn sàng lên chảo."
+        },
+        {
+          "label": "Bên bếp củi",
+          "title": "Sao diệt men",
+          "text": "Chè được đảo trên chảo gang nóng để dừng oxy hóa, giữ màu xanh và vị tươi của búp.",
+          "img": "@craft|chảo gang sao chè trên bếp củi đỏ lửa trong gian bếp vùng cao",
+          "alt": "Chảo gang sao chè đặt trên bếp củi đỏ lửa trong một gian bếp vùng cao"
+        },
+        {
+          "label": "Nối tiếp",
+          "title": "Vò rồi sao lại",
+          "text": "Chè được vò tay cho săn rồi trả về chảo sao tiếp, lặp lại vài lượt; lửa hạ dần để cánh trà khô đều mà không cháy."
+        },
+        {
+          "label": "Lượt cuối",
+          "title": "Lên hương",
+          "text": "Lượt sao cuối, nhiều nơi gọi là quay hương hay lên hương, giúp trà khô hẳn và dậy mùi thơm. Người sao đảo nhẹ tay để búp còn giữ ánh trắng bạc."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "cach-pha",
+      "eyebrow": "Pha tại nhà",
+      "title": "Pha trà Shan Tuyết *bằng ấm nhỏ*",
+      "lead": "Cánh trà Shan Tuyết to và xốp nên trông nhiều hơn trà móc câu cùng khối lượng. Nếu có cân nhà bếp, hãy cân cho chuẩn.",
+      "items": [
+        { "title": "Chuẩn bị nước", "text": "Đun sôi nước lọc rồi để nguội còn khoảng 85–90°C; tráng ấm và chén cho nóng đều." },
+        { "title": "Cho trà, tráng nhanh", "text": "Cho 5–6 g trà vào ấm 150 ml, rót nước tráng trà vài giây rồi đổ đi để búp trà mềm và nở đều." },
+        { "title": "Hãm nước đầu", "text": "Rót nước, đậy nắp, hãm 20–30 giây rồi rót hết ra chén tống. Nước hơi đục vì lông tơ là điều bình thường." },
+        { "title": "Tăng dần thời gian", "text": "Mỗi nước sau hãm lâu hơn 10–15 giây. Shan Tuyết bền nước, pha nhiều lần vẫn giữ được hậu ngọt." },
+        { "title": "Chỉnh theo khẩu vị", "text": "Muốn đậm hơn, hãy thêm trà thay vì ngâm lâu. Với hồng trà hay trà ép bánh Shan Tuyết, dùng nước nóng hơn, gần sôi." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thuong-thuc",
+      "eyebrow": "Thưởng thức",
+      "title": "Shan Tuyết hợp *những khoảnh khắc nào*",
+      "lead": "Một ấm Shan Tuyết hợp để ngồi lâu, nếm chậm và trò chuyện.",
+      "items": [
+        { "icon": "cup", "title": "Uống chậm qua nhiều nước", "text": "Thường nước đầu thơm, nước giữa đậm, nước sau ngọt dịu. Hãy để ý hậu ngọt đọng lại nơi cổ họng sau mỗi ngụm." },
+        { "icon": "cake", "title": "Bánh ít béo, ngọt vừa", "text": "Bánh đậu xanh, bánh cốm hay một lát bánh chuối thuần chay giúp vị chát nhẹ của trà tròn hơn." },
+        { "icon": "sun", "title": "Buổi sáng se lạnh", "text": "Ấm trà nóng nước vàng sáng hợp những sáng se lạnh, khi bạn muốn bắt đầu ngày mới thật chậm." },
+        { "icon": "users", "title": "Bàn trà nhiều người", "text": "Pha ấm nhỏ, rót vòng cho cả bàn để mọi người cùng nếm và so sánh từng nước trà." },
+        { "icon": "droplet", "title": "Ủ lạnh", "text": "Ngâm trà với nước lọc nguội trong ngăn mát 6–8 tiếng, lọc bã là có ly trà vàng trong, ngọt dịu." },
+        { "icon": "gift", "title": "Làm quà vùng cao", "text": "Một gói Shan Tuyết là món quà kể chuyện núi rừng, hợp tặng ông bà, thầy cô hay người bạn mê trà." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về Shan Tuyết*",
+      "items": [
+        { "q": "Trà Shan Tuyết khác chè Thái Nguyên thế nào?", "a": "Chè Thái Nguyên thường từ giống chè trung du lá nhỏ hoặc các giống chè mới trồng trên đồi thấp: cánh nhỏ xoăn như móc câu, nước xanh ánh vàng, hương cốm, vị chát rõ hơn. Shan Tuyết đến từ cây chè thân gỗ trên núi cao: búp to phủ lông tơ trắng, nước vàng sáng, chát nhẹ và hậu ngọt sâu, hợp pha với nước nóng hơn một chút." },
+        { "q": "Vì sao nước trà Shan Tuyết hơi đục?", "a": "Lớp lông tơ trên búp có thể làm nước hơi đục hoặc lấp lánh khi rót, nhất là ở nước đầu. Đây là đặc điểm tự nhiên của búp phủ lông tơ, không có nghĩa là trà bị hỏng." },
+        { "q": "Mua trà Shan Tuyết cần để ý gì?", "a": "Nên mua ở hợp tác xã, cơ sở rõ nguồn gốc hoặc sản phẩm có chỉ dẫn địa lý; hỏi rõ vùng chè, vụ hái và cách sao. Trà sao khéo thường có búp to, còn ánh trắng bạc, mùi thơm tự nhiên, không có mùi khét hay mùi lạ." },
+        { "q": "Trà Shan Tuyết có caffeine không?", "a": "Có. Như mọi loại trà làm từ lá chè, Shan Tuyết có caffeine; lượng cụ thể tùy lượng trà, nhiệt độ và thời gian hãm. Nếu nhạy cảm với caffeine, đang mang thai hoặc có vấn đề sức khỏe, bạn nên hỏi ý kiến bác sĩ." },
+        { "q": "Ở Nhà An có thể nếm những trà Việt nào?", "a": "Quầy trà Nhà An chọn ô long Bảo Lộc rang củi nhãn, trà xanh Tân Cương ướp lài và trà sen ướp gạo sen Bách Diệp Hồ Tây. Sau khai trương, workshop pha trà thứ Bảy sẽ là dịp luyện tay pha ấm nhỏ cùng Nhà An; lịch chi tiết công bố sau." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Tự pha một ấm Shan Tuyết *ngay hôm nay*",
+      "text": "Công cụ pha trà của Nhà An có sẵn công thức cho Shan Tuyết: lượng trà, nhiệt độ và thời gian từng nước. 5 chi nhánh Nhà An đang hoàn thiện, hãy đặt bàn trước hoặc nhắn Zalo để nhận tin ngày mở cửa.",
+      "ctas": [
+        { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet/tu-dien", "/tra-viet/tu-dien/tra-xanh-moc-cau", "/tra-viet/tu-dien/bach-tra", "/tra-viet/tu-dien/pho-nhi", "/tin-tuc/tra-shan-tuyet-co-thu", "/tra-viet/vung-che"]
+}

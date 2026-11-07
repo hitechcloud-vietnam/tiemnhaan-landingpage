@@ -1,0 +1,211 @@
+{
+  "slug": "diem-den/nha-tho-duc-ba",
+  "group": "tools",
+  "nav": "Nhà thờ Đức Bà Sài Gòn",
+  "navDesc": "Kiến trúc gạch đỏ, lịch sử và mẹo tham quan",
+  "icon": "pin",
+  "title": "Nhà thờ Đức Bà Sài Gòn: lịch sử, kiến trúc và mẹo tham quan",
+  "description": "Nhà thờ Đức Bà Sài Gòn: lịch sử hơn 140 năm, kiến trúc gạch đỏ, lưu ý tham quan mùa trùng tu, lộ trình đi bộ gợi ý và nơi nghỉ chân gần đó.",
+  "image": "lm-notre-dame",
+  "hero": {
+    "eyebrow": "Điểm đến",
+    "title": "Nhà thờ Đức Bà, *gạch đỏ giữa lòng Sài Gòn*",
+    "lead": "Hai tháp chuông bên Công trường Công xã Paris, những bức tường gạch đỏ đã đứng đó hơn 140 năm. Nhà An gợi ý cách ngắm trọn công trình, tham quan đúng mực trong mùa trùng tu và nên ghé đâu tiếp theo.",
+    "img": "lm-notre-dame",
+    "alt": "Mặt tiền gạch đỏ của Nhà thờ Đức Bà Sài Gòn, phía trước là tượng Đức Mẹ Hòa Bình giữa vườn cây",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Gợi ý lộ trình đi bộ", "href": "#goi-y-tham-quan", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Giới thiệu",
+      "title": "Một dấu ấn *của trung tâm Sài Gòn*",
+      "paras": [
+        "Nhà thờ Đức Bà Sài Gòn, tên chính thức là Vương cung thánh đường chính tòa Đức Mẹ Vô nhiễm Nguyên tội, được người Pháp xây dựng từ năm 1877 đến năm 1880. Công trình theo phong cách Roman cải biên pha nét Gothic, nổi bật với hai tháp chuông nhọn và những bức tường gạch đỏ để trần.",
+        "Đây là điểm hẹn quen thuộc của người Sài Gòn và thường là điểm dừng đầu tiên của khách phương xa. Từ năm 2017, nhà thờ bước vào đợt đại trùng tu kéo dài, nên trải nghiệm tham quan có thể khác nhau tùy thời điểm."
+      ],
+      "img": "@hcm|hai tháp chuông nhọn của Nhà thờ Đức Bà Sài Gòn nhìn từ dưới lên trên nền trời xanh",
+      "alt": "Hai tháp chuông nhọn của Nhà thờ Đức Bà Sài Gòn nhìn từ dưới lên trên nền trời xanh",
+      "cta": { "label": "Xem các điểm đến khác", "href": "/diem-den" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Trước khi đi, *nắm nhanh vài điều*",
+      "lead": "Giờ mở cửa, giờ lễ và khu vực được vào có thể thay đổi trong thời gian trùng tu. Bạn nên kiểm tra thông tin mới nhất trước khi đi.",
+      "head": ["Hạng mục", "Gợi ý"],
+      "rows": [
+        ["Khu vực", "Công trường Công xã Paris, phường Sài Gòn, trung tâm TP. Hồ Chí Minh"],
+        ["Nên đi", "Sáng sớm hoặc chiều muộn ngày thường, khi nắng dịu và thưa người"],
+        ["Thời gian tham quan gợi ý", "30–45 phút; 2–3 tiếng nếu ghé thêm Bưu điện Thành phố và Đường sách"],
+        ["Phù hợp với", "Người yêu kiến trúc, lịch sử, khách lần đầu đến Sài Gòn, người thích chụp ảnh đường phố"],
+        ["Chi nhánh Nhà An gần nhất", "Nhà An Bình Thạnh (khoảng 15 phút đi xe) và Nhà An Tân Bình (khoảng 20 phút), đều sắp khai trương"],
+        ["Lưu ý", "Đang đại trùng tu: có thể còn giàn giáo, rào chắn; bên trong có thể chỉ mở vào một số khung giờ"]
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "dau-moc",
+      "eyebrow": "Lịch sử",
+      "title": "Những dấu mốc *qua hơn một thế kỷ*",
+      "items": [
+        { "label": "1877", "title": "Đặt viên đá đầu tiên", "text": "Ngày 7/10/1877, công trình khởi công theo thiết kế của kiến trúc sư J. Bourard, người thắng cuộc thi thiết kế và giám sát thi công." },
+        { "label": "1880", "title": "Khánh thành", "text": "Nhà thờ khánh thành vào dịp lễ Phục Sinh, ngày 11/4/1880. Vật liệu xây dựng khi ấy đều được chở từ Pháp sang." },
+        { "label": "1895", "title": "Tháp chuông vươn cao", "text": "Hai tháp chuông được nâng cao và gắn thêm mái chóp, đạt gần 58 m; tính cả thánh giá, công trình cao khoảng 60 m." },
+        { "label": "2017", "title": "Bắt đầu đại trùng tu", "text": "Đợt trùng tu lớn khởi công, gồm mái ngói, hệ thống thoát nước, tháp chuông, bộ chuông và nhiều chi tiết kiến trúc." },
+        { "label": "2026", "title": "Thánh giá mới trên đỉnh tháp", "text": "Tháng 3/2026, hai cây thánh giá mới được đặt lên đỉnh hai tháp chuông; các hạng mục khác vẫn đang tiếp tục." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "diem-nhan",
+      "eyebrow": "Điểm nhấn",
+      "title": "Đừng bỏ lỡ *những chi tiết này*",
+      "items": [
+        { "icon": "home", "title": "Tường gạch đỏ để trần", "text": "Gạch chở từ Pháp sang, xây không tô trát. Sau hơn một thế kỷ, mặt tường vẫn giữ sắc đỏ ấm rất riêng." },
+        { "icon": "music", "title": "Hai tháp chuông", "text": "Đường nét dễ nhận ra nhất của nhà thờ. Bộ chuông gồm sáu quả chuông đồng được đúc tại Pháp." },
+        { "icon": "palette", "title": "56 ô kính màu", "text": "Do xưởng Lorin ở Chartres (Pháp) chế tác. Nếu được vào trong, hãy ngắm lúc nắng xuyên qua kính." },
+        { "icon": "flower", "title": "Tượng Đức Mẹ Hòa Bình", "text": "Tượng đá tạc tại Ý, đặt giữa vườn hoa trước nhà thờ từ năm 1959, là tiền cảnh quen thuộc của nhiều bức ảnh toàn cảnh." },
+        { "icon": "pin", "title": "Quảng trường Công xã Paris", "text": "Khoảng sân và hàng cây nối nhà thờ với Bưu điện Thành phố, Đường sách; mỗi điểm chỉ cách vài phút đi bộ." },
+        { "icon": "star", "title": "Mùa lễ cuối năm", "text": "Dịp Giáng sinh, phố xá quanh nhà thờ trang hoàng đèn và trở thành điểm dạo chơi quen thuộc của người Sài Gòn." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "goi-y-tham-quan",
+      "eyebrow": "Gợi ý tham quan",
+      "title": "Một vòng đi bộ *khoảng hai giờ*",
+      "lead": "Lộ trình nhẹ nhàng, bắt đầu từ nhà thờ và kết thúc bằng một ly trà.",
+      "items": [
+        { "title": "Ngắm toàn cảnh", "text": "Đứng ở rìa quảng trường để thu trọn hai tháp chuông và tượng Đức Mẹ vào khung hình. Sáng sớm ngày thường là lúc thưa người nhất." },
+        { "title": "Đi chậm quanh khuôn viên", "text": "Ngắm ô cửa sổ tròn trên mặt tiền và từng lớp gạch. Nếu nhà thờ mở cửa cho khách, hãy vào nhẹ nhàng và giữ yên lặng." },
+        { "title": "Sang Bưu điện Thành phố", "text": "Vài bước chân là tới sảnh mái vòm khung sắt. Gửi một tấm bưu thiếp là món quà nhỏ cho chuyến đi." },
+        { "title": "Thả bộ Đường sách", "text": "Đường sách Nguyễn Văn Bình nằm ngay bên hông bưu điện, rợp bóng cây, hợp để chọn một cuốn sách mang theo." },
+        { "title": "Nghỉ chân với một ly trà", "text": "Đi bộ khoảng 10 phút ra phố đi bộ Nguyễn Huệ, hoặc ghé Nhà An Bình Thạnh, Tân Bình khi khai trương cho một ly ô long rang củi." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Khoảnh khắc",
+      "title": "Nhà thờ Đức Bà *qua ống kính*",
+      "items": [
+        { "img": "@hcm|cận cảnh ô cửa sổ tròn và lớp gạch đỏ trên mặt tiền Nhà thờ Đức Bà Sài Gòn", "caption": "Ô cửa sổ tròn và lớp gạch đỏ trên mặt tiền" },
+        { "img": "@hcm|bên trong Nhà thờ Đức Bà Sài Gòn với hàng cột, mái vòm và cửa kính màu", "caption": "Hàng cột, mái vòm và cửa kính màu bên trong" },
+        { "img": "@hcm|Nhà thờ Đức Bà Sài Gòn vào buổi tối khi đèn đường đã sáng", "caption": "Nhà thờ lúc thành phố lên đèn" },
+        { "img": "@festival|đèn trang trí Giáng sinh trên con phố gần Nhà thờ Đức Bà Sài Gòn", "caption": "Mùa Giáng sinh, phố quanh nhà thờ rực rỡ đèn" }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "luu-y",
+      "eyebrow": "Lưu ý & ứng xử",
+      "title": "Tham quan *đúng mực, an toàn*",
+      "cols": [
+        {
+          "title": "Ứng xử nơi thờ tự",
+          "icon": "hand",
+          "items": [
+            "Trang phục kín đáo, che vai và dài qua gối khi vào bên trong",
+            "Giữ yên lặng, không chụp ảnh khi đang cử hành nghi lễ",
+            "Không leo lên bệ tượng, bồn hoa hay rào chắn công trình"
+          ]
+        },
+        {
+          "title": "Chuẩn bị theo mùa",
+          "icon": "sun",
+          "items": [
+            "Mùa khô (khoảng tháng 12 đến tháng 4): nón, nước, kem chống nắng",
+            "Mùa mưa (khoảng tháng 5 đến tháng 11): áo mưa mỏng cho cơn mưa chiều",
+            "Kiểm tra giờ lễ, giờ mở cửa mới nhất trước khi đi"
+          ]
+        },
+        {
+          "title": "Đi lại an toàn",
+          "icon": "shield",
+          "items": [
+            "Quan sát kỹ khi băng qua các làn xe quanh quảng trường",
+            "Giữ điện thoại, túi xách cẩn thận nơi đông người",
+            "Dịp lễ lớn, đường quanh trung tâm có thể được phân luồng"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "eyebrow": "Hỏi đáp",
+      "title": "Hỏi nhanh *trước khi ghé*",
+      "items": [
+        { "q": "Nhà thờ Đức Bà có cho khách vào tham quan bên trong không?", "a": "Trong thời gian trùng tu, nhà thờ vẫn cử hành thánh lễ nhưng việc tham quan bên trong có thể bị hạn chế hoặc chỉ mở vào một số khung giờ; khuôn viên bên ngoài vẫn ngắm được. Bạn nên kiểm tra thông tin mới nhất trước khi đi." },
+        { "q": "Khi nào nhà thờ trùng tu xong?", "a": "Đợt đại trùng tu bắt đầu từ năm 2017 và vẫn đang tiếp tục. Theo báo chí gần đây, công trình có thể kéo dài đến khoảng năm 2027 hoặc lâu hơn, nên bạn vẫn có thể gặp giàn giáo ở vài hạng mục." },
+        { "q": "Đêm Giáng sinh có nên ghé không?", "a": "Khu vực quanh nhà thờ đêm Giáng sinh rất đông người dạo phố. Nếu đi, hãy đến sớm, hẹn điểm gặp rõ ràng với bạn đi cùng và ưu tiên đi bộ hoặc xe công nghệ." },
+        { "q": "Từ Nhà An đến Nhà thờ Đức Bà mất bao lâu?", "a": "Khoảng 15 phút đi xe từ Nhà An Bình Thạnh và khoảng 20 phút từ Nhà An Tân Bình, tùy giờ cao điểm. Địa chỉ số nhà và ngày khai trương sẽ được công bố trên website và Zalo." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ghe-tiep",
+      "eyebrow": "Gần đây",
+      "title": "Ghé tiếp *và nghỉ chân*",
+      "lead": "Ba điểm trong bán kính đi bộ, cùng hai chi nhánh Nhà An ở Sài Gòn.",
+      "items": [
+        {
+          "img": "lm-postoffice",
+          "alt": "Sảnh mái vòm khung sắt sơn xanh bên trong Bưu điện Thành phố",
+          "title": "Bưu điện Thành phố",
+          "tag": "Vài bước chân",
+          "text": "Tòa nhà cuối thế kỷ 19 với sảnh mái vòm, bản đồ cổ và quầy bưu thiếp vẫn đang hoạt động.",
+          "href": "/diem-den/buu-dien-thanh-pho"
+        },
+        {
+          "img": "@books|những quầy sách dưới hàng cây xanh trên Đường sách Nguyễn Văn Bình",
+          "alt": "Những quầy sách dưới hàng cây xanh trên Đường sách Nguyễn Văn Bình",
+          "title": "Đường sách Sài Gòn",
+          "tag": "Bên hông bưu điện",
+          "text": "Con đường dành cho sách, rợp bóng cây, hợp để đọc vài trang và chọn quà.",
+          "href": "/diem-den/duong-sach-sai-gon"
+        },
+        {
+          "img": "@hcm|phố đi bộ Nguyễn Huệ rộng thoáng, cuối đường là trụ sở Ủy ban nhân dân Thành phố",
+          "alt": "Phố đi bộ Nguyễn Huệ rộng thoáng, cuối đường là trụ sở Ủy ban nhân dân Thành phố",
+          "title": "Phố đi bộ Nguyễn Huệ",
+          "tag": "Khoảng 10 phút đi bộ",
+          "text": "Không gian dạo chơi rộng rãi giữa trung tâm, sôi động nhất vào buổi tối và cuối tuần.",
+          "href": "/diem-den/pho-di-bo-nguyen-hue"
+        },
+        {
+          "img": "cafe-garden",
+          "alt": "Quán trà nhiều cây xanh với đèn mây treo trần và bàn ghế gỗ",
+          "title": "Nhà An Bình Thạnh",
+          "tag": "Sắp khai trương",
+          "text": "Nhà phố nhiều cây xanh gần Landmark 81, sân trước trồng sen. Món nên thử: ô long sữa kem mây.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "@cafe|góc quán sàn gạch bông kiểu Sài Gòn xưa với quạt trần và cửa sổ gỗ",
+          "alt": "Góc quán sàn gạch bông kiểu Sài Gòn xưa với quạt trần và cửa sổ gỗ",
+          "title": "Nhà An Tân Bình",
+          "tag": "Sắp khai trương",
+          "text": "Tiệm trà gạch bông gần sân bay Tân Sơn Nhất, có chỗ gửi hành lý. Món nên thử: cà phê phin muối.",
+          "href": "/chi-nhanh/tan-binh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Dạo phố xong, *ghé Nhà An nghỉ chân*",
+      "text": "Khi khai trương, hai chi nhánh Sài Gòn mở cửa 24/7 với ô long rang củi, bánh ngọt nướng mỗi sáng và món chay. Đặt bàn trước hoặc nhắn Zalo để biết ngày mở cửa sớm nhất.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Nhắn Zalo", "href": "https://zalo.me/0865920041", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/diem-den", "/diem-den/buu-dien-thanh-pho", "/diem-den/duong-sach-sai-gon", "/chi-nhanh/binh-thanh/quanh-day", "/su-kien/giang-sinh", "/tin-tuc/sai-gon-ve-dem"]
+}

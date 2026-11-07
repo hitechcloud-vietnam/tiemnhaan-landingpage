@@ -1,0 +1,229 @@
+{
+  "slug": "mua-vu/thang-12",
+  "group": "tea",
+  "nav": "Tháng 12",
+  "navDesc": "Cam bưởi, rau vụ đông, Đông chí và mùa lễ cuối năm",
+  "icon": "calendar",
+  "title": "Tháng 12: mùa cam bưởi, rau vụ đông và dịp lễ cuối năm",
+  "description": "Lịch mùa vụ tháng 12: cam Cao Phong, bưởi Diễn, dâu Đà Lạt, vú sữa Lò Rèn; thời tiết ba miền, Đông chí, Giáng sinh và gợi ý trà nóng ở Nhà An.",
+  "image": "@brew|chén trà nóng bốc khói trên bàn gỗ ngày đông se lạnh",
+  "hero": {
+    "eyebrow": "Lịch mùa vụ",
+    "title": "Tháng 12, *mùa cam bưởi và trà nóng*",
+    "lead": "Gió mùa tràn về phương Bắc, Sài Gòn vào mùa khô, phố phường lên đèn đón Giáng sinh. Tháng cuối năm mang theo cam, bưởi, dâu tây, rau vụ đông và những buổi hẹn bên chén trà nóng.",
+    "img": "@brew|chén trà nóng bốc khói trên bàn gỗ ngày đông se lạnh",
+    "alt": "Chén trà nóng bốc khói trên bàn gỗ trong ngày đông se lạnh",
+    "ctas": [
+      { "label": "Nông sản tháng 12", "href": "#nong-san", "style": "primary" },
+      { "label": "Lịch mùa vụ 12 tháng", "href": "/mua-vu", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "thoi-tiet",
+      "eyebrow": "Thời tiết ba miền",
+      "title": "Một tháng, *ba nhịp thời tiết*",
+      "paras": [
+        "Miền Bắc đã vào đông thật sự: trời hanh khô, từng đợt gió mùa đông bắc kéo nhiệt độ xuống thấp, vùng núi có lúc rét đậm, rét hại, có nơi xuất hiện sương muối. Trên các đồi chè, cây ra búp chậm hơn; mỗi lứa chè vụ đông phải chờ lâu hơn chính vụ mới hái được.",
+        "Đà Nẵng, Hội An và Duy Xuyên đang qua những tuần cuối mùa mưa miền Trung, trời se lạnh, có đợt mưa kéo dài nhiều ngày. Sài Gòn đã vào mùa khô, nắng dịu, sáng sớm và đêm khuya se se lạnh; Đà Lạt và Tây Nguyên cũng vào mùa khô với những buổi sáng lạnh, sương mờ."
+      ],
+      "bullets": [
+        "Miền Bắc: lạnh, hanh khô, nhớ mặc ấm khi ra đường sớm",
+        "Miền Trung: mưa, se lạnh, nên mang theo áo mưa mỏng",
+        "Miền Nam: mùa khô, nắng dịu, đêm mát"
+      ],
+      "img": "@origin|đồi chè miền Bắc phủ sương sớm ngày đông",
+      "alt": "Đồi chè miền Bắc phủ sương sớm trong ngày đông",
+      "cta": { "label": "Xem các vùng chè Việt", "href": "/tra-viet/vung-che" }
+    },
+    {
+      "type": "cards",
+      "id": "nong-san",
+      "eyebrow": "Nông sản theo mùa",
+      "title": "Tháng 12 *có gì ngon?*",
+      "lead": "Sáu nông sản tiêu biểu của tháng cuối năm. Thời điểm chín sớm hay muộn còn tùy thời tiết từng năm và từng vườn.",
+      "items": [
+        {
+          "img": "@market|vườn cam chín vàng trĩu cành ngày đông",
+          "alt": "Vườn cam chín vàng trĩu cành",
+          "title": "Cam Cao Phong",
+          "tag": "Miền Bắc",
+          "text": "Cam vùng Cao Phong (Hòa Bình cũ, nay thuộc Phú Thọ) chín rộ từ khoảng tháng 11 đến Tết. Quả mọng nước, ngọt thanh, hợp vắt nước hay bày mâm quả cuối năm."
+        },
+        {
+          "img": "@market|những quả bưởi vàng óng xếp chồng trên sạp chợ",
+          "alt": "Những quả bưởi vàng óng xếp chồng trên sạp chợ",
+          "title": "Bưởi Diễn",
+          "tag": "Hà Nội",
+          "text": "Quả tròn vừa tay, vỏ vàng khi chín, múi ráo và ngọt mát. Từ khoảng rằm tháng Mười Một âm lịch, nhiều vườn bắt đầu hái bưởi để kịp phục vụ Tết."
+        },
+        {
+          "img": "@market|su hào, bắp cải và súp lơ xanh tươi trên sạp rau buổi sáng",
+          "alt": "Su hào, bắp cải và súp lơ xanh tươi trên sạp rau",
+          "title": "Rau vụ đông",
+          "tag": "Đồng bằng Bắc Bộ",
+          "text": "Su hào, bắp cải, súp lơ, cà rốt vào chính vụ khi trời lạnh. Rau đông giòn ngọt, hợp nấu canh, luộc chấm hay xào nhanh tay."
+        },
+        {
+          "img": "@market|giỏ dâu tây Đà Lạt đỏ mọng vừa hái",
+          "alt": "Giỏ dâu tây đỏ mọng vừa hái",
+          "title": "Dâu tây Đà Lạt",
+          "tag": "Lâm Đồng",
+          "text": "Đà Lạt vào mùa khô cũng là lúc nhiều người chờ dâu tây đẹp quả; ngon nhất thường từ tháng 1 đến tháng 3. Dâu Đà Lạt là một trong những trái cây theo mùa Nhà An chọn cho trà trái cây."
+        },
+        {
+          "img": "@market|chùm vú sữa vỏ xanh bóng trĩu trên cành",
+          "alt": "Chùm vú sữa vỏ xanh bóng trên cành",
+          "title": "Vú sữa Lò Rèn",
+          "tag": "Miền Tây",
+          "text": "Đặc sản Vĩnh Kim (Tiền Giang cũ, nay thuộc Đồng Tháp) chín rộ khoảng tháng 11–12. Vỏ xanh bóng, ruột trắng, ngọt mát như sữa; ngon nhất khi quả vừa chín mềm."
+        },
+        {
+          "img": "@landscape|cành cà phê trĩu quả chín đỏ trên nương Tây Nguyên",
+          "alt": "Cành cà phê trĩu quả chín đỏ trên nương",
+          "title": "Cà phê Tây Nguyên",
+          "tag": "Mùa thu hái",
+          "text": "Từ khoảng tháng 10–11 đến cuối năm, Tây Nguyên vào mùa hái cà phê, sân phơi đỏ au màu quả chín. Ở Nhà An, cà phê phin có trong một số món, như cà phê phin muối ở Tân Bình."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "dip-le",
+      "eyebrow": "Ngày lễ & dịp đặc biệt",
+      "title": "Những ngày đáng nhớ *tháng 12/2026*",
+      "lead": "Ngày dương lịch theo năm 2026, kèm ngày âm lịch Việt Nam để bạn tiện sắp xếp việc nhà và những buổi hẹn.",
+      "items": [
+        {
+          "label": "9/12",
+          "title": "Mùng 1 tháng Mười Một âm lịch",
+          "text": "Thứ Tư. Nhiều gia đình thắp hương, ăn chay ngày mùng một; một bữa cơm chay với canh rau củ nóng là lựa chọn ấm bụng ngày đông."
+        },
+        {
+          "label": "22/12",
+          "title": "Đông chí",
+          "text": "Thứ Ba, 14 tháng Mười Một âm lịch. Ngày có ban ngày ngắn nhất trong năm ở Bắc bán cầu; với nhiều gia đình người Hoa, đây là dịp sum họp bên chén chè trôi nước. Tối cùng ngày là đêm 14 âm lịch, khi Hội An thường tổ chức Đêm phố cổ với đèn lồng và hoa đăng trên sông Hoài."
+        },
+        {
+          "label": "23/12",
+          "title": "Rằm tháng Mười Một âm lịch",
+          "text": "Thứ Tư. Ngày rằm, nhiều người chọn ăn chay. Bếp Nhà An nấu toàn món chay, nước dùng ninh từ củ quả và không dùng bột ngọt."
+        },
+        {
+          "label": "24–25/12",
+          "title": "Giáng sinh",
+          "text": "Thứ Năm và thứ Sáu. Phố phường lên đèn; Nhà An dự kiến có cây thông, đèn dây, set chụp ảnh mùa lễ và đêm acoustic Noel tối thứ Sáu 25/12."
+        },
+        {
+          "label": "Cuối tháng",
+          "title": "Thi cuối kỳ và tiệc cuối năm",
+          "text": "Nhiều trường bước vào đợt thi học kỳ I, nhiều nhóm bạn và công ty hẹn nhau tổng kết năm. Phòng Chạy Deadline mở 24/7; Sân Rôm Rả nhận tiệc nhỏ đến 30 khách, đặt trước ít nhất 2 ngày."
+        },
+        {
+          "label": "31/12",
+          "title": "Đêm cuối năm dương lịch",
+          "text": "Thứ Năm, 23 tháng Mười Một âm lịch. Đếm ngược đón năm 2027 cùng nhạc mộc và trà nóng (dự kiến); Nhà An mở cửa xuyên đêm nên không ai phải vội về."
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "goi-y",
+      "eyebrow": "Gợi ý theo mùa",
+      "title": "Tháng 12 ở Nhà An *uống gì, ăn gì?*",
+      "lead": "Gợi ý theo mùa; món cụ thể tùy chi nhánh và mẻ nguyên liệu trong ngày.",
+      "items": [
+        { "icon": "flame", "title": "Ô long nóng pha ấm", "text": "Hương rang củi, hậu ngọt mật ong cho buổi sáng gió mùa, thêm chiếc croissant vừa ra lò." },
+        { "icon": "cup", "title": "Trà sữa nóng", "text": "Cốt trà ủ mới mỗi 4 tiếng, chọn mức đường từ 0% và đổi sang sữa yến mạch nếu bạn thích." },
+        { "icon": "flower", "title": "Trà sen, trà lài nóng", "text": "Hương hoa nhẹ cho những cuộc trò chuyện dài cuối năm, rót từng chén nhỏ cho ấm tay." },
+        { "icon": "sun", "title": "Trà trái cây mùa đông", "text": "Cam hay dâu Đà Lạt có thể góp mặt trong ly trà trái cây theo mùa; hãy hỏi barista món của tuần." },
+        { "icon": "bowl", "title": "Món chay nóng hổi", "text": "Mì Quảng chay ở miền Trung, hủ tiếu Nam Vang chay ở Bình Thạnh, nước dùng ninh từ củ quả." },
+        { "icon": "moon", "title": "Món chay khuya mùa thi", "text": "Từ 22:00 đến 04:00, bếp có món chay khuya cho những đêm ôn thi, chạy deadline cuối năm." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo",
+      "eyebrow": "Mẹo nhỏ",
+      "title": "Chọn mua, giữ sức *và lên lịch cuối năm*",
+      "cols": [
+        {
+          "title": "Chọn trái cây mùa đông",
+          "icon": "search",
+          "items": [
+            "Cam: quả nặng tay, vỏ căng, miết nhẹ thấy thơm mùi tinh dầu",
+            "Bưởi: cầm chắc tay, vỏ mịn; để thêm vài ngày nơi thoáng mát, múi thường ráo hơn",
+            "Dâu tây: đỏ đều tới gần cuống, cuống xanh tươi, không dập; chỉ rửa ngay trước khi ăn",
+            "Vú sữa: vỏ căng bóng, ấn nhẹ thấy hơi mềm là vừa ăn"
+          ]
+        },
+        {
+          "title": "Giữ ấm, giữ nhịp",
+          "icon": "heart",
+          "items": [
+            "Giữ ấm cổ, tay và chân khi ra đường sáng sớm hay tối muộn",
+            "Trời lạnh ít khát nhưng vẫn nên uống đủ nước",
+            "Ngủ đủ giấc; nếu nhạy cảm với caffeine, tránh ly trà đậm sát giờ ngủ",
+            "Ngồi học lâu thì đứng dậy đi lại vài phút mỗi giờ"
+          ]
+        },
+        {
+          "title": "Lên lịch cuối năm",
+          "icon": "calendar",
+          "items": [
+            "Tiệc nhỏ đến 30 khách ở Sân Rôm Rả: đặt trước ít nhất 2 ngày",
+            "Bánh sinh nhật đặt trước 2 ngày; hộp quà trà và bánh nên đặt sớm dịp lễ",
+            "Đánh dấu ngày rằm, mùng một bằng công cụ đổi lịch âm dương",
+            "Đi miền Trung: mang áo mưa mỏng và xem dự báo thời tiết trước"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Khoảnh khắc",
+      "title": "Tháng 12 *qua ống kính*",
+      "items": [
+        { "img": "@landscape|cánh đồng hoa cải trắng trên cao nguyên Mộc Châu mùa đông", "caption": "Hoa cải trắng phủ những triền đồi Mộc Châu, thường đẹp nhất vào tháng 12." },
+        { "img": "lm-hoian-lanterns", "caption": "Đèn lồng lụa nhiều màu thắp sáng một cửa hàng ở phố cổ Hội An." },
+        { "img": "@festival|con phố Sài Gòn giăng đèn trang trí Giáng sinh về đêm", "caption": "Phố phường Sài Gòn giăng đèn đón Giáng sinh." },
+        { "img": "@cake|chén chè trôi nước nóng rắc mè trắng", "caption": "Chè trôi nước, món sum họp ngày Đông chí của nhiều gia đình người Hoa." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về tháng 12*",
+      "items": [
+        {
+          "q": "Tháng 12/2026 có những ngày âm lịch nào cần nhớ?",
+          "a": "Mùng 1 tháng Mười Một âm lịch là thứ Tư 9/12, rằm tháng Mười Một là thứ Tư 23/12. Sang năm mới, mùng 1 tháng Chạp là thứ Sáu 8/1/2027 và mùng 1 Tết Đinh Mùi là thứ Bảy 6/2/2027."
+        },
+        {
+          "q": "Đông chí năm 2026 là ngày nào?",
+          "a": "Theo giờ Việt Nam, Đông chí năm 2026 rơi vào thứ Ba 22/12. Đây là ngày có ban ngày ngắn nhất trong năm ở Bắc bán cầu; sau Đông chí, ngày dài dần."
+        },
+        {
+          "q": "Tháng 12 đi Đà Nẵng, Hội An có mưa không?",
+          "a": "Tháng 12 vẫn thuộc mùa mưa ở miền Trung, có ngày mưa kéo dài và trời se lạnh. Bạn nên mang áo mưa mỏng, áo khoác nhẹ và xem dự báo trước mỗi chuyến đi."
+        },
+        {
+          "q": "Nhà An có mở cửa đêm Giáng sinh và đêm 31/12 không?",
+          "a": "Khi khai trương, cả 5 chi nhánh Nhà An mở cửa 24/7, kể cả ngày lễ. Lịch đêm nhạc Noel và đếm ngược sẽ được công bố trên website và Zalo."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Mỗi tháng *một mùa hương vị*",
+      "text": "Xem lịch mùa vụ đủ 12 tháng hoặc đặt bàn trước cho những buổi hẹn cuối năm. 5 chi nhánh Nhà An đang hoàn thiện và sắp khai trương.",
+      "ctas": [
+        { "label": "Lịch mùa vụ 12 tháng", "href": "/mua-vu", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/mua-vu", "/mua-vu/thang-11", "/mua-vu/thang-1", "/su-kien/giang-sinh", "/cong-cu/lich-am", "/tin-tuc/an-theo-mua"]
+}

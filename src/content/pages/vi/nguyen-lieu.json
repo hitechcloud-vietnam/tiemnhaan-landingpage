@@ -1,0 +1,223 @@
+{
+  "slug": "nguyen-lieu",
+  "group": "tea",
+  "nav": "Nguồn nguyên liệu",
+  "navDesc": "Từ đồi chè, vườn quả đến quầy",
+  "icon": "sprout",
+  "title": "Nguồn nguyên liệu: từ đồi chè, vườn quả đến quầy",
+  "description": "Nguồn nguyên liệu của Tiệm Nhà An: ô long Bảo Lộc, trà xanh Tân Cương, gạo sen Hồ Tây, trái cây theo mùa, đậu hũ non làm mỗi sáng. Xem hành trình đến quầy.",
+  "image": "@craft|đôi tay hái búp chè một tôm hai lá bỏ vào giỏ tre trên đồi chè",
+  "hero": {
+    "eyebrow": "Nguồn nguyên liệu",
+    "title": "Nguyên liệu nào *cũng có một quê nhà*",
+    "lead": "Ô long từ đồi chè Bảo Lộc, trà xanh Tân Cương, gạo sen Hồ Tây, trái cây đúng mùa và đậu hũ non làm mỗi sáng. Nhà An chọn nguyên liệu theo mùa, gần nguồn và làm việc trực tiếp với nông hộ.",
+    "img": "@craft|đôi tay hái búp chè một tôm hai lá bỏ vào giỏ tre trên đồi chè",
+    "alt": "Đôi tay hái búp chè một tôm hai lá bỏ vào giỏ tre",
+    "ctas": [
+      { "label": "Xem bản đồ nguyên liệu", "href": "#ban-do-nguyen-lieu", "style": "primary" },
+      { "label": "Lịch mùa vụ", "href": "/mua-vu", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "vi-sao",
+      "eyebrow": "Vì sao hỏi kỹ từng nguồn",
+      "title": "Ngon từ gốc, *rồi mới đến công thức*",
+      "paras": [
+        "Trước khi nghĩ đến công thức, Nhà An bắt đầu bằng vài câu hỏi giản dị: lá trà này hái ở đâu, trái cây này vào mùa tháng nào, đậu hũ này làm lúc mấy giờ.",
+        "Vì vậy Nhà An làm việc trực tiếp với nông hộ và đi theo nhịp mùa vụ của từng vùng, để nguyên liệu về tới quầy vẫn giữ được hương vị của nơi nó lớn lên."
+      ],
+      "img": "tea-leaves",
+      "alt": "Búp chè non xanh mướt còn đọng sương trên cành",
+      "cta": { "label": "Khám phá các vùng chè Việt", "href": "/tra-viet/vung-che" }
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "num": "1 tôm 2 lá", "label": "Búp ô long Bảo Lộc được chọn" },
+        { "num": "4 tiếng", "label": "Lại có một mẻ cốt trà mới" },
+        { "num": "05:00", "label": "Lò bánh bắt đầu nướng mỗi ngày" },
+        { "num": "100%", "label": "Món ăn ở bếp là món chay" }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "nguyen-tac",
+      "eyebrow": "Cách Nhà An chọn",
+      "title": "Sáu nguyên tắc *từ vườn đến bếp*",
+      "items": [
+        { "icon": "calendar", "title": "Theo mùa", "text": "Trái cây, rau củ dùng vào đúng mùa chính vụ, khi tươi và đậm vị nhất. Hết mùa, món sẽ đổi theo loại quả đang vào vụ." },
+        { "icon": "map", "title": "Gần nguồn", "text": "Đi thẳng về vùng trồng có tiếng của từng nguyên liệu, ít khâu trung gian, để biết rõ nó đến từ đâu và được làm thế nào." },
+        { "icon": "hand", "title": "Trực tiếp với nông hộ", "text": "Cùng người trồng trao đổi về giống cây, cách chăm và cùng nhau giữ chất lượng qua từng vụ." },
+        { "icon": "search", "title": "Kiểm tra cảm quan mỗi lô", "text": "Từng lô hàng về được xem màu, ngửi hương và nếm thử trước khi đưa vào bếp, lên quầy." },
+        { "icon": "box", "title": "Mẻ nhỏ, làm mới", "text": "Trà rang theo mẻ nhỏ, topping làm theo mẻ, đậu hũ non làm mỗi sáng, để nguyên liệu luôn mới." },
+        { "icon": "bowl", "title": "Chay trọn vẹn", "text": "Toàn bộ món ăn là món chay, nước dùng ninh từ củ quả và không dùng bột ngọt." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ban-do-nguyen-lieu",
+      "eyebrow": "Bản đồ nguyên liệu",
+      "title": "Sáu miền quê *trong ly trà của bạn*",
+      "lead": "Đi từ Bắc vào Nam: ba vùng cho trà và hương, ba vùng cho trái cây theo mùa.",
+      "items": [
+        {
+          "img": "@leaf|hoa lài trắng rải trên lớp trà xanh khô để ướp hương",
+          "alt": "Hoa lài trắng rải trên lớp trà xanh khô để ướp hương",
+          "title": "Trà xanh Tân Cương",
+          "tag": "Thái Nguyên",
+          "text": "Búp nhỏ, cánh xoăn, nước xanh vàng, chát dịu rồi ngọt hậu. Nhà An dùng trà xanh Tân Cương ướp hoa lài cho trà lài.",
+          "href": "/tin-tuc/tra-tan-cuong-thai-nguyen"
+        },
+        {
+          "img": "@market|chùm vải thiều đỏ chín mọng trên cành",
+          "alt": "Chùm vải thiều đỏ chín mọng trên cành",
+          "title": "Vải thiều Lục Ngạn",
+          "tag": "Khoảng tháng 6–7",
+          "text": "Vỏ đỏ, cùi dày, hạt nhỏ, ngọt thơm. Mùa vải đầu hè ngắn ngủi nên năm nào cũng đáng chờ.",
+          "href": "/mua-vu"
+        },
+        {
+          "img": "@lotus|thuyền nhỏ hái sen giữa đầm sen hồng buổi sớm",
+          "alt": "Thuyền nhỏ hái sen giữa đầm sen hồng buổi sớm",
+          "title": "Gạo sen Bách Diệp",
+          "tag": "Hồ Tây, Hà Nội",
+          "text": "Gạo sen là những hạt nhỏ trắng ngà ở đầu nhị sen, nơi giữ hương đậm nhất. Nhà An dùng gạo sen Bách Diệp Hồ Tây để ướp trà sen.",
+          "href": "/tin-tuc/tra-sen-tay-ho"
+        },
+        {
+          "img": "@market|dâu tây đỏ mọng trong giỏ tre vừa hái ở vườn Đà Lạt",
+          "alt": "Dâu tây đỏ mọng trong giỏ tre vừa hái",
+          "title": "Dâu Đà Lạt",
+          "tag": "Gần như quanh năm",
+          "text": "Dâu từ cao nguyên lạnh mát: đỏ mọng, chua ngọt, thơm đậm. Một gương mặt quen của những ly trà trái cây.",
+          "href": "/mua-vu"
+        },
+        {
+          "img": "@origin|những hàng chè ô long thẳng tắp trên đồi đất đỏ ở Bảo Lộc",
+          "alt": "Những hàng chè ô long thẳng tắp trên đồi đất đỏ",
+          "title": "Ô long Bảo Lộc",
+          "tag": "Lâm Đồng",
+          "text": "Búp một tôm hai lá từ vùng cao nguyên mát mẻ, rang trên lửa củi nhãn theo mẻ nhỏ cho hương rang ấm, hậu ngọt.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@market|xoài cát vàng ươm xếp trong sọt tre ở chợ miền Tây",
+          "alt": "Những trái xoài cát vàng ươm xếp trong sọt tre",
+          "title": "Xoài cát Hòa Lộc",
+          "tag": "Khoảng tháng 4–6",
+          "text": "Đặc sản miệt vườn sông Tiền: thịt vàng mịn, ít xơ, ngọt thơm. Vào chính vụ, xoài góp mặt trong những ly trà trái cây.",
+          "href": "/mua-vu"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "hanh-trinh",
+      "eyebrow": "Hành trình",
+      "title": "Từ nông trại *đến quầy Nhà An*",
+      "lead": "Mỗi nguyên liệu đi một quãng đường riêng, nhưng đều qua những chặng này.",
+      "items": [
+        { "label": "Trước mùa vụ", "title": "Chọn vùng, hẹn mùa", "text": "Nhà An và nông hộ hẹn trước thời điểm thu hoạch, để đón nguyên liệu đúng lúc ngon nhất." },
+        { "label": "Ngày thu hái", "title": "Hái đúng độ", "text": "Búp chè hái một tôm hai lá, sen hái từ sáng sớm khi bông còn hé, trái cây hái lúc vừa tới độ." },
+        { "label": "Sau thu hái", "title": "Rang và ướp hương", "text": "Ô long rang củi nhãn theo mẻ nhỏ, trà xanh ướp hoa lài, trà sen ướp bằng gạo sen." },
+        { "label": "Khi hàng về", "title": "Kiểm tra cảm quan", "text": "Từng lô được xem màu, ngửi hương, nếm thử. Đạt rồi mới vào bếp, lên quầy." },
+        { "label": "Mỗi ngày", "title": "Làm mới tại tiệm", "text": "Cốt trà ủ mới mỗi 4 tiếng, đậu hũ non làm mỗi sáng, lò bánh nướng từ 5 giờ sáng." },
+        { "label": "Trên quầy", "title": "Đến tay bạn", "text": "Ly trà được pha theo mức đường, lượng đá và loại sữa bạn chọn. Góp ý của bạn giúp Nhà An chọn nguyên liệu tốt hơn mỗi mùa." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "lam-tai-bep",
+      "eyebrow": "Bếp chay và lò bánh",
+      "title": "Làm tại bếp, *làm mỗi ngày*",
+      "lead": "Ba nguyên liệu làm nên bữa chay và mẻ bánh ở Nhà An.",
+      "items": [
+        {
+          "img": "@veg|khối đậu hũ non trắng mịn vừa ra khuôn trên mâm tre",
+          "alt": "Khối đậu hũ non trắng mịn vừa ra khuôn",
+          "title": "Đậu hũ non làm mỗi sáng",
+          "tag": "Làm tại bếp",
+          "text": "Đậu nành ngâm, xay, nấu và lọc lấy sữa đậu, rồi cho đông lại thành đậu hũ non mềm mịn cho món sáng và trưa.",
+          "href": "/tin-tuc/dau-hu-non-moi-sang"
+        },
+        {
+          "img": "@market|rổ rau xanh vừa hái còn tươi trong vườn rau hữu cơ",
+          "alt": "Rổ rau xanh vừa hái trong vườn rau",
+          "title": "Rau hữu cơ theo mùa",
+          "tag": "Theo mùa",
+          "text": "Rau hữu cơ đi vào món chay sáng, trưa và món chay khuya. Mùa nào thức nấy, nên rau trong bát chay cũng đổi theo mùa.",
+          "href": "/bep-chay"
+        },
+        {
+          "img": "@bake|thợ bánh cán khối bột bơ nhiều lớp trên bàn gỗ rắc bột",
+          "alt": "Thợ bánh cán khối bột bơ nhiều lớp trên bàn rắc bột",
+          "title": "Bột mì và bơ lên men",
+          "tag": "Lò bánh",
+          "text": "Bơ lên men làm từ kem sữa được ủ với vi khuẩn lactic, thơm và hơi chua nhẹ. Cùng bột mì, bơ làm nên những lớp vỏ croissant giòn thơm.",
+          "href": "/lo-banh"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo-chon-tuoi",
+      "eyebrow": "Mang về căn bếp nhà bạn",
+      "title": "Mẹo chọn nguyên liệu *tươi ngon*",
+      "lead": "Vài kinh nghiệm nhỏ bạn có thể dùng ngay lần đi chợ tới.",
+      "cols": [
+        {
+          "title": "Trà khô",
+          "icon": "leaf",
+          "items": [
+            "Cánh trà đều, khô giòn, ít vụn nát",
+            "Mùi thơm rõ, không có mùi ẩm, mốc hay mùi lạ",
+            "Bao bì kín, ghi rõ nơi sản xuất và hạn dùng"
+          ]
+        },
+        {
+          "title": "Trái cây",
+          "icon": "sun",
+          "items": [
+            "Ưu tiên quả chính vụ, khi tươi và đậm vị nhất",
+            "Dâu tây đỏ đều, cuống còn xanh, không dập úng",
+            "Vải vỏ còn tươi, không thâm; xoài chín thơm ở cuống, vỏ căng"
+          ]
+        },
+        {
+          "title": "Rau và đậu hũ",
+          "icon": "sprout",
+          "items": [
+            "Rau lá tươi, cuống giòn, không héo úa hay dập nát",
+            "Đậu hũ non trắng mịn, thơm mùi đậu, không có mùi chua",
+            "Giữ lạnh và nên dùng ngay trong ngày"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về nguyên liệu*",
+      "items": [
+        { "q": "Vì sao Nhà An chọn ô long Bảo Lộc?", "a": "Bảo Lộc có khí hậu cao nguyên mát mẻ và là một trong những vùng ô long được biết đến của Việt Nam. Nhà An chọn búp một tôm hai lá ở đây rồi rang trên lửa củi nhãn theo mẻ nhỏ." },
+        { "q": "Hết mùa trái cây thì món trà trái cây ra sao?", "a": "Trà trái cây ở Nhà An đi theo mùa: khi một loại quả hết vụ, món sẽ chuyển sang loại quả đang vào mùa. Xem lịch mùa vụ để biết tháng nào có gì." },
+        { "q": "Món ăn có phù hợp với người ăn thuần chay không?", "a": "Toàn bộ món ăn ở Nhà An là món chay. Một số bánh có trứng, sữa hoặc bơ; món thuần chay (không trứng, không sữa) được ghi chú riêng tại quầy." },
+        { "q": "Tôi bị dị ứng thực phẩm thì nên làm gì?", "a": "Hãy báo nhân viên khi gọi món nếu bạn dị ứng với sữa, trứng, gluten, đậu nành, đậu phộng, mè hay các loại hạt, để được tư vấn món phù hợp." },
+        { "q": "Có mua trà khô của Nhà An về nhà được không?", "a": "Nhà An dự kiến có trà đóng túi tại quầy và hộp quà trà; chi tiết sẽ được công bố khi khai trương." },
+        { "q": "Tôi là nông hộ, có thể cung cấp nguyên liệu cho Nhà An không?", "a": "Nhà An luôn muốn gặp thêm những người trồng trà, trồng rau, làm vườn có chung cách nghĩ. Hãy gửi thông tin qua trang Hợp tác hoặc email contact@tiemnhaan.com." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Nếm thử *hành trình ấy*",
+      "text": "Năm căn nhà của Nhà An đang được hoàn thiện để sớm đón bạn. Đặt bàn để nếm thử từng nguồn hương vị; còn nếu bạn là nông hộ, người làm nghề có chung cách nghĩ, hãy gửi lời hợp tác cho Nhà An.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Hợp tác cùng Nhà An", "href": "/hop-tac", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet/vung-che", "/mua-vu", "/song-xanh", "/cam-ket", "/bep-chay", "/tin-tuc/an-theo-mua"]
+}

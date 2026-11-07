@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Tiệm Nhà An</ShortName>
+<Description>Tìm trên website Tiệm Nhà An</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="32" height="32" type="image/png">https://tiemnhaan.com/assets/img/brand/favicon-32.png</Image>
+<Url type="text/html" template="https://tiemnhaan.com/tim-kiem?q={searchTerms}"/>
+</OpenSearchDescription>

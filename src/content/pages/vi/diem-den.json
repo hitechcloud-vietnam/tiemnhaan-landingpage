@@ -1,0 +1,305 @@
+{
+  "slug": "diem-den",
+  "group": "tools",
+  "nav": "Điểm đến",
+  "navDesc": "18 điểm đến quanh 5 chi nhánh",
+  "icon": "map",
+  "title": "Điểm đến quanh Nhà An: Sài Gòn, Đà Nẵng, Hội An, Quảng Nam",
+  "description": "Cẩm nang 18 điểm đến gần 5 chi nhánh Nhà An: nhà thờ Đức Bà, cầu Rồng, Chùa Cầu, thánh địa Mỹ Sơn… kèm giờ đẹp, mẹo đi lại và chỗ nghỉ chân.",
+  "image": "@hoian|du khách đạp xe qua con phố tường vàng rợp hoa giấy ở phố cổ Hội An",
+  "hero": {
+    "eyebrow": "Điểm đến",
+    "title": "Quanh Nhà An, *đâu cũng là điểm hẹn*",
+    "lead": "Từ nhà thờ Đức Bà, cầu Ba Son ở Sài Gòn đến cầu Rồng, Chùa Cầu và thánh địa Mỹ Sơn: những điểm đến đáng ghé gần 5 chi nhánh, kèm giờ đẹp, mẹo đi lại và chỗ nghỉ chân uống trà.",
+    "img": "@hoian|du khách đạp xe qua con phố tường vàng rợp hoa giấy ở phố cổ Hội An",
+    "alt": "Du khách đạp xe qua con phố tường vàng rợp hoa giấy ở phố cổ Hội An",
+    "ctas": [
+      { "label": "Chọn điểm đến", "href": "#sai-gon", "style": "primary" },
+      { "label": "Gợi ý theo sở thích", "href": "#chon-nhanh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Cẩm nang đi chơi",
+      "title": "Đi chậm, nhìn kỹ, *ghé nhà nghỉ chân*",
+      "paras": [
+        "Mỗi chi nhánh Nhà An nằm giữa một vùng đất có câu chuyện riêng: Sài Gòn nhộn nhịp, Đà Nẵng phố biển, Hội An đèn lồng và miền quê xứ Quảng bên sông Thu Bồn. Trang này gom các điểm đến tiêu biểu để bạn dễ lên kế hoạch cho một buổi, một ngày hay cả kỳ nghỉ.",
+        "Mỗi điểm đến có trang riêng với thông tin nhanh, gợi ý tham quan, lưu ý ứng xử và chi nhánh gần nhất. Giờ mở cửa, vé và lịch biểu diễn có thể thay đổi theo mùa, bạn hãy kiểm tra thông tin mới nhất trước khi đi."
+      ],
+      "bullets": [
+        "Nên đi lúc nào, ở lại bao lâu",
+        "Lưu ý để giữ gìn di tích, làng nghề",
+        "Chi nhánh gần nhất để nghỉ chân, sạc pin, uống trà"
+      ],
+      "img": "@danang|toàn cảnh sông Hàn và những cây cầu của Đà Nẵng lúc hoàng hôn",
+      "alt": "Sông Hàn và những cây cầu của Đà Nẵng lúc hoàng hôn",
+      "cta": { "label": "Xem 5 chi nhánh", "href": "/chi-nhanh" }
+    },
+    {
+      "type": "cards",
+      "id": "sai-gon",
+      "eyebrow": "Sài Gòn",
+      "title": "Sài Gòn: *phố cũ, nhịp mới*",
+      "lead": "Gần Nhà An Bình Thạnh và Tân Bình. Các điểm ở trung tâm nằm sát nhau, đi bộ nối tiếp được trong một buổi.",
+      "items": [
+        {
+          "img": "lm-notre-dame",
+          "alt": "Nhà thờ Đức Bà Sài Gòn với hai tháp chuông và tường gạch đỏ",
+          "title": "Nhà thờ Đức Bà",
+          "tag": "Kiến trúc",
+          "text": "Nhà thờ gạch đỏ hai tháp chuông, khánh thành năm 1880. Công trình đang được trùng tu lớn, nên kiểm tra trước nếu muốn vào bên trong.",
+          "href": "/diem-den/nha-tho-duc-ba"
+        },
+        {
+          "img": "lm-postoffice",
+          "alt": "Mặt tiền Bưu điện Trung tâm Sài Gòn với mái vòm và cửa sổ vòm",
+          "title": "Bưu điện Thành phố",
+          "tag": "Kiến trúc",
+          "text": "Tòa bưu điện cuối thế kỷ 19 vẫn hoạt động, với mái vòm cao, bản đồ cổ trên tường và quầy gửi bưu thiếp cho người mê viết tay.",
+          "href": "/diem-den/buu-dien-thanh-pho"
+        },
+        {
+          "img": "@hcm|phố đi bộ Nguyễn Huệ rộng thênh thang lên đèn buổi tối",
+          "alt": "Phố đi bộ Nguyễn Huệ rộng thênh thang lên đèn buổi tối",
+          "title": "Phố đi bộ Nguyễn Huệ",
+          "tag": "Về đêm",
+          "text": "Quảng trường đi bộ giữa trung tâm, rộn ràng nhất vào buổi tối và cuối tuần; cuối phố là bến Bạch Đằng lộng gió sông.",
+          "href": "/diem-den/pho-di-bo-nguyen-hue"
+        },
+        {
+          "img": "@books|con đường sách rợp bóng cây với những gian hàng sách nhỏ hai bên",
+          "alt": "Con đường sách rợp bóng cây với những gian hàng sách nhỏ",
+          "title": "Đường sách Sài Gòn",
+          "tag": "Sách & cà phê",
+          "text": "Con đường sách rợp bóng cây cạnh Bưu điện Thành phố, mở từ năm 2016, nhiều gian sách và góc cà phê yên tĩnh giữa phố.",
+          "href": "/diem-den/duong-sach-sai-gon"
+        },
+        {
+          "img": "@hcm|cầu Ba Son dây văng bắc qua sông Sài Gòn lên đèn về đêm",
+          "alt": "Cầu Ba Son dây văng lên đèn trên sông Sài Gòn về đêm",
+          "title": "Cầu Ba Son",
+          "tag": "Bờ sông",
+          "text": "Cầu dây văng thông xe năm 2022, nối trung tâm với Thủ Thiêm. Chiều tối, dạo bờ sông Sài Gòn ngắm cầu lên đèn.",
+          "href": "/diem-den/cau-ba-son"
+        },
+        {
+          "img": "lm-benthanh-night",
+          "alt": "Chợ Bến Thành với tháp đồng hồ sáng đèn về đêm",
+          "title": "Chợ Bến Thành",
+          "tag": "Chợ & ẩm thực",
+          "text": "Ngôi chợ có tháp đồng hồ quen thuộc, xây xong năm 1914, bán vải vóc, đặc sản, trái cây. Tối đến, phố quanh chợ vẫn rộn ràng hàng quán.",
+          "href": "/diem-den/cho-ben-thanh"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "da-nang",
+      "eyebrow": "Đà Nẵng",
+      "title": "Đà Nẵng: *sông, biển và núi*",
+      "lead": "Gần Nhà An Đà Nẵng, giữa trung tâm thành phố cạnh sông Hàn. Biển, núi và chợ chỉ cách một chuyến xe ngắn.",
+      "items": [
+        {
+          "img": "lm-dragon-night",
+          "alt": "Cầu Rồng uốn mình trên sông Hàn, sáng đèn về đêm",
+          "title": "Cầu Rồng",
+          "tag": "Về đêm",
+          "text": "Cầu hình rồng vắt qua sông Hàn, lên đèn đổi màu mỗi tối. Tối cuối tuần và dịp lễ có màn phun lửa, phun nước; nên xem lịch trước.",
+          "href": "/diem-den/cau-rong"
+        },
+        {
+          "img": "lm-nguhanhson",
+          "alt": "Những ngọn núi đá của Ngũ Hành Sơn ở Đà Nẵng",
+          "title": "Ngũ Hành Sơn",
+          "tag": "Hang động",
+          "text": "Năm ngọn núi đá Kim, Mộc, Thủy, Hỏa, Thổ với hang động, chùa và làng đá mỹ nghệ Non Nước. Mang giày bám tốt vì bậc đá dốc.",
+          "href": "/diem-den/ngu-hanh-son"
+        },
+        {
+          "img": "lm-linhung-stairs",
+          "alt": "Bậc thang có tượng rồng ở chùa Linh Ứng trên bán đảo Sơn Trà",
+          "title": "Bán đảo Sơn Trà",
+          "tag": "Thiên nhiên",
+          "text": "Rừng xanh sát biển, đường ven biển uốn lượn, chùa Linh Ứng và là nơi sinh sống của voọc chà vá chân nâu. Chạy xe chậm, không cho thú hoang ăn.",
+          "href": "/diem-den/ban-dao-son-tra"
+        },
+        {
+          "img": "lm-mykhe",
+          "alt": "Bãi cát dài và làn nước xanh ở biển Mỹ Khê",
+          "title": "Biển Mỹ Khê",
+          "tag": "Biển",
+          "text": "Bãi cát dài gần trung tâm, sáng sớm rộn ràng người tập thể dục, tắm biển. Chỉ tắm ở khu có cứu hộ và để ý cờ báo sóng.",
+          "href": "/diem-den/bien-my-khe"
+        },
+        {
+          "img": "@danang|quầy hàng đặc sản khô và trái cây nhiều màu trong chợ Hàn",
+          "alt": "Quầy hàng đặc sản khô và trái cây nhiều màu trong chợ Hàn",
+          "title": "Chợ Hàn",
+          "tag": "Chợ & ẩm thực",
+          "text": "Ngôi chợ lâu đời bên sông Hàn, gần nhà thờ Con Gà, nhiều đặc sản khô, trái cây và quà miền Trung.",
+          "href": "/diem-den/cho-han"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "hoi-an",
+      "eyebrow": "Hội An",
+      "title": "Hội An: *phố cổ và làng ven sông*",
+      "lead": "Gần Nhà An Hội An, căn nhà vàng sắp mở cửa giữa phố cổ. Làng nghề, rừng dừa và bãi biển chỉ cách vài cây số, rất hợp đạp xe.",
+      "items": [
+        {
+          "img": "lm-japanese-bridge",
+          "alt": "Chùa Cầu Hội An với mái ngói cong bắc qua con lạch",
+          "title": "Chùa Cầu",
+          "tag": "Di sản",
+          "text": "Cây cầu có mái, tương truyền do thương nhân Nhật Bản dựng đầu thế kỷ 17, tu bổ xong năm 2024. Đến sáng sớm để ngắm cầu khi phố còn vắng.",
+          "href": "/diem-den/chua-cau"
+        },
+        {
+          "img": "@hoian|thuyền thúng len lỏi giữa rừng dừa nước Bảy Mẫu",
+          "alt": "Thuyền thúng len lỏi giữa rừng dừa nước Bảy Mẫu",
+          "title": "Rừng dừa Bảy Mẫu",
+          "tag": "Sông nước",
+          "text": "Rừng dừa nước ở Cẩm Thanh, gần cửa biển. Ngồi thuyền thúng len giữa những tàu dừa và nhớ mặc áo phao.",
+          "href": "/diem-den/rung-dua-bay-mau"
+        },
+        {
+          "img": "@hoian|luống rau thơm xanh mướt và người nông dân tưới rau ở làng Trà Quế",
+          "alt": "Luống rau thơm xanh mướt ở làng rau Trà Quế",
+          "title": "Làng rau Trà Quế",
+          "tag": "Làng quê",
+          "text": "Làng rau với những luống húng, tía tô, kinh giới trồng theo lối truyền thống. Đạp xe ra vào sáng sớm hoặc chiều mát là dễ chịu nhất.",
+          "href": "/diem-den/lang-rau-tra-que"
+        },
+        {
+          "img": "@craftvn|nghệ nhân nặn bình gốm trên bàn xoay ở làng gốm Thanh Hà",
+          "alt": "Nghệ nhân nặn bình gốm trên bàn xoay ở làng gốm Thanh Hà",
+          "title": "Làng gốm Thanh Hà",
+          "tag": "Làng nghề",
+          "text": "Làng gốm ven sông Thu Bồn có tuổi đời nhiều thế kỷ, nổi tiếng với gốm đất nung đỏ. Thử ngồi bàn xoay nặn một món nhỏ mang về.",
+          "href": "/diem-den/lang-gom-thanh-ha"
+        },
+        {
+          "img": "@hoian|bãi biển An Bàng với hàng dù lá và thuyền thúng trên cát",
+          "alt": "Bãi biển An Bàng với hàng dù lá và thuyền thúng trên cát",
+          "title": "Biển An Bàng",
+          "tag": "Biển",
+          "text": "Bãi biển gần phố cổ, cát mịn, nhiều quán nhỏ ven bờ, hợp đón bình minh. Mùa mưa bão biển động, xem dự báo trước khi tắm.",
+          "href": "/diem-den/bien-an-bang"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "quang-nam",
+      "eyebrow": "Quảng Nam",
+      "title": "Xứ Quảng: *di sản và biển đảo*",
+      "lead": "Gần Nhà An Duy Xuyên và Nhà An Hội An. Vùng Quảng Nam xưa, nay thuộc TP. Đà Nẵng, giàu di sản Chăm Pa và biển đảo.",
+      "items": [
+        {
+          "img": "lm-myson-aerial",
+          "alt": "Khu đền tháp Mỹ Sơn giữa thung lũng xanh nhìn từ trên cao",
+          "title": "Thánh địa Mỹ Sơn",
+          "tag": "Di sản UNESCO",
+          "text": "Quần thể đền tháp Chăm Pa xây dựng qua nhiều thế kỷ, được UNESCO công nhận là di sản văn hóa thế giới năm 1999. Nên đến sớm khi trời còn mát.",
+          "href": "/diem-den/thanh-dia-my-son"
+        },
+        {
+          "img": "@quangnam|làn nước trong xanh và bãi cát nhỏ dưới chân đảo Cù Lao Chàm",
+          "alt": "Làn nước trong xanh và bãi cát nhỏ dưới chân đảo Cù Lao Chàm",
+          "title": "Cù Lao Chàm",
+          "tag": "Biển đảo",
+          "text": "Cụm đảo cách Cửa Đại khoảng 15 km, thuộc Khu dự trữ sinh quyển thế giới Cù Lao Chàm – Hội An. Đi canô từ Cửa Đại, chuyến đi tùy thời tiết.",
+          "href": "/diem-den/cu-lao-cham"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "chon-nhanh",
+      "eyebrow": "Gợi ý nhanh",
+      "title": "Chọn điểm đến *theo sở thích*",
+      "lead": "Chưa biết đi đâu? Bắt đầu từ điều bạn thích nhất.",
+      "head": ["Bạn thích", "Nên ghé", "Chi nhánh gần"],
+      "rows": [
+        ["Kiến trúc xưa", "Nhà thờ Đức Bà, Bưu điện Thành phố, Chùa Cầu", "Bình Thạnh, Tân Bình, Hội An"],
+        ["Di sản, lịch sử", "Phố cổ Hội An, thánh địa Mỹ Sơn", "Hội An, Duy Xuyên"],
+        ["Biển và nắng", "Biển Mỹ Khê, biển An Bàng, Cù Lao Chàm", "Đà Nẵng, Hội An"],
+        ["Thiên nhiên, cây xanh", "Bán đảo Sơn Trà, Ngũ Hành Sơn, rừng dừa Bảy Mẫu", "Đà Nẵng, Hội An"],
+        ["Làng nghề, làng quê", "Làng gốm Thanh Hà, làng rau Trà Quế, làng lụa Mã Châu", "Hội An, Duy Xuyên"],
+        ["Dạo đêm", "Phố đi bộ Nguyễn Huệ, cầu Ba Son, cầu Rồng", "Bình Thạnh, Tân Bình, Đà Nẵng"],
+        ["Sách và góc yên tĩnh", "Đường sách Sài Gòn", "Bình Thạnh, Tân Bình"],
+        ["Chợ và món ngon", "Chợ Bến Thành, chợ Hàn", "Bình Thạnh, Tân Bình, Đà Nẵng"]
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo-di-choi",
+      "eyebrow": "Mẹo đi chơi",
+      "title": "Mẹo nhỏ *cho mỗi chuyến đi*",
+      "cols": [
+        {
+          "title": "Trước khi đi",
+          "icon": "calendar",
+          "items": [
+            "Kiểm tra giờ mở cửa, vé và lịch biểu diễn mới nhất.",
+            "Xem dự báo thời tiết, nhất là mùa mưa bão miền Trung, khoảng tháng 9 đến tháng 12.",
+            "Mang mũ, nước, kem chống nắng và áo mưa mỏng."
+          ]
+        },
+        {
+          "title": "Khi tham quan",
+          "icon": "heart",
+          "items": [
+            "Ăn mặc lịch sự ở đền, chùa, nhà thờ và di tích.",
+            "Không leo trèo, viết vẽ lên di tích.",
+            "Hỏi ý trước khi chụp ảnh người dân, nghệ nhân.",
+            "Mang rác về, dùng bình nước cá nhân."
+          ]
+        },
+        {
+          "title": "Nghỉ chân ở Nhà An",
+          "icon": "cup",
+          "items": [
+            "Khi khai trương, cả 5 chi nhánh mở cửa 24/7, kể cả lễ Tết.",
+            "Wifi và ổ cắm để sạc máy, sắp xếp lịch trình.",
+            "Trà, bánh nướng mỗi sáng và món chay ăn sáng, ăn trưa.",
+            "Nhà An Tân Bình có chỗ gửi hành lý cho người chờ chuyến bay."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "posts",
+      "id": "bai-viet",
+      "eyebrow": "Góc đọc",
+      "title": "Đọc thêm *chuyện vùng miền*",
+      "category": "vung-mien",
+      "limit": 3
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về điểm đến*",
+      "items": [
+        { "q": "Nhà An đã mở cửa chưa?", "a": "Chưa. 5 chi nhánh đang được hoàn thiện và sắp khai trương; địa chỉ số nhà và ngày mở cửa sẽ được công bố trên website và Zalo 0865 920 041." },
+        { "q": "Vì sao trang không ghi giá vé và giờ mở cửa?", "a": "Những thông tin này thay đổi theo mùa và theo quy định của đơn vị quản lý. Bạn hãy kiểm tra trang chính thức của điểm đến hoặc hỏi tại chỗ trước khi đi." },
+        { "q": "Từ Đà Nẵng đi Hội An và Mỹ Sơn có xa không?", "a": "Hội An cách trung tâm Đà Nẵng khoảng 30 km, Mỹ Sơn khoảng 70 km. Nhiều người đi Hội An, Duy Xuyên và Mỹ Sơn trong cùng một ngày, nghỉ chân ở các chi nhánh trên đường." },
+        { "q": "Có gợi ý lịch trình quanh từng chi nhánh không?", "a": "Có. Mỗi chi nhánh có một trang Quanh Nhà An với các điểm đến gần đó và lịch trình nửa ngày, bạn xem ở mục Xem tiếp cuối trang." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Đi chơi xong, *về nhà uống trà*",
+      "text": "Đặt bàn trước ở chi nhánh gần điểm đến của bạn, hoặc nhắn Zalo để nhận tin ngày khai trương sớm nhất.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Nhắn Zalo", "href": "https://zalo.me/0865920041", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/chi-nhanh/binh-thanh/quanh-day", "/chi-nhanh/tan-binh/quanh-day", "/chi-nhanh/da-nang/quanh-day", "/chi-nhanh/hoi-an/quanh-day", "/chi-nhanh/duy-xuyen/quanh-day", "/tin-tuc/chu-de/vung-mien"]
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "tra-viet/tu-dien/tra-xanh-moc-cau",
+  "group": "tea",
+  "nav": "Trà xanh móc câu",
+  "navDesc": "Cánh xoăn nhỏ, nước xanh vàng, hương cốm",
+  "icon": "leaf",
+  "title": "Trà xanh móc câu Thái Nguyên: nhận biết và cách pha",
+  "description": "Trà xanh móc câu là gì? Cách nhận biết trà Thái Nguyên cánh nhỏ xoăn cong, nước xanh vàng, hương cốm và pha ở 75–80°C cho vị chát dịu, ngọt hậu.",
+  "image": "@brew|chén trà xanh Thái Nguyên nước xanh vàng bên nắm trà móc câu khô",
+  "hero": {
+    "eyebrow": "Từ điển trà",
+    "title": "Trà xanh móc câu, *chát dịu rồi ngọt hậu*",
+    "lead": "Cánh trà nhỏ, xoăn cong như lưỡi câu, pha ra nước xanh ánh vàng và thoảng hương cốm non. Đây là gương mặt quen thuộc nhất của chè Thái Nguyên, nơi Nhà An chọn trà xanh Tân Cương để ướp cùng hoa lài.",
+    "img": "@brew|chén trà xanh Thái Nguyên nước xanh vàng bên nắm trà móc câu khô",
+    "alt": "Chén trà xanh nước xanh ánh vàng đặt cạnh một nắm trà móc câu khô",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "la-gi",
+      "eyebrow": "Là gì?",
+      "title": "Gọi là móc câu *vì hình cánh trà*",
+      "paras": [
+        "Trà xanh móc câu là trà xanh Thái Nguyên làm từ búp chè non, phổ biến nhất là một tôm hai lá: một búp chưa nở cùng hai lá non ngay bên dưới. Qua nhiều lượt sao và vò, cánh trà săn lại nhỏ, xoăn cong như chiếc lưỡi câu, nên người làm chè gọi là chè móc câu.",
+        "Vì là trà xanh, búp chè được sao diệt men ngay trong ngày hái nên gần như không oxy hóa, giữ được sắc xanh và vị tươi. Công đoạn cuối, người làm chè gọi là lên hương, giúp trà dậy mùi thơm thường được ví như cốm non.",
+        "Tân Cương, La Bằng, Trại Cài và Khe Cốc thường được gọi là tứ đại danh trà của Thái Nguyên. Năm 2023, tri thức trồng và chế biến chè Tân Cương được đưa vào Danh mục di sản văn hóa phi vật thể quốc gia."
+      ],
+      "img": "@leaf|cận cảnh cánh trà móc câu khô xoăn cong màu xanh đen ánh bạc",
+      "alt": "Cận cảnh những cánh trà móc câu khô, xoăn cong, màu xanh đen ánh bạc",
+      "cta": { "label": "Đọc thêm: vì sao trà Tân Cương nổi tiếng", "href": "/tin-tuc/tra-tan-cuong-thai-nguyen" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Trà xanh móc câu *trong một bảng*",
+      "lead": "Thông số pha là mức khởi đầu phổ biến cho trà lá rời. Hãy nếm rồi chỉnh dần theo khẩu vị của bạn.",
+      "head": ["Mục", "Trà xanh móc câu"],
+      "rows": [
+        ["Nguồn gốc", "Thái Nguyên, nổi tiếng nhất là vùng chè Tân Cương; giống chè trung du lá nhỏ truyền thống bên cạnh các giống chè mới"],
+        ["Kiểu chế biến", "Trà xanh, gần như không oxy hóa: làm héo nhẹ, sao diệt men, vò, sao khô nhiều lượt rồi lên hương"],
+        ["Hình dáng", "Cánh nhỏ, xoăn chắc, cong như lưỡi câu; màu xanh đen ánh xám bạc"],
+        ["Màu nước", "Xanh ánh vàng, trong và sáng"],
+        ["Hương vị", "Hương cốm non; chát dịu đầu lưỡi rồi ngọt hậu, đọng lâu nơi cổ họng"],
+        ["Mức caffeine tương đối", "Vừa; búp non thường nhiều caffeine hơn lá già, pha càng đậm và hãm càng lâu thì càng nhiều"],
+        ["Nhiệt độ nước", "75–80°C, tức nước sôi để nguội vài phút"],
+        ["Lượng trà", "Khoảng 4 g cho mỗi 100 ml nước, tức 5–6 g cho ấm 150 ml"],
+        ["Thời gian hãm", "Ấm nhỏ: 20–30 giây cho nước đầu, mỗi nước sau thêm 10–15 giây; pha cốc: 2–3 phút"]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "nhan-biet",
+      "eyebrow": "Nhìn, ngửi, nếm",
+      "title": "Nhận biết trà móc câu *qua bốn dấu hiệu*",
+      "lead": "Không cần là người sành trà, bạn vẫn tự kiểm tra được một gói trà xanh bằng mắt, mũi và vị giác.",
+      "items": [
+        { "img": "@leaf|nắm trà móc câu khô trên lòng bàn tay, cánh nhỏ đều nhau", "caption": "Cánh trà khô nhỏ, xoăn chắc và đều nhau; cầm lên thấy giòn, không ẩm." },
+        { "img": "@brew|chén sứ trắng đựng nước trà xanh ánh vàng trong veo", "caption": "Nước trà xanh ánh vàng, trong. Nước ngả nâu sẫm có thể do trà đã cũ, pha quá nóng hoặc để nguội quá lâu." },
+        { "img": "@leaf|bã trà xanh đã pha nở thành búp một tôm hai lá trên đĩa trắng", "caption": "Bã trà sau khi pha: lá mềm, màu xanh tươi, búp nở đều, thấy rõ một tôm hai lá." },
+        { "img": "@brew|người nâng chén trà xanh nóng lên ngửi hương", "caption": "Nâng chén ngửi hương: thơm cốm non, dịu và sạch, không có mùi khét hay mùi lạ." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "cach-pha",
+      "eyebrow": "Pha tại nhà",
+      "title": "Pha một ấm móc câu *trong năm bước*",
+      "lead": "Cách pha ấm nhỏ cho 2–3 người. Nếu pha bằng cốc, dùng khoảng 2–3 g trà cho 250 ml nước, hãm 2–3 phút rồi lọc bỏ bã.",
+      "items": [
+        { "title": "Hạ nhiệt nước", "text": "Đun sôi nước lọc rồi để nguội vài phút cho còn khoảng 75–80°C; rót qua lại giữa hai bình giúp nước hạ nhiệt nhanh hơn. Nước sôi già dễ làm trà xanh chát gắt và mất mùi cốm." },
+        { "title": "Tráng ấm chén", "text": "Tráng ấm và chén bằng nước nóng để giữ nhiệt cho cả bộ, rồi đổ nước tráng đi." },
+        { "title": "Cho trà vào ấm", "text": "Dùng 5–6 g trà cho ấm 150 ml, chừng hai thìa cà phê đầy. Có thể tráng trà thật nhanh vài giây cho cánh trà nở đều." },
+        { "title": "Hãm nước đầu", "text": "Rót nước nhẹ theo thành ấm, đậy nắp, hãm 20–30 giây rồi rót hết ra chén tống để trà không ngấm thêm." },
+        { "title": "Pha thêm nước", "text": "Mỗi nước sau hãm lâu hơn 10–15 giây. Một ấm móc câu ngon thường pha được 3–4 nước trước khi nhạt." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thuong-thuc",
+      "eyebrow": "Thưởng thức",
+      "title": "Uống móc câu *thế nào cho hợp*",
+      "lead": "Vài gợi ý để chén trà xanh trọn vị hơn, từ bàn trà ở nhà đến quầy trà Nhà An.",
+      "items": [
+        { "icon": "cup", "title": "Uống nóng, từng ngụm nhỏ", "text": "Giữ ngụm trà trong miệng một chút trước khi nuốt để cảm vị chát dịu chuyển dần sang ngọt hậu." },
+        { "icon": "cake", "title": "Cùng bánh ngọt dịu", "text": "Bánh cốm, bánh đậu xanh hay một chiếc mochi có vị ngọt bùi vừa đủ, cân lại độ chát của trà xanh." },
+        { "icon": "bowl", "title": "Sau bữa cơm chay", "text": "Một chén trà xanh ấm sau bữa trưa làm miệng thanh hơn, hợp với các món rau củ nhẹ vị." },
+        { "icon": "droplet", "title": "Ủ lạnh ngày nóng", "text": "Ngâm trà với nước lọc nguội trong ngăn mát 6–8 tiếng, lọc bã là có ly trà xanh dịu, ít chát." },
+        { "icon": "flower", "title": "Nền để ướp hương", "text": "Trà xanh Thái Nguyên thường được chọn làm nền để ướp lài, ướp sen. Ở quầy Nhà An, trà xanh Tân Cương được ướp cùng hoa lài." },
+        { "icon": "sun", "title": "Hợp buổi sáng", "text": "Ấm trà xanh đầu ngày là thói quen của nhiều gia đình miền Bắc. Buổi tối, hãy pha nhẹ tay nếu bạn nhạy cảm với caffeine." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "tra-tiep",
+      "eyebrow": "Tra tiếp",
+      "title": "Những trang trà *nên đọc tiếp*",
+      "lead": "Hiểu thêm về hương ướp, những giống chè khác và bản đồ vùng chè Việt.",
+      "items": [
+        {
+          "img": "@leaf|trà xanh khô trộn những bông lài trắng phơi khô",
+          "alt": "Trà xanh khô trộn lẫn những bông lài trắng phơi khô",
+          "title": "Trà lài (nhài)",
+          "tag": "Từ điển trà",
+          "text": "Trà xanh ướp hoa lài, thơm thanh và dễ uống. Ở Nhà An, nền trà là trà xanh Tân Cương.",
+          "href": "/tra-viet/tu-dien/tra-lai"
+        },
+        {
+          "img": "@lotus|ấm trà sen đặt cạnh bông sen hồng hé nở",
+          "alt": "Ấm trà sen đặt cạnh một bông sen hồng đang hé nở",
+          "title": "Trà sen",
+          "tag": "Từ điển trà",
+          "text": "Trà xanh ướp sen, nét thanh lịch của Hà Nội, ở Nhà An ướp bằng gạo sen Bách Diệp Hồ Tây.",
+          "href": "/tra-viet/tu-dien/tra-sen"
+        },
+        {
+          "img": "@origin|búp chè Shan Tuyết to mập phủ lông tơ trắng trên cành",
+          "alt": "Búp chè Shan Tuyết to mập phủ lông tơ trắng trên cành",
+          "title": "Trà Shan Tuyết",
+          "tag": "Từ điển trà",
+          "text": "Búp to phủ lông tơ trắng từ những cây chè thân gỗ trên núi cao phía Bắc.",
+          "href": "/tra-viet/tu-dien/tra-shan-tuyet"
+        },
+        {
+          "img": "@origin|hàng chè trung du cắt tỉa thấp trên đồi Tân Cương",
+          "alt": "Những hàng chè trung du cắt tỉa thấp trên đồi ở Tân Cương",
+          "title": "Vùng chè Việt",
+          "tag": "Bản đồ trà",
+          "text": "Từ Tân Cương đến Bảo Lộc, mỗi vùng chè một giọng trà riêng.",
+          "href": "/tra-viet/vung-che"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về trà móc câu*",
+      "items": [
+        { "q": "Trà móc câu khác trà đinh, trà nõn tôm thế nào?", "a": "Khác nhau chủ yếu ở phần búp được hái. Trà đinh chỉ lấy phần búp nhỏ nhất nên cánh thẳng, nhọn như chiếc đinh; nõn tôm cũng chọn búp rất non; móc câu thường hái một tôm hai lá nên cánh xoăn cong. Cách gọi giữa các cơ sở có thể khác nhau đôi chút, bạn nên hỏi rõ khi mua." },
+        { "q": "Trà móc câu có phải là trà Tân Cương không?", "a": "Không hẳn. Móc câu nói về hình dáng cánh trà, còn Tân Cương là tên một vùng chè. Trà Tân Cương thường được làm theo kiểu móc câu, nhưng trà móc câu có thể đến từ nhiều vùng chè khác của Thái Nguyên." },
+        { "q": "Vì sao trà xanh pha ra bị đắng gắt?", "a": "Thường do nước quá nóng, cho quá nhiều trà hoặc hãm quá lâu. Hãy hạ nước về khoảng 75–80°C và rót hết nước ra sau mỗi lần hãm; muốn đậm hơn thì thêm chút trà thay vì ngâm lâu." },
+        { "q": "Trà xanh có nhiều caffeine không?", "a": "Trà xanh có caffeine, thường ít hơn một ly cà phê cùng dung tích; lượng cụ thể tùy lượng trà và thời gian hãm. Nếu nhạy cảm với caffeine, đang mang thai hoặc có vấn đề sức khỏe, bạn nên hỏi ý kiến bác sĩ." },
+        { "q": "Bảo quản trà móc câu thế nào để giữ hương?", "a": "Trà xanh mất hương nhanh hơn ô long rang. Hãy đựng trong túi hoặc hũ kín, tránh ẩm, nắng và đồ nặng mùi; nếu cất ngăn mát tủ lạnh, hàn kín túi và để trà về nhiệt độ phòng rồi mới mở." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Pha một ấm ở nhà, *hẹn nhau ở quầy trà*",
+      "text": "Công cụ pha trà gợi ý sẵn lượng trà, nhiệt độ và thời gian hãm cho trà xanh. Khi 5 chi nhánh khai trương, trà xanh Tân Cương ướp lài sẽ chờ bạn ở quầy Nhà An.",
+      "ctas": [
+        { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet/tu-dien", "/tra-viet/tu-dien/tra-lai", "/tra-viet/tu-dien/tra-sen", "/tra-viet/tu-dien/tra-shan-tuyet", "/tin-tuc/tra-tan-cuong-thai-nguyen", "/tin-tuc/tra-u-lanh-cold-brew"]
+}

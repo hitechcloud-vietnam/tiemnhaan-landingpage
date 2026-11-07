@@ -1,0 +1,199 @@
+{
+  "slug": "tuyen-dung/dao-tao",
+  "group": "careers",
+  "nav": "Chương trình đào tạo",
+  "navDesc": "Pha chế, làm bánh, nấu chay, phục vụ",
+  "icon": "book",
+  "title": "Đào tạo nhân viên: pha chế trà, làm bánh, nấu chay, phục vụ",
+  "description": "Chương trình đào tạo nhân viên Tiệm Nhà An cho người chưa có kinh nghiệm: pha chế trà, làm bánh, nấu chay, phục vụ và an toàn thực phẩm. Ứng tuyển ngay.",
+  "image": "@brew|người hướng dẫn chỉ cách cầm ấm rót trà ra chén cho học viên bên khay trà gỗ",
+  "hero": {
+    "eyebrow": "Tuyển dụng",
+    "title": "Chưa biết pha trà? *Nhà An dạy bạn từ đầu*",
+    "lead": "Chương trình đào tạo dành cho người mới vào nghề: pha chế trà, làm bánh, nấu chay, phục vụ và an toàn thực phẩm. Bạn học ngay trong ca, có người kèm cặp và nhận lương từ ngày đầu.",
+    "img": "@brew|người hướng dẫn chỉ cách cầm ấm rót trà ra chén cho học viên bên khay trà gỗ",
+    "alt": "Người hướng dẫn chỉ cách cầm ấm rót trà ra chén cho học viên bên khay trà gỗ",
+    "ctas": [
+      { "label": "Xem nội dung đào tạo", "href": "#noi-dung", "style": "primary" },
+      { "label": "Ứng tuyển ngay", "href": "#ung-tuyen", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "vi-sao-dao-tao",
+      "eyebrow": "Vì sao đào tạo từ đầu",
+      "title": "Kỹ năng thì học được, *sự tử tế bạn mang sẵn*",
+      "paras": [
+        "Nhà An không yêu cầu kinh nghiệm. Công thức, thao tác và quy trình đều có thể học; điều Nhà An tìm ở bạn là sự chăm chỉ, thật lòng và mong muốn làm tốt hơn mỗi ngày.",
+        "Mỗi bạn mới đi qua một lộ trình học có người kèm: hiểu vì sao làm, làm thế nào cho đúng và làm sao để khách thấy dễ chịu. Học xong, bạn có nền tảng nghề F&B vững để đi xa hơn."
+      ],
+      "bullets": [
+        "Học ngay trong ca, có người kèm cặp",
+        "Nhận lương từ ngày đầu học việc",
+        "Không thu học phí đào tạo",
+        "Dành cho cả bán thời gian và chính thức"
+      ],
+      "img": "@cafe|quầy pha chế gỗ buổi sáng với ấm trà, ly thủy tinh và dụng cụ xếp ngăn nắp",
+      "alt": "Quầy pha chế gỗ buổi sáng với ấm trà, ly thủy tinh và dụng cụ xếp ngăn nắp",
+      "cta": { "label": "Xem các vị trí đang tuyển", "href": "/tuyen-dung" }
+    },
+    {
+      "type": "features",
+      "id": "noi-dung",
+      "eyebrow": "Nội dung đào tạo",
+      "title": "Sáu mảng kỹ năng *bạn sẽ được học*",
+      "lead": "Mỗi vị trí học sâu phần việc của mình, nhưng ai cũng nắm những điều cốt lõi để cả tiệm vận hành nhịp nhàng suốt 24 giờ.",
+      "items": [
+        { "icon": "cup", "title": "Pha chế trà", "text": "Ủ cốt trà đúng tỉ lệ, thay mẻ mới mỗi 4 tiếng; pha ô long, trà xanh lài, trà sen, trà sữa theo công thức và theo mức đường, lượng đá, loại sữa khách chọn." },
+        { "icon": "cake", "title": "Làm bánh", "text": "Cân và nhào bột, cán gập bơ cho croissant, ủ và nướng từ sáng sớm; bảo quản, trình bày tủ bánh và ghi chú món thuần chay." },
+        { "icon": "bowl", "title": "Nấu chay", "text": "Sơ chế rau củ, ninh nước dùng từ củ quả không bột ngọt, chuẩn bị món sáng, trưa và món chay khuya theo công thức chung của bếp." },
+        { "icon": "users", "title": "Phục vụ & thu ngân", "text": "Đón khách, giới thiệu 4 khu ngồi, hướng dẫn quét mã gọi món tại bàn, ghi nhận đặt bàn và thu ngân chính xác." },
+        { "icon": "shield", "title": "An toàn thực phẩm", "text": "Vệ sinh cá nhân, để riêng đồ sống và đồ chín, giữ đúng nhiệt độ bảo quản, ghi nhãn ngày và nắm rõ thành phần dễ gây dị ứng." },
+        { "icon": "heart", "title": "Làm việc cùng nhau", "text": "Giao ca rõ ràng, giữ quầy và bếp gọn sạch, hỗ trợ đồng đội lúc đông khách và làm ca đêm an toàn." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "theo-vi-tri",
+      "eyebrow": "Theo từng vị trí",
+      "title": "Mỗi vị trí, *một hành trang riêng*",
+      "lead": "Chọn vị trí bạn quan tâm để xem mô tả công việc, thu nhập và cách ứng tuyển.",
+      "items": [
+        {
+          "img": "@drinks|tay barista rót lớp kem sữa lên ly trà ô long ở quầy pha chế",
+          "alt": "Tay barista rót lớp kem sữa lên ly trà ô long",
+          "tag": "Bán thời gian & chính thức",
+          "title": "Barista / Pha chế",
+          "text": "Học pha trà nóng, trà đá, trà sữa và một số món cà phê phin; định lượng theo công thức, giữ quầy sạch, tư vấn khách chọn ly hợp vị.",
+          "href": "/tuyen-dung/barista"
+        },
+        {
+          "img": "@cafe|nhân viên phục vụ mang khay trà và bánh ra bàn gỗ cạnh cửa sổ",
+          "alt": "Nhân viên phục vụ mang khay trà và bánh ra bàn gỗ cạnh cửa sổ",
+          "tag": "Bán thời gian",
+          "title": "Phục vụ & thu ngân",
+          "text": "Học cách đón khách, giới thiệu không gian, thu ngân, ghi nhận đặt bàn và giữ khu ngồi luôn gọn gàng, dễ chịu.",
+          "href": "/tuyen-dung/phuc-vu-thu-ngan"
+        },
+        {
+          "img": "@bake|thợ bánh cán bột và gập bơ làm croissant trên mặt bàn rắc bột",
+          "alt": "Thợ bánh cán bột, gập bơ làm croissant trên mặt bàn rắc bột",
+          "tag": "Chính thức",
+          "title": "Thợ bánh",
+          "text": "Học chuẩn bị bột, nướng bánh từ sáng sớm, làm bánh Âu và bánh chay, bảo quản và trình bày tủ bánh mỗi ngày.",
+          "href": "/tuyen-dung/tho-banh"
+        },
+        {
+          "img": "@veg|tay phụ bếp sơ chế cà rốt, củ cải và nấm trên thớt gỗ",
+          "alt": "Phụ bếp sơ chế cà rốt, củ cải và nấm trên thớt gỗ",
+          "tag": "Chính thức",
+          "title": "Phụ bếp chay",
+          "text": "Học sơ chế rau củ, nấu nước dùng từ củ quả, chuẩn bị món chay sáng, trưa và khuya theo ca, giữ bếp sạch và an toàn.",
+          "href": "/tuyen-dung/phu-bep-chay"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "lo-trinh-hoc",
+      "eyebrow": "Lộ trình học",
+      "title": "Từ ngày đầu *đến khi tự tin đứng ca*",
+      "lead": "Thời gian mỗi chặng tùy vị trí và tốc độ làm quen của từng bạn. Người kèm cặp đi cùng bạn suốt lộ trình.",
+      "items": [
+        { "title": "Làm quen nhà mới", "text": "Tìm hiểu câu chuyện Nhà An, 4 khu không gian, nội quy, cách xếp ca và nguyên tắc an toàn thực phẩm trước khi vào quầy hay vào bếp." },
+        { "title": "Quan sát và làm cùng", "text": "Theo người kèm cặp trong ca thật, bắt đầu từ việc đơn giản như chuẩn bị nguyên liệu, rửa dụng cụ, đón khách, rồi tăng dần độ khó." },
+        { "title": "Tự làm, có người góp ý", "text": "Bạn tự pha từng ly, nướng từng mẻ, nấu từng món theo công thức; người kèm cặp nếm thử, chỉ chỗ cần chỉnh và giải thích vì sao." },
+        { "title": "Sẵn sàng đứng ca", "text": "Khi đã quen tay, bạn cùng người kèm cặp rà lại các món chính và quy trình trong ca. Cả hai thấy vững rồi, bạn mới đứng ca độc lập." },
+        { "title": "Học tiếp theo mùa", "text": "Mỗi khi có món theo mùa hay quy trình mới, cả đội cùng học lại. Đó cũng là nền tảng để bạn đi tiếp lên trưởng ca, quản lý cửa hàng." }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Chương trình đang được hoàn thiện cùng 5 chi nhánh sắp khai trương. Nội dung và thời lượng cụ thể sẽ được trao đổi rõ khi bạn nhận việc."
+    },
+    {
+      "type": "checklist",
+      "id": "an-toan-thuc-pham",
+      "eyebrow": "An toàn thực phẩm",
+      "title": "Những thói quen *không bao giờ bỏ qua*",
+      "lead": "Phần học này xoay quanh năm chìa khóa an toàn thực phẩm của Tổ chức Y tế Thế giới (WHO): giữ sạch, để riêng đồ sống và đồ chín, nấu chín kỹ, giữ thực phẩm ở nhiệt độ an toàn, dùng nước và nguyên liệu an toàn.",
+      "cols": [
+        {
+          "title": "Vệ sinh cá nhân",
+          "icon": "hand",
+          "items": [
+            "Rửa tay với xà phòng trước khi vào ca, khi đổi việc và sau khi đi vệ sinh",
+            "Buộc gọn tóc, mặc tạp dề sạch, cắt ngắn móng tay",
+            "Tháo nhẫn, vòng tay khi chế biến",
+            "Báo trưởng ca khi thấy không khỏe để được sắp xếp phù hợp"
+          ]
+        },
+        {
+          "title": "Bảo quản & sơ chế",
+          "icon": "box",
+          "items": [
+            "Dùng dao, thớt riêng cho đồ sống và đồ chín",
+            "Ghi nhãn ngày giờ cho nguyên liệu đã sơ chế",
+            "Nhập trước dùng trước, loại bỏ nguyên liệu quá hạn",
+            "Kiểm tra nhiệt độ tủ mát, tủ đông mỗi ca"
+          ]
+        },
+        {
+          "title": "Thông tin dị ứng",
+          "icon": "shield",
+          "items": [
+            "Nhận biết thành phần dễ gây dị ứng: sữa, trứng, gluten, đậu nành, đậu phộng, các loại hạt, mè",
+            "Khi khách báo dị ứng, kiểm tra công thức rồi mới trả lời",
+            "Phân biệt món chay có trứng, sữa với món thuần chay",
+            "Chưa chắc thì hỏi trưởng ca, không đoán"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "thuc-hanh",
+      "eyebrow": "Giờ thực hành",
+      "title": "Học bằng tay, *nhớ bằng vị giác*",
+      "lead": "Ảnh minh họa một vài thao tác bạn sẽ luyện trong quá trình đào tạo.",
+      "items": [
+        { "img": "@leaf|bột matcha xanh được rây mịn vào bát gốm trước khi đánh", "caption": "Rây matcha thật mịn trước khi đánh bằng chổi tre" },
+        { "img": "tea-pour", "caption": "Canh thời gian hãm bằng đồng hồ cát rồi rót trà" },
+        { "img": "@bake|khay croissant vàng giòn vừa lấy ra khỏi lò nướng", "caption": "Mẻ croissant vàng giòn sau giờ ủ bột và nướng" },
+        { "img": "@veg|nồi nước dùng rau củ với bắp, cà rốt và củ cải đang ninh trên bếp", "caption": "Ninh nước dùng từ củ quả, không dùng bột ngọt" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về đào tạo*",
+      "items": [
+        { "q": "Chưa từng làm quán trà, quán cà phê có theo kịp không?", "a": "Theo kịp. Chương trình dành cho người mới: học từ việc đơn giản, có người kèm cặp trong ca và được giải thích vì sao làm như vậy. Bạn chỉ cần chăm chỉ và dám hỏi." },
+        { "q": "Đào tạo mất bao lâu?", "a": "Tùy vị trí và tốc độ làm quen của từng bạn, nên không có một mốc chung cho tất cả. Lộ trình cụ thể được trao đổi khi bạn nhận việc, và bạn chỉ đứng ca độc lập khi đã thật sự sẵn sàng." },
+        { "q": "Trong thời gian học việc có được trả lương không?", "a": "Có. Học việc có hướng dẫn và nhận lương từ ngày đầu. Thu nhập theo từng vị trí (bán thời gian 30.000–35.000đ/giờ, chính thức 10–15 triệu/tháng) được trao đổi rõ khi phỏng vấn." },
+        { "q": "Có phải đóng học phí đào tạo không?", "a": "Không. Đào tạo là một phần công việc: bạn học ngay trong ca và vẫn nhận lương. Nhà An cũng không yêu cầu đặt cọc hay giữ bản chính giấy tờ của bạn." },
+        { "q": "Làm bán thời gian có được đào tạo đầy đủ không?", "a": "Có. Bạn được học đầy đủ phần việc của vị trí mình, từ kỹ năng chuyên môn đến an toàn thực phẩm. Lịch học được sắp theo những ca bạn đăng ký." },
+        { "q": "Làm ca đêm có được hướng dẫn riêng không?", "a": "Có. Trước khi nhận ca đêm, bạn được hướng dẫn cách giao ca, chuẩn bị món chay khuya từ 22:00 đến 04:00, giữ khu Deadline yên lặng và các bước liên hệ hỗ trợ khi cần." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Sẵn sàng *học nghề cùng Nhà An*?",
+      "text": "Xem các vị trí đang tuyển ở 5 chi nhánh, hoặc tìm hiểu lộ trình từ nhân viên lên trưởng ca và quản lý cửa hàng.",
+      "ctas": [
+        { "label": "Xem vị trí đang tuyển", "href": "/tuyen-dung", "style": "primary" },
+        { "label": "Lộ trình phát triển", "href": "/tuyen-dung/lo-trinh", "style": "ghost" }
+      ]
+    },
+    {
+      "type": "form",
+      "kind": "apply",
+      "id": "ung-tuyen",
+      "eyebrow": "Ứng tuyển",
+      "title": "Ứng tuyển và bắt đầu học nghề",
+      "lead": "Chỉ cần vài thông tin cơ bản, chưa có CV cũng không sao. Nhà An sẽ gọi lại hẹn phỏng vấn trong 3 ngày làm việc."
+    }
+  ],
+  "related": ["/tuyen-dung/quy-trinh", "/tuyen-dung/lo-trinh", "/tuyen-dung/quyen-loi", "/cam-ket", "/tin-tuc/pha-o-long-tai-nha", "/tin-tuc/croissant-va-nhung-lop-bo"]
+}

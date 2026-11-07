@@ -1,0 +1,214 @@
+{
+  "slug": "san-khau-mo",
+  "group": "community",
+  "nav": "Đêm nhạc mộc",
+  "navDesc": "Acoustic thứ Sáu & sân khấu mở",
+  "icon": "music",
+  "title": "Đêm nhạc mộc thứ Sáu và sân khấu mở: đăng ký biểu diễn",
+  "description": "Đêm acoustic mỗi tối thứ Sáu từ 20:00 ở Tiệm Nhà An, kèm sân khấu mở cho người chơi nhạc, đọc thơ, kể chuyện. Xem quy tắc và đăng ký biểu diễn.",
+  "image": "@club|người hát ôm đàn guitar acoustic trước micro dưới ánh đèn vàng",
+  "hero": {
+    "eyebrow": "Đêm nhạc mộc · Thứ Sáu từ 20:00",
+    "title": "Một cây đàn, một chén trà, *một sân khấu nhỏ*",
+    "lead": "Khi khai trương, mỗi tối thứ Sáu Nhà An sẽ dành một góc cho nhạc mộc, thơ và những câu chuyện kể. Bạn có thể ngồi nghe, hoặc đăng ký sớm một lượt lên sân khấu mở.",
+    "img": "@club|người hát ôm đàn guitar acoustic trước micro dưới ánh đèn vàng",
+    "alt": "Người hát ôm đàn guitar acoustic trước micro dưới ánh đèn vàng",
+    "ctas": [
+      { "label": "Đăng ký biểu diễn", "href": "#dang-ky", "style": "primary" },
+      { "label": "Xem lịch sự kiện", "href": "/lich-su-kien", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "dem-thu-sau",
+      "eyebrow": "Đêm acoustic",
+      "title": "Nhạc mộc, *nghe rõ từng lời*",
+      "paras": [
+        "Nhạc mộc (acoustic) giữ nguyên tiếng đàn và giọng hát tự nhiên: guitar, ukulele, sáo trúc và một chiếc micro vừa đủ nghe. Không cần sân khấu lớn, chỉ cần người chơi thật lòng và người nghe chăm chú.",
+        "Từ 20:00 mỗi tối thứ Sáu, Nhà An dự kiến mở đêm nhạc mộc ở các chi nhánh sau khai trương. Một phần chương trình là sân khấu mở (open mic): bạn đăng ký trước để nhận một lượt hát, đọc thơ hay kể chuyện."
+      ],
+      "bullets": [
+        "Từ 20:00 mỗi tối thứ Sáu",
+        "Âm lượng vừa phải, vẫn trò chuyện nhỏ được",
+        "Sân khấu mở cho người đăng ký trước",
+        "Món chay khuya từ 22:00 cho những đêm dài"
+      ],
+      "img": "@cafe|góc quán ấm cúng buổi tối với đèn dây và bàn gỗ",
+      "alt": "Góc quán ấm cúng buổi tối với đèn dây và bàn gỗ"
+    },
+    {
+      "type": "cards",
+      "id": "ai-cung-len-duoc",
+      "eyebrow": "Sân khấu mở",
+      "title": "Ai cũng có thể *lên sân khấu*",
+      "lead": "Không cần chuyên nghiệp, chỉ cần một tiết mục bạn thật sự yêu thích và muốn chia sẻ.",
+      "items": [
+        {
+          "img": "@club|cận cảnh bàn tay gảy dây đàn guitar acoustic",
+          "alt": "Cận cảnh bàn tay gảy dây đàn guitar acoustic",
+          "tag": "Guitar · Ukulele · Hát",
+          "title": "Người chơi nhạc",
+          "text": "Hát cover bài yêu thích, chơi một bản không lời hay lần đầu thử bài mình tự sáng tác."
+        },
+        {
+          "img": "night-acoustic",
+          "alt": "Một bạn nữ cầm trang giấy đứng trước micro trên sân khấu nhỏ",
+          "tag": "Thơ",
+          "title": "Người đọc thơ",
+          "text": "Đọc thơ của mình hoặc bài thơ bạn thương. Nếu là thơ của người khác, nhớ giới thiệu tên tác giả."
+        },
+        {
+          "img": "@books|chồng sách cũ và cuốn sổ tay mở dưới ánh đèn vàng",
+          "alt": "Chồng sách cũ và cuốn sổ tay mở dưới ánh đèn vàng",
+          "tag": "Kể chuyện",
+          "title": "Người kể chuyện",
+          "text": "Một chuyến đi, một kỷ niệm tuổi học trò hay chuyện nghề của bạn. Ngắn gọn, chân thành là đủ."
+        },
+        {
+          "img": "@club|nhóm bạn trẻ cùng chơi đàn và hát chung",
+          "alt": "Nhóm bạn trẻ cùng chơi đàn và hát chung",
+          "tag": "Song ca · Nhóm nhỏ",
+          "title": "Nhóm nhỏ",
+          "text": "Song ca hay nhóm vài người với nhạc cụ mộc, miễn giữ âm lượng vừa phải."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "cach-dang-ky",
+      "eyebrow": "Cách đăng ký",
+      "title": "Lên sân khấu *trong bốn bước*",
+      "lead": "Đăng ký trước giúp Nhà An sắp thứ tự, để tiết mục nào cũng có thời gian trọn vẹn.",
+      "items": [
+        { "title": "Gửi đăng ký", "text": "Điền form cuối trang hoặc nhắn Zalo 0865 920 041: tên, tiết mục, thời lượng, chi nhánh và tối thứ Sáu bạn muốn diễn." },
+        { "title": "Kèm bản thu nếu có", "text": "Một đoạn ghi âm hay video ngắn giúp Nhà An hình dung tiết mục. Chưa có cũng không sao." },
+        { "title": "Nhận xác nhận", "text": "Nhà An liên hệ lại để chốt ngày, thứ tự lên sân khấu và thiết bị có sẵn ở chi nhánh." },
+        { "title": "Đến sớm thử âm", "text": "Có mặt sớm một chút để thử micro, lên dây đàn và hít một hơi thật sâu." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "quy-tac",
+      "eyebrow": "Quy tắc",
+      "title": "Vài quy tắc *để ai cũng dễ chịu*",
+      "lead": "Đêm nhạc diễn ra trong một tiệm trà mở cửa 24/7, nơi có người đang nghe nhạc và cũng có người đang làm việc.",
+      "cols": [
+        {
+          "title": "Âm thanh",
+          "icon": "music",
+          "items": [
+            "Ưu tiên nhạc cụ mộc, âm lượng vừa phải",
+            "Không mang loa công suất lớn hay dàn trống",
+            "Phòng Chạy Deadline vẫn giữ giờ yên lặng"
+          ]
+        },
+        {
+          "title": "Nội dung",
+          "icon": "heart",
+          "items": [
+            "Phù hợp mọi lứa tuổi, không ngôn từ thô tục",
+            "Không nội dung chính trị, tôn giáo gây tranh cãi",
+            "Không chế giễu vùng miền, giới tính hay ngoại hình"
+          ]
+        },
+        {
+          "title": "Tôn trọng nhau",
+          "icon": "users",
+          "items": [
+            "Giữ đúng thời lượng đã đăng ký",
+            "Trò chuyện khẽ, vỗ tay cổ vũ sau mỗi tiết mục",
+            "Hỏi ý người diễn trước khi quay phim, đăng mạng"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "thiet-bi",
+      "eyebrow": "Thiết bị",
+      "title": "Nhà An chuẩn bị gì, *bạn mang gì*",
+      "lead": "Thiết bị ở mức cơ bản và có thể khác nhau giữa các chi nhánh. Nhà An sẽ báo cụ thể khi xác nhận lịch diễn.",
+      "head": ["Hạng mục", "Nhà An dự kiến có", "Bạn nên tự mang"],
+      "rows": [
+        ["Âm thanh", "Loa và micro cơ bản", "Nhạc cụ, dây đàn dự phòng, capo, phím gảy"],
+        ["Chỗ diễn", "Ghế ngồi, chân micro, đèn ấm", "Lời bài hát, bản nhạc in hoặc trên máy tính bảng"],
+        ["Đồ uống", "Một đồ uống mời người biểu diễn", "Ly cá nhân nếu bạn muốn"],
+        ["Người đi cùng", "Giữ chỗ ngồi khi bạn báo trước", "Số người đi cùng, ghi rõ khi đăng ký"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "quyen-loi",
+      "eyebrow": "Quyền lợi",
+      "title": "Người biểu diễn *nhận được gì*",
+      "lead": "Sân khấu mở là sân chơi giao lưu cho người yêu nhạc, yêu chữ. Đây là những điều Nhà An dự kiến dành cho bạn.",
+      "items": [
+        { "icon": "cup", "title": "Đồ uống trong tối diễn", "text": "Một ly trà hay đồ uống bạn chọn, Nhà An mời trong tối bạn lên sân khấu." },
+        { "icon": "mic", "title": "Thử âm trước giờ diễn", "text": "Nhân viên trực cùng bạn chỉnh micro, loa cho vừa với tiết mục." },
+        { "icon": "star", "title": "Được giới thiệu chu đáo", "text": "Tên và tiết mục của bạn được giới thiệu trước mỗi lượt để khán giả cùng lắng nghe." },
+        { "icon": "camera", "title": "Ảnh polaroid kỷ niệm", "text": "Một tấm polaroid in tại quầy để mang về hoặc ghim lên Tường Polaroid." },
+        { "icon": "heart", "title": "Không chấm điểm, không áp lực", "text": "Lần đầu cầm micro cũng được chào đón. Lỡ quên lời thì mình hát lại từ đầu." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khong-khi",
+      "eyebrow": "Không khí",
+      "title": "Một tối thứ Sáu *thật chậm*",
+      "lead": "Ảnh minh họa tinh thần đêm nhạc mộc; ảnh thực tế tại các chi nhánh sẽ cập nhật sau khai trương.",
+      "items": [
+        { "img": "@night|con phố lên đèn buổi tối sau giờ tan ca", "caption": "Tan ca tối thứ Sáu, ghé nghe một bài hát rồi về" },
+        { "img": "@drinks|ly trà trái cây mát lạnh trên bàn gỗ buổi tối", "caption": "Trà trái cây mát lạnh cho đêm nhạc" },
+        { "img": "@brew|rót trà ô long nóng từ ấm nhỏ ra chén", "caption": "Chén ô long nóng giữa hai tiết mục" },
+        { "img": "night-cafe", "caption": "Đèn vàng, nhạc nhỏ và câu chuyện kéo dài" }
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Sân khấu nhỏ thôi, nhưng người nghe thì thật lòng.",
+      "cite": "Đêm nhạc mộc ở Nhà An"
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi đáp *trước khi lên sân khấu*",
+      "items": [
+        {
+          "q": "Khi nào đêm nhạc mộc bắt đầu?",
+          "a": "Đêm nhạc dự kiến bắt đầu sau khi từng chi nhánh khai trương. Bạn có thể gửi đăng ký ngay từ bây giờ, Nhà An sẽ liên hệ khi có lịch."
+        },
+        {
+          "q": "Mình chưa từng biểu diễn trước đông người, có đăng ký được không?",
+          "a": "Được. Sân khấu mở dành cho người chơi nghiệp dư, kể cả lần đầu. Bạn có thể bắt đầu với một bài hát hoặc một bài thơ ngắn."
+        },
+        {
+          "q": "Mỗi tiết mục được bao lâu?",
+          "a": "Nhà An dự kiến chia lượt ngắn, khoảng một đến hai bài hát hoặc vài phút đọc thơ, kể chuyện, để nhiều bạn cùng có lượt. Thời lượng cụ thể sẽ báo khi xác nhận."
+        },
+        {
+          "q": "Có được hát bài của người khác không?",
+          "a": "Được. Bạn có thể hát bài tự sáng tác hoặc cover bài yêu thích; khi đọc thơ, kể chuyện của người khác, hãy giới thiệu tên tác giả."
+        },
+        {
+          "q": "Người biểu diễn có thù lao không?",
+          "a": "Sân khấu mở là sân chơi giao lưu; Nhà An dự kiến mời người biểu diễn đồ uống trong tối diễn. Với những đêm có khách mời, Nhà An sẽ trao đổi riêng."
+        },
+        {
+          "q": "Bạn dưới 18 tuổi có đăng ký được không?",
+          "a": "Được, khi có sự đồng ý của phụ huynh. Vì đêm nhạc bắt đầu từ 20:00, bạn nên có người lớn đi cùng."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "kind": "contact",
+      "id": "dang-ky",
+      "eyebrow": "Đăng ký biểu diễn",
+      "title": "Đăng ký lên sân khấu mở",
+      "lead": "Trong lời nhắn, bạn ghi giúp Nhà An: tiết mục, nhạc cụ, thời lượng, chi nhánh và tối thứ Sáu muốn diễn, kèm link bản thu nếu có. Nhà An sẽ liên hệ lại khi có lịch.",
+      "preset": "Đăng ký biểu diễn"
+    }
+  ],
+  "related": ["/lich-su-kien", "/cong-dong", "/tin-tuc/tim-nghe-si-dem-nhac-moc", "/su-kien/giang-sinh"]
+}

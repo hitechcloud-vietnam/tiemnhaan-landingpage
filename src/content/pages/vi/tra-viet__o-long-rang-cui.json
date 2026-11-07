@@ -1,0 +1,285 @@
+{
+  "slug": "tra-viet/o-long-rang-cui",
+  "group": "tea",
+  "nav": "Ô long rang củi",
+  "navDesc": "Món chủ lực: hương rang ấm, hậu ngọt",
+  "icon": "flame",
+  "title": "Ô long rang củi: hương khói nhẹ, hậu ngọt mật ong",
+  "description": "Ô long một tôm hai lá Bảo Lộc rang củi nhãn theo mẻ nhỏ: hương khói nhẹ, vị mật ong rang, hậu ngọt. Xem cách thưởng thức và bảo quản tại nhà.",
+  "image": "@craft|tay người đảo trà ô long trong chảo gang trên bếp lửa củi",
+  "hero": {
+    "eyebrow": "Món chủ lực",
+    "title": "Ô long rang củi, *lửa chậm, hương sâu*",
+    "lead": "Búp ô long một tôm hai lá từ Bảo Lộc, rang trên lửa củi nhãn theo từng mẻ nhỏ. Mỗi ngụm có hương khói nhẹ, vị mật ong rang và hậu ngọt đọng lại thật lâu.",
+    "img": "@craft|tay người đảo trà ô long trong chảo gang trên bếp lửa củi",
+    "alt": "Bàn tay đảo trà ô long trong chảo gang trên bếp lửa củi",
+    "ctas": [
+      {
+        "label": "Cách thưởng thức",
+        "href": "#thuong-thuc",
+        "style": "primary"
+      },
+      {
+        "label": "Pha ô long tại nhà",
+        "href": "/tra-viet/pha-tra",
+        "style": "ghost"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "o-long-la-gi",
+      "eyebrow": "Ô long là gì?",
+      "title": "Nằm giữa trà xanh *và trà đen*",
+      "paras": [
+        "Ô long là trà bán oxy hóa: lá chè được làm héo, lắc nhẹ cho oxy hóa một phần rồi mới sao để dừng lại. Trà xanh gần như không oxy hóa, trà đen oxy hóa gần như hoàn toàn; ô long nằm ở giữa, vừa giữ nét tươi vừa có chiều sâu.",
+        "Ở Việt Nam, ô long thường được vò thành viên tròn. Ô long của Nhà An thuộc nhóm rang lửa: tròn vị, ấm và ngọt hậu."
+      ],
+      "img": "@leaf|trà ô long khô vo viên tròn màu nâu sẫm cận cảnh",
+      "alt": "Những viên trà ô long khô màu nâu sẫm",
+      "cta": {
+        "label": "Đọc thêm: ô long rang củi là gì?",
+        "href": "/tin-tuc/o-long-rang-cui-la-gi"
+      }
+    },
+    {
+      "type": "intro",
+      "id": "bao-loc",
+      "eyebrow": "Nguồn trà",
+      "title": "Một tôm hai lá *từ Bảo Lộc*",
+      "paras": [
+        "Bảo Lộc, Lâm Đồng mát mẻ quanh năm với những đồi chè trải dài, là một trong những vùng trồng ô long được biết đến của Việt Nam.",
+        "Nhà An chọn búp một tôm hai lá và làm việc trực tiếp với nông hộ để hiểu rõ từng mẻ trà trước khi lên lửa."
+      ],
+      "img": "@origin|đồi chè Bảo Lộc xanh mướt trong sương sớm",
+      "alt": "Đồi chè xanh mướt trong sương sớm ở Bảo Lộc",
+      "reverse": true,
+      "cta": {
+        "label": "Khám phá vùng chè Việt",
+        "href": "/tra-viet/vung-che"
+      }
+    },
+    {
+      "type": "steps",
+      "id": "rang-cui",
+      "eyebrow": "Rang củi nhãn",
+      "title": "Mẻ nhỏ, *lửa liu riu*",
+      "lead": "Đây là công đoạn chậm nhất, cũng là lúc ô long có được hương rang riêng.",
+      "items": [
+        {
+          "title": "Chia mẻ nhỏ",
+          "text": "Trà đã vò viên, sấy khô được chia thành mẻ nhỏ và thử hương trước khi lên lửa."
+        },
+        {
+          "title": "Nhóm lửa củi nhãn",
+          "text": "Lửa củi nhãn được giữ liu riu để hơi nóng thấm từ từ vào từng viên trà."
+        },
+        {
+          "title": "Đảo đều tay",
+          "text": "Trà được đảo liên tục cho viên nào cũng chín đều, mép lá không bị cháy."
+        },
+        {
+          "title": "Để trà nghỉ",
+          "text": "Giữa các lượt rang, trà được nghỉ cho hơi lửa lắng xuống và hương ổn định."
+        },
+        {
+          "title": "Nếm rồi đóng gói",
+          "text": "Mỗi mẻ được nếm thử rồi đóng gói kín. Mẻ nhỏ nên quầy thường xuyên có trà mới rang."
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "huong-vi",
+      "eyebrow": "Hồ sơ hương vị",
+      "title": "Trong một chén *ô long rang củi*",
+      "lead": "Rõ nhất khi uống nóng, từng ngụm nhỏ.",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Hương khói nhẹ",
+          "text": "Thoảng như khói bếp củi, đủ ấm mà không lấn át hương trà."
+        },
+        {
+          "icon": "droplet",
+          "title": "Vị mật ong rang",
+          "text": "Ngọt dịu như mật ong và đường thắng, rõ dần qua từng nước pha."
+        },
+        {
+          "icon": "heart",
+          "title": "Hậu ngọt",
+          "text": "Chát nhẹ lúc đầu rồi ngọt lại nơi cuống họng, đọng khá lâu."
+        },
+        {
+          "icon": "sun",
+          "title": "Nước hổ phách",
+          "text": "Vàng óng đến hổ phách, trong và sáng khi pha đúng nhiệt độ."
+        },
+        {
+          "icon": "leaf",
+          "title": "Viên trà nở bung",
+          "text": "Gặp nước nóng, viên trà nở ra thành búp một tôm hai lá."
+        },
+        {
+          "icon": "timer",
+          "title": "Pha được nhiều nước",
+          "text": "Pha ấm nhỏ, một lượng trà hãm được nhiều lần, mỗi lần một sắc hương."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "thuong-thuc",
+      "eyebrow": "Thưởng thức tại Nhà An",
+      "title": "Năm cách *uống ô long*",
+      "lead": "Cùng một mẻ trà rang củi, mỗi cách pha mở ra một tính cách riêng.",
+      "items": [
+        {
+          "img": "oolong-set",
+          "alt": "Ấm trà ô long và chén nhỏ trên bàn gỗ",
+          "title": "Ô long nóng pha ấm",
+          "tag": "Nóng",
+          "text": "Pha ấm nhỏ, rót ra chén, uống chậm qua nhiều nước: cách cảm rõ nhất hương rang và hậu ngọt."
+        },
+        {
+          "img": "@drinks|ly ô long đá màu hổ phách với đá viên trên bàn gỗ",
+          "alt": "Ly ô long đá màu hổ phách với đá viên",
+          "title": "Ô long đá",
+          "tag": "Mát lạnh",
+          "text": "Pha đậm hơn một chút rồi rót qua đá, giữ trọn vị rang trong một ly mát lạnh."
+        },
+        {
+          "img": "@drinks|ly trà sữa ô long phủ lớp kem sữa trắng bông như mây",
+          "alt": "Ly trà sữa ô long phủ lớp kem sữa trắng bông",
+          "title": "Ô long sữa kem mây",
+          "tag": "Món ký tên",
+          "text": "Ô long rang củi ủ lạnh, phủ lớp kem sữa tươi đánh bông như mây. Ly đầu tiên bạn nên thử ở Nhà An.",
+          "href": "/tra-sua"
+        },
+        {
+          "img": "@drinks|ly bạc xỉu sữa đá phân tầng màu nâu kem",
+          "alt": "Ly bạc xỉu sữa đá phân tầng màu nâu kem",
+          "title": "Bạc xỉu ô long",
+          "tag": "Nhà An Bình Thạnh",
+          "text": "Bạc xỉu kiểu Sài Gòn thêm một shot ô long rang củi, béo mà thanh.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "@drinks|ly trà pha lạnh với chanh dây vàng và đá viên",
+          "alt": "Ly trà pha lạnh với chanh dây và đá viên",
+          "title": "Ô long biển xanh",
+          "tag": "Nhà An Đà Nẵng",
+          "text": "Ô long pha lạnh cùng chanh dây và chút muối biển, mát như gió biển Mỹ Khê.",
+          "href": "/chi-nhanh/da-nang"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "an-kem",
+      "eyebrow": "Trà và bánh",
+      "title": "Ô long ăn kèm *bánh gì?*",
+      "lead": "Vị rang cân lại độ béo của bơ và độ ngọt của bánh. Gợi ý từ lò bánh Nhà An, tùy mẻ bánh trong ngày.",
+      "items": [
+        {
+          "img": "croissant",
+          "caption": "Ô long nóng và croissant bơ: hương rang làm dịu vị béo."
+        },
+        {
+          "img": "@cake|bánh chuối nướng cắt lát vàng nâu trên đĩa gốm",
+          "caption": "Ô long sữa kem mây và bánh chuối thuần chay."
+        },
+        {
+          "img": "@cake|bánh quy bơ giòn xếp chồng bên tách trà",
+          "caption": "Ô long đá và cookie giòn ngọt."
+        },
+        {
+          "img": "@cake|bánh mochi tròn mềm phủ bột trên đĩa nhỏ",
+          "caption": "Ô long nóng và mochi dẻo mềm, ngọt dịu."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "bao-quan",
+      "eyebrow": "Mang trà về nhà",
+      "title": "Bảo quản trà khô *giữ hương lâu*",
+      "lead": "Trà khô dễ hút ẩm và hút mùi. Vài thói quen nhỏ giúp ô long thơm lâu hơn.",
+      "cols": [
+        {
+          "title": "Nên",
+          "icon": "shield",
+          "items": [
+            "Đựng trong hũ có nắp chặt hoặc túi zip kín",
+            "Để nơi khô ráo, thoáng mát, tránh nắng",
+            "Chia gói nhỏ, dùng hết gói này mới mở gói khác"
+          ]
+        },
+        {
+          "title": "Tránh",
+          "icon": "droplet",
+          "items": [
+            "Để gần bếp, nồi cơm hay ấm đun nước",
+            "Cất chung với cà phê, gia vị hoặc đồ nặng mùi",
+            "Dùng hũ thủy tinh trong đặt dưới nắng, đèn sáng"
+          ]
+        },
+        {
+          "title": "Mẹo nhỏ",
+          "icon": "spark",
+          "items": [
+            "Trà dùng hằng ngày không cần cất tủ lạnh; nếu cất, hãy hàn kín và để trà về nhiệt độ phòng rồi mới mở",
+            "Ô long rang giữ hương lâu hơn trà xanh, nhưng vẫn ngon nhất khi dùng sớm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về ô long*",
+      "items": [
+        {
+          "q": "Ô long rang củi có đắng không?",
+          "a": "Thường chỉ chát nhẹ rồi ngọt hậu. Vị đắng hay đến từ việc dùng quá nhiều trà hoặc hãm quá lâu; ở quầy, bạn có thể gọi ít trà cho vị nhẹ hơn."
+        },
+        {
+          "q": "Uống ô long buổi tối có được không?",
+          "a": "Ô long có caffeine, nên ảnh hưởng tới giấc ngủ tùy cơ địa mỗi người. Nếu dễ mất ngủ, hãy gọi ly ít trà và uống sớm hơn giờ ngủ vài tiếng; ngại lạnh về khuya thì chọn ít đá. Người nhạy cảm với caffeine nên hỏi ý kiến bác sĩ."
+        },
+        {
+          "q": "Ô long sữa kem mây đổi sang sữa yến mạch được không?",
+          "a": "Ly nào ở Nhà An cũng đổi được sữa tươi sang sữa yến mạch và chọn mức đường từ 0% đến 100%. Riêng lớp kem mây được đánh từ sữa tươi, nên nếu ăn thuần chay, bạn hãy báo barista để được gợi ý."
+        },
+        {
+          "q": "Có mua ô long khô về nhà được không?",
+          "a": "Nhà An dự kiến có ô long đóng túi tại quầy và hộp quà trà, chi tiết sẽ được công bố khi khai trương."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn *một ấm ô long*",
+      "text": "5 chi nhánh Nhà An đang hoàn thiện và sắp khai trương. Đặt bàn trước hoặc nhắn Zalo để nhận tin ngày mở cửa sớm nhất.",
+      "ctas": [
+        {
+          "label": "Đặt bàn",
+          "href": "/dat-ban",
+          "style": "primary"
+        },
+        {
+          "label": "Nhắn Zalo",
+          "href": "https://zalo.me/0865920041",
+          "style": "ghost"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "/tra-viet",
+    "/tra-viet/pha-tra",
+    "/lo-banh",
+    "/tin-tuc/o-long-rang-cui-la-gi"
+  ]
+}

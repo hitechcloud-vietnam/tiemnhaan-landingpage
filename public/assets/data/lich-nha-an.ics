@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tiem Nha An//Lich su kien//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tiệm Nhà An — Lịch sự kiện
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+UID:b316481dc9a5c9cee1029411c0bff14a@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Ngày Nhà giáo Việt Nam
+DESCRIPTION:Gợi ý quà tri ân thầy cô: hộp trà ô long và bánh nhà làm k
+ èm thiệp viết tay\, nhận đặt tại chi nhánh đã khai trương. — https://t
+ iemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/qua-tang
+END:VEVENT
+BEGIN:VEVENT
+UID:f5e7d87c75fceaba733e037f5e66f469@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261226
+SUMMARY:Giáng sinh
+DESCRIPTION:Cây thông\, đèn dây và set chụp ảnh mùa lễ. Tối thứ Sáu 25
+ /12 là đêm acoustic Noel. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/giang-sinh
+END:VEVENT
+BEGIN:VEVENT
+UID:a09be8e09814e6ad63414f14f4091cc1@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270102
+SUMMARY:Đếm ngược đón năm 2027
+DESCRIPTION:Nhạc mộc\, trà nóng và đếm ngược lúc nửa đêm ngay tại tiệm
+ . Nhà An mở cửa xuyên đêm nên không ai phải vội về. — https://tiemnhaa
+ n.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/giang-sinh
+END:VEVENT
+BEGIN:VEVENT
+UID:2c09f568578e3cf7946bbf525d6ae9f0@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270206
+SUMMARY:Tháng Chạp: chụp áo dài đón Tết
+DESCRIPTION:Studio thay set hoa đào\, hoa mai\, câu đối đỏ\; hộp quà t
+ rà ô long và mứt nhận đặt sớm. Nên giữ lịch chụp trước những ngày cận 
+ Tết. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/tet
+END:VEVENT
+BEGIN:VEVENT
+UID:c3cf9e30c83b2ac3974627aae24f38c1@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270209
+SUMMARY:Giao thừa & Tết Đinh Mùi
+DESCRIPTION:Đón giao thừa tối thứ Sáu 5/2 (29 tháng Chạp)\, mùng 1 Tết
+  là thứ Bảy 6/2/2027. Nhà An mở cửa xuyên Tết\, ghé uống chén trà đầu 
+ năm cùng gia đình\, bạn bè. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/tet
+END:VEVENT
+BEGIN:VEVENT
+UID:c66c2562affe7fcb41efe357b17f9fa9@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Valentine
+DESCRIPTION:Set trà đôi\, góc hoa hồng và chụp áo dài cặp. Năm nay Val
+ entine rơi vào mùng 9 Tết\, phố phường vẫn còn sắc xuân. — https://tie
+ mnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/chup-anh
+END:VEVENT
+BEGIN:VEVENT
+UID:965cd9f4c2ec4966384493e29a7f5e92@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Rằm tháng Giêng – Ngày Thơ Việt Nam
+DESCRIPTION:Ngày Thơ Việt Nam được tổ chức vào rằm tháng Giêng hằng nă
+ m. Nhà An dự kiến có đêm đọc thơ và nhạc mộc\, ai cũng có thể đăng ký 
+ lên sân khấu mở. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/san-khau-mo
+END:VEVENT
+BEGIN:VEVENT
+UID:cd7a9488f68291eaa1b8d89461505e44@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Quốc tế Phụ nữ 8/3
+DESCRIPTION:Tặng hoa cho khách nữ\, chụp áo dài cùng mẹ\, chị em và bạ
+ n bè\; set trà và bánh làm quà. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/ngay-cua-nang
+END:VEVENT
+BEGIN:VEVENT
+UID:fbed9796a81b7af694117ec10a04a0a2@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Ngày Sách và Văn hóa đọc Việt Nam
+DESCRIPTION:Mang một cuốn\, đổi một cuốn ở tủ sách Góc Ấm Nhà An (dự k
+ iến)\, rồi đọc vài trang cùng chén trà nóng. — https://tiemnhaan.com/l
+ ich-su-kien
+URL:https://tiemnhaan.com/tu-sach
+END:VEVENT
+BEGIN:VEVENT
+UID:061efb0fe0bafca7b623a0fcf6a98a22@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Ngày Trái Đất
+DESCRIPTION:Một ngày cho thói quen xanh: mang ly cá nhân khi ghé tiệm 
+ và tìm hiểu dự định gom bã trà làm phân bón cây của Nhà An. — https://
+ tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/song-xanh
+END:VEVENT
+BEGIN:VEVENT
+UID:8571e1b1f745ba277c9f738b0321c886@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270801
+SUMMARY:Mùa thi 2027
+DESCRIPTION:Phòng Chạy Deadline yên tĩnh xuyên đêm\, bàn nhóm cho hội 
+ ôn thi và ưu đãi học sinh\, sinh viên (chi tiết công bố sau). — https:
+ //tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/mua-thi
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a2f921ba57815dd4b4ea5251514cbf@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Ngày Quốc tế Trà
+DESCRIPTION:Ngày Liên Hợp Quốc chọn để tôn vinh cây trà và người trồng
+  trà. Nhà An dự kiến có buổi thưởng trà ô long rang củi trước đêm acou
+ stic thứ Sáu. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/tra-viet
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c22065e22258646093734a72af4a85@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270801
+SUMMARY:Mùa sen
+DESCRIPTION:Tháng 6–7 là lúc sen nở rộ ở nhiều đầm sen. Gợi ý trà sen 
+ theo mùa và những buổi chụp ảnh sáng sớm ở Góc Sen Hồng. — https://tie
+ mnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/mua-vu
+END:VEVENT
+BEGIN:VEVENT
+UID:29781634ef41e15990eda2444038ad44@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270913
+SUMMARY:Workshop làm lồng đèn Trung thu
+DESCRIPTION:Các buổi cuối tuần làm đèn ông sao\, lồng đèn giấy cho ngư
+ ời lớn và các bé (dự kiến). Số chỗ có hạn\, nên đăng ký sớm. — https:/
+ /tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/trung-thu
+END:VEVENT
+BEGIN:VEVENT
+UID:fddf3de20e19aa73d9667f17f46eca10@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Tết Trung thu
+DESCRIPTION:Rằm tháng Tám rơi vào thứ Tư 15/9/2027. Đêm rước đèn cho c
+ ác bé (có phụ huynh đi cùng)\, bánh trung thu chay nhà làm và set chụp
+  áo dài với đèn lồng. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/trung-thu
+END:VEVENT
+BEGIN:VEVENT
+UID:fada2a7fbc6ec02c411b29e74e900053@tiemnhaan.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+SUMMARY:Ngày Phụ nữ Việt Nam 20/10
+DESCRIPTION:Hoa\, set trà và bánh làm quà\; hẹn mẹ\, chị em đi chụp áo
+  dài ở studio Nhà An. — https://tiemnhaan.com/lich-su-kien
+URL:https://tiemnhaan.com/su-kien/ngay-cua-nang
+END:VEVENT
+END:VCALENDAR

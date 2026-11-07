@@ -1,0 +1,198 @@
+{
+  "slug": "su-kien/ngay-cua-nang",
+  "group": "season",
+  "nav": "8/3 & 20/10",
+  "navDesc": "Hoa, chụp áo dài cùng mẹ, quà trà bánh",
+  "icon": "flower",
+  "title": "Ngày của nàng 8/3 & 20/10: tặng hoa, chụp áo dài, quà trà",
+  "description": "Mừng 8/3 và 20/10 ở Nhà An: hoa tặng khách nữ, chụp áo dài cùng mẹ và chị em, hộp trà bánh làm quà, gợi ý lời chúc. Đặt lịch chụp từ sớm.",
+  "image": "@aodai|mẹ và con gái mặc áo dài đứng cạnh nhau, tay cầm bó hoa",
+  "hero": {
+    "eyebrow": "Ngày của nàng · 8/3 & 20/10",
+    "title": "Một nhành hoa, một chén trà, *một lời cảm ơn*",
+    "lead": "Ngày 8/3 và 20/10, rủ mẹ, chị em hay hội bạn thân ghé Nhà An. Cùng mặc áo dài chụp vài tấm ảnh, chọn một hộp trà bánh làm quà và nói ra những lời thương thường ngày còn ngại.",
+    "img": "@aodai|mẹ và con gái mặc áo dài đứng cạnh nhau, tay cầm bó hoa",
+    "alt": "Mẹ và con gái mặc áo dài đứng cạnh nhau, tay cầm bó hoa",
+    "ctas": [
+      { "label": "Đặt lịch chụp áo dài", "href": "#dat-lich", "style": "primary" },
+      { "label": "Gợi ý lời chúc", "href": "#loi-chuc", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "y-nghia",
+      "eyebrow": "Ý nghĩa",
+      "title": "Hai ngày để nói *lời cảm ơn*",
+      "paras": [
+        "Mỗi năm, người Việt có hai dịp để gửi lời yêu thương tới phái đẹp: Ngày Quốc tế Phụ nữ 8/3 và Ngày Phụ nữ Việt Nam 20/10. Phố phường rực sắc hoa, công sở rộn tiếng chúc, và ai cũng có một người phụ nữ muốn nói lời cảm ơn.",
+        "Ngày 8/3 bắt nguồn từ phong trào của phụ nữ lao động đầu thế kỷ 20, còn 20/10 là dịp kỷ niệm ngày thành lập Hội Liên hiệp Phụ nữ Việt Nam năm 1930. Hai câu chuyện khác nhau, chung một tinh thần: ghi nhận và trân trọng phụ nữ, ở nhà, nơi làm việc và trên mọi con đường họ chọn."
+      ],
+      "img": "@market|sạp hoa tươi bên đường với nhiều bó hoa hồng và hoa cúc",
+      "alt": "Sạp hoa tươi bên đường với nhiều bó hoa hồng và hoa cúc"
+    },
+    {
+      "type": "table",
+      "id": "xem-nhanh",
+      "eyebrow": "Xem nhanh",
+      "title": "8/3 và 20/10, *khác nhau ở đâu?*",
+      "lead": "Hai ngày lễ cùng dành cho phụ nữ nhưng có nguồn gốc riêng. Bảng dưới đây kèm cả ngày của dịp tới để bạn hẹn mẹ, hẹn bạn từ sớm.",
+      "head": ["Thông tin", "8/3 · Quốc tế Phụ nữ", "20/10 · Phụ nữ Việt Nam"],
+      "rows": [
+        ["Nguồn gốc", "Phong trào của phụ nữ lao động đầu thế kỷ 20, đòi quyền bình đẳng và điều kiện làm việc tốt hơn", "Kỷ niệm ngày thành lập Hội Liên hiệp Phụ nữ Việt Nam, 20/10/1930"],
+        ["Phạm vi", "Nhiều nước trên thế giới; Liên Hợp Quốc chính thức kỷ niệm từ năm 1975", "Ngày riêng của Việt Nam"],
+        ["Dịp tới", "Thứ Hai, 8/3/2027", "Thứ Tư, 20/10/2027"],
+        ["Gợi ý hẹn chụp", "Cuối tuần 6–7/3 hoặc tối thứ Hai 8/3", "Cuối tuần 16–17/10 hoặc tối thứ Tư 20/10"],
+        ["Ở Nhà An (dự kiến)", "Tặng hoa khách nữ, chụp áo dài cùng mẹ và chị em", "Set chụp áo dài, hộp trà bánh làm quà"]
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "o-nha-an",
+      "eyebrow": "Ở Nhà An",
+      "title": "Ngày của nàng *có gì ở Nhà An?*",
+      "lead": "Những điều Nhà An đang chuẩn bị cho 8/3 và 20/10, để bạn rủ mẹ, chị em hay hội bạn thân ghé chơi.",
+      "items": [
+        {
+          "img": "@gift|nhành hoa hồng nhỏ gói giấy kraft, buộc nơ vải",
+          "alt": "Nhành hoa hồng nhỏ gói giấy kraft, buộc nơ vải",
+          "tag": "8/3 · dự kiến",
+          "title": "Một nhành hoa ngày 8/3",
+          "text": "Ngày 8/3, khách nữ ghé chi nhánh đã khai trương sẽ được Nhà An tặng một nhành hoa nhỏ, thay lời cảm ơn.",
+          "href": "/lich-su-kien"
+        },
+        {
+          "img": "@aodai|hai cô gái mặc áo dài màu pastel cầm nón lá tạo dáng",
+          "alt": "Hai cô gái mặc áo dài màu pastel cầm nón lá tạo dáng",
+          "tag": "Studio áo dài",
+          "title": "Chụp áo dài cùng mẹ, chị em",
+          "text": "Áo dài truyền thống, cách tân, áo dài đôi và áo dài trẻ em, kèm nón lá, quạt, giỏ hoa. Phòng studio riêng có đèn và set trang trí theo mùa.",
+          "href": "/chup-anh"
+        },
+        {
+          "img": "@gift|hộp quà giấy kraft đựng hộp trà thiếc và bánh nướng",
+          "alt": "Hộp quà giấy kraft đựng hộp trà thiếc và bánh nướng",
+          "tag": "Quà tặng",
+          "title": "Hộp trà & bánh làm quà",
+          "text": "Hộp quà trà ô long rang củi và bánh nướng trong ngày. Thêm vài dòng chúc viết tay, món quà sẽ mang đúng giọng của bạn.",
+          "href": "/qua-tang"
+        },
+        {
+          "img": "pink-drinks",
+          "alt": "Những ly trà trái cây sắc hồng trên bàn",
+          "tag": "Đặt bàn",
+          "title": "Trà chiều cho hội chị em",
+          "text": "Bàn dài ở Sân Rôm Rả cho cả hội, góc sofa ở Góc Ấm cho hai mẹ con. Gọi ấm ô long rang củi, trà sen hay trà trái cây theo mùa, ly nào cũng chọn được mức đường.",
+          "href": "/dat-ban"
+        },
+        {
+          "img": "polaroid-wall",
+          "alt": "Tường ảnh polaroid ghim nhiều tấm ảnh kỷ niệm",
+          "tag": "Góc check-in",
+          "title": "Tấm polaroid tặng mẹ",
+          "text": "Chụp ở Tường Hoa hay Góc Sen Hồng, in ảnh polaroid lấy liền tại quầy, viết vài chữ phía sau rồi trao tận tay.",
+          "href": "/tin-tuc/studio-ao-dai-va-goc-check-in"
+        },
+        {
+          "img": "@meet|bàn tiệc trà nhỏ trong văn phòng với bánh ngọt và bình hoa",
+          "alt": "Bàn tiệc trà nhỏ trong văn phòng với bánh ngọt và bình hoa",
+          "tag": "Văn phòng",
+          "title": "Mừng chị em cả phòng",
+          "text": "Nhà An nhận tiệc trà văn phòng giao tận nơi. Muốn mừng ngay tại tiệm, Sân Rôm Rả nhận tiệc nhỏ đến 30 khách, đặt trước ít nhất 2 ngày.",
+          "href": "/hop-tac"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Các hoạt động 8/3 và 20/10 trên trang này là dự kiến, chỉ áp dụng tại chi nhánh đã khai trương. Chi tiết từng dịp sẽ được thông báo trên website và Zalo 0865 920 041."
+    },
+    {
+      "type": "steps",
+      "id": "chup-cung-me",
+      "eyebrow": "Studio áo dài",
+      "title": "Chụp áo dài cùng mẹ *trong 5 bước*",
+      "lead": "Một buổi chụp thong thả, để mẹ cũng thấy vui như được đi chơi cùng con.",
+      "items": [
+        { "title": "Chọn gói chụp", "text": "Gói Tự Chụp hợp với hai mẹ con, Gói Studio cho nhóm đến 4 người, Gói Trọn Gói khi muốn có thợ ảnh, trang điểm và làm tóc." },
+        { "title": "Đặt lịch sớm", "text": "Gửi yêu cầu qua form cuối trang hoặc Zalo 0865 920 041. Năm 2027, 8/3 rơi vào thứ Hai và 20/10 vào thứ Tư, nên cuối tuần trước đó hoặc buổi tối sau giờ làm là lúc cả nhà dễ hẹn nhau." },
+        { "title": "Chọn áo cùng tông", "text": "Nhà An gọi xác nhận và tư vấn mẫu áo, size. Mẹ con mặc cùng một tông màu, hoặc mẹ đậm con nhạt, ảnh lên sẽ hài hòa." },
+        { "title": "Đến sớm một chút", "text": "Để có thời gian thay đồ, trang điểm nếu đã đặt, và để mẹ không phải vội. Nón lá, quạt, giỏ hoa có sẵn đi kèm áo." },
+        { "title": "Chụp xong, ngồi lại uống trà", "text": "Chụp thêm ở Tường Hoa, Góc Sen Hồng, in một tấm polaroid tại quầy rồi cùng mẹ thưởng ấm ô long và đĩa bánh." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "loi-chuc",
+      "eyebrow": "Lời chúc",
+      "title": "Gợi ý lời chúc *cho từng người*",
+      "lead": "Chép lên thiệp, nhắn kèm hộp quà hay đọc to bên bàn trà đều được. Sửa vài chữ cho đúng giọng của bạn, và đừng quên dành một lời chúc cho chính mình.",
+      "items": [
+        { "icon": "heart", "title": "Gửi mẹ", "text": "Cảm ơn mẹ vì mâm cơm lúc nào cũng có phần để dành cho con. Hôm nay đổi vai nhé: con pha trà, mẹ chỉ việc ngồi và kể chuyện." },
+        { "icon": "home", "title": "Gửi bà", "text": "Chúc bà luôn mạnh khỏe, mắt sáng, chân vững, để cả nhà còn được nghe bà kể chuyện ngày xưa bên ấm trà mỗi sáng." },
+        { "icon": "users", "title": "Gửi chị em gái", "text": "Từ hồi giành nhau cái điều khiển tivi đến những đêm thức khuya tâm sự, có nhau là có đồng minh. Chúc chị em mình luôn tự tin sống theo cách mình chọn." },
+        { "icon": "chat", "title": "Gửi bạn thân", "text": "Cảm ơn cậu đã nghe tớ kể một chuyện đến lần thứ mười mà vẫn gật gù. Chúc cậu deadline nhẹ, ngủ đủ giấc và ngày nào cũng có lý do để cười." },
+        { "icon": "briefcase", "title": "Gửi đồng nghiệp", "text": "Cảm ơn chị vì những góp ý thẳng thắn và cả những ly trà chiều chia nhau lúc cả phòng đuối sức. Chúc chị công việc suôn sẻ, luôn được ghi nhận xứng đáng." },
+        { "icon": "flower", "title": "Gửi người thương", "text": "Cảm ơn vì đã làm những ngày bình thường trở nên dịu dàng hơn. Chúc người thương luôn được là chính mình: được mơ, được nghỉ ngơi và được yêu thương thật nhiều." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Cảm hứng",
+      "title": "Những khoảnh khắc *đáng giữ lại*",
+      "lead": "Ảnh minh họa cho không khí Nhà An muốn có trong ngày của nàng: áo dài, hoa tươi, trà nóng và bánh mới ra lò.",
+      "items": [
+        { "img": "aodai-duo", "caption": "Hai tà áo dài xanh cho một buổi chiều đẹp trời" },
+        { "img": "@brew|ấm trà gốm rót trà vào hai chén nhỏ trên bàn gỗ", "caption": "Một ấm trà, hai chén nhỏ, nhiều chuyện để kể" },
+        { "img": "@cake|đĩa bánh tart trái cây và bánh ngọt nhỏ cho buổi trà chiều", "caption": "Bánh tart trái cây và bánh ngọt cho buổi trà chiều" },
+        { "img": "@lotus|búp sen hồng cắm trong bình gốm cạnh ấm trà", "caption": "Búp sen hồng bên ấm trà, sắc màu quen của Nhà An" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về *ngày của nàng*",
+      "items": [
+        {
+          "q": "Ngày 8/3, khách nữ được tặng hoa thế nào?",
+          "a": "Dự kiến trong ngày 8/3, khách nữ ghé chi nhánh đã khai trương sẽ được Nhà An tặng một nhành hoa nhỏ, không cần đặt trước. Cách tặng cụ thể ở từng chi nhánh sẽ được thông báo trên website và Zalo trước dịp lễ."
+        },
+        {
+          "q": "Nên đặt lịch chụp áo dài dịp 8/3, 20/10 trước bao lâu?",
+          "a": "Nên đặt trước vài ngày để chọn được khung giờ đẹp, nhất là khi đi nhóm đông hoặc cần thợ ảnh, trang điểm. Studio mở cửa 24/7, nên bạn có thể chọn cả khung giờ tối sau giờ làm."
+        },
+        {
+          "q": "Studio có áo dài cho mẹ, bà và các bé không?",
+          "a": "Có áo dài truyền thống, cách tân, áo dài đôi và áo dài trẻ em, nhiều màu và nhiều size. Khi đặt lịch, bạn báo số người và số đo cơ bản để Nhà An tư vấn mẫu áo vừa vặn."
+        },
+        {
+          "q": "Có thể đặt hộp quà trà bánh để tặng mẹ không?",
+          "a": "Có. Bạn đặt trước hộp quà trà ô long và bánh để nhận tại chi nhánh. Nếu cần giao tận nơi hay đặt số lượng nhiều, hãy nhắn Zalo 0865 920 041 để được tư vấn."
+        },
+        {
+          "q": "Công ty muốn mừng 8/3, 20/10 cho chị em cả phòng thì sao?",
+          "a": "Nhà An nhận tiệc trà văn phòng giao tận nơi. Nếu muốn mừng tại tiệm, Sân Rôm Rả nhận tiệc nhỏ đến 30 khách, đặt trước ít nhất 2 ngày. Với quà tặng số lượng lớn cho doanh nghiệp, bạn gửi yêu cầu ở trang Hợp tác."
+        },
+        {
+          "q": "Có thể đặt lịch chụp hoặc hộp quà để tạo bất ngờ cho mẹ, người thương không?",
+          "a": "Được. Bạn đặt như bình thường và ghi dịp tặng vào phần ghi chú, Nhà An sẽ liên hệ để cùng bạn chuẩn bị cho bất ngờ ấy."
+        },
+        {
+          "q": "Giá gói chụp và hộp quà là bao nhiêu?",
+          "a": "Website hiện chưa đăng giá. Bạn gửi yêu cầu qua form hoặc Zalo, Nhà An sẽ báo giá theo số người, khung giờ và loại quà bạn chọn."
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "kind": "reserve",
+      "id": "dat-lich",
+      "eyebrow": "8/3 & 20/10",
+      "title": "Đặt lịch chụp áo dài cùng mẹ, chị em",
+      "lead": "Chọn chi nhánh, ngày giờ và số người. Nhà An sẽ gọi lại tư vấn mẫu áo, size và gửi báo giá; muốn đặt kèm hộp quà trà bánh, bạn ghi vào phần ghi chú.",
+      "preset": "Studio áo dài"
+    }
+  ],
+  "related": ["/chup-anh", "/qua-tang", "/lich-su-kien", "/tin-tuc/chon-ao-dai-cho-buoi-chup", "/su-kien"]
+}

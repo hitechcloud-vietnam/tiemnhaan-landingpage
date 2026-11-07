@@ -1,0 +1,183 @@
+{
+  "slug": "thu-vien-anh",
+  "group": "tools",
+  "nav": "Thư viện ảnh",
+  "navDesc": "Lọc ảnh theo chủ đề, chạm để xem lớn",
+  "icon": "camera",
+  "title": "Thư viện ảnh: trà, bánh, không gian và vùng miền",
+  "description": "Thư viện ảnh Nhà An: lọc theo trà, bánh chay, không gian, lễ hội, vùng miền và chạm để xem lớn. Kèm nguồn ảnh và giờ đẹp ở 6 góc check-in.",
+  "image": "@cafe|góc quán ấm cúng với kệ gỗ, cây xanh và tường treo nhiều khung ảnh",
+  "hero": {
+    "eyebrow": "Thư viện ảnh",
+    "title": "Ngắm trước không khí Nhà An *qua từng khung hình*",
+    "lead": "Trà rang mẻ nhỏ, bánh mới ra lò, những góc ngồi đèn vàng và năm vùng đất Nhà An sắp có mặt. Chọn chủ đề để lọc, chạm vào ảnh để xem lớn hơn.",
+    "img": "@cafe|góc quán ấm cúng với kệ gỗ, cây xanh và tường treo nhiều khung ảnh",
+    "alt": "Góc quán ấm cúng với kệ gỗ, cây xanh và tường treo nhiều khung ảnh",
+    "ctas": [
+      { "label": "Mở thư viện", "href": "#thu-vien", "style": "primary" },
+      { "label": "Studio áo dài & góc check-in", "href": "/chup-anh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "widget",
+      "name": "gallery",
+      "id": "thu-vien",
+      "eyebrow": "Lọc theo chủ đề",
+      "title": "Tất cả ảnh, *gọn trong sáu nhóm*",
+      "lead": "Trà & đồ uống, bánh & món chay, không gian, văn hóa & lễ hội, vùng miền, sống xanh & cộng đồng. Ảnh mới được bổ sung dần theo từng mùa."
+    },
+    {
+      "type": "note",
+      "text": "Ảnh trong thư viện hiện là ảnh minh họa có giấy phép mở; nguồn, giấy phép và tên tác giả (khi có) của từng ảnh được ghi ở trang Tín dụng hình ảnh. Ảnh thực tế của 5 chi nhánh sẽ được cập nhật sau khai trương."
+    },
+    {
+      "type": "cards",
+      "id": "chu-de",
+      "eyebrow": "Theo chủ đề",
+      "title": "Thích ảnh nào, *đọc tiếp câu chuyện ấy*",
+      "lead": "Mỗi nhóm ảnh dẫn tới một trang kể kỹ hơn về trà, bếp, không gian, mùa lễ, chi nhánh và những thói quen xanh của Nhà An.",
+      "items": [
+        {
+          "img": "@leaf|lá trà ô long khô xoăn tròn trên đĩa gốm",
+          "alt": "Lá trà ô long khô xoăn tròn trên đĩa gốm",
+          "tag": "Trà & đồ uống",
+          "title": "Từ búp trà đến ly trà sữa",
+          "text": "Ô long rang củi, trà sen, trà lài và trà sữa nhà làm với cốt trà ủ mới mỗi 4 tiếng.",
+          "href": "/tra-viet"
+        },
+        {
+          "img": "@veg|mâm cơm chay với đậu hũ non, rau luộc và canh rau củ",
+          "alt": "Mâm cơm chay với đậu hũ non, rau luộc và canh rau củ",
+          "tag": "Bánh & món chay",
+          "title": "Bếp chay và lò bánh",
+          "text": "Món chay ăn sáng, ăn trưa với nước dùng từ củ quả, không bột ngọt, cùng những mẻ bánh nướng từ 5 giờ sáng.",
+          "href": "/bep-chay"
+        },
+        {
+          "img": "cozy-lounge",
+          "alt": "Góc ghế bành ấm cúng trong quán",
+          "tag": "Không gian",
+          "title": "Bốn khu cho bốn tâm trạng",
+          "text": "Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline và Sân Rôm Rả, mở cửa 24/7.",
+          "href": "/khong-gian"
+        },
+        {
+          "img": "aodai-lantern",
+          "alt": "Tà áo dài bên những chiếc đèn lồng",
+          "tag": "Văn hóa & lễ hội",
+          "title": "Áo dài và những mùa lễ",
+          "text": "Set chụp áo dài theo mùa, Tết, Trung thu, Giáng sinh và những đêm acoustic thứ Sáu.",
+          "href": "/su-kien"
+        },
+        {
+          "img": "lm-hoian-riverside",
+          "alt": "Phố cổ Hội An bên bờ sông",
+          "tag": "Vùng miền",
+          "title": "Năm vùng đất, năm căn nhà",
+          "text": "Bình Thạnh, Tân Bình, trung tâm Đà Nẵng, phố cổ Hội An và Duy Xuyên bên dòng Thu Bồn.",
+          "href": "/chi-nhanh"
+        },
+        {
+          "img": "@green|ly thủy tinh cá nhân và túi vải đặt trên bàn gỗ",
+          "alt": "Ly thủy tinh cá nhân và túi vải đặt trên bàn gỗ",
+          "tag": "Sống xanh & cộng đồng",
+          "title": "Những thói quen xanh nhỏ",
+          "text": "Ly và ống hút giấy, khuyến khích mang ly cá nhân, nguyên liệu theo mùa cùng những hoạt động cộng đồng Nhà An đang chuẩn bị.",
+          "href": "/song-xanh"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "ve-anh",
+      "eyebrow": "Về những bức ảnh",
+      "title": "Ảnh minh họa hôm nay, *ảnh thật ngày khai trương*",
+      "paras": [
+        "Nhà An đang hoàn thiện 5 chi nhánh. Trong lúc chờ ngày mở cửa, thư viện này giúp bạn hình dung trước không khí của một tiệm trà, một bếp chay và những chỗ ngồi làm việc mà Nhà An đang chuẩn bị.",
+        "Ảnh được chọn từ các thư viện ảnh trực tuyến có giấy phép mở, và ảnh nào cũng có dòng ghi nguồn. Sau khai trương, ảnh thực tế của từng chi nhánh sẽ lần lượt được cập nhật."
+      ],
+      "bullets": [
+        "Ghi nguồn, giấy phép và tên tác giả (khi có) của từng ảnh",
+        "Ảnh thực tế 5 chi nhánh cập nhật sau khai trương",
+        "Thấy thông tin chưa đúng, báo Nhà An qua contact@tiemnhaan.com"
+      ],
+      "img": "@work|máy ảnh đặt cạnh laptop và sổ tay trên bàn gỗ",
+      "alt": "Máy ảnh đặt cạnh laptop và sổ tay trên bàn gỗ",
+      "reverse": true,
+      "cta": { "label": "Xem Tín dụng hình ảnh", "href": "/tin-dung-anh" }
+    },
+    {
+      "type": "steps",
+      "id": "chup-ly-tra",
+      "eyebrow": "Mẹo chụp ảnh",
+      "title": "Chụp ly trà đẹp bằng điện thoại *trong 5 bước*",
+      "lead": "Không cần máy ảnh xịn. Vài thói quen nhỏ là đủ để ly trà, đĩa bánh lên hình trong trẻo và đúng màu.",
+      "items": [
+        { "title": "Tìm ánh sáng cửa sổ", "text": "Ánh sáng tự nhiên chiếu xiên từ một bên giúp màu trà trong hơn và lớp kem mềm mắt hơn so với đèn trần." },
+        { "title": "Lau ống kính", "text": "Một vệt vân tay cũng đủ làm ảnh mờ như phủ sương. Lau nhẹ bằng khăn mềm trước khi chụp." },
+        { "title": "Chọn góc máy", "text": "Chụp ngang thân ly để thấy rõ các lớp trà, sữa, topping; chụp từ trên xuống cho bàn trà và đĩa bánh." },
+        { "title": "Dọn khung hình", "text": "Cất bớt túi, ví, dây sạc. Giữ lại vài món có câu chuyện như cuốn sổ, nhành lá hay chiếc bánh." },
+        { "title": "Lấy nét, chỉnh nhẹ", "text": "Chạm vào ly để lấy nét, giảm phơi sáng một chút nếu ảnh bị cháy sáng. Chỉnh màu vừa phải để giữ màu trà thật." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "gio-dep",
+      "eyebrow": "Góc check-in",
+      "title": "Giờ đẹp ở *6 góc check-in*",
+      "lead": "Thư viện để ngắm, còn đây là gợi ý để sau khai trương bạn có những tấm ảnh của riêng mình ở Nhà An.",
+      "head": ["Góc check-in", "Giờ đẹp", "Mẹo chụp"],
+      "rows": [
+        ["Tường Hoa Nhà An", "07:00 – 10:00", "Đứng cách tường vài bước để lớp hoa phía sau mềm và có chiều sâu."],
+        ["Góc Sen Hồng", "Lúc nắng sớm", "Hạ máy gần ngang mặt nước để giữ được bóng sen phản chiếu."],
+        ["Tường Polaroid", "Cả ngày", "Chụp xong in polaroid lấy liền tại quầy, ghim lên tường kỷ niệm."],
+        ["Góc Đèn Đêm", "Sau 19:00", "Tắt đèn flash, tựa tay vào bàn cho máy vững để giữ ánh vàng ấm."],
+        ["Bàn Trà Gốm", "Cả ngày", "Gọi một ấm trà, chụp từ trên xuống để thấy trọn ấm gốm Bát Tràng và chén trà."],
+        ["Góc Đèn Lồng", "Sau 18:00", "Có nhiều nhất ở chi nhánh Hội An; đứng gần đèn để gương mặt sáng ấm."]
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về *thư viện ảnh*",
+      "items": [
+        {
+          "q": "Ảnh trong thư viện có phải chụp tại Nhà An không?",
+          "a": "Chưa. Nhà An đang hoàn thiện 5 chi nhánh nên ảnh hiện tại là ảnh minh họa, giúp bạn hình dung không khí và các vùng đất. Ảnh thực tế sẽ được cập nhật sau khai trương."
+        },
+        {
+          "q": "Tôi có thể tải ảnh về để dùng lại không?",
+          "a": "Mỗi ảnh có giấy phép riêng, ghi ở trang Tín dụng hình ảnh kèm đường dẫn tới nguồn gốc. Muốn dùng lại, bạn nên lấy ảnh từ nguồn gốc và làm đúng điều kiện của giấy phép, chẳng hạn ghi tên tác giả."
+        },
+        {
+          "q": "Có được dùng logo và tên Nhà An kèm ảnh không?",
+          "a": "Logo và nhận diện thương hiệu của Nhà An không nằm trong giấy phép của ảnh minh họa. Nếu cần dùng cho bài viết hay hợp tác, bạn xem trang Báo chí & nhận diện hoặc liên hệ contact@tiemnhaan.com."
+        },
+        {
+          "q": "Tôi là tác giả một bức ảnh và thấy thông tin ghi công chưa đúng?",
+          "a": "Bạn gửi email tới contact@tiemnhaan.com kèm đường dẫn ảnh. Nhà An sẽ kiểm tra, sửa thông tin hoặc gỡ ảnh khi cần."
+        },
+        {
+          "q": "Chụp ảnh ở các góc check-in có mất phí không?",
+          "a": "Không. Các góc check-in trong tiệm dành cho khách của Nhà An. Studio riêng và các gói áo dài cần đặt lịch trước, bạn liên hệ để nhận báo giá."
+        },
+        {
+          "q": "Sau khai trương, tôi có thể gửi ảnh chụp ở Nhà An không?",
+          "a": "Có, Nhà An dự kiến nhận ảnh của khách qua Zalo 0865 920 041. Ảnh chỉ được đăng khi bạn đồng ý và có ghi tên người chụp; nếu trong ảnh có người khác, cần cả sự đồng ý của họ."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "chup-anh-cua-ban",
+      "title": "Muốn có những tấm ảnh *của riêng bạn*?",
+      "text": "Thuê áo dài, đặt phòng studio riêng hay ghé 6 góc check-in: sau khai trương, Nhà An sẵn sàng cùng bạn lưu lại những khoảnh khắc đẹp.",
+      "ctas": [
+        { "label": "Studio áo dài & góc check-in", "href": "/chup-anh", "style": "primary" },
+        { "label": "Đặt lịch chụp", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/chup-anh", "/tin-dung-anh", "/khong-gian", "/tim-kiem", "/tin-tuc/chon-ao-dai-cho-buoi-chup"]
+}

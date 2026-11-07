@@ -1,0 +1,195 @@
+{
+  "slug": "tra-viet/tu-dien/o-long-thanh-huong",
+  "group": "tea",
+  "nav": "Ô long thanh hương",
+  "navDesc": "Ô long ít rang, hương hoa, vị thanh",
+  "icon": "leaf",
+  "title": "Ô long thanh hương: hương hoa, vị thanh và cách pha",
+  "description": "Ô long thanh hương là gì? Dòng ô long oxy hóa nhẹ, ít rang, nước vàng xanh, hương hoa. Xem thông tin nhanh, cách pha tại nhà và điểm khác ô long rang củi.",
+  "image": "@brew|chén sứ trắng đựng trà ô long màu vàng xanh nhạt trên khay tre",
+  "hero": {
+    "eyebrow": "Từ điển trà",
+    "title": "Ô long thanh hương, *thoảng hương hoa sớm*",
+    "lead": "Oxy hóa nhẹ, rang rất nhẹ hoặc không rang thêm, ô long thanh hương giữ nước vàng xanh, hương hoa tươi và vị ngọt mát. Đây là người anh em thanh mát của ô long rang củi, món chủ lực ở quầy Nhà An.",
+    "img": "@brew|chén sứ trắng đựng trà ô long màu vàng xanh nhạt trên khay tre",
+    "alt": "Chén sứ trắng đựng trà ô long màu vàng xanh nhạt đặt trên khay tre",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "So với ô long rang củi", "href": "#so-sanh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "la-gi",
+      "eyebrow": "Ô long thanh hương là gì?",
+      "title": "Ô long giữ trọn *hương hoa của lá*",
+      "paras": [
+        "Ô long là trà bán oxy hóa, nằm giữa trà xanh và hồng trà. Với dòng thanh hương, lá chè chỉ được oxy hóa nhẹ; sau khi vò viên và sấy khô, trà được rang rất nhẹ hoặc không rang thêm. “Thanh hương” nghĩa là hương thanh: chén trà giữ mùi hoa cỏ tươi, khác với kiểu rang đậm cho hương nồng, ấm.",
+        "Ô long có gốc từ Phúc Kiến (Trung Quốc), còn phong cách thanh hương hiện đại phát triển mạnh từ Đài Loan. Từ cuối thế kỷ 20, các giống ô long từ Đài Loan như Kim Tuyên, Thúy Ngọc, Tứ Quý được trồng nhiều ở Lâm Đồng; ngày nay Bảo Lộc và Mộc Châu (Sơn La) đều là những vùng ô long quen thuộc của Việt Nam."
+      ],
+      "img": "@leaf|cận cảnh viên ô long xanh vo tròn chặt bên vài lá chè tươi",
+      "alt": "Những viên trà ô long xanh vo tròn chặt đặt cạnh vài lá chè tươi",
+      "cta": { "label": "Đọc về ô long rang củi", "href": "/tra-viet/o-long-rang-cui" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Ô long thanh hương *trong một bảng*",
+      "lead": "Thông số để bạn nhận ra và pha thử. Mỗi lô trà một khác, hãy xem đây là điểm khởi đầu rồi chỉnh theo khẩu vị.",
+      "head": ["Mục", "Ô long thanh hương"],
+      "rows": [
+        ["Nguồn gốc", "Ô long khởi nguồn từ Phúc Kiến, phong cách thanh hương phổ biến ở Đài Loan. Ở Việt Nam: Lâm Đồng (vùng Bảo Lộc), Mộc Châu (Sơn La)."],
+        ["Kiểu chế biến", "Bán oxy hóa ở mức nhẹ: làm héo, lắc nhẹ, sao diệt men, vò viên, sấy khô; rang rất nhẹ hoặc không rang thêm."],
+        ["Hình dáng", "Viên tròn, chặt, màu xanh lục; gặp nước nóng nở thành búp và lá nguyên."],
+        ["Màu nước", "Vàng xanh nhạt đến vàng chanh, trong và sáng."],
+        ["Hương vị", "Hương hoa tươi, thoảng mùi cỏ non; vị thanh, ngọt mát, chát rất nhẹ, hậu ngọt. Giống Kim Tuyên thường được nhắc đến với hương thoảng như sữa."],
+        ["Mức caffeine tương đối", "Vừa; pha càng đậm, hãm càng lâu thì càng nhiều"],
+        ["Nhiệt độ nước", "85–90°C, tức nước sôi để nguội vài phút"],
+        ["Lượng trà", "Khoảng 5 g cho 100 ml nước, tức trà khô vừa phủ kín đáy ấm"],
+        ["Thời gian hãm", "Ấm nhỏ: đánh thức trà 5 giây, nước đầu 30–40 giây, mỗi nước sau thêm 10–15 giây. Pha cốc: 2–3 phút."]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "hinh-anh",
+      "eyebrow": "Hình ảnh",
+      "title": "Từ đồi chè *đến chén trà vàng xanh*",
+      "lead": "Những khoảnh khắc làm nên một mẻ ô long thanh hương, và cách nó hiện ra trong chén.",
+      "items": [
+        { "img": "@origin|hàng chè ô long thẳng tắp trên đồi đất đỏ bazan Lâm Đồng", "caption": "Cao nguyên Lâm Đồng mát mẻ, nơi trồng nhiều ô long của Việt Nam." },
+        { "img": "@craft|lá chè ô long làm héo trải mỏng trên nong tre dưới bóng râm", "caption": "Làm héo: lá chè mềm dần và bắt đầu dậy hương hoa." },
+        { "img": "@craft|người làm trà vò lá chè thành viên tròn trong túi vải", "caption": "Vò viên: lá được cuộn chặt thành viên tròn trước khi sấy khô." },
+        { "img": "@leaf|lá ô long nở xòe nguyên búp trong chén có nắp sau vài nước pha", "caption": "Sau vài nước, viên trà nở bung thành búp và lá còn xanh tươi." },
+        { "img": "@brew|rót trà ô long vàng nhạt từ chén có nắp sang chén tống thủy tinh", "caption": "Rót kiệt sang chén tống để chén nào cũng đều vị." },
+        { "img": "@drinks|bình thủy tinh trà ô long ủ lạnh màu vàng nhạt bên ly đá", "caption": "Ủ lạnh qua đêm cho ly trà trong, ngọt mát ngày nắng." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "so-sanh",
+      "eyebrow": "So sánh",
+      "title": "Thanh hương hay *rang củi*?",
+      "lead": "Hai chén ô long có thể cùng xuất phát từ một vùng chè, nhưng độ lửa khiến chúng mang hai tính cách khác hẳn.",
+      "head": ["Tiêu chí", "Ô long thanh hương", "Ô long rang củi"],
+      "rows": [
+        ["Độ lửa", "Rang rất nhẹ hoặc không rang thêm", "Rang nhiều lượt trên lửa củi nhãn, theo mẻ nhỏ"],
+        ["Màu nước", "Vàng xanh nhạt, trong", "Vàng óng đến hổ phách"],
+        ["Hương", "Hoa tươi, cỏ non", "Rang ấm, khói gỗ nhẹ, mật ong"],
+        ["Vị", "Thanh, ngọt mát, chát rất nhẹ", "Tròn, dày, hậu ngọt như mật ong rang"],
+        ["Nhiệt độ nước", "85–90°C", "90–95°C"],
+        ["Bảo quản", "Dễ xuống hương, nên dùng sớm sau khi mở gói", "Giữ hương ổn định lâu hơn khi đựng kín"],
+        ["Hợp khi", "Ngày nóng, uống lạnh, bên bánh nhẹ và trái cây", "Ngày mưa, bữa sáng với bánh bơ, pha cùng sữa"]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "cach-pha",
+      "eyebrow": "Pha tại nhà",
+      "title": "Pha một ấm *thanh hương*",
+      "lead": "Kiểu ấm nhỏ cho hương rõ nhất. Bạn cần ấm hoặc chén có nắp 100–150 ml, chén tống, vài chén quân và nước khoảng 85–90°C.",
+      "items": [
+        { "title": "Lượng trà", "text": "Khoảng 5 g cho 100 ml nước, tức trà khô vừa phủ kín đáy ấm. Viên trà sẽ nở gấp nhiều lần, đừng cho quá tay." },
+        { "title": "Nước 85–90°C", "text": "Đun sôi rồi mở nắp chờ vài phút cho nước hạ nhiệt. Nước sôi sùng sục dễ làm bay hương hoa và khiến trà gắt." },
+        { "title": "Tráng ấm, đánh thức trà", "text": "Tráng nóng ấm chén, cho trà vào, rót nước ngập lá rồi chắt ra sau khoảng 5 giây để viên trà bắt đầu nở." },
+        { "title": "Hãm nước đầu", "text": "Hãm 30–40 giây rồi rót kiệt sang chén tống. Ngửi mặt trong nắp ấm để cảm hương hoa rõ nhất." },
+        { "title": "Những nước sau", "text": "Mỗi lần hãm thêm 10–15 giây. Một ấm ngon thường cho 5–7 nước, hương dịu dần nhưng vị vẫn ngọt mát." },
+        { "title": "Pha cốc hoặc ủ lạnh", "text": "Pha cốc: 3 g trà cho 250 ml nước, hãm 2–3 phút rồi nhấc lá ra. Ủ lạnh: 10 g trà cho 1 lít nước nguội, để tủ lạnh 6–8 tiếng." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thuong-thuc",
+      "eyebrow": "Thưởng thức",
+      "title": "Uống thế nào, *ăn kèm gì?*",
+      "lead": "Vị thanh của ô long thanh hương hợp với món nhẹ nhàng, ít béo, để hương hoa không bị lấn át.",
+      "items": [
+        { "icon": "cup", "title": "Nhấp ngụm nhỏ khi còn nóng", "text": "Ngửi chén lúc trà nóng và khi đã nguội: hương hoa còn đọng lại ở đáy chén sau khi uống cạn." },
+        { "icon": "droplet", "title": "Ủ lạnh cho ngày nắng", "text": "Trà ủ lạnh trong, ngọt mát và gần như không chát; rót qua đá là có ngay ly trà giải nhiệt." },
+        { "icon": "cake", "title": "Bánh nhẹ, ít béo", "text": "Mochi, bánh bò hay bông lan mềm có vị ngọt dịu, không lấn hương hoa của trà." },
+        { "icon": "flower", "title": "Trái cây theo mùa", "text": "Vài lát xoài chín, dâu hay vải tươi rất hợp với hương hoa và vị ngọt mát của trà." },
+        { "icon": "bowl", "title": "Món chay thanh vị", "text": "Gỏi cuốn chay, đậu hũ non hay rau củ hấp; một chén trà ấm giúp vị giác thanh lại giữa các món." },
+        { "icon": "sun", "title": "Sáng và đầu giờ chiều", "text": "Thời điểm dễ chịu để thưởng trà. Nếu nhạy cảm với caffeine, hãy tránh uống sát giờ ngủ." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "chon-va-giu",
+      "eyebrow": "Chọn mua và bảo quản",
+      "title": "Chọn trà ngon, *giữ hương lâu*",
+      "lead": "Trà ít rang nhạy cảm với độ ẩm, hơi nóng và mùi lạ hơn ô long rang, nên khâu chọn và cất càng quan trọng.",
+      "cols": [
+        {
+          "title": "Khi chọn",
+          "icon": "search",
+          "items": [
+            "Viên trà chắc, đều, màu xanh lục tươi, ít vụn",
+            "Trà khô thơm hoa cỏ, không có mùi ẩm, mùi khói hay mùi lạ",
+            "Pha thử thấy nước trong, lá nở ra búp và lá còn nguyên"
+          ]
+        },
+        {
+          "title": "Khi cất",
+          "icon": "shield",
+          "items": [
+            "Đựng trong túi hút chân không, hũ kín hoặc hộp thiếc nắp chặt",
+            "Để nơi khô mát, tránh nắng, xa bếp và đồ nặng mùi",
+            "Nếu cất tủ lạnh, chờ trà về nhiệt độ phòng rồi mới mở"
+          ]
+        },
+        {
+          "title": "Khi pha",
+          "icon": "timer",
+          "items": [
+            "Dùng nước lọc mới đun, không mùi clo",
+            "Rót kiệt sau mỗi lần hãm",
+            "Trà gắt hay đắng: giảm lá, hạ nhiệt độ nước hoặc rút ngắn thời gian hãm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về ô long thanh hương*",
+      "items": [
+        {
+          "q": "Ô long thanh hương có phải là trà xanh không?",
+          "a": "Không. Dù nước vàng xanh trông gần giống trà xanh, ô long thanh hương vẫn được làm héo và lắc cho oxy hóa một phần trước khi sao. Vì thế hương thiên về hoa, vị tròn và ngọt hơn, thường ít chát hơn trà xanh."
+        },
+        {
+          "q": "“Ô long sữa” có phải là ô long pha sữa?",
+          "a": "Không hẳn. Tên gọi này thường chỉ ô long giống Kim Tuyên, có hương thoảng như sữa ngay từ lá trà. Trên thị trường cũng có loại được thêm hương liệu, nên hãy đọc kỹ thành phần trên bao bì. Còn ô long sữa kem mây của Nhà An là ô long rang củi phủ lớp kem sữa tươi đánh bông."
+        },
+        {
+          "q": "Uống ô long thanh hương buổi tối có mất ngủ không?",
+          "a": "Ô long có caffeine ở mức vừa, nên ảnh hưởng tới giấc ngủ tùy cơ địa mỗi người. Nếu dễ mất ngủ, hãy uống sớm hơn giờ ngủ vài tiếng và pha nhạt hơn. Người nhạy cảm với caffeine hoặc đang mang thai nên hỏi ý kiến bác sĩ."
+        },
+        {
+          "q": "Nhà An có phục vụ ô long thanh hương không?",
+          "a": "Ô long chủ lực của Nhà An là ô long rang củi Bảo Lộc, sẽ có mặt trong ấm trà nóng, ô long đá và ô long sữa kem mây. Danh sách trà ở quầy và trà đóng túi dự kiến được công bố khi khai trương; bạn có thể nhắn Zalo để nhận tin sớm."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Pha thử ở nhà, *nếm thêm ở Nhà An*",
+      "text": "Mở công cụ pha trà để có gợi ý lượng trà, nhiệt độ và thời gian hãm. Muốn nếm ô long rang củi để so vị, hãy đặt bàn trước và ghé Nhà An khi 5 chi nhánh khai trương.",
+      "ctas": [
+        { "label": "Mở công cụ pha trà", "href": "/tra-viet/pha-tra", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": [
+    "/tra-viet/tu-dien",
+    "/tra-viet/o-long-rang-cui",
+    "/tra-viet/tu-dien/tra-xanh-moc-cau",
+    "/tra-viet/tu-dien/hong-tra",
+    "/tin-tuc/pha-o-long-tai-nha",
+    "/tin-tuc/o-long-rang-cui-la-gi",
+    "/tin-tuc/moc-chau-bao-loc-cau-dat",
+    "/tin-tuc/tra-u-lanh-cold-brew"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "bep-chay",
+  "group": "tea",
+  "nav": "Bếp chay",
+  "navDesc": "Món chay sáng, trưa và khuya",
+  "icon": "bowl",
+  "title": "Bếp chay: bữa sáng, bữa trưa và món chay khuya từ rau củ",
+  "description": "Bếp chay Tiệm Nhà An: nước dùng ninh từ củ quả, không bột ngọt, đậu hũ non làm mỗi sáng, món theo vùng và món chay khuya. Xem ghi chú dị ứng.",
+  "image": "@veg|mâm cơm chay Việt nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
+  "hero": {
+    "eyebrow": "Bếp chay Nhà An",
+    "title": "Bữa chay ấm bụng, *nấu như ở nhà*",
+    "lead": "Mọi món ăn ở Nhà An đều là món chay: nước dùng ninh từ củ quả, không bột ngọt, đậu hũ non làm mỗi sáng và rau hữu cơ theo mùa. Từ bữa sáng trước giờ làm đến món chay khuya cho ca deadline, bếp nấu sao cho nhẹ bụng mà vẫn đậm đà.",
+    "img": "@veg|mâm cơm chay Việt nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
+    "alt": "Mâm cơm chay nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
+    "ctas": [
+      { "label": "Xem món theo vùng", "href": "#mon-theo-vung", "style": "primary" },
+      { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "triet-ly-bep",
+      "eyebrow": "Triết lý bếp",
+      "title": "Ngọt từ rau củ, *không từ bột ngọt*",
+      "paras": [
+        "Ở Nhà An, toàn bộ món ăn sáng, trưa và khuya đều là món chay. Vị ngọt thanh đến từ nồi nước dùng ninh củ quả, vị béo mịn từ đậu hũ non làm mỗi sáng, vị tươi từ rau hữu cơ theo mùa.",
+        "Ăn chay trường, ăn chay ngày rằm, mùng một hay chỉ muốn một bữa nhẹ bụng giữa tuần, bạn đều tìm được món quen thuộc như cơm nhà."
+      ],
+      "bullets": [
+        "100% món ăn là món chay",
+        "Nước dùng ninh từ củ quả, không bột ngọt",
+        "Món thuần chay (không trứng, không sữa) có ghi chú tại quầy",
+        "Quét mã gọi món ngay tại bàn"
+      ],
+      "img": "@market|rổ rau củ tươi gồm củ cải trắng, bắp ngọt, cà rốt và nấm trên bàn bếp",
+      "alt": "Rổ rau củ tươi gồm củ cải trắng, bắp ngọt, cà rốt và nấm trên bàn bếp",
+      "cta": { "label": "Xem nguồn nguyên liệu", "href": "/nguyen-lieu" }
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "num": "100%", "label": "Món ăn là món chay" },
+        { "num": "22:00–04:00", "label": "Bếp có món chay khuya" },
+        { "num": "5", "label": "Chi nhánh, mỗi nơi một vị quê" },
+        { "num": "24/7", "label": "Mở cửa, kể cả lễ Tết" }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "nhip-bep",
+      "eyebrow": "Nhịp bếp trong ngày",
+      "title": "Từ bữa sáng *đến món chay khuya*",
+      "lead": "Khung giờ phục vụ là dự kiến và có thể điều chỉnh theo từng chi nhánh khi khai trương.",
+      "items": [
+        { "label": "05:00", "title": "Lò bánh đỏ lửa", "text": "Lò bánh bắt đầu nướng từ 5 giờ sáng. Đậu hũ non cũng được làm mới mỗi sáng ngay tại bếp." },
+        { "label": "06:00 – 10:30", "title": "Điểm tâm chay", "text": "Bánh mì pa-tê nấm, xôi, phở chay, cháo hạt sen: những món quen cho bữa sáng trước giờ học, giờ làm." },
+        { "label": "10:30 – 14:00", "title": "Cơm và bún trưa chay", "text": "Cơm chay đĩa với đậu hũ non, rau củ theo mùa và canh rau, bên cạnh những món bún, mì mang hương vị từng vùng." },
+        { "label": "24/7", "title": "Trà và bánh", "text": "Quầy trà và tủ bánh phục vụ cả ngày lẫn đêm, cho bữa xế hay chút ngọt giữa giờ chạy deadline." },
+        { "label": "22:00 – 04:00", "title": "Món chay khuya", "text": "Bếp vẫn nấu cho người làm ca đêm, ôn thi xuyên đêm hay chờ chuyến bay muộn. Nhân viên trực suốt 24 giờ." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "nguyen-tac",
+      "eyebrow": "Nguyên tắc bếp",
+      "title": "Sáu điều *bếp chay giữ mỗi ngày*",
+      "lead": "Không cầu kỳ, chỉ là những việc làm đều tay để món chay vừa ngon vừa an tâm.",
+      "items": [
+        { "icon": "droplet", "title": "Nước dùng từ củ quả", "text": "Ninh từ các loại củ quả như củ cải, bắp ngọt cùng nấm cho vị ngọt thanh tự nhiên, không dùng bột ngọt." },
+        { "icon": "sun", "title": "Đậu hũ non mỗi sáng", "text": "Làm mới mỗi sáng nên mềm mịn, thơm mùi đậu, sẵn sàng cho món cơm, món canh trong ngày." },
+        { "icon": "sprout", "title": "Rau hữu cơ theo mùa", "text": "Rau hữu cơ chọn theo mùa. Nhà An làm việc trực tiếp với nông hộ để rau về bếp còn tươi." },
+        { "icon": "leaf", "title": "Ghi chú thuần chay", "text": "Món không trứng, không sữa được ghi chú riêng tại quầy, bạn chọn nhanh mà không phải đoán." },
+        { "icon": "map", "title": "Món theo vùng", "text": "Mỗi chi nhánh giữ vài món mang vị quê nơi đó, từ hủ tiếu Nam Vang chay đến mì Quảng chay." },
+        { "icon": "phone", "title": "Gọi món tại bàn", "text": "Quét mã để gọi cơm chay, trà hay bánh mà không cần rời chỗ, kể cả khi đang chạy deadline." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "mon-theo-vung",
+      "eyebrow": "Món theo vùng",
+      "title": "Năm căn nhà, *năm vị quê*",
+      "lead": "Ngoài những món chay quen thuộc, mỗi chi nhánh Nhà An giữ vài món mang hương vị của vùng đất nơi mình đặt chân.",
+      "items": [
+        {
+          "img": "@veg|tô hủ tiếu chay nước trong với nấm, tàu hũ ky và hẹ",
+          "alt": "Tô hủ tiếu chay nước trong với nấm, tàu hũ ky và hẹ",
+          "title": "Hủ tiếu Nam Vang chay",
+          "tag": "Nhà An Bình Thạnh",
+          "text": "Nước lèo củ cải ngọt thanh, nấm, tàu hũ ky và hẹ cho bữa sáng kiểu Sài Gòn.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "@vietcake|gói xôi bắp nếp vàng với đậu xanh và mỡ hành trên lá chuối",
+          "alt": "Xôi bắp nếp vàng với đậu xanh và mỡ hành trên lá chuối",
+          "title": "Xôi bắp gánh",
+          "tag": "Nhà An Tân Bình",
+          "text": "Xôi bắp đậu xanh, mỡ hành chay, gợi nhớ gánh xôi đầu hẻm Sài Gòn xưa.",
+          "href": "/chi-nhanh/tan-binh"
+        },
+        {
+          "img": "@veg|tô mì Quảng chay sợi vàng với nấm, đậu phộng rang và bánh tráng mè",
+          "alt": "Tô mì Quảng chay sợi vàng với nấm, đậu phộng rang và bánh tráng mè",
+          "title": "Mì Quảng chay",
+          "tag": "Nhà An Đà Nẵng",
+          "text": "Sợi mì vàng nghệ, nấm, đậu phộng rang, bánh tráng mè và rau sống: món chay quen của các chi nhánh miền Trung.",
+          "href": "/chi-nhanh/da-nang"
+        },
+        {
+          "img": "@veg|bánh xèo chay nhỏ vàng giòn bên rổ rau sống và bánh tráng",
+          "alt": "Bánh xèo chay nhỏ vàng giòn bên rổ rau sống và bánh tráng",
+          "title": "Bánh xèo chay phố cổ",
+          "tag": "Nhà An Hội An",
+          "text": "Bánh xèo nhỏ giòn rụm, cuốn bánh tráng cùng rau làng Trà Quế.",
+          "href": "/chi-nhanh/hoi-an"
+        },
+        {
+          "img": "tofu-bowl",
+          "alt": "Phần cơm ăn kèm đậu hũ và rau xanh",
+          "title": "Cơm chay quê",
+          "tag": "Nhà An Duy Xuyên",
+          "text": "Cơm gạo lứt, rau vườn, đậu hũ non và canh rau, ăn chậm bên dòng Thu Bồn.",
+          "href": "/chi-nhanh/duy-xuyen"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "dau-hu-non",
+      "eyebrow": "Làm mới mỗi sáng",
+      "title": "Một mẻ đậu hũ non *cho ngày mới*",
+      "paras": [
+        "Đậu hũ là nguồn đạm thực vật quen thuộc của bữa chay Việt và ngon nhất khi vừa làm xong. Vì vậy, bếp Nhà An làm đậu hũ non mỗi sáng.",
+        "Đậu nành được ngâm mềm, xay nhuyễn, lọc lấy sữa, nấu chín rồi cho đông nhẹ thành những khối đậu mềm mịn. Từ mẻ đậu ấy có đĩa cơm trưa, bát canh rau và nhiều món khác trong ngày."
+      ],
+      "img": "@veg|khối đậu hũ non trắng mịn vừa cắt trong khay gỗ",
+      "alt": "Khối đậu hũ non trắng mịn vừa cắt trong khay gỗ",
+      "reverse": true,
+      "cta": { "label": "Đọc: từ hạt đậu nành đến chén tàu hũ", "href": "/tin-tuc/dau-hu-non-moi-sang" }
+    },
+    {
+      "type": "checklist",
+      "id": "di-ung",
+      "eyebrow": "Dị ứng và thành phần",
+      "title": "Món chay vẫn có thể *chứa chất gây dị ứng*",
+      "lead": "Nếu bạn dị ứng hoặc đang kiêng thành phần nào, hãy báo nhân viên trước khi gọi món. Đây là những thành phần thường gặp trong món chay Việt.",
+      "cols": [
+        {
+          "title": "Đậu nành",
+          "icon": "sprout",
+          "items": ["Đậu hũ, tàu hũ ky, sữa đậu nành", "Nước tương và các loại tương", "Nhiều loại chả chay"]
+        },
+        {
+          "title": "Gluten (lúa mì)",
+          "icon": "cake",
+          "items": ["Bánh mì và bánh ngọt từ bột mì", "Mì căn, một số loại chả chay", "Một số loại nước tương"]
+        },
+        {
+          "title": "Đậu phộng và mè",
+          "icon": "bowl",
+          "items": ["Đậu phộng rang rắc trên mì Quảng, xôi, món trộn", "Bánh tráng mè, muối mè", "Nước chấm tương đậu phộng"]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "goc-bep",
+      "eyebrow": "Góc bếp",
+      "title": "Một vòng *quanh bếp chay*",
+      "lead": "Vài món quen ở bếp chay Nhà An. Thực đơn chi tiết của từng chi nhánh sẽ được công bố khi khai trương.",
+      "items": [
+        { "img": "@bake|ổ bánh mì chay giòn kẹp pa-tê nấm, đồ chua và rau thơm", "caption": "Bánh mì pa-tê nấm cho bữa sáng vội." },
+        { "img": "@veg|bát cháo hạt sen nóng bốc khói trên bàn gỗ", "caption": "Cháo hạt sen nóng cho buổi sáng se lạnh." },
+        { "img": "tofu-noodle", "caption": "Đậu hũ xào bông cải xanh cho bữa trưa nhẹ bụng." },
+        { "img": "vegan-bowl", "caption": "Rau hữu cơ theo mùa trong một tô salad chay nhiều màu." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về bếp chay*",
+      "items": [
+        { "q": "Món ăn ở Nhà An có hoàn toàn là món chay không?", "a": "Có. Toàn bộ món ăn sáng, trưa và khuya đều là món chay, nước dùng ninh từ củ quả và không dùng bột ngọt. Riêng bánh Âu có thể dùng trứng, bơ hoặc sữa." },
+        { "q": "Món chay và món thuần chay khác nhau thế nào?", "a": "Món chay không dùng thịt, cá, hải sản nhưng có thể có trứng hoặc sữa. Món thuần chay không dùng trứng, sữa và được ghi chú riêng tại quầy; nếu bạn kiêng thêm thành phần khác như mật ong, cứ hỏi nhân viên." },
+        { "q": "Mình ăn chay kiêng ngũ vị tân thì gọi món thế nào?", "a": "Một số món có thể dùng hành, hẹ hoặc tỏi để dậy mùi. Bạn hãy báo nhân viên khi gọi món để được gợi ý những món phù hợp với cách ăn chay của mình." },
+        { "q": "Mình dị ứng đậu nành hoặc gluten thì có ăn được không?", "a": "Nhiều món chay dùng đậu hũ, nước tương hoặc bột mì, nên bạn hãy báo nhân viên trước khi gọi món. Vì bếp chế biến nhiều món trong cùng một khu, Nhà An không thể loại trừ hoàn toàn khả năng nhiễm chéo." },
+        { "q": "Nửa đêm bếp còn nấu không?", "a": "Có. Nhà An mở cửa 24/7 với nhân viên trực suốt 24 giờ; bếp có món chay khuya từ 22:00 đến 04:00, còn quầy trà và tủ bánh phục vụ cả ngày lẫn đêm." },
+        { "q": "Website có thực đơn và giá món không?", "a": "Hiện website chưa đăng thực đơn và giá. Thực đơn chi tiết của từng chi nhánh sẽ được công bố khi khai trương; bạn có thể nhắn Zalo 0865 920 041 để hỏi trước." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Hẹn bạn *một bữa chay ấm bụng*",
+      "text": "5 chi nhánh đang hoàn thiện và sắp khai trương. Đặt bàn trước để Nhà An giữ chỗ cho bữa sáng, bữa trưa hay ca làm đêm của bạn.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Ghé lò bánh", "href": "/lo-banh", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/lo-banh", "/nguyen-lieu", "/cam-ket", "/tin-tuc/bua-sang-chay-kieu-viet", "/tin-tuc/an-chay-khong-nham-chan"]
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "cong-dong",
+  "group": "community",
+  "nav": "Cộng đồng",
+  "navDesc": "Nghệ nhân, tủ sách, nhạc mộc, sống xanh",
+  "icon": "heart",
+  "title": "Cộng đồng ở Nhà An: nghệ nhân, tủ sách, nhạc mộc, sống xanh",
+  "description": "Góc trưng bày cho nghệ nhân, tủ sách trao đổi, đêm nhạc mộc, workshop làng nghề và hoạt động xanh Nhà An dự kiến làm cùng bạn. Gửi ý tưởng ngay.",
+  "image": "@club|nhóm bạn trẻ ngồi quanh bàn gỗ dài cùng làm đồ thủ công, cười nói vui vẻ",
+  "hero": {
+    "eyebrow": "Cộng đồng",
+    "title": "Mái nhà chung cho *những điều tử tế nhỏ*",
+    "lead": "Nhà An muốn mỗi chi nhánh là nơi người làm nghề, người mê sách, người chơi nhạc và những nhóm sống xanh tìm thấy nhau. Mọi hoạt động dưới đây hiện là định hướng, chờ bạn cùng bắt đầu từ ngày khai trương.",
+    "img": "@club|nhóm bạn trẻ ngồi quanh bàn gỗ dài cùng làm đồ thủ công, cười nói vui vẻ",
+    "alt": "Nhóm bạn trẻ ngồi quanh bàn gỗ dài cùng làm đồ thủ công",
+    "ctas": [
+      { "label": "Gửi đề xuất cộng đồng", "href": "#de-xuat", "style": "primary" },
+      { "label": "Xem sáu hoạt động", "href": "#hoat-dong", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "vi-sao",
+      "eyebrow": "Vì sao là cộng đồng",
+      "title": "Tiệm trà cũng có thể là *một sân chung*",
+      "paras": [
+        "Ngoài nhà và chỗ làm, ai cũng cần thêm một nơi để người lạ thành quen, học một điều mới hay chỉ ngồi cạnh những người cùng sở thích. Nhà An muốn là nơi như thế, với cửa mở 24/7 ở cả 5 chi nhánh.",
+        "Cộng đồng, theo cách Nhà An hiểu, bắt đầu từ việc nhỏ: một kệ sách chuyền tay, một tối nhạc mộc, một buổi tập nặn gốm. Làm nhỏ, làm đều, làm cùng người quanh mình."
+      ],
+      "bullets": [
+        "Mở cho mọi lứa tuổi, nội dung lành mạnh",
+        "Ưu tiên người làm nghề và nhóm trẻ quanh mỗi chi nhánh",
+        "Bắt đầu nhỏ, giữ nhịp đều đặn"
+      ],
+      "img": "cafe-long",
+      "alt": "Không gian quán với những bàn gỗ dài và quầy pha chế",
+      "cta": { "label": "Xem lịch sự kiện dự kiến", "href": "/lich-su-kien" }
+    },
+    {
+      "type": "cards",
+      "id": "hoat-dong",
+      "eyebrow": "Định hướng",
+      "title": "Sáu điều Nhà An *muốn cùng bạn làm*",
+      "lead": "Tất cả là định hướng và sẽ bắt đầu nhỏ sau khai trương, rồi lớn dần theo những gì bạn muốn.",
+      "items": [
+        {
+          "img": "@craftvn|kệ gỗ trưng bày chén gốm và khăn lụa thủ công",
+          "alt": "Kệ gỗ trưng bày chén gốm và khăn lụa làm tay",
+          "tag": "Dự kiến",
+          "title": "Góc trưng bày người làm nghề",
+          "text": "Tường và kệ gỗ cho tranh, ảnh, gốm, lụa của nghệ sĩ, nghệ nhân quanh mỗi chi nhánh, thay theo từng đợt.",
+          "href": "#nghe-nhan"
+        },
+        {
+          "img": "@books|kệ sách gỗ xếp những cuốn sách cũ ngay ngắn",
+          "alt": "Kệ sách gỗ xếp sách cũ ngay ngắn",
+          "tag": "Dự kiến",
+          "title": "Tủ sách trao đổi",
+          "text": "Kệ sách ở Góc Ấm để đọc tại chỗ, kèm hình thức mang một cuốn, đổi một cuốn cho ai muốn mang sách về.",
+          "href": "/tu-sach"
+        },
+        {
+          "img": "@club|người chơi guitar mộc hát dưới ánh đèn vàng trong quán nhỏ",
+          "alt": "Người chơi guitar mộc hát dưới ánh đèn vàng",
+          "tag": "Tối thứ Sáu",
+          "title": "Đêm nhạc mộc",
+          "text": "Từ 20:00 tối thứ Sáu, sân khấu mở cho người chơi nhạc nghiệp dư, đọc thơ, kể chuyện, âm lượng vừa đủ để cả tiệm cùng nghe.",
+          "href": "/san-khau-mo"
+        },
+        {
+          "img": "@work|nhóm sinh viên ôn bài bên bàn dài với sổ tay và laptop",
+          "alt": "Nhóm sinh viên ôn bài bên bàn dài",
+          "tag": "Tháng 5–7",
+          "title": "Đồng hành mùa thi",
+          "text": "Phòng Chạy Deadline yên tĩnh xuyên đêm, kèm ưu đãi cho học sinh, sinh viên. Chi tiết ưu đãi công bố trước mùa thi.",
+          "href": "/su-kien/mua-thi"
+        },
+        {
+          "img": "@club|lớp học gốm nhóm nhỏ, mọi người nặn đất bên bàn xoay",
+          "alt": "Lớp học gốm nhóm nhỏ bên bàn xoay",
+          "tag": "Dự kiến",
+          "title": "Workshop làng nghề",
+          "text": "Mời nghệ nhân gốm, lụa, lồng đèn hướng dẫn những lớp nhỏ cuối tuần, để người trẻ tự tay chạm vào nghề.",
+          "href": "/workshop"
+        },
+        {
+          "img": "@green|ly thủy tinh mang theo và ống hút tre bên chậu cây xanh",
+          "alt": "Ly thủy tinh cá nhân và ống hút tre cạnh chậu cây",
+          "tag": "Dự kiến",
+          "title": "Hoạt động xanh",
+          "text": "Khuyến khích mang ly cá nhân, gom bã trà ủ phân cho cây xanh và mời các nhóm sống xanh đến chia sẻ.",
+          "href": "/song-xanh"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "nghe-nhan",
+      "eyebrow": "Nghệ sĩ & nghệ nhân",
+      "title": "Góc trưng bày cho *người làm nghề địa phương*",
+      "lead": "Nhà An dự kiến dành một góc ở mỗi chi nhánh cho tác phẩm thủ công và nghệ thuật của những người làm nghề quanh đó.",
+      "items": [
+        { "icon": "palette", "title": "Tác phẩm làm bằng tay", "text": "Tranh, ảnh, gốm, lụa, đồ đan lát có câu chuyện riêng, hợp với không gian ấm và xanh của Nhà An." },
+        { "icon": "map", "title": "Gần đâu, mời đó", "text": "Sài Gòn có nhiều nhóm trẻ vẽ tranh, làm gốm, chụp ảnh; miền Trung có lụa Mã Châu, gốm Thanh Hà, đèn lồng Hội An." },
+        { "icon": "quote", "title": "Kể chuyện người làm", "text": "Mỗi tác phẩm kèm thẻ giới thiệu tác giả, chất liệu và cách làm. Khi phù hợp, Nhà An mời tác giả đến trò chuyện cùng khách." },
+        { "icon": "hand", "title": "Rõ ràng từ đầu", "text": "Thời gian trưng bày, cách bảo quản và việc bán tác phẩm, nếu có, được hai bên thống nhất trước khi treo." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "lang-nghe",
+      "eyebrow": "Workshop làng nghề",
+      "title": "Bốn nghề Việt *muốn mời về tiệm*",
+      "lead": "Lớp nhỏ, có nghệ nhân hướng dẫn, mỗi người mang về một món tự tay làm. Lịch và cách đăng ký sẽ có trên trang Workshop.",
+      "head": ["Nghề", "Gắn với", "Ở Nhà An (dự kiến)"],
+      "rows": [
+        ["Gốm", "Làng gốm Bát Tràng (Hà Nội), làng gốm Thanh Hà (Hội An)", "Bàn Trà Gốm với ấm gốm Bát Tràng; lớp vẽ gốm, nặn chén trà nhỏ"],
+        ["Lụa", "Làng lụa Mã Châu (Duy Xuyên)", "Góc lụa Mã Châu ở Nhà An Duy Xuyên; buổi trò chuyện từ kén tằm đến tấm lụa"],
+        ["Lồng đèn", "Đèn lồng phố cổ Hội An, đèn ông sao Trung thu", "Góc Đèn Lồng; workshop làm lồng đèn dịp Trung thu"],
+        ["Thư pháp", "Phong tục xin chữ ngày Tết", "Góc viết thư pháp, xin chữ dịp đầu xuân"]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "giu-nghe",
+      "title": "Những bàn tay *giữ nghề*",
+      "lead": "Ảnh minh họa các nghề thủ công Việt mà Nhà An mong được giới thiệu cùng bạn.",
+      "items": [
+        { "img": "@craftvn|nghệ nhân vẽ men lam lên bình gốm Bát Tràng", "caption": "Gốm: nét men lam vẽ tay trên nền men trắng" },
+        { "img": "silk", "caption": "Lụa: những tấm vải dệt tay rực rỡ hoa văn" },
+        { "img": "hoian-lanterns", "caption": "Lồng đèn: khung tre bọc vải, thắp sáng phố cổ mỗi tối" },
+        { "img": "@club|người viết thư pháp chữ Việt bằng bút lông trên giấy đỏ", "caption": "Thư pháp: nét bút lông gửi lời chúc đầu năm" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "cach-de-xuat",
+      "eyebrow": "Cùng bắt đầu",
+      "title": "Đề xuất một hoạt động *trong 4 bước*",
+      "lead": "Người làm nghề, câu lạc bộ, nhóm tình nguyện hay trường học đều có thể gửi. Nhà An đọc từng đề xuất và liên hệ lại.",
+      "items": [
+        { "title": "Gửi ý tưởng", "text": "Điền form cuối trang, nhắn Zalo 0865 920 041 hoặc email contact@tiemnhaan.com: bạn là ai, muốn làm gì, cho ai." },
+        { "title": "Trao đổi chi tiết", "text": "Nhà An liên hệ lại để bàn chi nhánh, khung giờ, số người, thiết bị và các điều kiện đi kèm." },
+        { "title": "Thử một buổi nhỏ", "text": "Bắt đầu bằng một buổi quy mô nhỏ để hai bên cùng xem điều gì hợp, điều gì cần chỉnh." },
+        { "title": "Lên lịch đều đặn", "text": "Buổi đầu suôn sẻ, hoạt động được đưa vào lịch sự kiện và giới thiệu trên website, Zalo." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "ai-cung-lam",
+      "eyebrow": "Ai có thể tham gia",
+      "title": "Ai cũng có thể *góp một tay*",
+      "cols": [
+        {
+          "title": "Người làm nghề & nghệ sĩ",
+          "icon": "palette",
+          "items": ["Nghệ nhân gốm, lụa, lồng đèn, đan lát", "Họa sĩ, nhiếp ảnh gia, người viết thư pháp", "Người chơi nhạc, đọc thơ, kể chuyện"]
+        },
+        {
+          "title": "Nhóm & câu lạc bộ",
+          "icon": "users",
+          "items": ["Câu lạc bộ sách, board game, ngoại ngữ", "Câu lạc bộ sinh viên, nhóm học tập", "Nhóm tình nguyện, nhóm sống xanh"]
+        },
+        {
+          "title": "Điều Nhà An mong",
+          "icon": "heart",
+          "items": ["Nội dung lành mạnh, hợp mọi lứa tuổi", "Không chính trị, không gây tranh cãi tôn giáo", "Không quảng bá rượu bia, thuốc lá", "Tôn trọng khu yên lặng và khách khác"]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh về *hoạt động cộng đồng*",
+      "items": [
+        { "q": "Các hoạt động cộng đồng đã bắt đầu chưa?", "a": "Chưa. Nhà An đang hoàn thiện 5 chi nhánh nên mọi hoạt động trên trang này là định hướng. Lịch cụ thể sẽ được công bố trên website và Zalo sau khai trương." },
+        { "q": "Tổ chức hoạt động cộng đồng ở Nhà An có mất phí không?", "a": "Tùy hình thức, quy mô và khung giờ của từng hoạt động. Nhà An sẽ trao đổi rõ mọi điều kiện trước khi lên lịch để bạn yên tâm chuẩn bị." },
+        { "q": "Tôi không ở gần chi nhánh nào, vẫn gửi tác phẩm trưng bày được chứ?", "a": "Bạn cứ gửi đề xuất kèm vài hình ảnh tác phẩm. Nhà An ưu tiên người làm nghề quanh mỗi chi nhánh nhưng vẫn đọc mọi đề xuất gửi đến." },
+        { "q": "Tôi muốn biểu diễn ở đêm nhạc mộc thì đăng ký ở đâu?", "a": "Bạn xem trang Đêm nhạc mộc để biết quy tắc và gửi đăng ký biểu diễn. Đêm nhạc dự kiến diễn ra tối thứ Sáu hằng tuần, từ 20:00." },
+        { "q": "Trường học hay nhóm tình nguyện có thể dùng không gian của Nhà An không?", "a": "Có thể. Sân Rôm Rả nhận nhóm đến 30 khách khi đặt trước ít nhất 2 ngày, Phòng Họp Hanh Thông có 6–10 chỗ. Nên gửi đề xuất sớm để chọn được khung giờ phù hợp." }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "de-xuat",
+      "kind": "contact",
+      "eyebrow": "Cùng làm với Nhà An",
+      "title": "Gửi đề xuất hợp tác cộng đồng",
+      "lead": "Kể cho Nhà An biết bạn là ai, muốn làm hoạt động gì, dành cho ai và ở chi nhánh nào. Nhà An sẽ đọc kỹ và liên hệ lại qua số điện thoại hoặc email bạn để lại.",
+      "preset": "Hợp tác cộng đồng"
+    }
+  ],
+  "related": ["/san-khau-mo", "/tu-sach", "/song-xanh", "/hop-tac", "/workshop"]
+}

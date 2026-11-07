@@ -1,0 +1,202 @@
+{
+  "slug": "tra-viet/vung-che",
+  "group": "tea",
+  "nav": "Vùng chè Việt",
+  "navDesc": "Bản đồ chữ các vùng chè nổi tiếng",
+  "icon": "map",
+  "title": "Vùng chè Việt Nam: bản đồ hương vị từ Bắc vào Nam",
+  "description": "Khám phá vùng chè Việt Nam: Tân Cương, Phú Thọ, Shan Tuyết cổ thụ, Mộc Châu, Bảo Lộc, Cầu Đất. So sánh hương vị từng vùng và gợi ý chuyến đi.",
+  "image": "tea-leaves",
+  "hero": {
+    "eyebrow": "Trà Việt",
+    "title": "Mỗi vùng chè, *một giọng trà riêng*",
+    "lead": "Trà Việt lớn lên trên nương chè trung du Thái Nguyên, trên núi cao nơi Shan Tuyết cổ thụ bám rễ và trên cao nguyên Bảo Lộc, Cầu Đất. Đất, sương và bàn tay người làm trà cho mỗi vùng một hương vị không lẫn vào đâu.",
+    "img": "@origin|đồi chè xanh trải dài nhìn từ trên cao",
+    "alt": "Những đồi chè xanh trải dài nhìn từ trên cao",
+    "ctas": [
+      { "label": "Xem bản đồ vùng chè", "href": "#ban-do", "style": "primary" },
+      { "label": "So sánh hương vị", "href": "#so-sanh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "features",
+      "id": "vi-sao-khac-nhau",
+      "eyebrow": "Hiểu trà",
+      "title": "Cùng một cây chè, vì sao *mỗi vùng mỗi khác*?",
+      "lead": "Trà xanh, ô long hay trà đen đều làm từ lá của cùng một loài cây chè. Khác biệt đến từ bốn điều dưới đây.",
+      "items": [
+        { "icon": "sprout", "title": "Giống chè", "text": "Chè trung du lá nhỏ, chè Shan búp to phủ lông tơ, các giống ô long gốc Đài Loan: mỗi giống cho một nền hương vị riêng." },
+        { "icon": "sun", "title": "Đất và khí hậu", "text": "Độ cao, sương mù, chênh lệch nhiệt độ ngày đêm và chất đất ảnh hưởng đến tốc độ lớn của búp chè và độ đậm của hương." },
+        { "icon": "hand", "title": "Tay nghề làm trà", "text": "Cùng một búp chè: sao trên chảo nóng để giữ màu xanh sẽ thành trà xanh; làm héo, lắc cho dập nhẹ mép lá rồi để oxy hóa một phần sẽ thành ô long; oxy hóa trọn vẹn sẽ thành trà đen." },
+        { "icon": "flower", "title": "Hương ướp", "text": "Người Việt còn ướp trà với sen, lài, hoa sói, hoa ngâu. Cùng một nền trà, hương hoa đổi cả cảm giác của chén trà." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ban-do",
+      "eyebrow": "Bản đồ chữ",
+      "title": "Sáu vùng chè *nên biết tên*",
+      "lead": "Đi từ trung du miền Bắc lên vùng núi cao phía Bắc rồi vào cao nguyên Lâm Đồng, mỗi vùng một gương mặt trà.",
+      "items": [
+        {
+          "img": "@origin|đồi chè trung du ở Thái Nguyên",
+          "alt": "Đồi chè trung du ở Thái Nguyên",
+          "title": "Tân Cương, Thái Nguyên",
+          "tag": "Trà xanh",
+          "text": "Vùng lõi của danh tiếng “đệ nhất danh trà”: búp nhỏ sao săn, cánh cong như móc câu, nước xanh ánh vàng, chát trước ngọt sau. Năm 2023, tri thức trồng và chế biến chè Tân Cương được ghi danh di sản văn hóa phi vật thể quốc gia.",
+          "href": "/tin-tuc/tra-tan-cuong-thai-nguyen"
+        },
+        {
+          "img": "@origin|đồi chè ở Phú Thọ",
+          "alt": "Đồi chè ở Phú Thọ",
+          "title": "Phú Thọ",
+          "tag": "Trung du",
+          "text": "Một trong những vùng chè lâu đời của trung du miền Bắc, làm nhiều trà đen xuất khẩu bên cạnh trà xanh. Đồi chè Long Cốc với hàng trăm quả đồi hình bát úp là điểm săn mây được nhiều người yêu thích."
+        },
+        {
+          "img": "@origin|cây chè cổ thụ ở Suối Giàng",
+          "alt": "Cây chè Shan Tuyết cổ thụ ở Suối Giàng",
+          "title": "Shan Tuyết cổ thụ",
+          "tag": "Núi cao phía Bắc",
+          "text": "Những cây chè Shan trăm tuổi trên núi cao Hà Giang, Suối Giàng, Tà Xùa; búp to phủ lông tơ trắng như tuyết nên có tên Shan Tuyết. Năm 2016, quần thể chè cổ thụ Suối Giàng được công nhận là Cây Di sản Việt Nam.",
+          "href": "/tin-tuc/tra-shan-tuyet-co-thu"
+        },
+        {
+          "img": "@origin|toàn cảnh đồi chè trái tim ở Mộc Châu",
+          "alt": "Đồi chè hình trái tim ở Mộc Châu, Sơn La",
+          "title": "Mộc Châu, Sơn La",
+          "tag": "Ô long và trà xanh",
+          "text": "Cao nguyên khoảng 1.000 m, mát mẻ quanh năm, nổi tiếng với những hàng chè uốn lượn và đồi chè trái tim. Bên cạnh trà xanh, nơi đây trồng nhiều giống ô long có nguồn gốc Đài Loan.",
+          "href": "/tin-tuc/moc-chau-bao-loc-cau-dat"
+        },
+        {
+          "img": "@origin|cây chè ở Bảo Lộc, Lâm Đồng",
+          "alt": "Cây chè trên vùng chè Bảo Lộc, Lâm Đồng",
+          "title": "Bảo Lộc, Lâm Đồng",
+          "tag": "Nguồn trà Nhà An",
+          "text": "Thủ phủ chè của Lâm Đồng trên nền đất đỏ bazan. Từ thập niên 1990, các giống ô long như Kim Tuyên, Tứ Quý, Thanh Tâm bén rễ ở đây và nay thành đặc sản của vùng. Đây là nguồn ô long Nhà An chọn để rang củi nhãn.",
+          "href": "/tra-viet/o-long-rang-cui"
+        },
+        {
+          "img": "@origin|đồi chè Cầu Đất ở ngoại ô Đà Lạt",
+          "alt": "Đồi chè Cầu Đất ở ngoại ô Đà Lạt",
+          "title": "Cầu Đất, Đà Lạt",
+          "tag": "Cao nguyên lạnh",
+          "text": "Đồi chè ở độ cao hơn 1.500 m, có từ khi người Pháp lập sở trà cuối thập niên 1920. Khí hậu lạnh khiến búp chè lớn chậm, cho ô long và trà xanh hương thanh.",
+          "href": "/tin-tuc/moc-chau-bao-loc-cau-dat"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Tên vùng ghi theo cách gọi quen thuộc. Từ 1/7/2025, sau khi sắp xếp lại đơn vị hành chính, Hà Giang thuộc tỉnh Tuyên Quang, Yên Bái (có Suối Giàng) thuộc tỉnh Lào Cai; các vùng còn lại vẫn thuộc tỉnh cùng tên."
+    },
+    {
+      "type": "table",
+      "id": "so-sanh",
+      "eyebrow": "Nếm thử",
+      "title": "So sánh nhanh *hương vị từng vùng*",
+      "lead": "Hương vị còn tùy giống chè, mùa hái và tay nghề từng nhà. Bảng dưới là gợi ý để bạn bắt đầu nếm và so sánh.",
+      "head": ["Vùng", "Kiểu trà tiêu biểu", "Hương vị thường gặp"],
+      "rows": [
+        ["Tân Cương (Thái Nguyên)", "Trà xanh móc câu", "Nước xanh ánh vàng, hương cốm non, chát trước ngọt sau"],
+        ["Phú Thọ", "Trà đen, trà xanh", "Trà đen nước đỏ nâu, vị đậm; trà xanh trung du chát rõ, hậu ngọt"],
+        ["Shan Tuyết (núi cao phía Bắc)", "Trà xanh, bạch trà, hồng trà", "Nước vàng sáng, chát nhẹ, hậu ngọt sâu và lâu"],
+        ["Mộc Châu (Sơn La)", "Trà xanh, ô long", "Ô long thơm hoa, nước trong; trà xanh dịu, dễ uống"],
+        ["Bảo Lộc (Lâm Đồng)", "Ô long, trà xanh", "Ô long hương hoa, vị ngọt mềm; khi rang lên có hương mật ong và khói nhẹ"],
+        ["Cầu Đất (Đà Lạt)", "Ô long, trà xanh, trà đen", "Hương hoa tươi, vị thanh của vùng cao lạnh"]
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "nguon-tra",
+      "eyebrow": "Nguồn trà Nhà An",
+      "title": "Nhà An chọn trà *từ ba vùng đất*",
+      "paras": [
+        "Nhà An làm việc trực tiếp với nông hộ ở ba vùng trà quen thuộc, nếm thử từng lô trước khi đưa về rang, ướp và pha.",
+        "Mỗi vùng giữ một vai riêng trong quầy trà: ô long cho món chủ lực, trà xanh cho trà lài, gạo sen cho trà sen."
+      ],
+      "bullets": [
+        "Bảo Lộc (Lâm Đồng): ô long một tôm hai lá, rang củi nhãn theo mẻ nhỏ",
+        "Tân Cương (Thái Nguyên): trà xanh búp nhỏ, ướp hoa lài",
+        "Hồ Tây (Hà Nội): gạo sen Bách Diệp để ướp trà sen"
+      ],
+      "img": "oolong-hero",
+      "alt": "Chén trà màu hổ phách đặt bên những bông hoa vàng",
+      "reverse": true,
+      "cta": { "label": "Xem hành trình nguyên liệu", "href": "/nguyen-lieu" }
+    },
+    {
+      "type": "gallery",
+      "id": "anh-vung-che",
+      "eyebrow": "Thư viện ảnh",
+      "title": "Một vòng *qua những nương chè*",
+      "lead": "Vài khung hình từ các vùng chè và công đoạn làm trà. Ảnh mang tính minh họa.",
+      "items": [
+        { "img": "@origin|nương chè ở Hà Giang", "caption": "Nương chè trên vùng núi Hà Giang" },
+        { "img": "@origin|đồi chè Thanh Chương ở Nghệ An", "caption": "Đồi chè Thanh Chương, Nghệ An" },
+        { "img": "@origin|hoa chè trắng nhụy vàng trên cành", "caption": "Hoa chè trắng nhụy vàng giữa nương chè" },
+        { "img": "@craft|lá chè tươi được rải mỏng để làm héo", "caption": "Làm héo lá chè, công đoạn đầu của nhiều loại trà" }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "chuyen-di",
+      "eyebrow": "Gợi ý chuyến đi",
+      "title": "Xách ba lô *về vùng chè*",
+      "lead": "Vài gợi ý để lên lịch, tùy quỹ thời gian và nơi bạn xuất phát.",
+      "cols": [
+        {
+          "title": "Từ Hà Nội",
+          "icon": "map",
+          "items": [
+            "Tân Cương: đi về trong ngày, ghé đồi chè và hồ Núi Cốc gần đó",
+            "Long Cốc: ngủ lại một đêm để đón mây trên đồi chè lúc bình minh",
+            "Mộc Châu: chuyến hai ngày, kết hợp đồi chè và các bản làng"
+          ]
+        },
+        {
+          "title": "Lên núi cao",
+          "icon": "sun",
+          "items": [
+            "Suối Giàng, Tà Xùa, Hà Giang: nên dành hai đến ba ngày vì đường đèo dài",
+            "Thời tiết vùng cao đổi nhanh, xem dự báo và mang theo áo ấm",
+            "Hỏi chủ vườn trước khi vào nương chè cổ thụ"
+          ]
+        },
+        {
+          "title": "Từ Sài Gòn, Đà Lạt",
+          "icon": "pin",
+          "items": [
+            "Bảo Lộc nằm trên đường Sài Gòn lên Đà Lạt, dễ ghé nửa ngày",
+            "Đồi chè Tâm Châu (Bảo Lộc) và Cầu Đất (Đà Lạt) đẹp nhất lúc sáng sớm còn mây",
+            "Nhiều cơ sở trà có chỗ cho khách nếm thử, nên hỏi trước giờ đón khách"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi đáp về vùng chè",
+      "items": [
+        { "q": "Chè và trà khác nhau thế nào?", "a": "Cả hai đều chỉ cây chè và thức uống từ lá chè. Người miền Bắc quen gọi “chè”, miền Nam hay gọi “trà”; nhiều người dùng “chè” cho cây và búp tươi, “trà” cho thành phẩm để pha." },
+        { "q": "Shan Tuyết có phải lúc nào cũng là trà cổ thụ?", "a": "Không hẳn. Shan Tuyết là tên giống chè búp to, phủ lông tơ trắng, thường mọc ở vùng núi cao. Có những vườn cây cổ thụ hàng trăm năm, cũng có những vườn Shan Tuyết trồng mới." },
+        { "q": "Ô long có phải trà Việt không?", "a": "Ô long là kiểu trà oxy hóa một phần, bắt nguồn từ Trung Quốc và nổi tiếng ở Đài Loan. Ở Việt Nam, ô long được trồng và chế biến tập trung ở Lâm Đồng và Mộc Châu, phần lớn từ các giống gốc Đài Loan." },
+        { "q": "Mùa nào hái chè ngon nhất?", "a": "Ở miền Bắc, chè thường nghỉ qua mùa đông và nhiều người chuộng lứa chè xuân vì búp non, hương thơm. Ở Lâm Đồng, chè cho thu hoạch gần như quanh năm; mỗi vùng một nhịp, hãy hỏi người trồng chè nơi bạn ghé." },
+        { "q": "Đi tham quan đồi chè cần lưu ý gì?", "a": "Đi theo lối mòn, không bẻ cành hay hái búp khi chưa được phép, hỏi chủ vườn trước khi chụp ảnh trong nương. Mua trà trực tiếp từ người làm trà cũng là cách ủng hộ vùng chè." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Nếm ba vùng trà *trong một buổi chiều*",
+      "text": "Khi khai trương, quầy trà Nhà An sẽ có ô long rang củi Bảo Lộc, trà xanh Tân Cương ướp lài và trà sen ướp gạo sen Hồ Tây. Nhắn Zalo để nhận tin ngày mở cửa.",
+      "ctas": [
+        { "label": "Tìm hiểu trà Nhà An", "href": "/tra-viet", "style": "primary" },
+        { "label": "Nhắn Zalo nhận tin", "href": "https://zalo.me/0865920041", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/tra-viet", "/nguyen-lieu", "/tin-tuc/tra-shan-tuyet-co-thu", "/tin-tuc/moc-chau-bao-loc-cau-dat"]
+}

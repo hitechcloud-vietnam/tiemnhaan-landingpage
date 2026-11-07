@@ -4,6 +4,7 @@
   "description": "Tiệm Nhà An — trà sữa, ô long rang củi, bánh ngọt và đồ chay, mở cửa 24/7 với không gian làm việc, học tập và studio áo dài. Sắp khai trương 5 chi nhánh tại TP. Hồ Chí Minh, Đà Nẵng và Hội An.",
   "lang": "vi",
   "dir": "ltr",
+  "id": "/",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
@@ -34,20 +35,20 @@
   ],
   "shortcuts": [
     {
+      "name": "Đặt bàn",
+      "url": "/dat-ban"
+    },
+    {
       "name": "Không gian",
       "url": "/khong-gian"
     },
     {
-      "name": "Chi nhánh",
-      "url": "/chi-nhanh"
+      "name": "Góc tập trung",
+      "url": "/tap-trung"
     },
     {
-      "name": "Tuyển dụng",
-      "url": "/tuyen-dung"
-    },
-    {
-      "name": "Liên hệ",
-      "url": "/lien-he"
+      "name": "Tìm kiếm",
+      "url": "/tim-kiem"
     }
   ]
 }

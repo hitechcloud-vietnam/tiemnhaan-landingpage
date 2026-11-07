@@ -1,0 +1,230 @@
+{
+  "slug": "su-kien/tet",
+  "group": "season",
+  "nav": "Tết ở Nhà An",
+  "navDesc": "Mở cửa xuyên Tết, chụp áo dài, quà trà",
+  "icon": "flower",
+  "title": "Tết ở Nhà An: mở cửa xuyên Tết, chụp áo dài, quà trà",
+  "description": "Tết Đinh Mùi 2027 ở Tiệm Nhà An: mở cửa 24/7 xuyên Tết, set chụp áo dài hoa đào, hoa mai, hộp quà trà ô long và mứt. Giữ lịch chụp Tết sớm.",
+  "image": "@tet|cành mai vàng nở rộ trong nắng xuân ngày Tết",
+  "hero": {
+    "eyebrow": "Tết Nguyên Đán · Đinh Mùi 2027",
+    "title": "Chén trà đầu năm, *ấm như ở nhà*",
+    "lead": "Hoa mai, hoa đào, câu đối đỏ và ấm ô long rang củi lúc nào cũng nóng: Nhà An mở cửa 24/7 xuyên Tết, cho cả những ai đón năm mới xa quê. Mùng 1 Tết Đinh Mùi rơi vào thứ Bảy 06/02/2027.",
+    "img": "@tet|cành mai vàng nở rộ trong nắng xuân ngày Tết",
+    "alt": "Cành mai vàng nở rộ trong nắng xuân ngày Tết",
+    "ctas": [
+      { "label": "Đặt lịch chụp áo dài Tết", "href": "#dat-lich", "style": "primary" },
+      { "label": "Xem lịch Tết 2027", "href": "#lich-tet-2027", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "tet-o-nha-an",
+      "eyebrow": "Mở cửa xuyên Tết",
+      "title": "Giao thừa hay mùng Một, *Nhà An vẫn sáng đèn*",
+      "paras": [
+        "Có người về quê từ hai mươi mấy tháng Chạp, có người ở lại thành phố vì ca trực, vì deadline cuối năm hay vì chưa kịp săn vé xe. Dù bạn đón Tết theo cách nào, cả 5 chi nhánh Nhà An vẫn mở cửa 24/7, kể cả đêm giao thừa và sáng mùng Một.",
+        "Mỗi căn nhà sẽ khoác áo Tết với hoa mai, hoa đào và câu đối đỏ. Quầy trà phục vụ suốt ngày đêm, nhân viên trực 24 giờ, bếp có món chay khuya từ 22:00 đến 04:00 cho những đêm cuối năm thức muộn."
+      ],
+      "bullets": [
+        "Mở cửa 24/7, kể cả giao thừa và mùng 1",
+        "Nhân viên trực 24 giờ suốt những ngày Tết",
+        "Món chay khuya 22:00–04:00",
+        "Phòng Chạy Deadline vẫn giữ giờ yên lặng"
+      ],
+      "img": "@tet|góc nhà trang trí Tết với cây quất, câu đối đỏ và đèn lồng",
+      "alt": "Góc nhà trang trí Tết với cây quất, câu đối đỏ và đèn lồng đỏ",
+      "reverse": true
+    },
+    {
+      "type": "cards",
+      "id": "hoat-dong",
+      "eyebrow": "Tết ở Nhà An",
+      "title": "Sáu cách *đón xuân ở Nhà An*",
+      "lead": "Từ buổi chụp áo dài đến chén trà đầu năm, chọn điều bạn thích rồi rủ cả nhà, cả hội cùng đi.",
+      "items": [
+        {
+          "img": "aodai-tet",
+          "alt": "Cô gái mặc áo dài đỏ họa tiết vàng tạo dáng giữa vườn hoa đào",
+          "tag": "Studio áo dài",
+          "title": "Set chụp áo dài Tết",
+          "text": "Phông hoa đào, hoa mai, câu đối đỏ cùng nón lá, quạt, giỏ hoa. Có áo dài truyền thống, cách tân, áo dài đôi và áo dài trẻ em.",
+          "href": "/chup-anh"
+        },
+        {
+          "img": "@gift|giỏ quà Tết với hộp trà, hũ mứt và thiệp viết tay",
+          "alt": "Giỏ quà Tết với hộp trà, hũ mứt và thiệp viết tay",
+          "tag": "Quà Tết",
+          "title": "Hộp quà trà ô long & mứt",
+          "text": "Ô long rang củi đi cùng mứt Tết theo mùa, kèm thiệp viết tay. Nhận đặt cho gia đình, thầy cô, đối tác và đồng nghiệp.",
+          "href": "/qua-tang"
+        },
+        {
+          "img": "@brew|ấm trà nóng rót ra những chén nhỏ trên khay gỗ",
+          "alt": "Ấm trà nóng rót ra những chén nhỏ trên khay gỗ",
+          "tag": "Trà Việt",
+          "title": "Chén trà đầu năm",
+          "text": "Một ấm ô long rang củi, trà sen hay trà lài để cả nhà ngồi lại, rót mời nhau và nói lời chúc đầu xuân.",
+          "href": "/tin-tuc/tra-ngay-tet"
+        },
+        {
+          "img": "@vietcake|bánh chưng và bánh tét gói lá xanh buộc lạt",
+          "alt": "Bánh chưng và bánh tét gói lá xanh buộc lạt",
+          "tag": "Dự kiến",
+          "title": "Bánh Tết chay",
+          "text": "Bánh chưng chay, bánh tét chay nhân đậu xanh hoặc nhân chuối, gói tại bếp chay của Nhà An theo mùa Tết.",
+          "href": "/bep-chay"
+        },
+        {
+          "img": "@tet|ông đồ viết thư pháp trên giấy đỏ ngày đầu xuân",
+          "alt": "Ông đồ viết thư pháp trên giấy đỏ ngày đầu xuân",
+          "tag": "Dự kiến",
+          "title": "Góc xin chữ đầu năm",
+          "text": "Xin một chữ An, chữ Phúc hay chữ Tâm viết bút lông trên giấy đỏ, mang về treo bàn học hay góc làm việc.",
+          "href": "/tin-tuc/thu-phap-va-xin-chu-dau-nam"
+        },
+        {
+          "img": "tet-fireworks",
+          "alt": "Pháo hoa rực sáng trên sông Sài Gòn đêm năm mới",
+          "tag": "Giao thừa",
+          "title": "Đón giao thừa xuyên đêm",
+          "text": "Trà nóng, nhạc nhẹ và hội bạn cùng đếm những phút cuối năm. Ai cần chạy nốt việc vẫn có góc yên tĩnh.",
+          "href": "/dem-o-nha-an"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "lich-tet-2027",
+      "eyebrow": "Lịch Tết 2027",
+      "title": "Tết Đinh Mùi, *khoanh lịch từ sớm*",
+      "lead": "Các mốc tính theo âm lịch Việt Nam. Hoạt động của Nhà An là dự kiến, ngày giờ ở từng chi nhánh sẽ được xác nhận trên website và Zalo.",
+      "items": [
+        {
+          "label": "08/01",
+          "title": "Mùng 1 tháng Chạp",
+          "text": "Thứ Sáu 08/01/2027. Studio dự kiến thay set Tết từ đây, nên giữ lịch chụp và đặt hộp quà sớm trước những ngày cận Tết."
+        },
+        {
+          "label": "30/01",
+          "title": "23 tháng Chạp: tiễn ông Công ông Táo",
+          "text": "Thứ Bảy 30/01/2027. Nhà nhà dọn dẹp, sắm sửa đón năm mới. Muốn hẹn hội bạn tất niên ở Sân Rôm Rả, nhớ đặt trước ít nhất 2 ngày."
+        },
+        {
+          "label": "05/02",
+          "title": "Đêm giao thừa",
+          "text": "Tối thứ Sáu 05/02/2027, tức 29 tháng Chạp: năm nay tháng Chạp thiếu nên không có ngày 30 Tết. Nhà An mở cửa xuyên đêm để bạn tiễn năm cũ bên chén trà nóng."
+        },
+        {
+          "label": "06/02",
+          "title": "Mùng 1 Tết Đinh Mùi",
+          "text": "Thứ Bảy 06/02/2027. Diện áo dài, rót chén trà đầu năm, xin một chữ (dự kiến) và chúc nhau một năm bình an."
+        },
+        {
+          "label": "20/02",
+          "title": "Rằm tháng Giêng",
+          "text": "Thứ Bảy 20/02/2027. Rằm đầu tiên của năm mới, phố phường vẫn còn sắc xuân, hợp cho một buổi hẹn trà hay buổi chụp ảnh muộn."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "moi-tra",
+      "eyebrow": "Phong tục mời trà",
+      "title": "Pha ấm trà đầu năm, *mời nhau cho tròn lễ*",
+      "lead": "Sáng mùng Một, nhiều gia đình dâng chén trà mới lên bàn thờ tổ tiên rồi mới pha ấm đãi khách. Bốn bước nhỏ để ấm trà ngày Tết vừa ngon vừa đúng nếp.",
+      "items": [
+        {
+          "title": "Tráng ấm, tráng chén",
+          "text": "Dội nước sôi qua ấm và chén cho nóng đều. Ấm nóng giữ nhiệt tốt, trà dậy hương nhanh hơn."
+        },
+        {
+          "title": "Đánh thức trà",
+          "text": "Với ô long, rót một lượt nước nóng rồi chắt bỏ ngay để lá trà nở ra. Trà xanh, trà lài nên dùng nước khoảng 75–80°C cho đỡ chát."
+        },
+        {
+          "title": "Rót cho đều tay",
+          "text": "Rót trà ra chén tống rồi mới chia ra từng chén, để chén nào cũng đậm nhạt như nhau. Mỗi chén chỉ rót chừng bảy phần."
+        },
+        {
+          "title": "Mời người lớn trước",
+          "text": "Nâng chén bằng hai tay, mời ông bà, cha mẹ và khách lớn tuổi trước, kèm một lời chúc. Đĩa mứt đặt bên cạnh để ai cũng tiện dùng."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "tra-va-mut",
+      "eyebrow": "Trà & mứt Tết",
+      "title": "Trà nào *đi cùng mứt nào*",
+      "lead": "Mứt Tết ngọt đậm nên cần một chén trà đủ đượm để cân lại. Vài cặp gợi ý từ quầy trà Nhà An, còn ngon nhất vẫn là vị bạn thích.",
+      "head": ["Mứt Tết", "Trà gợi ý", "Vì sao hợp"],
+      "rows": [
+        ["Mứt gừng", "Ô long rang củi", "Vị cay ấm của gừng gặp hương rang và hậu ngọt của ô long, hợp những buổi sáng đầu xuân."],
+        ["Mứt sen", "Trà sen", "Cùng một hương sen thanh nhẹ, đúng kiểu mời khách quý ngày đầu năm."],
+        ["Mứt dừa", "Trà xanh Thái Nguyên", "Vị chát dịu của trà xanh làm phần béo ngọt của dừa nhẹ đi, ăn mấy miếng cũng không ngấy."],
+        ["Mứt me, mứt tắc", "Trà lài", "Hương lài thanh, vị trà nhẹ giúp vị chua ngọt của mứt nổi lên rõ hơn."]
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "goc-chup-tet",
+      "eyebrow": "Ý tưởng chụp ảnh",
+      "title": "Sắc Tết *trong khung hình*",
+      "lead": "Vài khung cảnh Tết quen thuộc để bạn hình dung buổi chụp áo dài đầu năm.",
+      "items": [
+        { "img": "@tet|chợ hoa Tết tấp nập những chậu mai vàng", "caption": "Chợ hoa ngày cuối năm rực sắc mai vàng" },
+        { "img": "@tet|cành hoa đào hồng nở rộ ngày Tết", "caption": "Cành đào hồng, sắc xuân quen thuộc của miền Bắc" },
+        { "img": "@tet|phong bao lì xì đỏ treo trên cây quất ngày Tết", "caption": "Phong bao lì xì đỏ trên cây quất, chi tiết nhỏ làm ảnh Tết thêm vui" },
+        { "img": "@aodai|hai cô gái mặc áo dài dạo phố ngày xuân", "caption": "Áo dài dạo phố, nét duyên của những ngày đầu năm" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi đáp *Tết ở Nhà An*",
+      "items": [
+        {
+          "q": "Nhà An có mở cửa trong những ngày Tết không?",
+          "a": "Có. Khi đã khai trương, cả 5 chi nhánh mở cửa 24/7, kể cả đêm giao thừa và những ngày mùng 1, 2, 3, có nhân viên trực 24 giờ. Bếp vẫn phục vụ món chay khuya từ 22:00 đến 04:00."
+        },
+        {
+          "q": "Tết Nguyên Đán 2027 rơi vào ngày nào?",
+          "a": "Mùng 1 Tết Đinh Mùi là thứ Bảy 06/02/2027. Tháng Chạp năm Bính Ngọ chỉ có 29 ngày, nên đêm giao thừa là tối thứ Sáu 05/02/2027."
+        },
+        {
+          "q": "Nên đặt lịch chụp áo dài Tết trước bao lâu?",
+          "a": "Càng sớm càng tốt, nhất là các cuối tuần tháng Chạp và mùng 1 đến mùng 3. Studio mở 24/7 nên bạn có thể chọn khung giờ sáng sớm hoặc buổi tối cho đỡ đông. Giá các gói: liên hệ để nhận báo giá."
+        },
+        {
+          "q": "Hộp quà Tết gồm những gì, đặt số lượng lớn được không?",
+          "a": "Hộp quà gồm trà ô long rang củi và mứt Tết theo mùa, có thể kèm thiệp viết tay. Doanh nghiệp cần số lượng lớn vui lòng liên hệ sớm để Nhà An thiết kế theo yêu cầu."
+        },
+        {
+          "q": "Ngày Tết có những món chay nào?",
+          "a": "Toàn bộ món ăn ở Nhà An là món chay, nước dùng nấu từ củ quả, không dùng bột ngọt. Dịp Tết dự kiến có thêm bánh chưng chay, bánh tét chay; món thuần chay được ghi chú riêng tại quầy."
+        },
+        {
+          "q": "Đón Tết xa nhà một mình, ghé Nhà An có ổn không?",
+          "a": "Rất ổn. Bạn có thể ngồi Góc Ấm Nhà An với chén trà nóng, gọi video chúc Tết gia đình hay chạy nốt việc ở Phòng Chạy Deadline. Nhà An luôn có người trực để chúc bạn năm mới."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Các hoạt động Tết chỉ áp dụng tại chi nhánh đã khai trương. Lịch chi tiết, mẫu hộp quà và set chụp sẽ được công bố trên website và Zalo 0865 920 041."
+    },
+    {
+      "type": "form",
+      "id": "dat-lich",
+      "kind": "reserve",
+      "eyebrow": "Đặt lịch chụp Tết",
+      "title": "Giữ lịch chụp áo dài Tết",
+      "lead": "Chọn chi nhánh, ngày giờ và số người. Ở phần ghi chú, bạn cho Nhà An biết gói muốn chụp, màu áo và size; Nhà An sẽ gọi lại xác nhận, tư vấn và gửi báo giá.",
+      "preset": "Chụp áo dài Tết"
+    }
+  ],
+  "related": ["/qua-tang", "/chup-anh", "/tin-tuc/tra-ngay-tet", "/workshop/thu-phap", "/cong-cu/thiep-chuc", "/lich-su-kien"]
+}

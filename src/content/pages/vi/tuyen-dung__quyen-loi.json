@@ -1,0 +1,164 @@
+{
+  "slug": "tuyen-dung/quyen-loi",
+  "group": "careers",
+  "nav": "Quyền lợi nhân viên",
+  "navDesc": "Lương, bảo hiểm, đào tạo, ca linh hoạt",
+  "icon": "heart",
+  "title": "Quyền lợi nhân viên: lương, BHXH, đào tạo và ca linh hoạt",
+  "description": "Quyền lợi nhân viên Tiệm Nhà An: bán thời gian 30.000–35.000đ/giờ, chính thức 10–15 triệu/tháng kèm BHXH, BHYT, đào tạo từ đầu. Xem chi tiết và ứng tuyển.",
+  "image": "@drinks|cận cảnh hai bàn tay trao ly trà sữa nóng qua quầy gỗ",
+  "hero": {
+    "eyebrow": "Tuyển dụng",
+    "title": "Làm việc an tâm, *quyền lợi rõ ràng*",
+    "lead": "Lương công khai ngay từ tin tuyển dụng, BHXH và BHYT đầy đủ cho nhân viên chính thức, đào tạo từ đầu và lịch ca chủ động. Đây là những gì Nhà An dành cho người đồng hành ở 5 chi nhánh sắp khai trương.",
+    "img": "@drinks|cận cảnh hai bàn tay trao ly trà sữa nóng qua quầy gỗ",
+    "alt": "Cận cảnh hai bàn tay trao ly trà sữa nóng qua quầy gỗ",
+    "ctas": [
+      { "label": "Ứng tuyển ngay", "href": "#ung-tuyen", "style": "primary" },
+      { "label": "Xem lộ trình phát triển", "href": "/tuyen-dung/lo-trinh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "items": [
+        { "num": "30–35 nghìn", "label": "đồng mỗi giờ cho ca bán thời gian" },
+        { "num": "10–15 triệu", "label": "đồng mỗi tháng cho nhân viên chính thức" },
+        { "num": "0", "label": "năm kinh nghiệm cần có, vì Nhà An đào tạo từ đầu" },
+        { "num": "5", "label": "chi nhánh để bạn chọn nơi làm thuận đường" }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "thu-nhap",
+      "eyebrow": "Thu nhập",
+      "title": "Lương công khai, *trả đúng hẹn*",
+      "paras": [
+        "Mức lương được công bố ngay trên website để bạn cân nhắc trước khi ứng tuyển: bán thời gian 30.000–35.000đ mỗi giờ; nhân viên chính thức 10–15 triệu đồng mỗi tháng, có hợp đồng lao động, BHXH và BHYT đầy đủ.",
+        "Mức cụ thể trong khung tùy vị trí, kỹ năng và được thống nhất rõ khi phỏng vấn. Những ngày học việc luôn có người hướng dẫn và vẫn được tính lương, nên bạn không phải học không công."
+      ],
+      "bullets": [
+        "Mức lương ghi rõ trước ngày bắt đầu",
+        "Lương trả đúng kỳ hạn đã thỏa thuận"
+      ],
+      "img": "cafe-bright",
+      "alt": "Không gian quán sáng với cây xanh, bàn ghế và quầy pha chế phía sau",
+      "cta": { "label": "Xem các vị trí đang tuyển", "href": "/tuyen-dung" }
+    },
+    {
+      "type": "table",
+      "id": "so-sanh",
+      "eyebrow": "So sánh nhanh",
+      "title": "Bán thời gian hay chính thức: *chọn nhịp hợp với bạn*",
+      "lead": "Mỗi hình thức hợp với một nhịp sống. Xem nhanh trước khi chọn vị trí.",
+      "head": ["Nội dung", "Bán thời gian", "Nhân viên chính thức"],
+      "rows": [
+        ["Thu nhập", "30.000–35.000đ/giờ", "10–15 triệu đồng/tháng"],
+        ["Vị trí", "Barista / Pha chế, Phục vụ & thu ngân", "Barista / Pha chế, Thợ bánh, Phụ bếp chay"],
+        ["Lịch làm", "Đăng ký ca theo tuần: sáng, chiều hoặc tối", "Làm theo lịch ca của chi nhánh"],
+        ["Hợp đồng & bảo hiểm", "Tham gia bảo hiểm theo quy định hiện hành khi đủ điều kiện", "Hợp đồng lao động, BHXH, BHYT đầy đủ"],
+        ["Đào tạo", "Đào tạo từ đầu, có người kèm", "Đào tạo từ đầu và chuyên sâu theo vị trí"],
+        ["Phù hợp với", "Sinh viên, người cần thêm thu nhập", "Người muốn gắn bó lâu dài với nghề"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "cam-ket",
+      "eyebrow": "Cam kết",
+      "title": "Sáu quyền lợi *đã công bố*",
+      "lead": "Áp dụng như nhau tại cả 5 chi nhánh của Nhà An.",
+      "items": [
+        { "icon": "card", "title": "Lương rõ ràng", "text": "Bán thời gian 30.000–35.000đ/giờ, chính thức 10–15 triệu/tháng, công khai trước khi bạn gửi hồ sơ." },
+        { "icon": "shield", "title": "BHXH, BHYT đầy đủ", "text": "Nhân viên chính thức ký hợp đồng lao động, được đóng bảo hiểm xã hội, bảo hiểm y tế theo quy định." },
+        { "icon": "sprout", "title": "Đào tạo từ đầu", "text": "Không cần kinh nghiệm. Bạn được dạy pha chế, làm bánh, nấu chay hoặc phục vụ, có người kèm đến khi vững tay." },
+        { "icon": "clock", "title": "Ca linh hoạt", "text": "Bạn bán thời gian đăng ký ca theo tuần, xếp giờ làm quanh lịch học và việc riêng." },
+        { "icon": "star", "title": "Lộ trình thăng tiến", "text": "Từ nhân viên lên trưởng ca, rồi quản lý cửa hàng, dựa trên năng lực và sự tin cậy bạn tạo dựng mỗi ngày." },
+        { "icon": "pin", "title": "Chọn chi nhánh", "text": "Bình Thạnh, Tân Bình, Đà Nẵng, Hội An hay Duy Xuyên: bạn đăng ký nơi làm thuận đường nhất." }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "du-kien",
+      "eyebrow": "Đang chuẩn bị",
+      "title": "Quyền lợi *dự kiến* khi khai trương",
+      "lead": "Nhà An đang chuẩn bị và sẽ chốt những quyền lợi này trước ngày khai trương; danh sách chính thức cho vị trí của bạn được gửi kèm khi nhận việc.",
+      "cols": [
+        {
+          "title": "Trong ca làm",
+          "icon": "cup",
+          "items": [
+            "Đồ uống và bữa chay trong ca",
+            "Đồng phục tạp dề Nhà An",
+            "Tủ đồ cá nhân, góc nghỉ ngắn giữa ca",
+            "Ca đêm xếp theo nhóm, không ai trực một mình"
+          ]
+        },
+        {
+          "title": "Gắn bó lâu dài",
+          "icon": "gift",
+          "items": [
+            "Thưởng lễ, Tết theo kết quả kinh doanh",
+            "Quà sinh nhật cho từng thành viên",
+            "Ưu đãi khi mua trà, bánh và hộp quà",
+            "Ưu tiên xét chuyển chi nhánh khi bạn đổi nơi ở"
+          ]
+        },
+        {
+          "title": "Học và phát triển",
+          "icon": "book",
+          "items": [
+            "Tham gia workshop pha trà, làm bánh của tiệm",
+            "Sổ tay quy trình để ôn lại bất cứ lúc nào",
+            "Ưu tiên đổi ca mùa thi cho bạn sinh viên",
+            "Giấy xác nhận quá trình làm việc khi bạn cần"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "mot-ca-lam",
+      "eyebrow": "Ảnh minh họa",
+      "title": "Quyền lợi *trong từng ca làm*",
+      "lead": "Những điều Nhà An muốn chăm chút cho đội ngũ, từ buổi học việc đầu tiên đến bữa chay giữa ca.",
+      "items": [
+        { "img": "oolong-set", "caption": "Ấm trà đất nung và chén trà ô long trên khay gỗ, bài học đầu tiên ở quầy" },
+        { "img": "night-cafe", "caption": "Quán ấm đèn vàng về đêm, nơi ca đêm luôn có đồng đội cùng trực (dự kiến)" },
+        { "img": "@veg|mâm cơm chay nhiều món rau củ bày trên bàn gỗ", "caption": "Mâm cơm chay nhiều món rau củ cho bữa trong ca (dự kiến)" },
+        { "img": "@work|lịch tuần treo tường với các ô ca làm đánh dấu bằng bút màu", "caption": "Lịch tuần đánh dấu bút màu: bạn bán thời gian tự chọn ca làm" },
+        { "img": "@meet|nhóm bạn trẻ ngồi quanh bàn dài học pha trà trong một buổi workshop", "caption": "Nhóm bạn trẻ học pha trà trong một buổi workshop (dự kiến)" },
+        { "img": "@gift|hộp quà gói giấy kraft buộc dây cói đặt cạnh tấm thiệp nhỏ", "caption": "Hộp quà giấy kraft buộc dây cói cho sinh nhật thành viên (dự kiến)" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về quyền lợi*",
+      "items": [
+        { "q": "Làm bán thời gian có được đóng bảo hiểm không?", "a": "Nhân viên chính thức được đóng BHXH, BHYT đầy đủ. Với bạn bán thời gian, việc tham gia bảo hiểm thực hiện theo quy định hiện hành, tùy thời hạn hợp đồng và thu nhập mỗi tháng; Nhà An sẽ giải thích cụ thể khi bạn nhận việc." },
+        { "q": "Đang học việc thì có lương không?", "a": "Có. Những ngày học việc luôn có người hướng dẫn, và bạn nhận lương từ ngày làm việc đầu tiên." },
+        { "q": "Ứng tuyển có mất phí gì không?", "a": "Không. Nhà An không thu phí hay tiền đặt cọc nào khi tuyển dụng. Nếu ai đó nhân danh Nhà An yêu cầu bạn chuyển tiền, hãy báo ngay qua hotline hoặc Zalo 0865 920 041." },
+        { "q": "Làm vào dịp lễ, Tết thì sao?", "a": "Nhà An mở cửa xuyên lễ Tết, lịch trực dự kiến được lên sớm và chia phiên để ai cũng có thời gian bên gia đình. Ngày nghỉ và chế độ ngày lễ, Tết thực hiện theo quy định của pháp luật lao động." },
+        { "q": "Có chuyển từ bán thời gian sang chính thức được không?", "a": "Bạn có thể đề xuất với quản lý khi chi nhánh có vị trí chính thức phù hợp. Nhà An dự kiến ưu tiên người đã làm cùng trước khi tuyển mới." }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Chọn vị trí *hợp với bạn*",
+      "text": "Barista, phục vụ và thu ngân, thợ bánh hay phụ bếp chay: xem mô tả từng vị trí và các bước ứng tuyển trước khi gửi hồ sơ.",
+      "ctas": [
+        { "label": "Xem vị trí đang tuyển", "href": "/tuyen-dung", "style": "primary" },
+        { "label": "Quy trình ứng tuyển", "href": "/tuyen-dung/quy-trinh", "style": "ghost" }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "ung-tuyen",
+      "kind": "apply",
+      "eyebrow": "Ứng tuyển",
+      "title": "Gửi hồ sơ cho Nhà An",
+      "lead": "Để lại họ tên, số điện thoại hoặc Zalo, chọn vị trí và chi nhánh bạn muốn. Nhà An sẽ gọi lại hẹn phỏng vấn trong 3 ngày làm việc."
+    }
+  ],
+  "related": ["/tuyen-dung", "/tuyen-dung/lo-trinh", "/tuyen-dung/dao-tao", "/tuyen-dung/sinh-vien", "/tuyen-dung/cau-hoi", "/bao-mat-ung-vien"]
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "mua-vu/thang-10",
+  "group": "tea",
+  "nav": "Tháng 10",
+  "navDesc": "Cốm mới, hồng chín và dịp 20/10",
+  "icon": "calendar",
+  "title": "Lịch mùa vụ tháng 10: cốm, hồng, bưởi và dịp 20/10",
+  "description": "Lịch mùa vụ tháng 10: cốm mới, hồng, hạt dẻ, bưởi, bông điên điển; miền Trung vào cao điểm mưa lũ. Xem các dịp lễ và gợi ý trà, món chay ở Nhà An.",
+  "image": "@landscape|đồi hoa tam giác mạch hồng tím trên cao nguyên đá mùa thu",
+  "hero": {
+    "eyebrow": "Lịch mùa vụ",
+    "title": "Tháng 10: cốm mới, hoa tam giác mạch và *mưa thu miền Trung*",
+    "lead": "Hà Nội thơm cốm mới, cao nguyên đá rực hoa tam giác mạch, miền Trung vào mùa mưa lũ, miền Tây đang độ nước nổi. Cùng Nhà An xem tháng 10 nên ăn gì, đi đâu, chuẩn bị gì.",
+    "img": "@landscape|đồi hoa tam giác mạch hồng tím trên cao nguyên đá mùa thu",
+    "alt": "Đồi hoa tam giác mạch hồng tím trên cao nguyên đá mùa thu",
+    "ctas": [
+      { "label": "Xem nông sản tháng 10", "href": "#nong-san", "style": "primary" },
+      { "label": "Các dịp lễ trong tháng", "href": "#ngay-le", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "thoi-tiet",
+      "eyebrow": "Thời tiết ba miền",
+      "title": "Ba miền, *ba nhịp tháng 10*",
+      "paras": [
+        "Tháng 10, phía Bắc đang độ thu đẹp nhất, miền Trung vào mùa mưa lũ, phía Nam còn những cơn mưa chiều. Nắm trước thời tiết để chọn món, chọn chuyến đi cho hợp."
+      ],
+      "bullets": [
+        "Miền Bắc: trời trong, sáng sớm se lạnh, cuối tháng có thể đón không khí lạnh đầu mùa",
+        "Miền Trung: cao điểm mưa lũ, Đà Nẵng, Hội An hay mưa lớn nhiều ngày liền",
+        "Miền Nam: mưa chiều, miền Tây vào độ nước nổi",
+        "Tây Nguyên: cuối mùa mưa, dã quỳ chớm nở cuối tháng"
+      ],
+      "img": "@hoian|phố cổ Hội An trong cơn mưa, người đi đường mặc áo mưa",
+      "alt": "Phố cổ Hội An trong cơn mưa, người đi đường mặc áo mưa"
+    },
+    {
+      "type": "cards",
+      "id": "nong-san",
+      "eyebrow": "Nông sản theo mùa",
+      "title": "Tháng 10 *có gì ngon*",
+      "lead": "Năm thứ quà đúng mùa. Thời điểm thực tế có thể lệch vài tuần tùy năm và vùng trồng.",
+      "items": [
+        {
+          "img": "@market|gói cốm xanh non bọc trong lá sen buộc lạt",
+          "alt": "Gói cốm xanh non bọc trong lá sen",
+          "tag": "Hà Nội",
+          "title": "Cốm mới",
+          "text": "Làm từ lúa nếp non, rộ nhất mùa thu, ngon nhất khi còn tươi. Người Hà Nội xưa có câu “hồng cốm tốt đôi”, cốm xanh đi cùng hồng đỏ trong lễ vật cưới hỏi."
+        },
+        {
+          "img": "@market|giàn hồng gọt vỏ chín cam treo hong gió ở Đà Lạt",
+          "alt": "Giàn hồng chín cam treo hong gió ở Đà Lạt",
+          "tag": "Đà Lạt",
+          "title": "Hồng và hồng treo gió",
+          "text": "Từ đầu tháng 10, vườn hồng Đà Lạt vào mùa. Quả chín gọt vỏ, hong gió chừng hai, ba tuần thành hồng treo gió dẻo ngọt."
+        },
+        {
+          "img": "@market|hạt dẻ rang nâu bóng trong chảo gang",
+          "alt": "Hạt dẻ rang nâu bóng trong chảo gang",
+          "tag": "Cao Bằng",
+          "title": "Hạt dẻ Trùng Khánh",
+          "text": "Tháng 9 và tháng 10 là mùa thu hoạch. Rang hay luộc đều bùi thơm, hợp làm quà vặt bên ấm trà nóng."
+        },
+        {
+          "img": "@market|bưởi vàng xanh xếp chồng trên sạp trái cây",
+          "alt": "Những quả bưởi vàng xanh xếp chồng trên sạp trái cây",
+          "tag": "Phú Thọ",
+          "title": "Bưởi Đoan Hùng",
+          "text": "Vào vụ từ khoảng tháng 8 âm lịch. Múi mọng, ngọt thanh, hợp ăn tráng miệng hay làm trà trái cây."
+        },
+        {
+          "img": "@market|rổ bông điên điển vàng tươi ở chợ quê miền Tây",
+          "alt": "Rổ bông điên điển vàng tươi ở chợ quê miền Tây",
+          "tag": "Miền Tây",
+          "title": "Bông điên điển, bông súng",
+          "text": "Đặc sản mùa nước nổi. Bông điên điển xào hay đổ bánh xèo, bông súng nấu canh chua chay đều đưa cơm."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "ngay-le",
+      "eyebrow": "Dịp lễ trong tháng",
+      "title": "Những ngày *đáng nhớ* của tháng 10",
+      "lead": "Dịp theo âm lịch hay lịch Chăm đổi ngày dương lịch mỗi năm; tra nhanh bằng công cụ đổi lịch âm dương của Nhà An.",
+      "items": [
+        {
+          "label": "1/10",
+          "title": "Ngày Quốc tế Cà phê",
+          "text": "Tổ chức Cà phê Quốc tế phát động từ năm 2015. Dịp chậm lại với một ly cà phê phin."
+        },
+        {
+          "label": "10/10",
+          "title": "Ngày Sức khỏe Tâm thần Thế giới",
+          "text": "Lời nhắc nghỉ ngơi đúng lúc, trò chuyện nhiều hơn và tìm đến chuyên gia tâm lý khi cần."
+        },
+        {
+          "label": "Lịch Chăm",
+          "title": "Lễ hội Katê",
+          "text": "Lễ hội truyền thống của đồng bào Chăm vào đầu tháng 7 lịch Chăm (năm 2026 khai hội ngày 10/10), tập trung ở tháp Pô Klong Garai, Khánh Hòa."
+        },
+        {
+          "label": "13/10",
+          "title": "Ngày Doanh nhân Việt Nam",
+          "text": "Ngày tôn vinh giới doanh nhân, chính thức từ năm 2004. Dịp gửi hộp trà, bánh tri ân đối tác."
+        },
+        {
+          "label": "20/10",
+          "title": "Ngày Phụ nữ Việt Nam",
+          "text": "Kỷ niệm ngày thành lập Hội Liên hiệp Phụ nữ Việt Nam (20/10/1930). Nhà An dự kiến có hoa, set trà và bánh làm quà."
+        },
+        {
+          "label": "Rằm tháng 8 âm lịch",
+          "title": "Có năm Trung thu đến muộn",
+          "text": "Trung thu thường rơi vào tháng 9 dương lịch, có năm sang tháng 10: năm 2025 là 6/10, năm 2028 là 3/10."
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "goi-y",
+      "eyebrow": "Ở Nhà An",
+      "title": "Gợi ý trà & món *cho tháng 10*",
+      "lead": "Món theo mùa tùy nguồn hàng từng chi nhánh; đây là gợi ý để hỏi barista hoặc thử làm ở nhà.",
+      "items": [
+        { "icon": "cup", "title": "Ô long rang củi nóng", "text": "Một ấm ô long nóng cho sáng mưa miền Trung: hương rang ấm, hậu ngọt, uống chậm từng chén." },
+        { "icon": "leaf", "title": "Trà xanh lài và cốm", "text": "Có gói cốm mới, thử cùng chén trà xanh Tân Cương ướp lài: vị chát dịu làm cốm thêm ngọt thơm." },
+        { "icon": "droplet", "title": "Trà trái cây bưởi", "text": "Gợi ý theo mùa: múi bưởi tươi trên nền trà thanh, mức đường từ 0% đến 100%." },
+        { "icon": "flame", "title": "Trà gừng, trà sả", "text": "Ấm bụng ngày mưa dầm, dễ nấu ở nhà; Từ điển trà của Nhà An có hướng dẫn từng bước." },
+        { "icon": "cake", "title": "Bánh sáng mới ra lò", "text": "Lò bánh nướng từ 5 giờ sáng: croissant bơ hay bánh chuối thuần chay cùng ly trà nóng." },
+        { "icon": "bowl", "title": "Món chay mùa nước nổi", "text": "Bông điên điển, bông súng dự kiến vào món chay theo mùa khi có nguồn hàng tươi ngon." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "o-nha-an",
+      "eyebrow": "Hoạt động gợi ý",
+      "title": "Tháng 10 *ở Nhà An*",
+      "lead": "5 chi nhánh đang hoàn thiện, sắp khai trương. Khi mở cửa, Nhà An hẹn bạn tháng 10 như thế này.",
+      "items": [
+        {
+          "img": "@aodai|mẹ và con gái mặc áo dài tươi cười bên bó hoa",
+          "alt": "Mẹ và con gái mặc áo dài tươi cười bên bó hoa",
+          "tag": "20/10",
+          "title": "Chụp áo dài cùng mẹ",
+          "text": "Studio áo dài và góc check-in cho buổi chụp cùng mẹ, chị em, bạn bè.",
+          "href": "/su-kien/ngay-cua-nang"
+        },
+        {
+          "img": "@gift|hộp quà trà ô long và bánh buộc dây kèm thiệp viết tay",
+          "alt": "Hộp quà trà ô long và bánh kèm thiệp viết tay",
+          "tag": "13/10 · 20/10",
+          "title": "Hộp quà trà & bánh",
+          "text": "Quà tri ân đối tác, đồng nghiệp, người thương; đơn số lượng lớn xin liên hệ trước.",
+          "href": "/qua-tang"
+        },
+        {
+          "img": "@cafe|góc sofa đèn vàng bên ô cửa sổ đọng nước mưa",
+          "alt": "Góc sofa đèn vàng bên ô cửa sổ đọng nước mưa",
+          "tag": "Ngày mưa",
+          "title": "Trú mưa ở Góc Ấm",
+          "text": "Sofa, đèn vàng, kệ sách và chăn mỏng cho những chiều mưa chẳng muốn ra đường.",
+          "href": "/khong-gian/goc-am-nha-an"
+        },
+        {
+          "img": "@club|lớp học pha trà nhỏ quanh bàn gỗ với ấm chén gốm",
+          "alt": "Lớp học pha trà nhỏ quanh bàn gỗ với ấm chén gốm",
+          "tag": "Thứ Bảy",
+          "title": "Workshop pha trà ô long",
+          "text": "Học pha ô long đúng nhiệt độ, đúng thời gian hãm. Lịch lớp công bố sau khai trương.",
+          "href": "/workshop/pha-tra-o-long"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "meo",
+      "eyebrow": "Mẹo nhỏ",
+      "title": "Khỏe khoắn, *đi chơi vui* tháng 10",
+      "cols": [
+        {
+          "title": "Chọn nông sản",
+          "icon": "sprout",
+          "items": [
+            "Cốm ngon xanh tự nhiên, hạt dẻo, thơm mùi lúa non; nên ăn sớm kẻo khô cứng",
+            "Bưởi chọn quả nặng tay, vỏ căng mỏng, thơm mùi tinh dầu",
+            "Hạt dẻ chọn hạt vỏ nâu bóng, chắc tay, không lỗ sâu",
+            "Hồng chọn quả lành lặn, không dập, cuống còn tươi"
+          ]
+        },
+        {
+          "title": "Giữ nhịp giao mùa",
+          "icon": "heart",
+          "items": [
+            "Mang áo khoác mỏng cho sáng sớm và đêm khuya",
+            "Uống đủ nước, trời mát rất dễ quên khát",
+            "Ngủ đủ giấc, hạn chế thức khuya nhiều đêm liền",
+            "Nhạy cảm với caffeine thì chọn ly trà nhẹ buổi tối"
+          ]
+        },
+        {
+          "title": "Đi chơi tháng 10",
+          "icon": "map",
+          "items": [
+            "Đi miền Trung: theo dõi dự báo và thông báo của địa phương",
+            "Phố cổ Hội An có thể ngập khi lũ về, hãy hỏi trước nơi lưu trú",
+            "Mang áo mưa, túi chống nước cho laptop và giấy tờ",
+            "Ruộng bậc thang vùng cao thường chín vàng từ giữa tháng 9 đến giữa tháng 10"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về tháng 10*",
+      "items": [
+        {
+          "q": "Tháng 10 có trái cây, nông sản gì ngon?",
+          "a": "Phía Bắc có cốm mới, hạt dẻ Trùng Khánh, bưởi Đoan Hùng; Đà Lạt vào mùa hồng và hồng treo gió; miền Tây có bông điên điển, bông súng mùa nước nổi."
+        },
+        {
+          "q": "Tháng 10 có những ngày lễ, kỷ niệm nào?",
+          "a": "Dương lịch có 1/10 Ngày Quốc tế Cà phê, 10/10 Ngày Giải phóng Thủ đô và Ngày Sức khỏe Tâm thần Thế giới, 13/10 Ngày Doanh nhân Việt Nam, 20/10 Ngày Phụ nữ Việt Nam. Có năm Trung thu cũng rơi vào đầu tháng 10."
+        },
+        {
+          "q": "Tháng 10 có nên đi Đà Nẵng, Hội An không?",
+          "a": "Vẫn đi được nếu lịch trình linh hoạt, vì đây là cao điểm mưa lũ ở miền Trung. Hãy theo dõi dự báo, chọn chỗ ở an toàn và để dành vài buổi cho bảo tàng, quán trà."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Đi tiếp *lịch mùa vụ*",
+      "text": "Xem trọn 12 tháng nông sản và dịp lễ, hoặc đặt bàn trước để hẹn bạn bè khi Nhà An khai trương.",
+      "ctas": [
+        { "label": "Lịch mùa vụ 12 tháng", "href": "/mua-vu", "style": "primary" },
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/mua-vu", "/mua-vu/thang-9", "/mua-vu/thang-11", "/su-kien/ngay-cua-nang", "/cong-cu/lich-am", "/tin-tuc/an-theo-mua"]
+}
