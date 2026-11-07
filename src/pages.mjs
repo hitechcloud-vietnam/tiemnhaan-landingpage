@@ -168,9 +168,9 @@ export function home() {
       </dl>
     </div>
     <div class="hero__media">
-      <figure class="hero__main">${img('tea-pour', 'Rót trà ô long nóng', { eager: true })}</figure>
-      <figure class="hero__sm hero__sm--a">${img('cheesecake', 'Cheesecake việt quất')}</figure>
-      <figure class="hero__sm hero__sm--b">${img('pho-chay', 'Phở chay nấm')}</figure>
+      <figure class="hero__main">${img('hero-boba', 'Ly trà sữa trân châu nhà làm', { eager: true })}</figure>
+      <figure class="hero__sm hero__sm--a">${img('tiramisu', 'Bánh tiramisu')}</figure>
+      <figure class="hero__sm hero__sm--b">${img('macarons', 'Bánh macaron nhiều màu')}</figure>
       <div class="hero__badge"><img src="/assets/img/brand/logo-circle.png" alt="" width="64" height="64"><span><strong>Coming Soon</strong>5 chi nhánh · Sài Gòn · Đà Nẵng</span></div>
     </div>
   </div>
