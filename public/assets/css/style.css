@@ -1133,3 +1133,5 @@ html[lang="ja"] .branch-tagline, html[lang="ko"] .branch-tagline, html[lang="zh-
 .mood__n::before { content: attr(data-n); }
 .section--green .eyebrow, .apply-wrap .eyebrow { color: #FFD3D1; }
 .swatches span.light[style*="F5747E"] { color: #1F301D; }
+.apply-wrap--light .eyebrow { color: var(--lotus-ink); }
+.cstrip .eyebrow, .party__body .eyebrow, .band247 .eyebrow { color: #FFD3D1; }

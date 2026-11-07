@@ -4,7 +4,7 @@ export const site = {
   name: 'Tiệm Nhà An',
   tagline: 'Một ly trà, một chút an.',
   description:
-    'Tiệm Nhà An — trà sữa, ô long rang củi, bánh ngọt nướng mỗi sáng và đồ chay ăn sáng, ăn trưa. Sắp khai trương tại TP. Hồ Chí Minh và Đà Nẵng.',
+    'Tiệm Nhà An — trà sữa, ô long rang củi, bánh ngọt và đồ chay, mở cửa 24/7 với không gian làm việc, học tập và studio áo dài. Sắp khai trương 5 chi nhánh tại TP. Hồ Chí Minh, Đà Nẵng và Hội An.',
   url: 'https://tiemnhaan.com',
   email: 'contact@tiemnhaan.com',
   phone: '0865920041', // số dùng cho tel: và Zalo

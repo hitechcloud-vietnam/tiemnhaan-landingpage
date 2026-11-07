@@ -51,7 +51,9 @@ export const img = (key, alt, { cls = '', eager = false } = {}) => {
   const p = photos[key];
   if (!p) throw new Error('Không có ảnh: ' + key);
   const [w, h] = p.size;
-  return `<img src="/assets/img/photos/${key}.webp" alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
+  const sm = w > 700 && existsSync(new URL(`../public/assets/img/photos/sm/${key}.webp`, import.meta.url));
+  const srcset = sm ? ` srcset="/assets/img/photos/sm/${key}.webp 640w, /assets/img/photos/${key}.webp ${w}w" sizes="(max-width: 700px) 100vw, 50vw"` : '';
+  return `<img src="/assets/img/photos/${key}.webp"${srcset} alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
 };
 
 
