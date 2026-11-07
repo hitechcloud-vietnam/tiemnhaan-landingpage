@@ -6,13 +6,13 @@
   "icon": "bowl",
   "title": "Bếp chay: bữa sáng, bữa trưa và món chay khuya từ rau củ",
   "description": "Bếp chay Tiệm Nhà An: nước dùng ninh từ củ quả, không bột ngọt, đậu hũ non làm mỗi sáng, món theo vùng và món chay khuya. Xem ghi chú dị ứng.",
-  "image": "@veg|mâm cơm chay Việt nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
+  "image": "@veg|bàn ăn chay Việt nhiều món nhìn từ trên xuống với đậu hũ, rau thơm và các bát nhỏ",
   "hero": {
     "eyebrow": "Bếp chay Nhà An",
     "title": "Bữa chay ấm bụng, *nấu như ở nhà*",
     "lead": "Mọi món ăn ở Nhà An đều là món chay: nước dùng ninh từ củ quả, không bột ngọt, đậu hũ non làm mỗi sáng và rau hữu cơ theo mùa. Từ bữa sáng trước giờ làm đến món chay khuya cho ca deadline, bếp nấu sao cho nhẹ bụng mà vẫn đậm đà.",
-    "img": "@veg|mâm cơm chay Việt nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
-    "alt": "Mâm cơm chay nhiều món với đậu hũ, rau luộc và canh rau trên bàn gỗ",
+    "img": "@veg|bàn ăn chay Việt nhiều món nhìn từ trên xuống với đậu hũ, rau thơm và các bát nhỏ",
+    "alt": "Bàn ăn chay Việt nhiều món nhìn từ trên xuống với đậu hũ, rau thơm và các bát nhỏ",
     "ctas": [
       { "label": "Xem món theo vùng", "href": "#mon-theo-vung", "style": "primary" },
       { "label": "Đặt bàn", "href": "/dat-ban", "style": "ghost" }
@@ -115,8 +115,8 @@
           "href": "/chi-nhanh/hoi-an"
         },
         {
-          "img": "tofu-bowl",
-          "alt": "Phần cơm ăn kèm đậu hũ và rau xanh",
+          "img": "@veg|đĩa cơm gạo lứt với đậu hũ non, rau vườn luộc và bát canh rau",
+          "alt": "Đĩa cơm gạo lứt với đậu hũ non, rau luộc và bát canh rau",
           "title": "Cơm chay quê",
           "tag": "Nhà An Duy Xuyên",
           "text": "Cơm gạo lứt, rau vườn, đậu hũ non và canh rau, ăn chậm bên dòng Thu Bồn.",
@@ -171,7 +171,7 @@
       "items": [
         { "img": "@bake|ổ bánh mì chay giòn kẹp pa-tê nấm, đồ chua và rau thơm", "caption": "Bánh mì pa-tê nấm cho bữa sáng vội." },
         { "img": "@veg|bát cháo hạt sen nóng bốc khói trên bàn gỗ", "caption": "Cháo hạt sen nóng cho buổi sáng se lạnh." },
-        { "img": "veg-noodles", "caption": "Mì xào rau củ cho bữa trưa gọn nhẹ." },
+        { "img": "veg-noodles", "caption": "Miến xào rau củ cho bữa trưa gọn nhẹ." },
         { "img": "vegan-bowl", "caption": "Rau hữu cơ theo mùa trong một tô salad chay nhiều màu." }
       ]
     },

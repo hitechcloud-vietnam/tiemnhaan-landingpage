@@ -1,0 +1,196 @@
+{
+  "slug": "diem-den/cho-ben-thanh",
+  "group": "tools",
+  "nav": "Chợ Bến Thành",
+  "navDesc": "Tháp đồng hồ, đặc sản, quà lưu niệm và mẹo đi chợ",
+  "icon": "pin",
+  "title": "Chợ Bến Thành: lịch sử, mẹo đi chợ và chọn quà Sài Gòn",
+  "description": "Chợ Bến Thành hơn 110 năm tuổi: câu chuyện tháp đồng hồ, khu hàng nên ghé, mẹo hỏi giá và chọn quà, cách đi metro và nơi nghỉ chân gần đó.",
+  "image": "lm-benthanh-night",
+  "hero": {
+    "eyebrow": "Điểm đến",
+    "title": "Chợ Bến Thành, *nhịp sống giữa lòng Sài Gòn*",
+    "lead": "Tháp đồng hồ ở cửa chính, những lối đi rộn tiếng mời chào và sạp hàng đủ màu từ vải vóc đến trái cây. Nhà An gợi ý cách đi chợ thong thả, chọn quà Sài Gòn và tìm chỗ nghỉ chân sau một vòng chợ.",
+    "img": "lm-benthanh-night",
+    "alt": "Cổng chính và tháp đồng hồ chợ Bến Thành sáng đèn về đêm",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Mẹo đi chợ", "href": "#luu-y", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Giới thiệu",
+      "title": "Hơn một thế kỷ *bên tháp đồng hồ*",
+      "paras": [
+        "Tên Bến Thành gợi lại thuở chợ còn họp gần bến sông, cạnh thành Gia Định xưa. Ngôi chợ bạn thấy hôm nay được xây ở vị trí mới và hoàn thành năm 1914, với tháp đồng hồ ở cửa chính phía nam đã trở thành hình ảnh quen thuộc của Sài Gòn.",
+        "Trải qua nhiều lần tu sửa, chợ vẫn giữ nhịp buôn bán sôi động: vải vóc, quần áo, đồ lưu niệm, đặc sản khô, trái cây và khu hàng ăn. Chợ nằm giữa trung tâm, gần phố đi bộ Nguyễn Huệ và ga metro Bến Thành, rất tiện ghép vào một buổi dạo phố."
+      ],
+      "bullets": [
+        "Cửa chính phía nam có tháp đồng hồ",
+        "Sạp hàng xếp theo khu, dễ đi theo vòng",
+        "Ga metro Bến Thành ngay trước chợ"
+      ],
+      "img": "@hcm|tháp đồng hồ cửa chính chợ Bến Thành dưới nắng sớm với dòng xe phía trước",
+      "alt": "Tháp đồng hồ ở cửa chính chợ Bến Thành dưới nắng sớm, dòng xe qua lại phía trước",
+      "reverse": true,
+      "cta": { "label": "Xem các điểm đến khác", "href": "/diem-den" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Ghé chợ: *những điều cần biết*",
+      "lead": "Giờ mở cửa của chợ và các khu hàng có thể khác nhau, nhất là dịp lễ, Tết. Bạn nên kiểm tra thông tin mới nhất trước khi đi.",
+      "head": ["Hạng mục", "Gợi ý"],
+      "rows": [
+        ["Khu vực", "Công trường Quách Thị Trang, phường Bến Thành, trung tâm TP. Hồ Chí Minh"],
+        ["Nên đi", "Buổi sáng ngày thường, khi chợ vừa mở và lối đi còn thoáng; tránh giờ trưa nắng nóng"],
+        ["Thời gian tham quan gợi ý", "1–2 tiếng cho một vòng chợ, ăn nhẹ và chọn quà"],
+        ["Phù hợp với", "Khách lần đầu đến Sài Gòn, người tìm quà và đặc sản, bạn thích ẩm thực chợ, người mê chụp ảnh đời thường"],
+        ["Chi nhánh Nhà An gần nhất", "Nhà An Bình Thạnh (khoảng 15 phút đi xe) và Nhà An Tân Bình (khoảng 20–25 phút), đều sắp khai trương"],
+        ["Lưu ý", "Chợ đông người, lối đi hẹp: giữ túi xách phía trước và hỏi giá trước khi mua"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "diem-nhan",
+      "eyebrow": "Điểm nhấn",
+      "title": "Một vòng chợ, *nhiều thứ để ngắm*",
+      "items": [
+        { "icon": "clock", "title": "Tháp đồng hồ cửa nam", "text": "Biểu tượng của chợ và của cả trung tâm thành phố. Đứng ở khoảng sân phía trước để chụp trọn cửa chính và tháp đồng hồ." },
+        { "icon": "palette", "title": "Vải vóc, áo dài", "text": "Những sạp vải nhiều màu, nhiều sạp nhận may đo theo số đo. Hỏi rõ thời gian may và hẹn ngày lấy trước khi đặt." },
+        { "icon": "gift", "title": "Quà lưu niệm", "text": "Nón lá, túi cói, đồ gốm, đồ thủ công nhỏ: những món quà gọn nhẹ, dễ mang theo cho chuyến đi." },
+        { "icon": "leaf", "title": "Trà, cà phê, đặc sản khô", "text": "Các sạp khô bán trà, cà phê, hạt điều, mứt và trái cây sấy. Ngửi thử, hỏi nguồn gốc rồi mới chọn mua." },
+        { "icon": "bowl", "title": "Khu hàng ăn", "text": "Nơi gom nhiều món quen của Nam Bộ như chè, bánh, trái cây. Người ăn chay nên hỏi kỹ nguyên liệu vì nhiều món có nước mắm, tôm khô." },
+        { "icon": "bike", "title": "Ga metro Bến Thành", "text": "Ga đầu tuyến metro số 1 nằm ngay trước chợ, nối tới ga Nhà hát Thành phố, Ba Son và các ga hướng Thủ Đức." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "goi-y-tham-quan",
+      "eyebrow": "Gợi ý tham quan",
+      "title": "Đi chợ *thong thả trong hai giờ*",
+      "lead": "Một vòng chợ buổi sáng, kết thúc bằng một ly trà mát.",
+      "items": [
+        { "title": "Chụp ảnh cửa chính", "text": "Đến từ khoảng 8 giờ sáng, chụp tháp đồng hồ khi nắng còn dịu và sân trước chợ chưa đông." },
+        { "title": "Đi một vòng trước khi mua", "text": "Dạo qua các dãy vải vóc, đồ lưu niệm, đặc sản khô để xem mẫu và so giá, chưa vội chốt món đầu tiên." },
+        { "title": "Ăn nhẹ ở khu hàng ăn", "text": "Gọi một ly chè hay đĩa trái cây, ngồi nghỉ và quan sát nhịp chợ. Nhớ hỏi nguyên liệu nếu bạn ăn chay." },
+        { "title": "Chọn quà và đóng gói", "text": "Quay lại những sạp đã ưng, hỏi giá, nhờ gói kỹ món dễ vỡ và giữ hóa đơn hoặc ảnh chụp sạp nếu cần đổi." },
+        { "title": "Nghỉ chân ở Nhà An", "text": "Từ ga Bến Thành, đi metro đến ga Tân Cảng gần Landmark 81 rồi ghé Nhà An Bình Thạnh khi khai trương, hoặc gọi xe về Nhà An Tân Bình." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Khoảnh khắc",
+      "title": "Những góc *đời thường của chợ*",
+      "items": [
+        { "img": "@market|sạp trái cây nhiều màu xếp đầy ắp trong chợ Bến Thành", "caption": "Sạp trái cây nhiều màu theo mùa" },
+        { "img": "@market|những cuộn vải lụa nhiều màu xếp chồng trên sạp vải trong chợ", "caption": "Dãy sạp vải vóc nhiều màu" },
+        { "img": "@hcm|lối đi trong chợ Bến Thành với các sạp hàng lưu niệm hai bên", "caption": "Lối đi giữa các sạp lưu niệm" },
+        { "img": "@vietcake|mẹt bánh dân gian Nam Bộ như bánh da lợn, bánh bò bày bán ở chợ", "caption": "Bánh dân gian Nam Bộ ở khu hàng ăn" }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "luu-y",
+      "eyebrow": "Lưu ý & ứng xử",
+      "title": "Đi chợ *vui và văn minh*",
+      "cols": [
+        {
+          "title": "Mua sắm",
+          "icon": "card",
+          "items": [
+            "Hỏi giá trước khi chọn, ưu tiên sạp có niêm yết giá",
+            "Trả giá nhẹ nhàng, vui vẻ; không ưng thì cảm ơn rồi đi tiếp",
+            "Kiểm tra hàng, đếm tiền thối ngay tại sạp"
+          ]
+        },
+        {
+          "title": "Lịch sự trong chợ",
+          "icon": "hand",
+          "items": [
+            "Không đứng chắn lối đi hẹp khi chụp ảnh",
+            "Hỏi ý người bán trước khi chụp cận sạp hàng hay chân dung",
+            "Mang túi vải để giảm túi nylon"
+          ]
+        },
+        {
+          "title": "An toàn",
+          "icon": "shield",
+          "items": [
+            "Đeo túi phía trước, giữ điện thoại cẩn thận nơi đông người",
+            "Quan sát kỹ khi băng qua các làn xe quanh chợ",
+            "Mang ít tiền mặt lẻ, hẹn điểm gặp lại khi đi theo nhóm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "eyebrow": "Hỏi đáp",
+      "title": "Hỏi nhanh *về chợ Bến Thành*",
+      "items": [
+        { "q": "Chợ Bến Thành có từ bao giờ?", "a": "Chợ có tiền thân từ rất sớm, họp gần bến sông cạnh thành Gia Định. Ngôi chợ với tháp đồng hồ hiện nay được xây ở vị trí mới và hoàn thành năm 1914, sau đó được tu sửa nhiều lần." },
+        { "q": "Có nên trả giá khi mua hàng không?", "a": "Với sạp đã niêm yết giá, bạn mua theo giá ghi. Với món chưa ghi giá, có thể hỏi và trả giá nhẹ nhàng; nên đi một vòng so sánh trước khi quyết định." },
+        { "q": "Người ăn chay có món gì ở chợ?", "a": "Bạn dễ tìm trái cây, chè và một số loại bánh, nhưng nhiều món có nước mắm, tôm khô hay mỡ hành, nên hãy hỏi kỹ. Muốn ăn chay yên tâm, bạn có thể ghé bếp chay của Nhà An khi khai trương." },
+        { "q": "Từ Nhà An đến chợ Bến Thành mất bao lâu?", "a": "Khoảng 15 phút đi xe từ Nhà An Bình Thạnh và khoảng 20–25 phút từ Nhà An Tân Bình, tùy giờ cao điểm. Từ khu Landmark 81 bạn cũng có thể đi metro số 1. Địa chỉ số nhà sẽ được công bố trên website và Zalo." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ghe-tiep",
+      "eyebrow": "Gần đây",
+      "title": "Ghé tiếp *quanh trung tâm*",
+      "lead": "Hai điểm dạo chơi trong tầm đi bộ hoặc vài ga metro, cùng hai chi nhánh Nhà An ở Sài Gòn.",
+      "items": [
+        {
+          "img": "@hcm|tòa chung cư cũ nhiều ban công quán nhỏ trên phố đi bộ Nguyễn Huệ",
+          "alt": "Tòa chung cư cũ nhiều ban công quán nhỏ trên phố đi bộ Nguyễn Huệ",
+          "title": "Phố đi bộ Nguyễn Huệ",
+          "tag": "Khoảng 10 phút đi bộ",
+          "text": "Không gian dạo chơi rộng giữa trung tâm, sôi động nhất vào buổi tối và cuối tuần.",
+          "href": "/diem-den/pho-di-bo-nguyen-hue"
+        },
+        {
+          "img": "@hcm|cầu dây văng Ba Son bắc qua sông Sài Gòn nhìn từ bến Bạch Đằng buổi chiều",
+          "alt": "Cầu dây văng Ba Son bắc qua sông Sài Gòn nhìn từ bến Bạch Đằng buổi chiều",
+          "title": "Cầu Ba Son",
+          "tag": "Hai ga metro",
+          "text": "Cầu dây văng bên sông Sài Gòn, đẹp nhất lúc hoàng hôn và khi cầu lên đèn.",
+          "href": "/diem-den/cau-ba-son"
+        },
+        {
+          "img": "cafe-garden",
+          "alt": "Quán trà nhiều cây xanh với bàn ghế gỗ và đèn treo",
+          "title": "Nhà An Bình Thạnh",
+          "tag": "Sắp khai trương",
+          "text": "Nhà phố nhiều cây xanh gần Landmark 81, có hủ tiếu Nam Vang chay cho bữa sáng và Phòng Chạy Deadline yên tĩnh.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "iced-tea",
+          "alt": "Ly trà đá mát lạnh trên bàn",
+          "title": "Nhà An Tân Bình",
+          "tag": "Sắp khai trương",
+          "text": "Tiệm trà gạch bông kiểu Sài Gòn xưa gần sân bay, có chỗ gửi hành lý. Món nên thử: trà tắc xí muội.",
+          "href": "/chi-nhanh/tan-binh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Đi chợ xong, *về Nhà An uống trà*",
+      "text": "Khi khai trương, hai chi nhánh Sài Gòn mở cửa 24/7 với ô long rang củi, bánh nướng mỗi sáng và món chay ăn sáng, ăn trưa. Đặt bàn trước hoặc nhắn Zalo để biết ngày mở cửa sớm nhất.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Nhắn Zalo", "href": "https://zalo.me/0865920041", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/diem-den", "/diem-den/pho-di-bo-nguyen-hue", "/diem-den/cau-ba-son", "/chi-nhanh/binh-thanh/quanh-day", "/bep-chay", "/tin-tuc/banh-dan-gian-nam-bo"]
+}

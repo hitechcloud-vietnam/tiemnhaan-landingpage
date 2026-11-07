@@ -1,0 +1,187 @@
+{
+  "slug": "diem-den/cau-ba-son",
+  "group": "tools",
+  "nav": "Cầu Ba Son",
+  "navDesc": "Cầu dây văng bên sông Sài Gòn, đẹp nhất lúc lên đèn",
+  "icon": "pin",
+  "title": "Cầu Ba Son: ngắm cầu dây văng bên sông Sài Gòn lúc lên đèn",
+  "description": "Cầu Ba Son (cầu Thủ Thiêm 2): câu chuyện tên gọi, góc ngắm cầu lên đèn từ hai bờ sông Sài Gòn, cách đi metro, lưu ý an toàn và nơi nghỉ chân gần đó.",
+  "image": "@hcm|cầu Ba Son với trụ tháp nghiêng và dây văng soi bóng trên sông Sài Gòn lúc hoàng hôn",
+  "hero": {
+    "eyebrow": "Điểm đến",
+    "title": "Cầu Ba Son, *hoàng hôn trên sông Sài Gòn*",
+    "lead": "Trụ tháp nghiêng vươn cao, những sợi dây văng xòe như cánh buồm và hai bờ sông sáng đèn khi trời tối. Nhà An gợi ý nên ngắm cầu từ đâu, đi lại thế nào và ghé đâu nghỉ chân sau một buổi chiều lộng gió.",
+    "img": "@hcm|cầu Ba Son với trụ tháp nghiêng và dây văng soi bóng trên sông Sài Gòn lúc hoàng hôn",
+    "alt": "Cầu Ba Son với trụ tháp nghiêng và những sợi dây văng soi bóng trên sông Sài Gòn lúc hoàng hôn",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Gợi ý buổi chiều", "href": "#goi-y-tham-quan", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Giới thiệu",
+      "title": "Cây cầu *mang tên một xưởng tàu xưa*",
+      "paras": [
+        "Cầu Ba Son là tên quen gọi của cầu Thủ Thiêm 2, cây cầu dây văng bắc qua sông Sài Gòn, nối đường Tôn Đức Thắng ở trung tâm thành phố với khu đô thị mới Thủ Thiêm. Cầu thông xe năm 2022, nổi bật với trụ tháp cao khoảng 113 mét nghiêng về phía Thủ Thiêm.",
+        "Cái tên Ba Son gợi nhớ khu xưởng đóng và sửa tàu lâu đời từng nằm bên bờ sông gần chân cầu, một phần ký ức của Sài Gòn bến cảng. Ngày nay, cây cầu trở thành điểm ngắm hoàng hôn và ánh đèn đêm quen thuộc của người trẻ, nhất là khi đi dạo dọc bờ sông."
+      ],
+      "bullets": [
+        "Đẹp nhất lúc chiều muộn và khi cầu lên đèn",
+        "Ngắm từ bờ sông, không dừng xe trên cầu",
+        "Có ga metro Ba Son ở gần chân cầu"
+      ],
+      "img": "@hcm|trụ tháp cầu Ba Son nhìn từ dưới lên với những sợi dây văng trên nền trời xanh",
+      "alt": "Trụ tháp cầu Ba Son nhìn từ dưới lên, những sợi dây văng căng trên nền trời xanh",
+      "cta": { "label": "Xem các điểm đến khác", "href": "/diem-den" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Trước khi đi, *nắm nhanh vài điều*",
+      "lead": "Lịch chiếu sáng, phân luồng giao thông và các khu công viên ven sông có thể thay đổi theo thời điểm. Bạn nên kiểm tra thông tin mới nhất trước khi đi.",
+      "head": ["Hạng mục", "Gợi ý"],
+      "rows": [
+        ["Khu vực", "Bắc qua sông Sài Gòn, nối đường Tôn Đức Thắng ở trung tâm TP. Hồ Chí Minh với khu đô thị Thủ Thiêm"],
+        ["Nên đi", "Chiều muộn để ngắm hoàng hôn, nán lại đến khi cầu lên đèn; tối ngày thường thoáng người hơn cuối tuần"],
+        ["Thời gian tham quan gợi ý", "45–90 phút dạo bờ sông và chụp ảnh; 2–3 tiếng nếu ghép thêm phố đi bộ Nguyễn Huệ"],
+        ["Phù hợp với", "Người thích chụp ảnh thành phố, hội bạn đi dạo buổi tối, cặp đôi, khách lần đầu đến Sài Gòn"],
+        ["Chi nhánh Nhà An gần nhất", "Nhà An Bình Thạnh (khoảng 10 phút đi xe) và Nhà An Tân Bình (khoảng 25–30 phút), đều sắp khai trương"],
+        ["Lưu ý", "Không dừng, đỗ xe trên cầu để chụp ảnh; hãy ngắm và chụp từ bờ sông hoặc công viên ven sông"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "diem-nhan",
+      "eyebrow": "Điểm nhấn",
+      "title": "Ngắm cầu *từ nhiều góc*",
+      "items": [
+        { "icon": "spark", "title": "Trụ tháp nghiêng", "text": "Trụ tháp đặt ở bờ trung tâm, nghiêng về phía Thủ Thiêm, là đường nét giúp bạn nhận ra cầu Ba Son từ rất xa." },
+        { "icon": "moon", "title": "Cầu lên đèn", "text": "Khi trời tối, trụ tháp và dây văng được chiếu sáng, soi bóng xuống mặt sông. Đây là khoảnh khắc nhiều người chờ để chụp ảnh." },
+        { "icon": "sun", "title": "Hoàng hôn trên sông", "text": "Chiều muộn, nắng xiên qua những sợi dây văng và nhuộm vàng mặt nước, đặc biệt đẹp vào những ngày mùa khô trời trong." },
+        { "icon": "map", "title": "Bờ sông hai phía", "text": "Phía trung tâm có bờ sông dọc Tôn Đức Thắng và bến Bạch Đằng; phía Thủ Thiêm nhìn ngược lại thấy cả dãy nhà cao tầng trung tâm." },
+        { "icon": "bike", "title": "Ga metro gần chân cầu", "text": "Tuyến metro số 1 có ga Ba Son nằm gần chân cầu, nối với ga Nhà hát Thành phố, Bến Thành và các ga hướng Thảo Điền." },
+        { "icon": "home", "title": "Ký ức Ba Son", "text": "Khu đất ven sông từng là xưởng đóng tàu Ba Son. Đi dọc bờ sông, bạn sẽ thấy một Sài Gòn bến cảng xưa đang đổi thay từng ngày." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "goi-y-tham-quan",
+      "eyebrow": "Gợi ý tham quan",
+      "title": "Một buổi chiều *bên sông Sài Gòn*",
+      "lead": "Lộ trình nhẹ nhàng khoảng ba tiếng, bắt đầu từ phố đi bộ và kết thúc bằng một ly trà.",
+      "items": [
+        { "title": "Khởi đầu ở phố đi bộ Nguyễn Huệ", "text": "Đến khoảng 16:30, đi bộ dọc Nguyễn Huệ ra phía sông khi nắng đã dịu. Nếu đi metro, xuống ở ga Nhà hát Thành phố." },
+        { "title": "Ra bến Bạch Đằng", "text": "Tìm một băng ghế ở công viên ven sông, ngắm tàu thuyền qua lại và nhìn về phía cầu Ba Son ở phía thượng nguồn." },
+        { "title": "Dạo dọc bờ sông", "text": "Theo lối đi bộ ven sông về phía cầu khi mặt trời xuống thấp. Chọn chỗ đứng an toàn trên vỉa hè để chụp trọn trụ tháp và dây văng." },
+        { "title": "Chờ cầu lên đèn", "text": "Nán lại thêm một chút sau hoàng hôn. Khi trời tối hẳn, ánh đèn trên cầu và bờ Thủ Thiêm phản chiếu xuống mặt sông rất đẹp." },
+        { "title": "Nghỉ chân ở Nhà An", "text": "Từ ga Ba Son, đi metro hai ga đến ga Tân Cảng gần Landmark 81 rồi ghé Nhà An Bình Thạnh khi khai trương cho một ly ô long rang củi." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Khoảnh khắc",
+      "title": "Cầu Ba Son *qua ống kính*",
+      "items": [
+        { "img": "@hcm|cầu Ba Son sáng đèn nhìn từ bờ Thủ Thiêm với các tòa nhà cao tầng trung tâm phía sau", "caption": "Nhìn từ bờ Thủ Thiêm, phía sau là trung tâm thành phố" },
+        { "img": "@night|ánh đèn trên cầu dây văng phản chiếu xuống mặt sông Sài Gòn về đêm", "caption": "Ánh đèn soi bóng xuống mặt sông khi trời tối" },
+        { "img": "@hcm|người dân ngồi ngắm sông Sài Gòn ở công viên bến Bạch Đằng buổi chiều", "caption": "Ngồi hóng gió ở bến Bạch Đằng buổi chiều" },
+        { "img": "@hcm|lối vào ga metro ngầm Ba Son trên đường Tôn Đức Thắng", "caption": "Lối lên xuống ga metro Ba Son gần chân cầu" }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "luu-y",
+      "eyebrow": "Lưu ý & ứng xử",
+      "title": "Ngắm cầu *đẹp và an toàn*",
+      "cols": [
+        {
+          "title": "Giao thông",
+          "icon": "shield",
+          "items": [
+            "Không dừng, đỗ xe trên cầu để chụp ảnh; vừa nguy hiểm vừa có thể bị xử phạt",
+            "Gửi xe ở bãi giữ xe đúng quy định, không đậu tràn lòng đường",
+            "Dịp lễ, bắn pháo hoa, đường quanh bờ sông có thể được phân luồng"
+          ]
+        },
+        {
+          "title": "Chụp ảnh đẹp",
+          "icon": "camera",
+          "items": [
+            "Đứng ở bờ sông, lùi xa để lấy trọn trụ tháp và dây văng",
+            "Chụp khoảng 15–30 phút sau hoàng hôn, khi trời còn ánh xanh và đèn đã sáng",
+            "Tựa điện thoại vào lan can chắc chắn để ảnh đêm bớt rung, không trèo qua lan can"
+          ]
+        },
+        {
+          "title": "Chuẩn bị",
+          "icon": "box",
+          "items": [
+            "Mùa mưa (khoảng tháng 5 đến tháng 11) mang áo mưa mỏng cho cơn mưa chiều",
+            "Mang nước, giữ điện thoại và túi xách cẩn thận nơi đông người",
+            "Xem trước giờ chuyến metro cuối nếu định về bằng tàu"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "eyebrow": "Hỏi đáp",
+      "title": "Hỏi nhanh *về cầu Ba Son*",
+      "items": [
+        { "q": "Cầu Ba Son và cầu Thủ Thiêm 2 có phải là một?", "a": "Đúng vậy. Cầu Thủ Thiêm 2 được người dân quen gọi là cầu Ba Son vì nằm gần khu xưởng đóng tàu Ba Son xưa, và cái tên này nay đã trở nên phổ biến." },
+        { "q": "Có thể đi bộ lên cầu để chụp ảnh không?", "a": "Cầu chủ yếu phục vụ giao thông, và việc dừng xe trên cầu để chụp ảnh là không được phép. Cách an toàn và cho góc đẹp hơn là ngắm, chụp từ bờ sông hai phía. Quy định có thể thay đổi, nên kiểm tra thông tin mới nhất trước khi đi." },
+        { "q": "Đi metro đến cầu Ba Son thế nào?", "a": "Tuyến metro số 1 (Bến Thành – Suối Tiên) có ga Ba Son gần chân cầu phía trung tâm. Bạn nên xem trước lịch chạy tàu, nhất là khi định về muộn." },
+        { "q": "Từ Nhà An đến cầu Ba Son mất bao lâu?", "a": "Khoảng 10 phút đi xe từ Nhà An Bình Thạnh và khoảng 25–30 phút từ Nhà An Tân Bình, tùy giờ cao điểm. Địa chỉ số nhà và ngày khai trương sẽ được công bố trên website và Zalo." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ghe-tiep",
+      "eyebrow": "Gần đây",
+      "title": "Ghé tiếp *và nghỉ chân*",
+      "lead": "Hai điểm dạo chơi gần bờ sông và chi nhánh Nhà An gần cầu nhất.",
+      "items": [
+        {
+          "img": "@hcm|phố đi bộ Nguyễn Huệ nhìn về phía sông Sài Gòn lúc chiều tà",
+          "alt": "Phố đi bộ Nguyễn Huệ nhìn về phía sông Sài Gòn lúc chiều tà",
+          "title": "Phố đi bộ Nguyễn Huệ",
+          "tag": "Khởi đầu lộ trình",
+          "text": "Con phố rộng giữa trung tâm, cuối phố là bến Bạch Đằng lộng gió, nơi bắt đầu buổi dạo bờ sông.",
+          "href": "/diem-den/pho-di-bo-nguyen-hue"
+        },
+        {
+          "img": "lm-benthanh-night",
+          "alt": "Cổng chính và tháp đồng hồ chợ Bến Thành sáng đèn về đêm",
+          "title": "Chợ Bến Thành",
+          "tag": "Hai ga metro",
+          "text": "Ngôi chợ có tháp đồng hồ quen thuộc, nối với ga Ba Son bằng tuyến metro số 1.",
+          "href": "/diem-den/cho-ben-thanh"
+        },
+        {
+          "img": "lm-landmark81-night",
+          "alt": "Landmark 81 sáng đèn bên sông Sài Gòn về đêm",
+          "title": "Nhà An Bình Thạnh",
+          "tag": "Sắp khai trương",
+          "text": "Nhà phố nhiều cây xanh gần Landmark 81, sân trước trồng sen, mở cửa 24/7. Món nên thử: ô long sữa kem mây.",
+          "href": "/chi-nhanh/binh-thanh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Ngắm cầu xong, *ghé Nhà An nghỉ chân*",
+      "text": "Khi khai trương, hai chi nhánh Sài Gòn mở cửa 24/7, có bếp chay khuya từ 22:00 đến 04:00 và ổ cắm ở từng chỗ ngồi. Đặt bàn trước hoặc nhắn Zalo để biết ngày mở cửa sớm nhất.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Nhà An về đêm", "href": "/dem-o-nha-an", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/diem-den", "/diem-den/pho-di-bo-nguyen-hue", "/diem-den/cho-ben-thanh", "/chi-nhanh/binh-thanh/quanh-day", "/dem-o-nha-an", "/tin-tuc/sai-gon-ve-dem"]
+}

@@ -2,7 +2,7 @@
 // Chữ luôn dựng từ bản tiếng Việt; bản dịch đi qua từ điển (xem src/content.mjs). Riêng dữ liệu
 // của công cụ tương tác (widget) lấy trực tiếp từ file của ngôn ngữ đang dựng.
 import { site } from './data/site.mjs';
-import { esc, icon, img, tel, SZ, photoUrl, photos, parentOf } from './layout.mjs';
+import { esc, icon, img, tel, SZ, photoUrl, photos, parentOf, creditOf } from './layout.mjs';
 import { head, branchCards, signup } from './pages.mjs';
 import { reserveForm } from './pages-studio.mjs';
 import { JOBS } from './pages.mjs';
@@ -159,7 +159,7 @@ export const galleryCat = (k) => (photos[k] && THEME_CAT[photos[k].theme]) || (G
 export function galleryStatic(limit = 24) {
   const keys = Object.keys(photos).sort((a, b) => (photos[b].added || '').localeCompare(photos[a].added || '') || a.localeCompare(b)).slice(0, limit);
   return `<div class="gal__filters" role="toolbar" aria-label="Lọc ảnh"><button type="button" class="chip-btn is-on" data-cat="all" aria-pressed="true">Tất cả</button>${GALLERY_CATS.map(([id, n]) => `<button type="button" class="chip-btn" data-cat="${id}" aria-pressed="false">${n}</button>`).join('')}</div>
-<div class="gal__grid">${keys.map((k) => `<figure class="gal__i" data-cat="${galleryCat(k)}"><a href="${photoUrl(k)}" data-lightbox="gal" data-caption="${esc(photos[k].title || '')}">${img(k, photos[k].title || '', { sizes: SZ.small })}</a><figcaption>${T(photos[k].title || '')}</figcaption></figure>`).join('')}</div>
+<div class="gal__grid">${keys.map((k) => `<figure class="gal__i" data-cat="${galleryCat(k)}"><a href="${photoUrl(k)}" data-lightbox="gal" data-caption="${esc(photos[k].title || '')}" data-credit="${esc(creditOf(k))}">${img(k, photos[k].title || '', { sizes: SZ.small })}</a><figcaption>${T(photos[k].title || '')}</figcaption></figure>`).join('')}</div>
 <p class="gal__more"><button type="button" class="btn btn--ghost" data-more hidden>Xem thêm ảnh</button></p>`;
 }
 
@@ -238,7 +238,7 @@ const RENDER = {
   <div class="wrap">
     ${sectionHead(s)}
     <div class="bgal bgal--${Math.min(s.items.length, 8)}">
-      ${s.items.map((it) => { const k = resolveImg(it.img); return `<figure class="bgal__i"><a href="${photoUrl(k)}" data-lightbox="g" data-caption="${esc(it.caption || '')}">${img(k, it.caption || '', { sizes: SZ.tile })}</a><figcaption>${T(it.caption || '')}</figcaption></figure>`; }).join('')}
+      ${s.items.map((it) => { const k = resolveImg(it.img); return `<figure class="bgal__i"><a href="${photoUrl(k)}" data-lightbox="g" data-caption="${esc(it.caption || '')}" data-credit="${esc(creditOf(k))}">${img(k, it.caption || '', { sizes: SZ.tile })}</a><figcaption>${T(it.caption || '')}</figcaption></figure>`; }).join('')}
     </div>
   </div>
 </section>`,

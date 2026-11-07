@@ -1,0 +1,222 @@
+{
+  "slug": "lam-viec-24-7",
+  "group": "space",
+  "nav": "Làm việc 24/7",
+  "navDesc": "Bốn khu, wifi riêng, ổ cắm từng chỗ",
+  "icon": "laptop",
+  "title": "Làm việc 24/7 ở Nhà An: bốn khu, đủ tiện ích, mở cả đêm",
+  "description": "Chỗ làm việc mở 24/7 cho freelancer, dân văn phòng, người làm từ xa: wifi riêng, ổ cắm từng chỗ, in/scan, giờ yên lặng. Đặt bàn làm việc trước nhé.",
+  "image": "@work|laptop, sổ tay và ly trà trên bàn gỗ cạnh cửa sổ quán",
+  "hero": {
+    "eyebrow": "Không gian làm việc",
+    "title": "Một chỗ ngồi tử tế, *mở cửa cả ngày lẫn đêm*",
+    "lead": "Cuộc gọi sớm với khách, bản thiết kế phải nộp lúc nửa đêm hay một buổi chiều chỉ cần đổi gió: Nhà An mở cửa 24/7 ở cả 5 chi nhánh, có sẵn bàn, ổ cắm, wifi và ly trà ủ mới cho bạn.",
+    "img": "@work|laptop, sổ tay và ly trà trên bàn gỗ cạnh cửa sổ quán",
+    "alt": "Laptop, sổ tay và ly trà đặt trên bàn gỗ cạnh cửa sổ",
+    "ctas": [
+      { "label": "Đặt bàn làm việc", "href": "#dat-ban-lam-viec", "style": "primary" },
+      { "label": "Xem bốn khu", "href": "#bon-khu", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "danh-cho-ai",
+      "eyebrow": "Dành cho ai",
+      "title": "Văn phòng thứ hai cho *người làm việc linh hoạt*",
+      "paras": [
+        "Bạn làm tự do, làm từ xa cho công ty ở múi giờ khác, hay đơn giản là dân văn phòng cần một nơi yên hơn để hoàn tất việc dở dang. Ở nhà thì dễ xao nhãng, quán quen thì đóng cửa sớm.",
+        "Nhà An được thiết kế để bạn ngồi lâu mà vẫn thoải mái: ghế tựa lưng, đèn đủ sáng, ổ cắm ngay tầm tay và nhân viên trực 24 giờ. Chỉ cần gọi một ly, phần còn lại để Nhà An lo."
+      ],
+      "bullets": [
+        "Freelancer, người làm từ xa, dân văn phòng",
+        "Họp trực tuyến, viết, thiết kế, lập trình",
+        "Ngồi một mình hoặc đi cùng đồng nghiệp"
+      ],
+      "img": "focus-laptop",
+      "alt": "Laptop và sổ tay mở trên bàn làm việc",
+      "cta": { "label": "Gợi ý chọn chỗ theo kiểu việc", "href": "/tin-tuc/chon-cho-ngoi-theo-viec" }
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "num": "24/7", "label": "Mở cửa mọi ngày, kể cả lễ Tết" },
+        { "num": "5", "label": "Chi nhánh ở Sài Gòn và Đà Nẵng" },
+        { "num": "4", "label": "Khu riêng cho từng kiểu làm việc" },
+        { "num": "22:00–04:00", "label": "Bếp phục vụ món chay khuya" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "bon-khu",
+      "eyebrow": "Bốn khu",
+      "title": "Chọn chỗ ngồi *theo việc hôm nay*",
+      "lead": "Mỗi chi nhánh có đủ bốn khu. Việc cần tập trung, việc cần bàn bạc hay chỉ muốn ngồi êm, đều có chỗ phù hợp.",
+      "items": [
+        {
+          "img": "@work|dãy bàn có vách ngăn, đèn bàn vàng, người trẻ đeo tai nghe làm việc",
+          "alt": "Dãy bàn có vách ngăn và đèn bàn trong khu yên tĩnh",
+          "tag": "Yên lặng",
+          "title": "Phòng Chạy Deadline",
+          "text": "Bàn có vách ngăn, đèn bàn, ổ cắm và cổng sạc từng chỗ, wifi riêng. Khu áp dụng giờ yên lặng để ai cũng giữ được nhịp.",
+          "href": "/tap-trung"
+        },
+        {
+          "img": "meet-room",
+          "alt": "Phòng họp nhỏ có bàn dài và màn hình",
+          "tag": "6–10 chỗ",
+          "title": "Phòng Họp Hanh Thông",
+          "text": "Phòng kính có màn hình HDMI và bảng trắng, đặt theo giờ. Hợp cho buổi họp nhóm, phỏng vấn hay trình bày với khách.",
+          "href": "/phong-hop"
+        },
+        {
+          "img": "cozy-sofa",
+          "alt": "Góc sofa ấm cúng dưới ánh đèn vàng",
+          "tag": "Thư thái",
+          "title": "Góc Ấm Nhà An",
+          "text": "Sofa, đèn vàng, kệ sách và chăn mỏng. Chỗ để đọc tài liệu, viết lách nhẹ nhàng hoặc nghỉ giữa hai phiên làm việc."
+        },
+        {
+          "img": "cowork-team",
+          "alt": "Nhóm bạn trẻ cùng làm việc bên bàn dài",
+          "tag": "8–12 người",
+          "title": "Sân Rôm Rả",
+          "text": "Bàn dài giữa sân cây xanh, hợp cho nhóm làm dự án, động não ý tưởng hay buổi làm việc chung có trao đổi thoải mái.",
+          "href": "/hoc-nhom"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "tien-ich",
+      "eyebrow": "Tiện ích",
+      "title": "Những thứ nhỏ *giúp bạn làm việc trơn tru*",
+      "items": [
+        { "icon": "globe", "title": "Wifi tốc độ cao", "text": "Khu Deadline có mạng wifi riêng, tách khỏi khu chung để cuộc gọi video và tải tệp ổn định hơn." },
+        { "icon": "spark", "title": "Ổ cắm từng chỗ", "text": "Mỗi bàn đều có ổ cắm, riêng khu Deadline có thêm cổng sạc tại từng chỗ ngồi. Không cần đi tìm ổ điện." },
+        { "icon": "box", "title": "In, scan nhanh tại quầy", "text": "Cần in hợp đồng, scan giấy tờ hay in bản thuyết trình gấp, bạn gửi tệp cho nhân viên quầy là xong." },
+        { "icon": "cup", "title": "Quét mã gọi món tại bàn", "text": "Gọi thêm trà, bánh hay món chay mà không phải rời chỗ, không đứt mạch suy nghĩ." },
+        { "icon": "timer", "title": "Giờ yên lặng", "text": "Khu Deadline giữ giờ yên lặng: nói nhỏ, tắt chuông, nghe điện thoại ở khu chung." },
+        { "icon": "shield", "title": "Nhân viên trực 24 giờ", "text": "Luôn có người ở quầy, kể cả ca khuya, để bạn yên tâm ngồi làm đến sáng." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "chon-khu",
+      "eyebrow": "Gợi ý nhanh",
+      "title": "Việc nào *hợp khu nào*",
+      "head": ["Kiểu việc", "Khu gợi ý", "Lưu ý nhỏ"],
+      "rows": [
+        ["Viết, lập trình, ôn thi cần tập trung sâu", "Phòng Chạy Deadline", "Mang tai nghe, để điện thoại chế độ im lặng"],
+        ["Họp nhóm, phỏng vấn, trình bày", "Phòng Họp Hanh Thông", "Đặt trước theo giờ, nhất là khung giờ hành chính"],
+        ["Đọc tài liệu, lên ý tưởng, viết nhật ký", "Góc Ấm Nhà An", "Ghế êm, hợp phiên ngắn hoặc lúc nghỉ"],
+        ["Dự án nhóm, động não, làm việc có trao đổi", "Sân Rôm Rả", "Nhóm đông nên báo trước để Nhà An xếp bàn"],
+        ["Gọi video với đối tác", "Phòng Họp Hanh Thông hoặc khu chung", "Tránh gọi trong khu Deadline"]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "mot-ngay",
+      "eyebrow": "Nhịp làm việc",
+      "title": "Một phiên làm việc *trọn vẹn ở Nhà An*",
+      "lead": "Gợi ý cho những ngày cần làm được nhiều việc mà vẫn giữ sức.",
+      "items": [
+        { "title": "Đặt chỗ trước", "text": "Đặt bàn qua form bên dưới, gọi hoặc nhắn Zalo 0865 920 041 để chắc chắn có chỗ ở khu bạn thích." },
+        { "title": "Chọn ly đầu ngày", "text": "Ô long rang củi hay trà xanh Tân Cương cho buổi sáng tỉnh táo; ly nào cũng chọn được mức đường 0–100%." },
+        { "title": "Chia việc theo phiên", "text": "Làm theo từng phiên 25–50 phút, nghỉ ngắn để đứng dậy, uống nước và cho mắt nhìn xa." },
+        { "title": "Ăn uống đúng bữa", "text": "Bữa trưa chay nấu từ củ quả, bánh ngọt nướng mỗi sáng, và món chay khuya nếu bạn làm muộn." },
+        { "title": "Khép lại gọn gàng", "text": "Lưu việc, ghi ba việc cho ngày mai, dọn chỗ ngồi để người sau cũng có một bàn sạch." }
+      ]
+    },
+    {
+      "type": "intro",
+      "id": "ban-dem",
+      "eyebrow": "Làm việc ban đêm",
+      "title": "Làm khuya mà *vẫn thấy an tâm*",
+      "paras": [
+        "Nhiều người làm việc với đối tác khác múi giờ hoặc tập trung tốt nhất khi phố đã ngủ. Nhà An giữ đèn sáng, có nhân viên trực 24 giờ và bếp phục vụ món chay khuya từ 22:00 đến 04:00.",
+        "Sau nửa đêm, Phòng Chạy Deadline vẫn giữ giờ yên lặng. Nếu cần nghỉ một lúc, Góc Ấm có sofa và chăn mỏng để bạn lấy lại sức trước khi làm tiếp."
+      ],
+      "img": "@night|quán trà về đêm với ánh đèn vàng hắt ra vỉa hè vắng",
+      "alt": "Quán trà sáng đèn vàng trong đêm, vỉa hè vắng người",
+      "reverse": true,
+      "cta": { "label": "Xem Nhà An về đêm", "href": "/dem-o-nha-an" }
+    },
+    {
+      "type": "checklist",
+      "id": "phep-lich-su",
+      "eyebrow": "Phép lịch sự chung",
+      "title": "Để ai cũng *làm việc dễ chịu*",
+      "lead": "Vài thỏa thuận nhỏ giúp không gian chung luôn dễ chịu, kể cả lúc đông người.",
+      "cols": [
+        {
+          "title": "Âm thanh",
+          "icon": "mic",
+          "items": [
+            "Đeo tai nghe khi xem video hay nghe nhạc",
+            "Nghe điện thoại ở khu chung, không ở khu Deadline",
+            "Gõ phím, nói chuyện ở mức vừa đủ"
+          ]
+        },
+        {
+          "title": "Chỗ ngồi",
+          "icon": "home",
+          "items": [
+            "Không giữ chỗ quá lâu khi đã rời đi",
+            "Dùng một ổ cắm, nhường ổ còn lại cho người bên cạnh",
+            "Nhóm đông nên ngồi Sân Rôm Rả hoặc đặt phòng họp"
+          ]
+        },
+        {
+          "title": "Tài sản cá nhân",
+          "icon": "shield",
+          "items": [
+            "Mang theo laptop, ví khi rời bàn",
+            "Báo nhân viên nếu cần trông đồ một lúc",
+            "Khóa màn hình khi đi lấy nước"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "title": "Những góc làm việc *đang được hoàn thiện*",
+      "lead": "Ảnh minh họa tinh thần không gian Nhà An đang chuẩn bị ở các chi nhánh.",
+      "items": [
+        { "img": "cowork-cafe", "caption": "Khu chung sáng sủa cho những phiên làm việc dài" },
+        { "img": "@work|bàn làm việc với ổ cắm âm bàn và cáp sạc gọn gàng", "caption": "Ổ cắm ngay tầm tay, không phải đi tìm" },
+        { "img": "@drinks|ly trà đá ô long bên cạnh bàn phím laptop", "caption": "Một ly trà mát cho buổi chiều dài" },
+        { "img": "@cafe|góc cửa sổ nhiều cây xanh với bàn đơn cho một người", "caption": "Bàn đơn cạnh cửa sổ cho ai thích ánh sáng tự nhiên" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Câu hỏi thường gặp",
+      "items": [
+        { "q": "Làm việc ở Nhà An có tính phí chỗ ngồi không?", "a": "Bạn chỉ cần gọi món như ở một tiệm trà thông thường. Riêng Phòng Họp Hanh Thông được đặt theo giờ; chi phí cụ thể bạn vui lòng liên hệ hotline hoặc Zalo 0865 920 041." },
+        { "q": "Tôi có thể ngồi qua đêm không?", "a": "Có. Cả 5 chi nhánh dự kiến mở cửa 24/7, có nhân viên trực 24 giờ và bếp phục vụ món chay khuya từ 22:00 đến 04:00." },
+        { "q": "Khu Deadline có cần đặt trước không?", "a": "Bạn có thể đến thẳng, nhưng nên đặt trước vào mùa thi hoặc cuối tuần để chắc có chỗ, nhất là ở Nhà An Bình Thạnh." },
+        { "q": "Wifi có đủ ổn định để họp trực tuyến?", "a": "Nhà An trang bị wifi tốc độ cao, khu Deadline có mạng riêng. Với cuộc họp quan trọng, bạn nên đặt Phòng Họp Hanh Thông để có không gian riêng và màn hình." },
+        { "q": "Khi nào Nhà An mở cửa?", "a": "Các chi nhánh đang hoàn thiện. Ngày khai trương và địa chỉ cụ thể sẽ được công bố trên website và Zalo của Nhà An." }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "dat-ban-lam-viec",
+      "kind": "reserve",
+      "eyebrow": "Đặt chỗ",
+      "title": "Đặt bàn làm việc",
+      "lead": "Chọn chi nhánh, khung giờ và khu bạn muốn ngồi. Nhà An sẽ xác nhận qua điện thoại hoặc Zalo ngay khi các chi nhánh nhận khách.",
+      "preset": "Bàn làm việc"
+    }
+  ],
+  "related": [
+    "/khong-gian",
+    "/tap-trung",
+    "/dem-o-nha-an",
+    "/phong-hop",
+    "/tin-tuc/phep-lich-su-khi-lam-viec-o-quan"
+  ]
+}

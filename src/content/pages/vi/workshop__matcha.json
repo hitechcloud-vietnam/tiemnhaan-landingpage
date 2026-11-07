@@ -1,0 +1,185 @@
+{
+  "slug": "workshop/matcha",
+  "group": "community",
+  "nav": "Workshop đánh matcha",
+  "navDesc": "Chổi tre, bát gốm, rây bột và matcha latte",
+  "icon": "whisk",
+  "title": "Workshop đánh matcha: chổi tre, bát gốm và matcha latte",
+  "description": "Workshop đánh matcha ở Tiệm Nhà An: rây bột, làm ấm chổi tre, đánh bọt mịn trong bát gốm và tự pha matcha latte. Lớp nhỏ, đăng ký giữ chỗ trước.",
+  "image": "@club|lớp học nhỏ quanh bàn gỗ, mỗi người đánh matcha trong bát gốm bằng chổi tre",
+  "hero": {
+    "eyebrow": "Workshop",
+    "title": "Tự tay đánh một bát matcha *mịn bọt như kem*",
+    "lead": "Rây bột, làm ấm chổi tre, đánh nhanh theo hình chữ M cho đến khi mặt bát phủ một lớp bọt mịn. Buổi workshop thứ Bảy ở Nhà An đi từ bát matcha truyền thống đến ly matcha latte do chính bạn pha.",
+    "img": "@club|lớp học nhỏ quanh bàn gỗ, mỗi người đánh matcha trong bát gốm bằng chổi tre",
+    "alt": "Lớp học nhỏ quanh bàn gỗ, mỗi người đánh matcha trong bát gốm bằng chổi tre",
+    "ctas": [
+      { "label": "Đăng ký giữ chỗ", "href": "#dang-ky", "style": "primary" },
+      { "label": "Matcha là gì?", "href": "/tra-viet/tu-dien/matcha", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Về buổi học",
+      "title": "Matcha ngon bắt đầu *từ cổ tay*",
+      "paras": [
+        "Matcha là bột trà xanh làm từ lá chè được che bóng vài tuần trước khi hái, sau đó hấp, sấy, bỏ cuống gân và nghiền thật mịn, theo cách truyền thống là bằng cối đá. Khác với trà lá, bạn không hãm rồi bỏ bã mà uống cả phần lá đã nghiền, nên cách rây bột, chọn nước và nhịp cổ tay quyết định gần hết độ mịn, màu xanh và vị của bát trà.",
+        "Ở quầy Nhà An, matcha latte được đánh tay bằng chổi tre cho mịn bọt rồi mới hòa với sữa. Workshop mở lại đúng công đoạn ấy cho bạn: lớp ít người, nhịp chậm, đánh hết bát này đến bát khác cho tới khi lớp bọt tự lên đều."
+      ],
+      "bullets": [
+        "Không cần biết trước về trà hay pha chế",
+        "Dụng cụ và matcha được chuẩn bị sẵn",
+        "Lớp nhỏ, đăng ký trước để giữ chỗ"
+      ],
+      "img": "matcha-whisk",
+      "alt": "Bàn tay cầm chổi tre đánh matcha xanh trong bát gốm",
+      "cta": { "label": "Matcha latte ở quầy Nhà An", "href": "/tra-sua" }
+    },
+    {
+      "type": "checklist",
+      "id": "noi-dung",
+      "eyebrow": "Nội dung",
+      "title": "Lớp matcha *dành cho ai?*",
+      "cols": [
+        {
+          "title": "Bạn sẽ học",
+          "icon": "book",
+          "items": [
+            "Matcha khác bột trà xanh thông thường ở đâu",
+            "Nhận biết bột còn tươi qua màu, hương và độ mịn",
+            "Làm ấm chổi tre, bát và rây bột cho khỏi vón",
+            "Tỉ lệ bột với nước, chọn nước khoảng 70–80°C",
+            "Đánh bằng cổ tay theo hình chữ M để lên bọt mịn",
+            "Pha matcha latte nóng và latte đá hai tầng"
+          ]
+        },
+        {
+          "title": "Mang về",
+          "icon": "gift",
+          "items": [
+            "Phiếu công thức matcha truyền thống và matcha latte",
+            "Cách bảo quản bột matcha sau khi mở hộp",
+            "Cách rửa, phơi và giữ dáng chổi tre",
+            "Gợi ý bộ dụng cụ đầu tiên cho người mới"
+          ]
+        },
+        {
+          "title": "Phù hợp với",
+          "icon": "users",
+          "items": [
+            "Người mê matcha latte muốn tự pha ở nhà",
+            "Người tò mò về cách uống trà kiểu Nhật",
+            "Bạn đang học pha chế, muốn luyện tay chổi tre",
+            "Nhóm bạn, cặp đôi tìm một buổi thứ Bảy thư thả"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "buoi-hoc",
+      "eyebrow": "Lịch trình",
+      "title": "Từ bột trà *đến ly latte*",
+      "lead": "Khung buổi học dự kiến; nhịp cụ thể có thể điều chỉnh theo từng lớp.",
+      "items": [
+        { "title": "Nhìn, ngửi, so bột", "text": "Quẹt hai mẫu matcha lên giấy trắng để so sắc xanh và độ mịn, ngửi hương thơm tươi của bột vừa mở hộp." },
+        { "title": "Làm ấm dụng cụ", "text": "Ngâm đầu chổi tre vào nước ấm cho nan mềm, ít gãy; tráng nóng bát gốm rồi lau thật khô." },
+        { "title": "Rây và đong bột", "text": "Rây khoảng 2 g matcha qua rây mịn vào bát, tập đong bằng thìa tre cho quen tay." },
+        { "title": "Đánh bát đầu tiên", "text": "Rót 60–70 ml nước khoảng 70–80°C, đánh nhanh theo hình chữ M chừng 15–20 giây, nan chổi chỉ lướt nhẹ đáy bát, rồi nhấc chổi lên ở giữa." },
+        { "title": "Pha hai kiểu latte", "text": "Đánh matcha với ít nước cho sánh mịn, rót lên ly sữa đá để tách hai tầng hoặc hòa với sữa ấm; thử cả sữa tươi và sữa yến mạch." },
+        { "title": "Nếm cùng bánh, nhận góp ý", "text": "Nếm matcha bên một chiếc bánh ngọt nhỏ, như người Nhật thường dùng bánh trước khi uống, rồi nhận góp ý riêng và phiếu công thức." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "ti-le",
+      "eyebrow": "Luyện ở nhà",
+      "title": "Tỉ lệ pha matcha *tham khảo*",
+      "lead": "Điểm khởi đầu để luyện tay; hãy điều chỉnh theo loại bột, cỡ bát và khẩu vị của bạn.",
+      "head": ["Cách uống", "Matcha", "Nước và sữa", "Cách làm"],
+      "rows": [
+        ["Bát matcha truyền thống", "Khoảng 2 g", "60–70 ml nước 70–80°C", "Rây bột, đánh nhanh theo hình chữ M 15–20 giây đến khi mịn bọt"],
+        ["Matcha latte nóng", "2–3 g", "40 ml nước 70–80°C, 150–180 ml sữa ấm", "Đánh matcha cho sánh mịn, thêm sữa hâm khoảng 60–65°C, không đun sôi"],
+        ["Matcha latte đá hai tầng", "2–3 g", "40 ml nước ấm, 150 ml sữa lạnh, đá", "Cho đá và sữa vào ly trước, rót phần matcha đã đánh lên trên thật chậm"],
+        ["Matcha lắc, không cần chổi", "Khoảng 2 g", "200 ml nước lọc mát", "Cho vào bình có nắp kín, lắc mạnh 20–30 giây rồi rót ra ly đá"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thong-tin",
+      "eyebrow": "Thông tin dự kiến",
+      "title": "Những điều cần biết *trước buổi học*",
+      "lead": "Các thông tin dưới đây là dự kiến và sẽ được xác nhận khi Nhà An công bố lịch lớp.",
+      "items": [
+        { "icon": "clock", "title": "Khoảng 90 phút", "text": "Đủ thời gian đánh nhiều bát, pha hai kiểu latte và luyện lại đến khi đều tay." },
+        { "icon": "users", "title": "Lớp nhỏ 6–8 người", "text": "Người hướng dẫn quan sát được cổ tay từng người và chỉnh ngay tại bàn." },
+        { "icon": "whisk", "title": "Mỗi người một bộ dụng cụ", "text": "Bát gốm, chổi tre, thìa tre, rây, nhiệt kế và matcha đã sẵn sàng; bạn chỉ cần đến." },
+        { "icon": "calendar", "title": "Lớp vào thứ Bảy", "text": "Nằm trong lịch workshop thứ Bảy hằng tuần; ngày giờ từng lớp công bố sau khai trương." },
+        { "icon": "globe", "title": "Hướng dẫn bằng tiếng Việt", "text": "Tên gọi tiếng Nhật như chasen, chawan được giải thích dễ hiểu; cần hỗ trợ tiếng Anh, hãy ghi chú khi đăng ký." },
+        { "icon": "droplet", "title": "Sữa tươi hoặc sữa yến mạch", "text": "Phần latte chọn được loại sữa; báo trước nếu bạn dị ứng hoặc kiêng thành phần nào." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Trong lớp",
+      "title": "Từng công đoạn *bên bát matcha*",
+      "items": [
+        { "img": "@brew|bộ dụng cụ matcha gồm bát gốm, chổi tre, thìa tre và rây trên khay gỗ", "caption": "Bát, chổi tre, thìa tre và rây: bộ dụng cụ tối thiểu để bắt đầu." },
+        { "img": "@leaf|bột matcha xanh tươi được rây qua rây lưới mịn vào bát gốm", "caption": "Rây bột trước khi đánh để bát trà không lợn cợn." },
+        { "img": "@brew|chổi tre đánh matcha ngâm đầu trong bát nước ấm", "caption": "Ngâm đầu chổi vào nước ấm cho nan tre mềm, bớt gãy." },
+        { "img": "@leaf|thìa tre cong múc bột matcha từ hộp đựng nhỏ", "caption": "Thìa tre giúp đong bột đều tay qua mỗi lần pha." },
+        { "img": "@leaf|mặt bát matcha phủ lớp bọt mịn xanh nhạt nhìn từ trên xuống", "caption": "Lớp bọt mịn, đều cho thấy cổ tay đã vào nhịp." },
+        { "img": "@drinks|rót matcha xanh lên ly sữa yến mạch đầy đá tạo hai tầng màu", "caption": "Rót thật chậm phần matcha lên ly sữa đá để tách hai tầng xanh trắng." },
+        { "img": "@brew|chổi tre úp trên giá sứ giữ dáng sau khi rửa", "caption": "Rửa chổi bằng nước ấm, úp lên giá cho khô thoáng và giữ dáng." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về lớp matcha*",
+      "items": [
+        {
+          "q": "Matcha khác bột trà xanh thông thường thế nào?",
+          "a": "Matcha làm từ lá chè được che bóng trước khi hái, hấp, bỏ cuống gân rồi nghiền rất mịn, nên màu xanh tươi và tan đều khi đánh. Bột trà xanh thông thường có thể xay từ nhiều loại lá khác nhau, hạt thô hơn, dễ lắng và chát hơn khi uống trực tiếp."
+        },
+        {
+          "q": "Vì sao matcha tự pha hay bị đắng hoặc vón cục?",
+          "a": "Thường do nước quá nóng, bột chưa rây hoặc đánh chưa đủ nhanh. Dùng nước khoảng 70–80°C, rây bột trước và đánh bằng cổ tay thay vì cả cánh tay, bát trà sẽ mịn và dịu hơn rõ rệt."
+        },
+        {
+          "q": "Ở nhà không có chổi tre thì pha thế nào?",
+          "a": "Bạn có thể dùng máy đánh sữa cầm tay hoặc lắc matcha với nước trong bình có nắp kín. Bọt không mịn bằng chổi tre nhưng vẫn đủ cho một ly latte ngon; trong lớp, bạn sẽ được thử và so sánh các cách này."
+        },
+        {
+          "q": "Bảo quản bột matcha thế nào cho lâu xanh?",
+          "a": "Đậy kín, tránh ánh sáng, hơi nóng và độ ẩm; sau khi mở nên cất ngăn mát và dùng trong vài tuần. Khi lấy hộp ra khỏi tủ lạnh, hãy chờ hộp về nhiệt độ phòng rồi mới mở để bột không hút ẩm."
+        },
+        {
+          "q": "Matcha có caffeine không?",
+          "a": "Có. Khi uống matcha, bạn uống cả phần lá đã nghiền nên một bát có thể khá đậm. Lớp luôn có nước lọc để uống xen kẽ; nếu nhạy cảm với caffeine, đang mang thai hoặc cho con bú, bạn nên hỏi ý kiến bác sĩ và báo trước để được pha nhẹ hơn."
+        },
+        {
+          "q": "Lịch lớp, học phí và lớp riêng cho nhóm thế nào?",
+          "a": "Lịch lớp và học phí sẽ công bố sau khai trương trên website và Zalo; thành viên Nhà An Club dự kiến được ưu tiên đăng ký. Nhóm bạn, lớp học hay công ty muốn tổ chức buổi riêng, hãy nhắn Zalo 0865 920 041 hoặc email contact@tiemnhaan.com."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Lịch chi tiết công bố sau khai trương. Mỗi lớp chỉ nhận ít người để ai cũng được hướng dẫn tận tay, nên bạn hãy đăng ký sớm để nhận lịch đầu tiên."
+    },
+    {
+      "type": "form",
+      "id": "dang-ky",
+      "kind": "reserve",
+      "eyebrow": "Đăng ký",
+      "title": "Giữ chỗ workshop đánh matcha",
+      "lead": "Chọn chi nhánh và ngày bạn tiện, ghi chú số người đi cùng và loại sữa mong muốn. Khi lịch lớp được công bố, Nhà An sẽ liên hệ để xác nhận chỗ cho bạn.",
+      "preset": "Workshop: Đánh matcha"
+    }
+  ],
+  "related": ["/workshop", "/tra-viet/tu-dien/matcha", "/tra-sua", "/workshop/pha-tra-o-long", "/workshop/lam-banh-chay", "/tin-tuc/workshop-dau-tien-tai-nha-an"]
+}

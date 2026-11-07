@@ -1,5 +1,5 @@
 import { site } from './data/site.mjs';
-import { esc, icon, img, tel, photos, logoImg, assetUrl, SZ } from './layout.mjs';
+import { esc, icon, img, tel, photos, logoImg, assetUrl, SZ, licenseLabel } from './layout.mjs';
 import { spacesSection } from './pages-more.mjs';
 import { open247Band, studioTeaser, seasonStrip } from './pages-studio.mjs';
 import { spaces } from './data/content.mjs';
@@ -643,31 +643,36 @@ export function contact() {
 
 // ───────────────────────── TÍN DỤNG ẢNH ─────────────────────────
 export function credits() {
-  const lic = (p) =>
-    p.license === 'unsplash'
-      ? '<a href="https://unsplash.com/license" target="_blank" rel="noopener license">Unsplash License</a>'
-      : p.license === 'pdm'
-        ? '<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener license">Public Domain</a>'
-        : p.license === 'cc0'
-        ? '<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener license">CC0</a>'
-        : `<a href="https://creativecommons.org/licenses/${p.license}/${p.version}/" target="_blank" rel="noopener license">CC ${p.license.toUpperCase()} ${p.version}</a>`;
+  const licHref = (p) => (p.license === 'unsplash' ? 'https://unsplash.com/license' : p.license === 'pdm' ? 'https://creativecommons.org/publicdomain/mark/1.0/' : p.license === 'cc0' ? 'https://creativecommons.org/publicdomain/zero/1.0/' : p.license === 'permission' ? '' : `https://creativecommons.org/licenses/${p.license}/${p.version || '4.0'}/`);
+  const groups = [
+    ['wikimedia', 'Wikimedia Commons', 'Ảnh do tác giả đăng trên Wikimedia Commons theo giấy phép Creative Commons hoặc phạm vi công cộng.'],
+    ['flickr', 'Flickr', 'Ảnh trên Flickr theo giấy phép Creative Commons, ghi công tác giả.'],
+    ['Unsplash', 'Unsplash', 'Ảnh theo Unsplash License, được phép dùng thương mại.'],
+    ['other', 'Rawpixel & StockSnap', 'Ảnh thuộc phạm vi công cộng (CC0).'],
+    ['permission', 'Nhà cung cấp của Nhà An', 'Ảnh từ website của các nhà cung cấp mà Tiệm Nhà An mua hàng, được chủ sở hữu đồng ý cho Tiệm Nhà An sử dụng. Bản quyền thuộc về chủ sở hữu.'],
+  ];
+  const groupOf = (p) => (p.license === 'permission' ? 'permission' : ['wikimedia', 'flickr', 'Unsplash'].includes(p.source) ? p.source : 'other');
+  const all = Object.entries(photos);
   return `
 <section class="phero phero--short">
   <div class="wrap">
     <p class="eyebrow">Tín dụng hình ảnh</p>
     <h1>Cảm ơn các nhiếp ảnh gia</h1>
-    <p class="lead">Ảnh trên website là ảnh minh họa từ Unsplash (Unsplash License), Rawpixel (CC0), Flickr và Wikimedia Commons (Creative Commons, ghi công tác giả bên dưới), đều được phép dùng thương mại. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương.</p>
+    <p class="lead">${all.length} ảnh minh họa trên website đều được phép sử dụng: ảnh có giấy phép mở (ghi công tác giả bên dưới) và ảnh được nhà cung cấp đồng ý. Ảnh thật của Nhà An sẽ được cập nhật khi khai trương. Xem ảnh tại <a class="link" href="/thu-vien-anh">Thư viện ảnh</a>.</p>
   </div>
 </section>
 <section class="section section--tight">
-  <div class="wrap">
-    <div class="credits">
-      ${Object.entries(photos).map(([k, p]) => `
-      <figure>${img(k, p.title || k, { sizes: SZ.small })}<figcaption>
-        <strong>${esc(p.title || k)}</strong>
-        <span>${p.creator ? esc(p.creator) + ' · ' : ''}${p.source === 'Unsplash' ? 'Unsplash' : p.source === 'flickr' ? 'Flickr' : p.source === 'wikimedia' ? 'Wikimedia Commons' : 'Rawpixel'} · ${lic(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span>
-      </figcaption></figure>`).join('')}
-    </div>
+  <div class="wrap credits2">
+    ${groups.map(([id, name, desc]) => {
+      const list = all.filter(([, p]) => groupOf(p) === id);
+      if (!list.length) return '';
+      return `
+    <div class="credits2__g">
+      <h2>${name} <small>${list.length} ảnh</small></h2>
+      <p class="muted">${desc}</p>
+      <ol class="credits2__list">${list.map(([k, p]) => `<li><strong>${esc(p.title || k)}</strong><span>${p.creator ? esc(p.creator) + ' · ' : ''}${licHref(p) ? `<a href="${licHref(p)}" target="_blank" rel="noopener license">${licenseLabel(p)}</a>` : licenseLabel(p)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">Nguồn</a></span></li>`).join('')}</ol>
+    </div>`;
+    }).join('')}
   </div>
 </section>`;
 }

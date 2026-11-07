@@ -20,7 +20,7 @@ Chiếc áo dài hôm nay là kết quả của nhiều lần đổi thay, từ 
 
 ## Chọn dáng áo hợp với vóc người
 
-Áo dài chỉ đẹp khi vừa vặn: lúc thử, hãy giơ tay, ngồi xuống, bước vài bước để chắc áo không căng ở ngực, không nhăn ở nách, eo và quần dài vừa chấm gót.
+Áo dài chỉ đẹp khi vừa vặn: lúc thử, hãy giơ tay, ngồi xuống, bước vài bước để chắc áo không căng ngực, không nhăn ở nách hay eo, còn quần dài vừa chấm gót.
 
 - Dáng nhỏ nhắn: áo trơn hoặc họa tiết nhỏ, quần cùng tông để dáng trông dài hơn, mang giày cao vừa phải.
 - Dáng cao, mảnh: áo truyền thống tà dài là lợi thế; họa tiết lớn giúp vóc dáng mềm mại hơn.
@@ -51,7 +51,7 @@ Phụ kiện giúp đôi tay có việc để làm, nhờ vậy dáng đứng t�
 - Nón lá: cầm nghiêng ngang hông, đặt sau lưng hoặc nghiêng vành che nửa khuôn mặt.
 - Quạt: mở hờ trước ngực hoặc che một phần gương mặt để ánh mắt thành điểm nhấn.
 - Giỏ hoa, bó sen, chén trà: hợp ảnh ngồi và ảnh cận, cho khung hình thêm một câu chuyện nhỏ.
-- Tóc búi thấp hay thả thẳng, giày cao vừa phải hoặc guốc gỗ, trang sức tối giản để tà áo là nhân vật chính.
+- Tóc và giày: tóc búi thấp hay thả thẳng, giày cao vừa phải hoặc guốc gỗ; trang sức tối giản để tà áo là nhân vật chính.
 
 ![Cô gái mặc áo dài trắng ngồi bên tường cũ, tay cầm nón lá, cạnh chiếc xe đạp](aodai-bicycle "Nón lá cho đôi tay một điểm tựa, dáng ngồi tự nhiên hơn")
 
@@ -72,7 +72,7 @@ Người chụp nên đặt máy ngang hông hoặc thấp hơn một chút đ�
 
 ## Chụp áo dài ở Nhà An: studio và sáu góc check-in
 
-Khi khai trương, mỗi chi nhánh Nhà An sẽ có một studio áo dài nhỏ, cho thuê áo dài truyền thống, cách tân, áo dài đôi, áo dài trẻ em kèm nón lá, quạt, giỏ hoa. Phòng chụp riêng có đèn và set trang trí theo mùa, đặt thêm được thợ ảnh, trang điểm, với ba gói Tự Chụp, Studio và Trọn Gói; giá vui lòng liên hệ.
+Khi khai trương, mỗi chi nhánh Nhà An sẽ có một studio áo dài nhỏ, cho thuê áo dài truyền thống, cách tân, áo dài đôi, áo dài trẻ em kèm nón lá, quạt, giỏ hoa. Phòng chụp riêng có đèn và set trang trí theo mùa; bạn có thể đặt thêm thợ ảnh, trang điểm và chọn ba gói Tự Chụp, Studio hoặc Trọn Gói, giá vui lòng liên hệ.
 
 Sáu góc check-in trong tiệm cũng hợp từng gam áo:
 

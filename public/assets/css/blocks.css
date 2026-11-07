@@ -320,3 +320,12 @@ a.bcard:hover .bcard__more .ic { transform: translateX(4px); }
 .bkit__c code { font-size: 14px; color: var(--forest-700); }
 .bkit__c small { color: var(--muted); font-size: 12.5px; }
 @media (max-width: 900px) { .bkit__logos { grid-template-columns: 1fr; } .bkit__colors { grid-template-columns: repeat(2, 1fr); } }
+
+/* Trang tín dụng ảnh dạng danh sách */
+.credits2 { display: grid; gap: 36px; }
+.credits2__g h2 { font-size: 26px; display: flex; align-items: baseline; gap: 10px; }
+.credits2__g h2 small { font: 600 15px var(--f-sans); color: var(--muted); }
+.credits2__list { columns: 2 380px; column-gap: 32px; margin: 14px 0 0; padding-left: 22px; font-size: 14.5px; }
+.credits2__list li { break-inside: avoid; margin-bottom: 8px; }
+.credits2__list strong { display: block; }
+.credits2__list span { color: var(--muted); }

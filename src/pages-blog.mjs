@@ -1,6 +1,6 @@
 // Cẩm nang (blog): trang bài viết, danh sách có phân trang, trang theo chủ đề, sơ đồ trang
 import { site } from './data/site.mjs';
-import { esc, icon, img, photoUrl, SZ } from './layout.mjs';
+import { esc, icon, img, photoUrl, SZ, creditOf } from './layout.mjs';
 import { head, signup } from './pages.mjs';
 import { articlesFor, CATS, catById, resolveImg, readMinutes, PAGES } from './content.mjs';
 import { postCard, crumbsHtml, relatedSection, KNOWN } from './blocks.mjs';
@@ -30,7 +30,7 @@ function blockHtml(b, ids) {
     case 'quote': return `<blockquote class="art__quote"><p>${T(b.text)}</p></blockquote>`;
     case 'img': {
       const k = resolveImg(b.src);
-      return `<figure class="art__fig"><a href="${photoUrl(k)}" data-lightbox="art" data-caption="${esc(b.cap || b.alt)}">${img(k, b.alt, { sizes: '(max-width: 760px) 92vw, 720px' })}</a>${b.cap ? `<figcaption>${T(b.cap)}</figcaption>` : ''}</figure>`;
+      return `<figure class="art__fig"><a href="${photoUrl(k)}" data-lightbox="art" data-caption="${esc(b.cap || b.alt)}" data-credit="${esc(creditOf(k))}">${img(k, b.alt, { sizes: '(max-width: 760px) 92vw, 720px' })}</a>${b.cap ? `<figcaption>${T(b.cap)}</figcaption>` : ''}</figure>`;
     }
     case 'link': return `<a class="art__link" href="${esc(b.href)}">${icon('arrow')}<span><small>Đọc thêm</small><strong>${T(b.text)}</strong></span></a>`;
     case 'tip': return `<aside class="art__tip">${icon('spark')}<div>${b.title ? `<p class="art__tip-t">${T(b.title)}</p>` : ''}<p>${T(b.text)}</p></div></aside>`;

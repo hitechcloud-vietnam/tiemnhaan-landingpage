@@ -1,0 +1,200 @@
+{
+  "slug": "workshop/lam-banh-chay",
+  "group": "community",
+  "nav": "Workshop làm bánh chay",
+  "navDesc": "Cheesecake chay, mochi, bánh chuối thuần chay",
+  "icon": "cake",
+  "title": "Workshop làm bánh chay: cheesecake, mochi và bánh chuối",
+  "description": "Workshop làm bánh chay ở Tiệm Nhà An: cheesecake hạt điều không nướng, mochi nhân đậu đỏ, bánh chuối thuần chay. Lớp nhỏ, mang bánh tự làm về nhà.",
+  "image": "@bake|lớp học làm bánh nhỏ, mọi người cùng nhào bột quanh bàn bếp rắc bột mì",
+  "hero": {
+    "eyebrow": "Workshop",
+    "title": "Ba chiếc bánh chay *do chính tay bạn làm*",
+    "lead": "Cheesecake hạt điều không nướng, mochi nhân đậu đỏ và bánh chuối nướng thơm quế, cả ba đều không trứng, không sữa. Một buổi thứ Bảy ở Nhà An để bạn tự tay làm từng chiếc và mang hộp bánh của mình về nhà.",
+    "img": "@bake|lớp học làm bánh nhỏ, mọi người cùng nhào bột quanh bàn bếp rắc bột mì",
+    "alt": "Lớp học làm bánh nhỏ, mọi người cùng nhào bột quanh bàn bếp rắc bột mì",
+    "ctas": [
+      { "label": "Đăng ký giữ chỗ", "href": "#dang-ky", "style": "primary" },
+      { "label": "Ghé lò bánh Nhà An", "href": "/lo-banh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Về buổi học",
+      "title": "Không trứng, không sữa, *bánh vẫn mềm thơm*",
+      "paras": [
+        "Bánh thuần chay vẫn mềm ẩm và thơm lâu nếu bạn hiểu mỗi nguyên liệu đang thay vai cho ai: chuối chín giữ ẩm và kết dính thay trứng, hạt điều ngâm mềm cho phần nhân béo mịn thay phô mai, còn bột nếp hấp chín tạo nên lớp vỏ dẻo dai. Buổi học đi qua ba kỹ thuật: xay và làm lạnh, hấp và nhồi, trộn và nướng.",
+        "Toàn bộ món ăn ở Nhà An là món chay, món thuần chay được ghi chú riêng tại quầy. Khác với cheesecake kem phô mai trong tủ bánh, cả ba công thức của lớp đều thuần chay và được tính cho khuôn nhỏ, dụng cụ quen thuộc, để bạn làm lại ngay trong căn bếp nhà mình."
+      ],
+      "bullets": [
+        "Không cần biết làm bánh trước",
+        "Hai trong ba món không cần lò nướng",
+        "Mang hộp bánh tự làm về nhà"
+      ],
+      "img": "@bake|nguyên liệu làm bánh chay trên bàn gỗ: chuối chín, hạt điều, bột nếp, đường nâu",
+      "alt": "Nguyên liệu làm bánh chay trên bàn gỗ gồm chuối chín, hạt điều, bột nếp và đường nâu",
+      "cta": { "label": "Xem bếp chay Nhà An", "href": "/bep-chay" }
+    },
+    {
+      "type": "cards",
+      "id": "ba-cong-thuc",
+      "eyebrow": "Ba công thức",
+      "title": "Ba chiếc bánh, *ba kỹ thuật*",
+      "lead": "Mỗi chiếc bánh luyện một nhóm kỹ năng, để về nhà bạn tự biến tấu theo mùa.",
+      "items": [
+        {
+          "img": "@cake|cheesecake hạt điều không nướng cắt lát, lộ lớp đế yến mạch và chà là",
+          "alt": "Lát cheesecake hạt điều không nướng với lớp đế yến mạch và chà là",
+          "title": "Cheesecake chay không nướng",
+          "tag": "Xay và làm lạnh",
+          "text": "Nhân hạt điều ngâm mềm xay cùng nước cốt dừa, dầu dừa và chanh, đế yến mạch trộn chà là. Không cần lò, chỉ cần tủ lạnh và chút kiên nhẫn."
+        },
+        {
+          "img": "@cake|bánh mochi tròn phủ bột áo trắng, một chiếc cắt đôi lộ nhân đậu đỏ",
+          "alt": "Bánh mochi tròn phủ bột áo trắng, một chiếc cắt đôi lộ nhân đậu đỏ",
+          "title": "Mochi nhân đậu đỏ",
+          "tag": "Hấp và nhồi",
+          "text": "Vỏ bột nếp hấp chín, nhồi khi còn ấm cho dẻo mịn rồi gói nhân đậu đỏ sên. Khi có dâu tươi theo mùa, bạn có thể gói thêm một quả dâu vào giữa."
+        },
+        {
+          "img": "@bake|ổ bánh chuối nướng nứt mặt, vài lát cắt trên thớt gỗ",
+          "alt": "Ổ bánh chuối nướng nứt mặt và vài lát cắt trên thớt gỗ",
+          "title": "Bánh chuối nướng thuần chay",
+          "tag": "Trộn và nướng",
+          "text": "Chuối chín kỹ nghiền nhuyễn thay trứng, thêm dầu, đường nâu và chút quế. Bí quyết là trộn vừa đủ để bánh mềm ẩm, không bị chai."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "noi-dung",
+      "eyebrow": "Nội dung",
+      "title": "Học gì và *mang về những gì?*",
+      "cols": [
+        {
+          "title": "Bạn sẽ học",
+          "icon": "book",
+          "items": [
+            "Vai trò của chuối, hạt điều, bột nếp khi bánh không có trứng và sữa",
+            "Ngâm và xay hạt điều cho nhân mịn, không lợn cợn",
+            "Hấp, nhồi vỏ mochi và gói nhân gọn tay",
+            "Trộn riêng phần khô, phần ướt để bánh chuối mềm ẩm",
+            "Thử bánh chín bằng que tre, để nguội và cắt đẹp",
+            "Đọc nhãn nguyên liệu, nhận biết thành phần dễ gây dị ứng"
+          ]
+        },
+        {
+          "title": "Mang về",
+          "icon": "gift",
+          "items": [
+            "Hộp bánh do chính bạn làm",
+            "Phiếu công thức ba loại bánh cho khuôn nhỏ",
+            "Gợi ý thay thế nguyên liệu khi thiếu đồ",
+            "Mẹo bảo quản riêng cho từng loại bánh"
+          ]
+        },
+        {
+          "title": "Phù hợp với",
+          "icon": "users",
+          "items": [
+            "Người ăn chay, ăn thuần chay hoặc muốn bớt đồ ăn từ động vật",
+            "Người mới tập làm bánh, nhà chưa có lò nướng",
+            "Gia đình muốn làm bánh không trứng, không sữa",
+            "Nhóm bạn tìm một buổi thứ Bảy vui và có bánh mang về"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "buoi-hoc",
+      "eyebrow": "Lịch trình",
+      "title": "Từ nguyên liệu thô *đến hộp bánh mang về*",
+      "lead": "Khung buổi học dự kiến; thứ tự có thể đổi để tận dụng thời gian chờ nướng và làm lạnh.",
+      "items": [
+        { "title": "Trà đón khách, làm quen nguyên liệu", "text": "Nhận một tách trà nóng, xem và nếm thử từng nguyên liệu chính, hiểu vì sao bánh vẫn đứng dáng khi không có trứng." },
+        { "title": "Bánh chuối vào lò trước", "text": "Nghiền chuối, trộn riêng phần khô và phần ướt rồi gộp lại, đổ khuôn nhỏ và cho vào lò để tận dụng thời gian nướng." },
+        { "title": "Làm cheesecake không nướng", "text": "Nén đế yến mạch chà là vào khuôn, xay hạt điều cùng nước cốt dừa đến khi mịn như kem, đổ khuôn rồi cho vào tủ lạnh." },
+        { "title": "Hấp và nhồi vỏ mochi", "text": "Hấp hỗn hợp bột nếp, nhồi khi còn ấm, áo một lớp bột chống dính rồi chia thành từng viên đều nhau." },
+        { "title": "Gói mochi, thử bánh chuối", "text": "Gói nhân đậu đỏ, vuốt mép xuống đáy cho tròn; xiên que tre vào giữa bánh chuối, que rút ra sạch là bánh đã chín." },
+        { "title": "Nếm bánh, đóng hộp", "text": "Cả lớp nếm bánh cùng trà, như mochi với trà xanh lài, bánh chuối với matcha latte sữa yến mạch, rồi nhận phiếu công thức và hộp bánh." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "thong-tin",
+      "eyebrow": "Thông tin dự kiến",
+      "title": "Chuẩn bị gì *trước khi vào bếp?*",
+      "lead": "Các thông tin dưới đây là dự kiến và sẽ được xác nhận khi Nhà An công bố lịch lớp.",
+      "items": [
+        { "icon": "clock", "title": "Khoảng 3 tiếng", "text": "Có khoảng chờ bánh nướng và làm lạnh, xen giữa là trà và chuyện bếp núc." },
+        { "icon": "users", "title": "Lớp nhỏ 6–8 người", "text": "Mỗi người một chỗ làm bánh riêng, người hướng dẫn đi từng bàn để chỉnh tay." },
+        { "icon": "cake", "title": "Dụng cụ, nguyên liệu có sẵn", "text": "Tạp dề, khuôn, cân, máy xay, xửng hấp và nguyên liệu đã cân sẵn; bạn chỉ cần đến." },
+        { "icon": "calendar", "title": "Lớp vào thứ Bảy", "text": "Thuộc lịch workshop thứ Bảy hằng tuần; ngày giờ từng lớp công bố sau khai trương." },
+        { "icon": "globe", "title": "Hướng dẫn bằng tiếng Việt", "text": "Phiếu công thức ghi rõ định lượng từng món; cần hỗ trợ tiếng Anh, hãy ghi chú khi đăng ký." },
+        { "icon": "shield", "title": "Ghi chú dị ứng", "text": "Công thức có hạt điều, dừa, bột mì và yến mạch; hãy báo trước thành phần bạn cần tránh." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Trong lớp",
+      "title": "Khoảnh khắc *trên bàn làm bánh*",
+      "items": [
+        { "img": "@bake|tay nghiền chuối chín lấm tấm đốm nâu bằng nĩa trong âu thủy tinh", "caption": "Chuối càng chín, bánh càng ngọt thơm và ẩm." },
+        { "img": "@cake|đổ nhân cheesecake hạt điều mịn lên lớp đế trong khuôn tròn", "caption": "Nhân hạt điều được xay đến khi mịn như kem rồi mới đổ khuôn." },
+        { "img": "@cake|nhồi khối bột nếp hấp còn ấm trên mặt bàn rắc bột áo", "caption": "Nhồi vỏ mochi khi bột còn ấm để vỏ dẻo mịn, không nứt." },
+        { "img": "@cake|đôi tay gói nhân đậu đỏ vào vỏ mochi trắng mềm", "caption": "Gói nhân, vuốt mép xuống đáy cho viên bánh tròn đều." },
+        { "img": "@bake|khay bánh chuối khuôn nhỏ vàng nâu vừa ra lò", "caption": "Khuôn nhỏ giúp bánh chín nhanh và dễ chia hộp mang về." },
+        { "img": "@gift|hộp giấy kraft đựng bánh tự làm buộc dây gai", "caption": "Hộp bánh của riêng bạn, kèm phiếu công thức để làm lại ở nhà." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về lớp làm bánh*",
+      "items": [
+        {
+          "q": "Chưa từng làm bánh có theo kịp không?",
+          "a": "Theo kịp. Hai trong ba món không cần lò nướng, các bước được chia nhỏ và nguyên liệu đã cân sẵn. Người hướng dẫn làm mẫu trước từng công đoạn rồi mới để bạn tự làm."
+        },
+        {
+          "q": "Bánh chay và bánh thuần chay khác nhau thế nào?",
+          "a": "Món chay không dùng thịt, cá, hải sản nhưng có thể có trứng, sữa hoặc bơ. Bánh thuần chay không dùng nguyên liệu từ động vật; cả ba công thức trong lớp đều thuần chay. Nếu bạn kiêng thêm thành phần nào khác, cứ ghi chú khi đăng ký."
+        },
+        {
+          "q": "Mình dị ứng hạt hoặc gluten thì có học được không?",
+          "a": "Lớp dùng hạt điều, dừa, bột mì và yến mạch. Hãy báo khi đăng ký để Nhà An tư vấn phương án thay thế nếu có thể. Vì nhiều nguyên liệu được chuẩn bị trong cùng một khu bếp, Nhà An không thể loại trừ hoàn toàn khả năng nhiễm chéo."
+        },
+        {
+          "q": "Bánh mang về bảo quản thế nào?",
+          "a": "Cheesecake cất ngăn mát và cần thêm vài tiếng để đông hẳn. Mochi ngon nhất trong ngày vì vỏ bánh dễ cứng khi để tủ lạnh. Bánh chuối để nguội hẳn rồi đậy kín, nên dùng trong vài ngày."
+        },
+        {
+          "q": "Có cần mang gì theo không?",
+          "a": "Không cần, tạp dề, dụng cụ và nguyên liệu đã chuẩn bị sẵn. Bạn nên buộc gọn tóc, mặc đồ thoải mái và mang theo túi giữ lạnh nếu đường về nhà xa."
+        },
+        {
+          "q": "Lịch lớp, học phí và lớp riêng cho nhóm thế nào?",
+          "a": "Lịch lớp và học phí sẽ công bố sau khai trương trên website và Zalo; thành viên Nhà An Club dự kiến được ưu tiên đăng ký. Nhóm bạn, gia đình hay công ty muốn tổ chức buổi riêng, hãy nhắn Zalo 0865 920 041 hoặc email contact@tiemnhaan.com."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Lịch chi tiết công bố sau khai trương. Mỗi lớp nhận ít người để ai cũng có chỗ làm bánh riêng; đăng ký sớm để được báo lịch đầu tiên và chọn chi nhánh thuận tiện."
+    },
+    {
+      "type": "form",
+      "id": "dang-ky",
+      "kind": "reserve",
+      "eyebrow": "Đăng ký",
+      "title": "Giữ chỗ workshop làm bánh chay",
+      "lead": "Chọn chi nhánh, ngày bạn tiện và ghi chú số người đi cùng, thành phần cần tránh. Khi lịch lớp được công bố, Nhà An sẽ liên hệ để xác nhận chỗ cho bạn.",
+      "preset": "Workshop: Làm bánh chay"
+    }
+  ],
+  "related": ["/workshop", "/lo-banh", "/bep-chay", "/workshop/nau-chay", "/workshop/matcha", "/tin-tuc/ket-hop-tra-va-banh"]
+}

@@ -117,6 +117,18 @@ export const img = (key, alt, { cls = '', eager = false, sizes = '(max-width: 70
   return `<img src="${photoUrl(key)}"${srcset} alt="${esc(alt)}" width="${w}" height="${h}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"${cls ? ` class="${cls}"` : ''}>`;
 };
 
+// Ghi công ảnh (không phụ thuộc ngôn ngữ): "© Tác giả / Nguồn · Giấy phép"
+export const SOURCE_NAME = { wikimedia: 'Wikimedia Commons', flickr: 'Flickr', Unsplash: 'Unsplash', rawpixel: 'Rawpixel', stocksnap: 'StockSnap' };
+export const licenseLabel = (p) => (p.license === 'permission' ? 'Được phép sử dụng' : p.license === 'unsplash' ? 'Unsplash License' : p.license === 'pdm' ? 'Public Domain' : p.license === 'cc0' ? 'CC0' : p.license ? `CC ${p.license.toUpperCase()} ${p.version || ''}`.trim() : '');
+export const creditOf = (key) => {
+  const p = photos[key];
+  if (!p) return '';
+  const src = SOURCE_NAME[p.source] || p.source || '';
+  const who = p.creator && p.creator !== src ? `${p.creator} / ${src}` : src;
+  const lab = p.license === 'permission' ? '' : licenseLabel(p);
+  return `© ${who}${lab ? ' · ' + lab : ''}`;
+};
+
 // Cỡ hiển thị chuẩn của các lưới ảnh (giúp trình duyệt chọn bản ảnh vừa đủ nét)
 export const SZ = {
   card3: '(max-width: 600px) 92vw, (max-width: 1000px) 46vw, 380px',
