@@ -22,7 +22,7 @@ const regionBranches = (id) => {
   return `
 <section class="section" id="chi-nhanh">
   <div class="wrap">
-    ${head('Chi nhánh', `2 căn nhà tại <em>${r.name}</em>`, 'Địa chỉ và ngày khai trương sẽ được công bố sớm. Đăng ký nhận tin để là người đầu tiên biết.')}
+    ${head('Chi nhánh', `${site.branches.filter((b) => b.region === id).length} căn nhà tại <em>${r.name}</em>`, 'Địa chỉ và ngày khai trương sẽ được công bố sớm. Đăng ký nhận tin để là người đầu tiên biết.')}
     ${branchCards(site.branches.filter((b) => b.region === id))}
   </div>
 </section>`;
@@ -44,7 +44,7 @@ export function saigon() {
 
 <section class="section">
   <div class="wrap">
-    ${head('Vị Sài Gòn', 'Những món mang <em>chất Sài Gòn</em>', 'Món đặc trưng chỉ có tại hai chi nhánh Sài Gòn, lấy cảm hứng từ ly cà phê vỉa hè và gánh hàng rong quen thuộc.')}
+    ${head('Vị Sài Gòn', 'Những món mang <em>chất Sài Gòn</em>', 'Món đặc trưng chỉ có tại hai chi nhánh Bình Thạnh và Tân Bình, lấy cảm hứng từ ly cà phê vỉa hè và gánh hàng rong quen thuộc.')}
     ${dishGrid([
       ['phin-1', 'Bạc xỉu ô long', 'Oolong Bạc Xỉu', 'Bạc xỉu Sài Gòn thêm một shot ô long rang củi, béo mà thanh.', 'Chỉ có ở Sài Gòn'],
       ['iced-tea', 'Trà tắc xí muội', 'Kumquat & Salted Plum Tea', 'Ly trà đá vỉa hè nâng cấp: tắc tươi, xí muội, ô long thanh.', ''],
@@ -112,7 +112,7 @@ export function mientrung() {
 
 <section class="section section--sand">
   <div class="wrap">
-    ${head('Vị miền Trung', 'Đậm đà <em>xứ Quảng</em>', 'Những món chay mang hồn miền Trung, chỉ có tại hai chi nhánh Đà Nẵng và Hội An.')}
+    ${head('Vị miền Trung', 'Đậm đà <em>xứ Quảng</em>', 'Những món chay mang hồn miền Trung, chỉ có tại ba chi nhánh Đà Nẵng, Hội An và Duy Xuyên.')}
     ${dishGrid([
       ['mi-quang', 'Mì Quảng chay', 'Vegetarian Quang Noodles', 'Sợi mì vàng nghệ, nấm, đậu phộng rang, bánh tráng mè nướng giòn. Ảnh minh họa.', 'Đặc sản'],
       ['banh-xeo', 'Bánh xèo chay miền Trung', 'Central-style Crispy Pancake', 'Bánh nhỏ đổ khuôn đất, nhân giá nấm, cuốn rau rừng chấm tương đậu.', ''],
@@ -173,7 +173,7 @@ export function hiring() {
     <div>
       <p class="eyebrow">Tuyển dụng</p>
       <h1>Về làm nhà với <em>Nhà An</em></h1>
-      <p class="lead">Nhà An đang tìm những người bạn đồng hành cho 4 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam. Không cần kinh nghiệm, chỉ cần thật lòng và chăm chỉ, Nhà An sẽ đào tạo từ đầu.</p>
+      <p class="lead">Nhà An đang tìm những người bạn đồng hành cho 5 chi nhánh tại Sài Gòn và Đà Nẵng – Quảng Nam. Không cần kinh nghiệm, chỉ cần thật lòng và chăm chỉ, Nhà An sẽ đào tạo từ đầu.</p>
       <div class="hero__cta">
         <a class="btn btn--primary btn--lg" href="#ung-tuyen">Ứng tuyển ngay ${icon('arrow')}</a>
         <a class="btn btn--ghost btn--lg" href="${site.social.zalo}" target="_blank" rel="noopener">Nhắn Zalo ${site.phoneDisplay}</a>
@@ -192,9 +192,9 @@ export function hiring() {
 
 <section class="section section--cream">
   <div class="wrap">
-    ${head('Vị trí đang tuyển', 'Chọn vị trí <em>hợp với bạn</em>', 'Tuyển cho cả 4 chi nhánh: Sài Gòn 1, Sài Gòn 2, Đà Nẵng và Hội An.')}
+    ${head('Vị trí đang tuyển', 'Chọn vị trí <em>hợp với bạn</em>', 'Tuyển cho cả 5 chi nhánh: Bình Thạnh, Tân Bình, Đà Nẵng, Hội An và Duy Xuyên.')}
     <ul class="jobs jobs--wide">
-      ${JOBS.map(([j, t, pay]) => `<li><div><strong>${j}</strong><span>${t} · Sài Gòn / Đà Nẵng / Hội An</span></div><b class="jobs__pay">${pay}</b><a class="link" href="#ung-tuyen" data-job="${j} (${t})">Ứng tuyển ${icon('arrow')}</a></li>`).join('')}
+      ${JOBS.map(([j, t, pay]) => `<li><div><strong>${j}</strong><span>${t} · Sài Gòn / Đà Nẵng / Hội An / Duy Xuyên</span></div><b class="jobs__pay">${pay}</b><a class="link" href="#ung-tuyen" data-job="${j} (${t})">Ứng tuyển ${icon('arrow')}</a></li>`).join('')}
     </ul>
   </div>
 </section>

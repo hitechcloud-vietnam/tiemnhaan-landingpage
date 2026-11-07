@@ -10,10 +10,11 @@ const FORMS = {
   contact: 'Lời nhắn liên hệ',
   booking: 'Yêu cầu đặt chỗ / phòng họp',
   apply: 'Hồ sơ ứng tuyển',
+  reserve: 'Yêu cầu đặt bàn',
 };
 const LABELS = {
   name: 'Họ và tên', contact: 'Liên hệ', branch: 'Chi nhánh', topic: 'Chủ đề', job: 'Vị trí',
-  space: 'Khu', date: 'Ngày', time: 'Giờ', people: 'Số người', message: 'Lời nhắn', lang: 'Ngôn ngữ trang', page: 'Trang gửi',
+  space: 'Khu', area: 'Khu vực', date: 'Ngày', time: 'Giờ', people: 'Số người', message: 'Lời nhắn', lang: 'Ngôn ngữ trang', page: 'Trang gửi',
 };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
