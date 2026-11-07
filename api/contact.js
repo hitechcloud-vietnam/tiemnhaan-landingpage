@@ -13,7 +13,7 @@ const FORMS = {
   reserve: 'Yêu cầu đặt bàn',
 };
 const LABELS = {
-  name: 'Họ và tên', contact: 'Liên hệ', branch: 'Chi nhánh', topic: 'Chủ đề', job: 'Vị trí',
+  name: 'Họ và tên', contact: 'Liên hệ', company: 'Công ty', branch: 'Chi nhánh', topic: 'Chủ đề', job: 'Vị trí',
   space: 'Khu', area: 'Khu vực', date: 'Ngày', time: 'Giờ', people: 'Số người', message: 'Lời nhắn', lang: 'Ngôn ngữ trang', page: 'Trang gửi',
 };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);

@@ -159,12 +159,12 @@ export function home() {
       <p class="lead">Tiệm Nhà An là căn bếp nhỏ cho những buổi sáng thong thả và buổi chiều chậm rãi: một ly trà sữa thơm, một lát cheesecake vừa ra lò, một tô phở chay nóng hổi.</p>
       <div class="hero__cta">
         <a class="btn btn--primary" href="/chi-nhanh#dang-ky">Nhận ưu đãi khai trương ${icon('arrow')}</a>
-        <a class="btn btn--ghost" href="/chi-nhanh">Chi nhánh sắp mở</a>
+        <a class="btn btn--ghost" href="/dat-ban">Đặt bàn 24/7</a>
       </div>
       <dl class="stats">
-        <div><dt>115</dt><dd>món trong thực đơn</dd></div>
+        <div><dt>24/7</dt><dd>mở cửa cả ngày lẫn đêm</dd></div>
         <div><dt>100%</dt><dd>món ăn là món chay</dd></div>
-        <div><dt>4</dt><dd>chi nhánh sắp khai trương</dd></div>
+        <div><dt>5</dt><dd>chi nhánh sắp khai trương</dd></div>
       </dl>
     </div>
     <div class="hero__media">
@@ -331,7 +331,7 @@ ${hiringTeaser()}
 
 <section class="numbers">
   <div class="wrap numbers__in">
-    <div><strong>4</strong><span>chi nhánh sắp mở</span></div>
+    <div><strong>5</strong><span>chi nhánh sắp mở</span></div>
     <div><strong>100%</strong><span>món ăn là món chay</span></div>
     <div><strong>24/7</strong><span>mở cửa cả ngày lẫn đêm</span></div>
     <div><strong>5:00</strong><span>bánh bắt đầu ra lò</span></div>

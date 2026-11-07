@@ -23,10 +23,10 @@ Website đã được cấu hình sẵn cho `https://tiemnhaan.com`: link chuẩ
 
 | Loại (Type) | Tên / Host | Giá trị (Value) | TTL |
 | --- | --- | --- | --- |
-| `A` | `@` | `76.76.21.21` | 3600 (hoặc Auto) |
-| `CNAME` | `www` | `cname.vercel-dns.com.` | 3600 (hoặc Auto) |
+| `A` | `@` | `216.198.79.1` | 3600 (hoặc Auto) |
+| `CNAME` | `www` | `3ebc759da879a33a.vercel-dns-017.com.` | 3600 (hoặc Auto) |
 
-> Vercel đôi khi hiển thị giá trị riêng cho từng project (ví dụ một địa chỉ IP A khác, hoặc CNAME dạng `xxxx.vercel-dns-017.com`). **Nếu màn hình Domains của Vercel ghi giá trị khác bảng trên, hãy dùng đúng giá trị Vercel hiển thị.**
+> Đây là giá trị Vercel cấp cho project Tiệm Nhà An và đã được xác nhận hoạt động ngày 07/11/2026. Giá trị cũ `76.76.21.21` / `cname.vercel-dns.com` vẫn dùng được. **Nếu màn hình Domains của Vercel ghi giá trị khác, hãy dùng đúng giá trị Vercel hiển thị.**
 
 Lưu ý quan trọng:
 
@@ -42,7 +42,7 @@ Bạn có thể đổi Nameserver của tên miền sang `ns1.vercel-dns.com` v�
 ## Bước 4: Kiểm tra
 
 - DNS thường cập nhật trong 5–30 phút, có khi tới 24–48 giờ.
-- Kiểm tra trên https://dnschecker.org với `tiemnhaan.com` (loại A, phải ra `76.76.21.21`) và `www.tiemnhaan.com` (loại CNAME).
+- Kiểm tra trên https://dnschecker.org với `tiemnhaan.com` (loại A, phải ra `216.198.79.1` hoặc một IP thuộc dải `216.198.79.x` / `64.29.17.x` của Vercel) và `www.tiemnhaan.com` (loại CNAME).
 - Hoặc dùng lệnh:
 
 ```bash

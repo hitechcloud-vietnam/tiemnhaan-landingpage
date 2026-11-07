@@ -1115,3 +1115,4 @@ html[lang="ja"] .branch-tagline, html[lang="ko"] .branch-tagline, html[lang="zh-
 @media (max-width: 900px) { .ominis { grid-template-columns: 1fr 1fr; } }
 .footer__branch a { color: inherit; }
 .sticker--narrow { max-width: 110px; }
+.offers--3 { grid-template-columns: repeat(3, 1fr); } @media (max-width: 1000px) { .offers--3 { grid-template-columns: 1fr 1fr; } } @media (max-width: 520px) { .offers--3 { grid-template-columns: 1fr; } }

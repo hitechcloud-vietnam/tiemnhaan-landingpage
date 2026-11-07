@@ -125,6 +125,7 @@ const megaAbout = () => `
       <li><a href="/ve-chung-toi">${icon('home')}<span><strong>Câu chuyện Nhà An</strong><small>Mái nhà, đóa sen, chồi lá</small></span></a></li>
       <li><a href="/tin-tuc">${icon('card')}<span><strong>Tin tức</strong><small>Khai trương, sự kiện, câu chuyện</small></span></a></li>
       <li><a href="/hoi-dap">${icon('chat')}<span><strong>Hỏi đáp</strong><small>Những câu hỏi thường gặp</small></span></a></li>
+      <li><a href="/hop-tac">${icon('briefcase')}<span><strong>Hợp tác &amp; Doanh nghiệp</strong><small>Tiệc trà văn phòng, quà tặng, sự kiện</small></span></a></li>
       <li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tuyển dụng</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li>
     </ul>
     <a class="mega__card" href="/tuyen-dung">
@@ -139,7 +140,7 @@ const NAV = [
   ['/chi-nhanh', 'Chi nhánh', 'branches', megaBranches, ['branches', 'saigon', 'mientrung', 'branch']],
   ['/tuyen-dung', 'Tuyển dụng', 'hiring'],
   ['/tin-tuc', 'Tin tức', 'news', null, ['news', 'article']],
-  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq']],
+  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq', 'partners']],
   ['/lien-he', 'Liên hệ', 'contact'],
 ];
 
@@ -183,9 +184,9 @@ const drawer = (path, page) => `
       </details>
       <a class="drawer__link${page === 'hiring' ? ' is-cur' : ''}" href="/tuyen-dung">${icon('briefcase')} Tuyển dụng <em class="drawer__badge">Đang tuyển</em></a>
       <a class="drawer__link${['news', 'article'].includes(page) ? ' is-cur' : ''}" href="/tin-tuc">${icon('card')} Tin tức</a>
-      <details${['about', 'faq'].includes(page) ? ' open' : ''}><summary>${icon('heart')} Về Nhà An</summary>
+      <details${['about', 'faq', 'partners'].includes(page) ? ' open' : ''}><summary>${icon('heart')} Về Nhà An</summary>
         <div class="drawer__sub drawer__sub--plain">
-          <a href="/ve-chung-toi">Câu chuyện Nhà An</a><a href="/hoi-dap">Hỏi đáp</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a>
+          <a href="/ve-chung-toi">Câu chuyện Nhà An</a><a href="/hoi-dap">Hỏi đáp</a><a href="/hop-tac">Hợp tác &amp; Doanh nghiệp</a><a href="/tin-dung-anh">Tín dụng hình ảnh</a>
         </div>
       </details>
       <a class="drawer__link${page === 'contact' ? ' is-cur' : ''}" href="/lien-he">${icon('mail')} Liên hệ</a>
@@ -387,7 +388,7 @@ ${body}
       <h3>Về Nhà An</h3>
       <ul>
         <li><a href="/ve-chung-toi">Câu chuyện</a></li><li><a href="/tin-tuc">Tin tức</a></li><li><a href="/tuyen-dung">Tuyển dụng</a></li>
-        <li><a href="/hoi-dap">Hỏi đáp</a></li><li><a href="/lien-he">Liên hệ</a></li>
+        <li><a href="/hoi-dap">Hỏi đáp</a></li><li><a href="/hop-tac">Hợp tác &amp; Doanh nghiệp</a></li><li><a href="/lien-he">Liên hệ</a></li>
       </ul>
     </div>
     <div>

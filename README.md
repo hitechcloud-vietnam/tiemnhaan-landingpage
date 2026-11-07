@@ -10,22 +10,28 @@ Website chính thức của **Tiệm Nhà An**, có 5 ngôn ngữ: tiếng Việ
 | Đường dẫn | Nội dung |
 | --- | --- |
 | `/` | Trang chủ: banner, 4 khu làm việc, 4 điều làm nên Nhà An, món ký tên, góc check-in, một ngày ở Nhà An, Club, workshop, đặt tiệc, chi nhánh, tuyển dụng, đăng ký nhận tin, FAQ |
-| `/khong-gian` | Không gian làm việc và học tập, 4 khu: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline, Sân Rôm Rả. Có tiện ích, quy tắc và form đặt chỗ |
+| `/dat-ban` | Đặt bàn 24/7: bàn thường, 4 khu làm việc, studio áo dài, tiệc và sự kiện |
+| `/khong-gian` | 4 khu làm việc và học tập: Phòng Họp Hanh Thông, Góc Ấm Nhà An, Phòng Chạy Deadline, Sân Rôm Rả |
+| `/chup-anh` | Studio áo dài và 6 góc check-in, gói chụp, đặt lịch |
+| `/su-kien` | Lịch lễ Tết và sự kiện cả năm, hoạt động hằng tuần |
 | `/trai-nghiem` | Workshop, đặt tiệc và quà tặng, Nhà An Club |
-| `/chi-nhanh` | 4 chi nhánh (Coming Soon): Sài Gòn 1, Sài Gòn 2, Đà Nẵng, Hội An |
-| `/sai-gon`, `/da-nang-quang-nam` | Trang vùng miền với món đặc trưng, hình ảnh và chi nhánh |
+| `/chi-nhanh` | 5 chi nhánh (Coming Soon) |
+| `/chi-nhanh/binh-thanh`, `/tan-binh`, `/da-nang`, `/hoi-an`, `/duy-xuyen` | Trang riêng từng chi nhánh: giới thiệu, món riêng, bản đồ, đặt bàn |
+| `/sai-gon`, `/da-nang-quang-nam` | Trang vùng miền |
 | `/tuyen-dung` | Lương, phúc lợi, vị trí và form ứng tuyển |
-| `/tin-tuc`, `/tin-tuc/<bài>` | Tin tức |
+| `/hop-tac` | Hợp tác và doanh nghiệp: tiệc trà văn phòng, quà tặng, thuê không gian, đối tác |
+| `/tin-tuc`, `/tin-tuc/<bài>` | Tin tức (6 bài) |
 | `/ve-chung-toi`, `/hoi-dap`, `/lien-he` | Câu chuyện, hỏi đáp, liên hệ |
 | `/chinh-sach-bao-mat`, `/dieu-khoan`, `/tin-dung-anh` | Pháp lý và nguồn ảnh |
 
-Liên hệ: hotline/Zalo **0865 920 041**, email **contact@tiemnhaan.com**.
+Tiệm mở cửa **24/7**. Liên hệ: hotline/Zalo **0865 920 041**, email **contact@tiemnhaan.com**.
 
 ## Cấu trúc
 
 ```
-src/data/site.mjs      ← thông tin tiệm, liên hệ, vùng miền, 4 chi nhánh, giờ mở cửa
-src/data/content.mjs   ← 4 không gian, tiện ích, tin tức, hỏi đáp
+src/data/site.mjs      ← thông tin tiệm, liên hệ, giờ mở cửa, vùng miền, SEO
+src/data/branches.mjs  ← 5 chi nhánh (địa chỉ, ảnh, món riêng, điểm nổi bật)
+src/data/content.mjs   ← 4 không gian, góc check-in, áo dài, sự kiện, tin tức, hỏi đáp
 src/data/photos.json   ← ảnh, kích thước, nguồn và giấy phép
 src/layout.mjs         ← head, header + mega menu, menu di động, tab bar, footer
 src/pages*.mjs         ← nội dung từng trang (viết bằng tiếng Việt)
@@ -43,7 +49,7 @@ public/                ← site tĩnh hoàn chỉnh
 
 ## Form và email
 
-Mọi form (đăng ký nhận tin, liên hệ, đặt chỗ, ứng tuyển) gửi tới `/api/contact`. Để nhận email thật, vào **Vercel → Settings → Environment Variables** và thêm:
+Mọi form (đặt bàn, đăng ký nhận tin, liên hệ, đặt chỗ, ứng tuyển, hợp tác) gửi tới `/api/contact`. Để nhận email thật, vào **Vercel → Settings → Environment Variables** và thêm:
 
 - `RESEND_API_KEY`: tạo tài khoản và key tại resend.com, rồi xác minh tên miền `tiemnhaan.com` trên Resend.
 - `CONTACT_TO` (tùy chọn): mặc định là `contact@tiemnhaan.com`.
@@ -74,7 +80,9 @@ npm run dev     # build và chạy thử tại http://localhost:3000
 
 ## Cần cập nhật trước khi chạy chính thức
 
-- `src/data/site.mjs`: thêm link Facebook/Instagram/TikTok (để trống thì website tự ẩn) và địa chỉ chi nhánh khi có.
-- `formEndpoint`: dán URL nhận form (ví dụ Formspree hoặc Google Apps Script) để thật sự nhận đăng ký và lời nhắn. Khi để trống, form mở ứng dụng email của khách với nội dung soạn sẵn gửi tới contact@tiemnhaan.com.
-- **Ảnh** hiện là ảnh minh họa từ Unsplash và Rawpixel (CC0), được phép dùng thương mại (xem `/tin-dung-anh`). Thay bằng ảnh thật bằng cách ghi đè file cùng tên trong `public/assets/img/photos/`.
-- Nội dung marketing (nguồn trà, quy trình, Nhà An Club, workshop, tuyển dụng) là bản nháp, nên rà lại cho đúng với thực tế của tiệm.
+- `src/data/branches.mjs`: điền số nhà, đường cho từng chi nhánh khi có (trường `address` và `map` cho bản đồ).
+- `src/data/site.mjs`: thêm link Facebook/Instagram/TikTok (để trống thì website tự ẩn) và mã xác minh Google, Bing, Facebook, Zalo.
+- Vercel → Environment Variables: thêm `RESEND_API_KEY` để form gửi email thật (xem mục Form và email).
+- **Ảnh** hiện là ảnh minh họa từ Unsplash, Rawpixel và Flickr, đều cho phép dùng thương mại (nguồn và tác giả ở `/tin-dung-anh`). Khi có ảnh thật của tiệm, ghi đè file cùng tên trong `public/assets/img/photos/` rồi chạy `npm run build`.
+- Nội dung marketing (nguồn trà, giờ bếp, Nhà An Club, gói chụp áo dài, workshop, quyền lợi tuyển dụng, dịch vụ doanh nghiệp) là bản nháp, nên rà lại cho đúng với thực tế của tiệm.
+- Bản dịch Anh, Nhật, Hàn, Trung do AI thực hiện; nên nhờ người bản xứ đọc lại trước khi quảng bá ra nước ngoài.

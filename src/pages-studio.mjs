@@ -267,3 +267,76 @@ export function reserve() {
 </section>
 ${contactStrip()}`;
 }
+
+// ───────────────────────── HỢP TÁC & DOANH NGHIỆP ─────────────────────────
+const B2B = [
+  ['briefcase', 'Tiệc trà văn phòng', 'Set trà, bánh ngọt và món chay giao tận nơi cho buổi họp, hội nghị, tea break. Nhận đơn từ 10 phần, xuất hóa đơn VAT.', 'tea-flatlay'],
+  ['gift', 'Quà tặng doanh nghiệp', 'Hộp quà trà ô long, bánh và mứt cho dịp Tết, Trung thu, tri ân khách hàng. In logo và thiệp theo yêu cầu.', 'macarons'],
+  ['users', 'Thuê không gian sự kiện', 'Phòng Họp Hanh Thông và Sân Rôm Rả cho workshop, đào tạo nội bộ, ra mắt sản phẩm, team building đến 50 khách.', 'cowork-team'],
+  ['laptop', 'Gói làm việc cho đội nhóm', 'Gói chỗ ngồi theo tháng tại Phòng Chạy Deadline cho startup, freelancer và đội làm việc từ xa, mở cửa 24/7.', 'cowork-space'],
+  ['leaf', 'Đối tác nguyên liệu', 'Nhà An tìm nông hộ trà, rau hữu cơ, trái cây theo mùa và làng nghề thủ công để hợp tác lâu dài.', 'tea-leaves'],
+  ['camera', 'Truyền thông & nhà sáng tạo', 'Hợp tác với báo chí, nhà sáng tạo nội dung và thương hiệu có cùng giá trị: sống xanh, văn hóa Việt, ẩm thực chay.', 'aodai-lantern'],
+];
+
+export function partners() {
+  return `
+<section class="phero">
+  <div class="wrap phero__in">
+    <div>
+      <p class="eyebrow">Hợp tác &amp; Doanh nghiệp</p>
+      <h1>Cùng Nhà An <em>lan tỏa sự an lành</em></h1>
+      <p class="lead">Tiệc trà văn phòng, quà tặng doanh nghiệp, không gian sự kiện, gói làm việc cho đội nhóm và cơ hội trở thành đối tác cung cấp nguyên liệu của Tiệm Nhà An.</p>
+      <div class="hero__cta"><a class="btn btn--primary btn--lg" href="#lien-he-hop-tac">Gửi đề xuất hợp tác ${icon('arrow')}</a><a class="btn btn--ghost btn--lg" href="tel:${tel()}">${icon('phone')} ${site.phoneDisplay}</a></div>
+    </div>
+    <figure class="phero__img">${img('meet-team', 'Họp bàn hợp tác', { eager: true })}</figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    ${head('Hình thức hợp tác', 'Nhà An có thể <em>đồng hành cùng bạn</em>')}
+    <div class="offers offers--3">
+      ${B2B.map(([ic, t, d, k]) => `<article class="offer">${img(k, t)}<div>${icon(ic)}<h3>${t}</h3><p>${d}</p></div></article>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="section section--green">
+  <div class="wrap">
+    ${head('Vì sao chọn Nhà An', 'Đối tác <em>tin cậy</em>')}
+    <div class="promise promise--dark">
+      <div>${icon('clock')}<h3>Phục vụ 24/7</h3><p>5 chi nhánh mở cửa xuyên ngày đêm, kể cả lễ Tết.</p></div>
+      <div>${icon('leaf')}<h3>Nguyên liệu rõ nguồn gốc</h3><p>Trà từ nông hộ Việt, rau hữu cơ, không bột ngọt.</p></div>
+      <div>${icon('card')}<h3>Hóa đơn đầy đủ</h3><p>Hợp đồng, báo giá và hóa đơn VAT cho doanh nghiệp.</p></div>
+      <div>${icon('pin')}<h3>Hai miền, năm điểm</h3><p>Sài Gòn, Đà Nẵng, Hội An và Duy Xuyên.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream" id="lien-he-hop-tac">
+  <div class="wrap apply-wrap apply-wrap--light">
+    <div>
+      <p class="eyebrow">Liên hệ hợp tác</p>
+      <h2>Gửi đề xuất cho <em>Nhà An</em></h2>
+      <p class="lead">Cho Nhà An biết bạn cần gì, số lượng, thời gian và chi nhánh. Bộ phận hợp tác sẽ phản hồi trong 1 ngày làm việc.</p>
+      <ul class="info">
+        <li>${icon('mail')}<span><strong>Email</strong><a href="mailto:${site.email}?subject=${encodeURIComponent('Hợp tác với Tiệm Nhà An')}">${site.email}</a></span></li>
+        <li>${icon('phone')}<span><strong>Hotline / Zalo</strong><a href="tel:${tel()}">${site.phoneDisplay}</a></span></li>
+      </ul>
+    </div>
+    <form class="form" data-form="contact" novalidate>
+      <h2>Đề xuất hợp tác</h2>
+      <div class="form__row">
+        <label>Họ và tên<input name="name" autocomplete="name" required></label>
+        <label>Email hoặc số điện thoại<input name="contact" required></label>
+      </div>
+      <label>Công ty / tổ chức<input name="company" autocomplete="organization"></label>
+      <label>Hình thức hợp tác
+        <select name="topic">${B2B.map(([, t]) => `<option value="Hợp tác: ${t}">${t}</option>`).join('')}<option value="Hợp tác: Khác">Khác</option></select>
+      </label>
+      <label>Nội dung<textarea name="message" rows="4" required placeholder="Ví dụ: tiệc trà 40 phần cho hội nghị ngày 15/12 tại Đà Nẵng"></textarea></label>
+      <button class="btn btn--pink btn--block" type="submit">Gửi đề xuất ${icon('arrow')}</button>
+    </form>
+  </div>
+</section>`;
+}
