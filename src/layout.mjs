@@ -301,13 +301,10 @@ const megaNews = () => mega('Cẩm nang', '', ['mega__in--3', `
     ${col('Tiện ích', MENU.tools)}
     ${card('/tin-tuc', 'tea-flatlay', 'Cẩm nang Nhà An', 'Chuyện trà, chuyện bếp và chuyện mình', 'Đọc ngay →')}`]);
 
-const megaJobs = () => mega('Tuyển dụng', 'mega--sm', ['mega__in--2', `
-    <div><p class="mega__title">Vị trí đang tuyển</p><ul class="mega__list">${MENU.jobs.map(li).join('')}<li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tất cả vị trí &amp; quyền lợi</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li></ul></div>
+const megaAbout = () => mega('Về Nhà An &amp; Tuyển dụng', '', ['mega__in--3', `
+    <div><p class="mega__title">Về Nhà An</p><ul class="mega__list">${MENU.about.map(li).join('')}</ul></div>
+    <div><p class="mega__title">Tuyển dụng</p><ul class="mega__list">${MENU.jobs.map(li).join('')}<li><a href="/tuyen-dung">${icon('briefcase')}<span><strong>Tất cả vị trí &amp; quyền lợi</strong><small>30–35k/giờ · 10–15 triệu/tháng</small></span></a></li></ul></div>
     ${card('/tuyen-dung', 'chat-friends', 'Đang tuyển', 'Về làm nhà với Nhà An', 'BHXH, BHYT đầy đủ →')}`]);
-
-const megaAbout = () => mega('Về Nhà An', 'mega--sm', ['mega__in--2', `
-    <ul class="mega__list">${MENU.about.map(li).join('')}</ul>
-    ${card('/ve-chung-toi', 'lotus', 'Câu chuyện', 'Một ly trà, một chút an', 'Đọc câu chuyện →')}`]);
 
 const NAV = [
   ['/khong-gian', 'Không gian', 'explore', megaExplore, ['spaces', 'experience', 'studio', 'reserve', 'space']],
@@ -315,8 +312,7 @@ const NAV = [
   ['/lich-su-kien', 'Sự kiện', 'events', megaEvents, ['events', 'community', 'season']],
   ['/chi-nhanh', 'Chi nhánh', 'branches', megaBranches, ['branches', 'saigon', 'mientrung', 'branch']],
   ['/tin-tuc', 'Cẩm nang', 'news', megaNews, ['news', 'article', 'category', 'tools']],
-  ['/tuyen-dung', 'Tuyển dụng', 'hiring', megaJobs, ['hiring', 'careers']],
-  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq', 'partners', 'contact', 'brand', 'credits', 'legal', 'sitemap']],
+  ['/ve-chung-toi', 'Về Nhà An', 'about', megaAbout, ['about', 'faq', 'partners', 'contact', 'brand', 'credits', 'legal', 'sitemap', 'hiring', 'careers']],
 ];
 
 const navItem = (page) => ([href, label, key, megaFn, keys = [key]]) => {

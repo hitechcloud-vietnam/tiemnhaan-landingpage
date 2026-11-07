@@ -1,0 +1,184 @@
+{
+  "slug": "lo-banh",
+  "group": "tea",
+  "nav": "Lò bánh",
+  "navDesc": "Bánh nướng mỗi sáng, đặt bánh sinh nhật",
+  "icon": "cake",
+  "title": "Lò bánh: nướng từ 5 giờ sáng, nhận đặt bánh sinh nhật",
+  "description": "Lò bánh Nhà An nướng từ 5 giờ sáng: croissant bơ, bánh mì, cheesecake, mochi, bánh chuối thuần chay. Xem cặp trà – bánh và đặt bánh sinh nhật trước 2 ngày.",
+  "image": "@bake|khay croissant vàng óng vừa ra lò trong bếp bánh lúc sáng sớm",
+  "hero": {
+    "eyebrow": "Lò bánh Nhà An",
+    "title": "Trời chưa sáng, *lò bánh đã thơm*",
+    "lead": "Từ 5 giờ sáng, lò bánh Nhà An đã đỏ lửa với croissant, bánh mì, cheesecake và bánh chuối thuần chay. Bánh làm từ bột mì và bơ lên men, nướng trong ngày để đến tay bạn vẫn còn thơm mùi lò.",
+    "img": "@bake|khay croissant vàng óng vừa ra lò trong bếp bánh lúc sáng sớm",
+    "alt": "Khay croissant vàng óng vừa ra lò trong bếp bánh lúc sáng sớm",
+    "ctas": [
+      { "label": "Xem quầy bánh", "href": "#quay-banh", "style": "primary" },
+      { "label": "Đặt bánh sinh nhật", "href": "#dat-banh", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "lo-banh-nha-an",
+      "eyebrow": "Bếp bánh",
+      "title": "Mẻ bánh đầu tiên, *trước khi phố thức giấc*",
+      "paras": [
+        "Lò bánh Nhà An bắt đầu nướng từ 5 giờ sáng, khi phố còn ngủ. Bột mì và bơ lên men được nhào, cán, ủ rồi mới vào lò, để bữa sáng của bạn có chiếc croissant còn ấm hay ổ bánh mì vỏ giòn.",
+        "Như mọi món ăn ở Nhà An, bánh đều là món chay. Bánh Âu có thể dùng trứng, bơ và sữa; món thuần chay, không trứng, không sữa, được ghi chú riêng tại quầy."
+      ],
+      "bullets": [
+        "Bánh nướng trong ngày",
+        "Bột mì và bơ lên men",
+        "Món thuần chay có ghi chú tại quầy",
+        "Nhận đặt bánh sinh nhật trước 2 ngày"
+      ],
+      "img": "@bake|đôi tay thợ bánh cán bột trên mặt bàn gỗ rắc bột mì",
+      "alt": "Đôi tay thợ bánh cán bột trên mặt bàn gỗ rắc bột mì",
+      "cta": { "label": "Đọc: croissant và những lớp bơ", "href": "/tin-tuc/croissant-va-nhung-lop-bo" }
+    },
+    {
+      "type": "cards",
+      "id": "quay-banh",
+      "eyebrow": "Quầy bánh",
+      "title": "Có gì *trong tủ bánh sáng nay?*",
+      "lead": "Tủ bánh thay đổi theo ngày. Đây là những món lò bánh Nhà An đang chuẩn bị cho ngày khai trương.",
+      "items": [
+        {
+          "img": "croissant",
+          "alt": "Chiếc croissant vàng giòn nhiều lớp",
+          "title": "Croissant bơ",
+          "tag": "Bơ lên men",
+          "text": "Bột và bơ lên men cán gập nhiều lớp, nướng tới khi vỏ vàng giòn, ruột xốp như tổ ong."
+        },
+        {
+          "img": "@bake|những ổ bánh mì vỏ vàng giòn xếp trong giỏ mây",
+          "alt": "Những ổ bánh mì vỏ vàng giòn xếp trong giỏ mây",
+          "title": "Bánh mì",
+          "tag": "Cho bữa sáng",
+          "text": "Vỏ mỏng giòn, ruột nhẹ, ra lò kịp bữa sáng. Ở bếp chay, ổ bánh mì kẹp pa-tê nấm, đồ chua và rau thơm.",
+          "href": "/bep-chay"
+        },
+        {
+          "img": "@cake|lát cheesecake mịn trên đế bánh quy giòn bày trên đĩa sứ trắng",
+          "alt": "Lát cheesecake mịn trên đế bánh quy giòn bày trên đĩa sứ trắng",
+          "title": "Cheesecake",
+          "tag": "Béo mịn",
+          "text": "Kem phô mai mịn trên đế bánh quy giòn, ngọt vừa phải. Rất hợp với một ly trà trái cây chua thanh."
+        },
+        {
+          "img": "@cake|những viên mochi tròn mềm phủ lớp bột mỏng trên đĩa gốm",
+          "alt": "Những viên mochi tròn mềm phủ lớp bột mỏng trên đĩa gốm",
+          "title": "Mochi",
+          "tag": "Dẻo thơm",
+          "text": "Vỏ bột nếp mềm dẻo bọc nhân ngọt dịu. Thử cùng trà xanh lài để vị ngọt và hương hoa cùng nổi lên."
+        },
+        {
+          "img": "@cake|ổ bánh chuối nướng cắt lát lộ ruột vàng nâu",
+          "alt": "Ổ bánh chuối nướng cắt lát lộ ruột vàng nâu",
+          "title": "Bánh chuối thuần chay",
+          "tag": "Thuần chay",
+          "text": "Chuối chín nướng thơm, không dùng trứng và sữa. Món thuần chay có ghi chú riêng tại quầy."
+        },
+        {
+          "img": "@cake|bánh quy giòn xếp chồng bên tách trà nóng",
+          "alt": "Bánh quy giòn xếp chồng bên tách trà nóng",
+          "title": "Cookie",
+          "tag": "Hợp làm quà",
+          "text": "Bánh quy giòn thơm, dễ mang theo, có mặt trong hộp quà trà và bánh của Nhà An.",
+          "href": "/qua-tang"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "me-croissant",
+      "eyebrow": "Hậu trường",
+      "title": "Một mẻ croissant *đi qua những bước nào?*",
+      "lead": "Croissant ngon nhờ thời gian và nhiệt độ được giữ đúng. Đây là những bước cơ bản thợ bánh đi qua trong một mẻ.",
+      "items": [
+        { "title": "Nhào bột, nghỉ lạnh", "text": "Bột mì, men, đường, muối cùng sữa hoặc nước được nhào thành khối bột mịn, rồi để nghỉ lạnh cho dễ cán." },
+        { "title": "Gói bơ, cán gập", "text": "Một lớp bơ lạnh được gói vào giữa khối bột, cán mỏng rồi gập lại nhiều lượt, tạo nên hàng chục lớp bột và bơ xen kẽ." },
+        { "title": "Cắt và cuộn", "text": "Tấm bột được cắt thành tam giác dài rồi cuộn lại. Croissant trong tiếng Pháp nghĩa là trăng lưỡi liềm, đúng với dáng bánh cong quen thuộc." },
+        { "title": "Ủ cho bánh nở", "text": "Bánh được ủ ở nơi ấm vừa phải, không quá nóng để bơ không chảy, đến khi nở phồng và rung nhẹ khi lắc khay." },
+        { "title": "Nướng vàng", "text": "Trong lò nóng, nước trong bơ hóa hơi, đẩy các lớp bột tách nhau ra. Bánh chín với vỏ vàng giòn và ruột xốp nhiều lớp." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "cap-tra-banh",
+      "eyebrow": "Trà và bánh",
+      "title": "Cặp trà – bánh *nên thử*",
+      "lead": "Nguyên tắc dễ nhớ: vị chát và hương rang làm dịu độ béo, vị chua thanh giúp bánh ngọt bớt ngấy.",
+      "head": ["Bánh", "Trà gợi ý", "Vì sao hợp"],
+      "rows": [
+        ["Croissant bơ", "Ô long rang củi nóng", "Hương rang ấm cân lại vị béo của bơ"],
+        ["Mochi", "Trà xanh lài", "Chát dịu, thoảng hương lài, không lấn vị ngọt nhẹ của nếp"],
+        ["Cheesecake", "Trà trái cây theo mùa hoặc ô long đá", "Vị chua thanh, mát lạnh làm nhẹ độ béo của phô mai"],
+        ["Bánh chuối thuần chay", "Matcha latte sữa yến mạch", "Vị matcha hơi đắng hợp vị chuối chín; chọn sữa yến mạch nếu bạn ăn thuần chay"],
+        ["Cookie", "Trà sen nóng", "Hương sen thanh nhẹ làm dịu vị bơ ngọt của bánh"],
+        ["Bánh mì pa-tê nấm", "Cà phê phin hoặc ô long đá", "Bữa sáng kiểu Sài Gòn: đậm đà, rồi một ngụm mát lạnh"]
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "banh-viet",
+      "eyebrow": "Bánh Việt theo mùa",
+      "title": "Bánh dân gian *theo nhịp mùa lễ*",
+      "lead": "Bên cạnh bánh Âu, lò bánh dự kiến làm thêm bánh Việt theo mùa. Danh sách cụ thể sẽ được công bố dần sau khai trương.",
+      "items": [
+        { "label": "Theo mùa", "title": "Bánh bò, bánh da lợn", "text": "Bánh bò bột gạo ủ men, ruột nở xốp thành thớ rễ tre; bánh da lợn hấp nhiều lớp bột năng, đậu xanh và lá dứa. Hai vị bánh dân gian Nam Bộ dự kiến có mặt theo mùa." },
+        { "label": "Rằm tháng Tám", "title": "Bánh trung thu chay nhà làm", "text": "Bánh nướng, bánh dẻo chay với nhân gợi ý như đậu xanh, khoai môn, hạt sen, cùng hộp quà cho mùa trăng." },
+        { "label": "Tết Nguyên Đán", "title": "Bánh Tết chay và hộp quà", "text": "Bánh chưng, bánh tét chay dự kiến gói theo mùa Tết, cùng hộp quà trà ô long và mứt cho lời chúc đầu năm." }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "dip-vui",
+      "eyebrow": "Bánh cho dịp vui",
+      "title": "Sinh nhật, quà tặng *và tiệc nhỏ*",
+      "lead": "Bánh của Nhà An cũng có thể đi cùng bạn đến những ngày đáng nhớ.",
+      "items": [
+        { "icon": "cake", "title": "Bánh sinh nhật", "text": "Bánh kem, cheesecake hay mille crêpe theo yêu cầu, nhận đặt trước 2 ngày." },
+        { "icon": "gift", "title": "Hộp quà trà và bánh", "text": "Trà ô long đóng túi cùng cookie, macaron, hợp làm quà cảm ơn hay quà Tết." },
+        { "icon": "users", "title": "Tiệc nhỏ tại tiệm", "text": "Sân Rôm Rả nhận tiệc đến 30 khách, có trang trí đơn giản; vui lòng đặt trước ít nhất 2 ngày." },
+        { "icon": "briefcase", "title": "Tiệc trà văn phòng", "text": "Set trà và bánh giao tận nơi cho buổi họp, buổi ra mắt hay sinh nhật đồng nghiệp." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "trong-lo-banh",
+      "eyebrow": "Trong lò bánh",
+      "title": "Mùi bơ nướng *lúc trời còn tối*",
+      "items": [
+        { "img": "@bake|cửa lò nướng mở với khay bánh vàng ruộm bên trong", "caption": "Khay bánh vàng ruộm vừa rời khỏi lò." },
+        { "img": "@bake|lát cắt ngang croissant lộ ruột xốp nhiều lớp như tổ ong", "caption": "Ruột croissant xốp nhiều lớp, dấu hiệu của bơ được cán gập đều tay." },
+        { "img": "cake", "caption": "Bánh kem sinh nhật, nhận đặt trước 2 ngày." },
+        { "img": "@gift|hộp quà giấy kraft đựng bánh quy và túi trà buộc dây", "caption": "Hộp quà trà và bánh cho người thương." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "title": "Hỏi nhanh *về lò bánh*",
+      "items": [
+        { "q": "Lò bánh có bánh thuần chay không?", "a": "Có. Bánh chuối thuần chay không dùng trứng và sữa; các món thuần chay khác cũng được ghi chú riêng tại quầy. Bánh Âu như croissant, cheesecake có dùng bơ, sữa hoặc trứng." },
+        { "q": "Bánh có những thành phần dễ gây dị ứng nào?", "a": "Bánh nướng thường có bột mì (gluten), bơ sữa, trứng và có thể có các loại hạt, mè. Nếu bạn dị ứng, hãy hỏi nhân viên trước khi chọn; vì lò bánh dùng chung không gian và dụng cụ, Nhà An không thể loại trừ hoàn toàn khả năng nhiễm chéo." },
+        { "q": "Đặt bánh sinh nhật trước bao lâu?", "a": "Bạn vui lòng đặt trước 2 ngày qua form trên trang này, gọi hoặc nhắn Zalo 0865 920 041; dịp lễ nên đặt sớm hơn. Nhà An sẽ gọi lại xác nhận mẫu bánh, ngày giờ và chi nhánh nhận." },
+        { "q": "Có nhận hộp quà bánh cho công ty không?", "a": "Có. Nhà An nhận hộp quà trà và bánh, set trà cho văn phòng hoặc sự kiện nhỏ. Với đơn số lượng lớn, bạn xem thêm trang Hợp tác hoặc nhắn Zalo để được tư vấn." },
+        { "q": "Hâm nóng croissant thế nào cho giòn lại?", "a": "Hâm bằng lò nướng khoảng 160–180°C trong 3–5 phút, hoặc nồi chiên không dầu với thời gian ngắn hơn, vỏ bánh sẽ giòn lại. Lò vi sóng thường làm bánh mềm và mất độ giòn." }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "dat-banh",
+      "eyebrow": "Đặt bánh",
+      "kind": "contact",
+      "preset": "Đặt bánh sinh nhật",
+      "title": "Đặt bánh sinh nhật",
+      "lead": "Gửi yêu cầu trước 2 ngày, kèm loại bánh, số người ăn, lời chúc, ngày giờ và chi nhánh nhận. Ăn thuần chay hay có dị ứng, bạn ghi rõ trong lời nhắn nhé. Nhà An sẽ gọi lại xác nhận và báo giá."
+    }
+  ],
+  "related": ["/bep-chay", "/tiec-nho", "/qua-tang", "/tin-tuc/croissant-va-nhung-lop-bo", "/tin-tuc/ket-hop-tra-va-banh", "/tin-tuc/banh-dan-gian-nam-bo"]
+}

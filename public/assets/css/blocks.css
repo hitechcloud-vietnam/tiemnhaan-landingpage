@@ -296,3 +296,27 @@ a.bcard:hover .bcard__more .ic { transform: translateX(4px); }
 .pwa-install { border: 1px solid rgba(220, 229, 211, .4); background: transparent; color: var(--cream); border-radius: var(--radius-pill); padding: 6px 14px; font-weight: 700; cursor: pointer; }
 .pwa-install:hover { background: rgba(252, 250, 245, .1); }
 .form .file input[type="file"] { display: block; margin-top: 6px; font-size: 14px; padding: 10px; border: 1.5px dashed var(--line); border-radius: var(--radius-sm); width: 100%; background: var(--cream); }
+
+/* Logo luôn giữ nguyên kích thước, menu co giãn quanh logo */
+.header__in .brand { flex: 0 0 auto; }
+.header__in .brand img { width: 180px; max-width: none; height: auto; }
+.header__in .nav { min-width: 0; }
+@media (max-width: 1240px) and (min-width: 1061px) { .header__in .brand img { width: 160px; } }
+
+/* Bộ nhận diện (trang Báo chí) */
+.bkit__logos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 26px; }
+.bkit__logo { display: flex; flex-direction: column; gap: 4px; padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface); text-decoration: none; transition: box-shadow .2s, transform .2s; }
+.bkit__logo:hover { box-shadow: var(--shadow-card); transform: translateY(-3px); }
+.bkit__prev { display: grid; place-items: center; height: 150px; margin-bottom: 8px; border-radius: var(--radius-sm); background: repeating-conic-gradient(#F3EEE4 0 25%, #fff 0 50%) 0 0 / 18px 18px; }
+.bkit__prev img { max-height: 120px; width: auto; }
+.bkit__logo small { color: var(--muted); }
+.bkit__dl { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; font-weight: 700; color: var(--forest-700); font-size: 14px; }
+.bkit__dl .ic { width: 16px; height: 16px; }
+.bkit__colors { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.bkit__c { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 0 0 14px; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface); overflow: hidden; cursor: pointer; text-align: left; font: inherit; }
+.bkit__c:focus-visible { outline: 3px solid var(--lotus); outline-offset: 2px; }
+.bkit__sw { display: block; width: 100%; height: 86px; background: var(--c); border-bottom: 1px solid var(--line); margin-bottom: 10px; }
+.bkit__c strong, .bkit__c code, .bkit__c small { padding: 0 14px; }
+.bkit__c code { font-size: 14px; color: var(--forest-700); }
+.bkit__c small { color: var(--muted); font-size: 12.5px; }
+@media (max-width: 900px) { .bkit__logos { grid-template-columns: 1fr; } .bkit__colors { grid-template-columns: repeat(2, 1fr); } }

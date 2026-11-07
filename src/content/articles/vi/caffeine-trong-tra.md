@@ -11,15 +11,15 @@ Một ấm ô long buổi sáng giúp bạn vào guồng nhẹ nhàng, nhưng ly
 
 ## Trà nào cũng có caffeine
 
-Trà xanh, trà trắng, ô long, trà đen, phổ nhĩ hay matcha đều làm từ lá cây chè, nơi caffeine có sẵn tự nhiên. Ngay cả trà đã khử caffeine vẫn còn lại một lượng nhỏ.
+Trà xanh, trà trắng, ô long, trà đen, phổ nhĩ hay matcha đều làm từ lá cây chè, và caffeine có sẵn tự nhiên trong lá. Ngay cả trà đã khử caffeine vẫn còn lại một lượng nhỏ.
 
 Ngược lại, nhiều thức uống quen gọi là trà nhưng không có lá chè, như trà hoa cúc, trà gừng, trà sả hay atiso, thường không chứa caffeine. Khi mua trà pha trộn, hãy đọc thành phần vì một số loại có phối thêm lá trà.
 
-Caffeine còn có trong cà phê, trà sữa, nước tăng lực, nước ngọt loại cola và một ít trong sô-cô-la; hãy cộng cả những nguồn này khi ước lượng lượng caffeine trong ngày.
+Caffeine còn có trong cà phê, trà sữa, nước tăng lực, nước ngọt loại cola và một ít trong sô-cô-la; nhớ cộng cả những nguồn này khi tính caffeine trong ngày.
 
-![Búp chè một tôm hai lá trên cành](@leaf|búp chè một tôm hai lá trên cành, cận cảnh "Búp và lá non thường chứa nhiều caffeine hơn lá già")
+![Búp chè một tôm hai lá trên cành](@leaf|búp chè một tôm hai lá trên cành, cận cảnh "Caffeine có sẵn tự nhiên trong lá chè")
 
-## Lượng caffeine trong chén trà phụ thuộc vào đâu
+## Chén trà có bao nhiêu caffeine?
 
 Theo các bảng tham khảo phổ biến, một cốc trà pha khoảng 240 ml thường chứa vài chục miligam caffeine, ít hơn khá rõ so với cốc cà phê pha cùng dung tích. Con số thực tế dao động rộng, tùy vào:
 
@@ -28,28 +28,28 @@ Theo các bảng tham khảo phổ biến, một cốc trà pha khoảng 240 ml 
 - Thời gian hãm: hãm càng lâu, trà càng nhiều caffeine.
 - Phần lá: búp và lá non thường giàu caffeine hơn lá già và cành chè.
 - Kích cỡ lá: trà vụn trong túi lọc ra chất nhanh hơn lá nguyên.
-- Cách uống: matcha là lá trà nghiền mịn, uống cả bột lá nên một chén có thể nhiều caffeine hơn chén trà xanh pha thường.
+- Cách uống: matcha là lá trà nghiền mịn, uống cả bột lá nên có thể nhiều caffeine hơn chén trà xanh pha thường.
 
 Vì vậy, cách pha nhiều khi tạo khác biệt lớn hơn loại trà: một chén trà xanh pha đậm, hãm lâu có thể nhiều caffeine hơn chén trà đen pha nhạt. Trà rang đậm cho cảm giác êm, ít chát, nhưng đừng vội cho rằng nó ít caffeine.
 
-Còn tráng trà? Một nghiên cứu cho thấy ngâm lá 30 giây chỉ rút đi khoảng một phần mười lượng caffeine; tráng trà giúp lá nở đều và rửa bụi, chứ không làm trà hết caffeine.
+Còn tráng trà thì sao? Một nghiên cứu cho thấy ngâm lá 30 giây chỉ rút đi khoảng một phần mười lượng caffeine; tráng trà giúp lá nở đều và rửa bụi, chứ không làm trà hết caffeine.
 
 ![Đánh bột matcha bằng chổi tre trong chén gốm](matcha-whisk "Uống matcha là uống cả lá trà nghiền mịn")
 
 ## L-theanine và cảm giác tỉnh táo dịu hơn
 
-Lá trà còn chứa L-theanine, một axit amin hiếm gặp trong các thực phẩm khác. Một số nghiên cứu gợi ý khi đi cùng caffeine, L-theanine có thể giúp sự tỉnh táo đến êm hơn; nhiều người uống trà cũng cảm thấy tỉnh táo dịu hơn, ít bồn chồn hơn khi uống cà phê.
+Lá trà còn chứa L-theanine, một axit amin hiếm gặp trong thực phẩm khác. Một số nghiên cứu gợi ý khi đi cùng caffeine, L-theanine có thể giúp sự tỉnh táo đến êm hơn; nhiều người uống trà cũng thấy tỉnh táo dịu hơn và ít bồn chồn hơn so với khi uống cà phê.
 
-Dù vậy, cảm nhận này khác nhau ở mỗi người và khoa học vẫn đang tìm hiểu thêm. Điều chắc chắn là trà vẫn có caffeine: uống nhiều hoặc uống muộn vẫn có thể ảnh hưởng giấc ngủ.
+Dù vậy, cảm nhận này khác nhau ở mỗi người và khoa học vẫn đang tìm hiểu. Điều chắc chắn là trà vẫn có caffeine: uống nhiều hoặc uống muộn vẫn có thể ảnh hưởng tới giấc ngủ.
 
 ## Uống trà theo nhịp trong ngày
 
-Cơ thể cần vài giờ mới đào thải được một nửa lượng caffeine, và tốc độ này khác nhau nhiều giữa mỗi người. Một mốc dễ nhớ mà nhiều người áp dụng là ngừng trà đậm, cà phê khoảng 6 tiếng trước giờ ngủ; người nhạy cảm có thể cần dừng sớm hơn. Gợi ý cho người ngủ khoảng 23 giờ:
+Cơ thể cần vài giờ mới đào thải được một nửa lượng caffeine, và tốc độ này khác nhau nhiều tùy người. Một mốc dễ nhớ mà nhiều người áp dụng là ngừng trà đậm, cà phê khoảng 6 tiếng trước giờ ngủ; người nhạy cảm có thể cần dừng sớm hơn. Gợi ý cho người ngủ khoảng 23 giờ:
 
 - Buổi sáng, sau khi ăn nhẹ: ô long, trà sữa và những ly đậm như bạc xỉu ô long, vốn kết hợp cả cà phê lẫn trà.
 - Trưa đến giữa chiều: trà xanh, trà lài hoặc ô long pha vừa.
 - Chiều muộn: dùng ít lá hơn, hãm ngắn hơn và rót chén nhỏ.
-- Buổi tối: sữa ấm, nước ép trái cây, trà thảo mộc không có lá chè hoặc đơn giản là nước lọc.
+- Buổi tối: sữa ấm, nước ép, trà thảo mộc không có lá chè hoặc nước lọc.
 
 Hay uống trà sữa thì nhớ tính cả ly cỡ lớn buổi chiều, vì cốt trà thường được ủ đậm.
 
@@ -57,7 +57,7 @@ Hay uống trà sữa thì nhớ tính cả ly cỡ lớn buổi chiều, vì c�
 
 ## Mẹo cho những đêm phải thức
 
-Có những đêm deadline không cho phép ngủ sớm. Khi đó, hãy dùng caffeine có kế hoạch thay vì xem nó như chiếc phao cứu cánh:
+Có những đêm deadline không cho phép ngủ sớm. Khi đó, hãy dùng caffeine có kế hoạch:
 
 - Uống ly đậm nhất vào đầu ca rồi chuyển dần sang trà loãng hoặc nước lọc, đừng nối ly này sang ly khác đến sáng.
 - Xen một cốc nước lọc giữa các ly trà để cơ thể đủ nước.
@@ -67,7 +67,7 @@ Có những đêm deadline không cho phép ngủ sớm. Khi đó, hãy dùng ca
 
 [[/tap-trung|Mở Góc tập trung với đồng hồ Pomodoro]]
 
-Khi Nhà An khai trương, cả 5 chi nhánh sẽ mở cửa 24/7, bếp có món chay khuya từ 22:00 đến 04:00 và Phòng Chạy Deadline yên tĩnh xuyên đêm. Chưa biết chọn ly nào cho buổi tối, bạn cứ hỏi quầy gợi ý lựa chọn nhẹ nhàng hơn.
+Khi Nhà An khai trương, cả 5 chi nhánh sẽ mở cửa 24/7, bếp có món chay khuya từ 22:00 đến 04:00 và Phòng Chạy Deadline yên tĩnh xuyên đêm. Chưa biết chọn ly nào buổi tối, cứ nhờ nhân viên quầy gợi ý ly nhẹ nhàng hơn.
 
 [[/dem-o-nha-an|Xem Nhà An về đêm]]
 
@@ -82,5 +82,5 @@ Cơ quan Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) cho rằng k
 Với trẻ em, nên ưu tiên đồ uống không caffeine. Bài viết chỉ chia sẻ thông tin chung, không thay thế lời khuyên của bác sĩ.
 
 :::tip Thử ghi nhật ký trà một tuần
-Trong bảy ngày, ghi lại giờ uống, loại đồ uống và giấc ngủ đêm đó. Bạn sẽ nhận ra mốc giờ hợp với cơ thể mình, rõ ràng hơn mọi lời khuyên chung.
+Ghi lại giờ uống, loại đồ uống và giấc ngủ mỗi đêm. Sau một tuần, bạn sẽ tự thấy mốc giờ nào hợp với mình, sát hơn mọi lời khuyên chung.
 :::

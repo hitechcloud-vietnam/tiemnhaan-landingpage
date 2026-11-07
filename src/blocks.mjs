@@ -154,7 +154,8 @@ export const GALLERY_CATS = [
   ['vung-mien', 'Vùng miền', /^(hcm|danang|hoian|qnam|land|lm-|saigon|mykhe|thubon|golden|night-|hoian)/],
   ['song-xanh', 'Sống xanh & cộng đồng', /^(green|club|gift)/],
 ];
-export const galleryCat = (k) => (GALLERY_CATS.find(([, , re]) => re.test(k)) || ['khac'])[0];
+const THEME_CAT = { tra: 'tra', banh: 'banh', chay: 'banh', 'nguyen-lieu': 'banh', 'khong-gian': 'khong-gian', 'van-hoa': 'van-hoa', 'vung-mien': 'vung-mien', 'qua-tang': 'song-xanh', 'song-xanh': 'song-xanh' };
+export const galleryCat = (k) => (photos[k] && THEME_CAT[photos[k].theme]) || (GALLERY_CATS.find(([, , re]) => re.test(k)) || ['khong-gian'])[0];
 export function galleryStatic(limit = 24) {
   const keys = Object.keys(photos).sort((a, b) => (photos[b].added || '').localeCompare(photos[a].added || '') || a.localeCompare(b)).slice(0, limit);
   return `<div class="gal__filters" role="toolbar" aria-label="Lọc ảnh"><button type="button" class="chip-btn is-on" data-cat="all" aria-pressed="true">Tất cả</button>${GALLERY_CATS.map(([id, n]) => `<button type="button" class="chip-btn" data-cat="${id}" aria-pressed="false">${n}</button>`).join('')}</div>
@@ -338,6 +339,20 @@ export function relatedSection(hrefs, title = 'Có thể bạn *quan tâm*') {
 </section>`;
 }
 
+// Bộ nhận diện cho trang Báo chí: tải logo, bấm để sao chép mã màu
+const brandKit = () => `
+<section class="section bkit" id="bo-nhan-dien">
+  <div class="wrap">
+    ${head('Tải về', 'Logo &amp; *màu thương hiệu*'.replace(/\*([^*]+)\*/g, '<em>$1</em>'), 'Dùng đúng file gốc, không đổi màu, không kéo méo, chừa khoảng trống quanh logo.')}
+    <div class="bkit__logos">
+      ${[['logo-horizontal.png', 'Logo ngang', 'PNG nền trong suốt'], ['logo-circle.png', 'Logo tròn', 'PNG 328 × 328'], ['logo-app.png', 'Biểu tượng ứng dụng', 'PNG vuông']].map(([f, n, d]) => `<a class="bkit__logo" href="/assets/img/brand/${f}" download data-nolocal><span class="bkit__prev"><img src="/assets/img/brand/${f}" alt="${n} Tiệm Nhà An" loading="lazy" decoding="async"></span><strong>${n}</strong><small>${d}</small><span class="bkit__dl">${icon('download')} Tải về</span></a>`).join('')}
+    </div>
+    <div class="bkit__colors">
+      ${[['Xanh rêu', '#31492E'], ['Xanh lá', '#41593D'], ['Hồng sen', '#F5747E'], ['Hồng phấn', '#FBB2B0'], ['Kem', '#FCFAF5']].map(([n, c]) => `<button type="button" class="bkit__c" data-copy="${c}" style="--c:${c}"><span class="bkit__sw" aria-hidden="true"></span><strong>${n}</strong><code>${c}</code><small>Bấm để sao chép</small></button>`).join('')}
+    </div>
+  </div>
+</section>`;
+
 // Trang hoàn chỉnh từ dữ liệu JSON
 export function renderPage(slug, lang = 'vi') {
   const p = pageBySlug[slug];
@@ -364,6 +379,7 @@ export function renderPage(slug, lang = 'vi') {
   </div>
 </section>
 ${body}
+${slug === 'bao-chi' ? brandKit() : ''}
 ${relatedSection(p.related)}`;
   return { html, scripts: [...scripts].filter(Boolean) };
 }

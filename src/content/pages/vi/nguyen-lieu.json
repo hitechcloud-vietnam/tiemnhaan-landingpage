@@ -25,7 +25,7 @@
       "eyebrow": "Vì sao hỏi kỹ từng nguồn",
       "title": "Ngon từ gốc, *rồi mới đến công thức*",
       "paras": [
-        "Trước khi nghĩ đến công thức, Nhà An bắt đầu bằng vài câu hỏi giản dị: lá trà này hái ở đâu, trái cây này vào mùa tháng nào, đậu hũ này làm lúc mấy giờ.",
+        "Trước khi nghĩ đến công thức, Nhà An bắt đầu bằng vài câu hỏi giản dị: lá trà này hái ở đâu, trái cây này chín vào tháng nào, đậu hũ này làm lúc mấy giờ.",
         "Vì vậy Nhà An làm việc trực tiếp với nông hộ và đi theo nhịp mùa vụ của từng vùng, để nguyên liệu về tới quầy vẫn giữ được hương vị của nơi nó lớn lên."
       ],
       "img": "tea-leaves",
@@ -49,7 +49,7 @@
       "items": [
         { "icon": "calendar", "title": "Theo mùa", "text": "Trái cây, rau củ dùng vào đúng mùa chính vụ, khi tươi và đậm vị nhất. Hết mùa, món sẽ đổi theo loại quả đang vào vụ." },
         { "icon": "map", "title": "Gần nguồn", "text": "Đi thẳng về vùng trồng có tiếng của từng nguyên liệu, ít khâu trung gian, để biết rõ nó đến từ đâu và được làm thế nào." },
-        { "icon": "hand", "title": "Trực tiếp với nông hộ", "text": "Cùng người trồng trao đổi về giống cây, cách chăm và cùng nhau giữ chất lượng qua từng vụ." },
+        { "icon": "hand", "title": "Trực tiếp với nông hộ", "text": "Trao đổi thẳng với người trồng về giống cây, cách chăm và cùng nhau giữ chất lượng qua từng vụ." },
         { "icon": "search", "title": "Kiểm tra cảm quan mỗi lô", "text": "Từng lô hàng về được xem màu, ngửi hương và nếm thử trước khi đưa vào bếp, lên quầy." },
         { "icon": "box", "title": "Mẻ nhỏ, làm mới", "text": "Trà rang theo mẻ nhỏ, topping làm theo mẻ, đậu hũ non làm mỗi sáng, để nguyên liệu luôn mới." },
         { "icon": "bowl", "title": "Chay trọn vẹn", "text": "Toàn bộ món ăn là món chay, nước dùng ninh từ củ quả và không dùng bột ngọt." }

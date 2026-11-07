@@ -45,7 +45,7 @@ Phần béo quyết định ly trà sữa đậm hay thanh:
 - Bột kem béo: béo mịn, ổn định, dễ bảo quản nên thường có mặt trong trà sữa pha bột.
 - Sữa đặc: ngọt và béo đậm, quen thuộc với cà phê sữa, bạc xỉu; đã có sẵn đường nên khó giảm ngọt.
 - Sữa tươi: béo nhẹ, để hương trà hiện rõ hơn.
-- Sữa yến mạch: sữa thực vật, không chứa lactose, vị ngũ cốc nhẹ; hợp người ăn thuần chay hoặc không dùng sữa bò.
+- Sữa yến mạch: sữa thực vật, không chứa lactose, vị ngũ cốc nhẹ; hợp với người ăn thuần chay hoặc không dùng sữa bò.
 
 Nếu bạn dị ứng hay cần tránh thành phần nào, hãy báo quầy trước khi gọi món.
 
@@ -70,7 +70,7 @@ Muốn cảm nhận khác biệt, hãy tự pha một ly ở nhà:
 1. Ủ cốt trà: 4–5 g trà đen hoặc ô long với 200 ml nước 90–95°C, đậm gấp đôi cốc trà uống nóng; hãm 4–5 phút rồi lọc bã.
 2. Nấu nước đường: đun đường với nước tỉ lệ 1:1 cho tan, để nguội.
 3. Phối ly: khoảng 150 ml cốt trà với 80–100 ml sữa tươi hoặc sữa yến mạch, thêm nước đường từng muỗng nhỏ, vừa thêm vừa nếm.
-4. Thêm đá, lắc hoặc khuấy đều và uống trong ngày để giữ hương trà.
+4. Thêm đá, lắc đều và uống trong ngày để giữ hương trà.
 
 :::tip Nếm cốt trà trước khi thêm sữa
 Rót một ngụm cốt trà ra chén và nếm thử. Nếu cốt đã đắng gắt, thêm đường chỉ che bớt chứ không sửa được; lần sau hãy giảm lá hoặc rút ngắn thời gian hãm.
@@ -78,10 +78,10 @@ Rót một ngụm cốt trà ra chén và nếm thử. Nếu cốt đã đắng 
 
 ## Ly trà sữa nhà làm ở Nhà An
 
-Khi 5 chi nhánh khai trương, trà sữa ở Nhà An sẽ đi theo cách nhà làm. Cốt trà được ủ mới mỗi 4 tiếng từ ô long Bảo Lộc rang củi nhãn, trà xanh Tân Cương ướp lài và trà đen. Nhà An chọn không dùng bột kem pha sẵn cho cốt trà: phần béo đến từ sữa tươi, hoặc sữa yến mạch nếu bạn muốn đổi.
+Khi 5 chi nhánh khai trương, trà sữa ở Nhà An sẽ đi theo cách nhà làm. Cốt trà sẽ được ủ mới mỗi 4 tiếng từ ô long Bảo Lộc rang củi nhãn, trà xanh Tân Cương ướp lài và trà đen. Nhà An chọn không dùng bột kem pha sẵn cho cốt trà: phần béo đến từ sữa tươi, hoặc sữa yến mạch nếu bạn muốn đổi.
 
 Ly nào cũng chọn được mức đường từ 0 đến 100%, ít hay nhiều đá, còn topping được làm tại bếp theo mẻ nhỏ. Nếu chỉ chọn một ly để bắt đầu, hãy thử ô long sữa kem mây, món ký tên của Nhà An, ngon nhất khi uống lạnh.
 
-Dù chọn ly nào, một ly trà sữa ngon là ly hợp với chính bạn: đủ hương trà, vừa độ ngọt và đến đúng lúc bạn cần một chút an.
+Dù chọn ly nào, ly trà sữa ngon là ly hợp với chính bạn: đủ hương trà, vừa độ ngọt và đến đúng lúc bạn cần một chút an.
 
 [[/tra-sua|Xem các dòng trà sữa nhà làm của Nhà An]]

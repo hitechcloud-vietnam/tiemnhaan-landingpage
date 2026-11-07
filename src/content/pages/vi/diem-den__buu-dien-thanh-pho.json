@@ -1,0 +1,212 @@
+{
+  "slug": "diem-den/buu-dien-thanh-pho",
+  "group": "tools",
+  "nav": "Bưu điện Thành phố",
+  "navDesc": "Kiến trúc cuối thế kỷ 19, bản đồ cổ, bưu thiếp",
+  "icon": "pin",
+  "title": "Bưu điện Thành phố Sài Gòn: kiến trúc và mẹo gửi bưu thiếp",
+  "description": "Bưu điện Thành phố (Bưu điện Trung tâm Sài Gòn): kiến trúc cuối thế kỷ 19, bản đồ cổ, cách gửi bưu thiếp, giờ nên ghé và nơi nghỉ chân gần đó.",
+  "image": "lm-postoffice",
+  "hero": {
+    "eyebrow": "Điểm đến",
+    "title": "Bưu điện Thành phố, *nơi lá thư vẫn lên đường*",
+    "lead": "Hơn 130 năm sau ngày hoàn thành, tòa nhà màu vàng bên Công trường Công xã Paris vẫn bán tem, nhận thư và đón khách khắp nơi. Ghé để ngắm sảnh mái vòm khung sắt, hai tấm bản đồ cổ và tự tay gửi đi một tấm bưu thiếp.",
+    "img": "lm-postoffice",
+    "alt": "Sảnh mái vòm khung sắt sơn xanh của Bưu điện Thành phố, cuối sảnh treo chân dung Chủ tịch Hồ Chí Minh",
+    "ctas": [
+      { "label": "Xem thông tin nhanh", "href": "#thong-tin-nhanh", "style": "primary" },
+      { "label": "Cách gửi bưu thiếp", "href": "#gui-buu-thiep", "style": "ghost" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "id": "gioi-thieu",
+      "eyebrow": "Giới thiệu",
+      "title": "Một bưu điện *vẫn đang làm việc*",
+      "paras": [
+        "Bưu điện Thành phố, còn gọi là Bưu điện Trung tâm Sài Gòn, được xây dựng trong khoảng năm 1886–1891; thời Pháp thuộc, nơi này từng được gọi là Sở Dây thép. Tòa nhà mang phong cách chiết trung: bố cục cân đối kiểu châu Âu, điểm thêm những chi tiết trang trí phương Đông.",
+        "Khác với nhiều công trình chỉ để ngắm, đây vẫn là bưu điện thật: các quầy nhận gửi thư, bán tem, bưu thiếp và quà lưu niệm. Bưu điện nằm cạnh Nhà thờ Đức Bà và Đường sách Sài Gòn, rất tiện để ghép thành một buổi đi bộ giữa trung tâm."
+      ],
+      "img": "@hcm|mặt tiền màu vàng của Bưu điện Thành phố với đồng hồ lớn và hàng cửa vòm",
+      "alt": "Mặt tiền màu vàng cân đối của Bưu điện Thành phố với chiếc đồng hồ lớn và hàng cửa vòm",
+      "reverse": true,
+      "cta": { "label": "Xem các điểm đến khác", "href": "/diem-den" }
+    },
+    {
+      "type": "table",
+      "id": "thong-tin-nhanh",
+      "eyebrow": "Thông tin nhanh",
+      "title": "Ghé bưu điện: *những điều cần biết*",
+      "lead": "Giờ làm việc có thể điều chỉnh vào dịp lễ, Tết hoặc khi sửa chữa. Bạn nên kiểm tra thông tin mới nhất trước khi đi.",
+      "head": ["Hạng mục", "Gợi ý"],
+      "rows": [
+        ["Khu vực", "Số 2 Công trường Công xã Paris, phường Sài Gòn, trung tâm TP. Hồ Chí Minh"],
+        ["Nên đi", "Buổi sáng ngày thường, khi sảnh thoáng và dễ chụp ảnh; cuối tuần, dịp lễ thường đông khách"],
+        ["Thời gian tham quan gợi ý", "30–60 phút, thêm khoảng 15 phút nếu muốn viết và gửi bưu thiếp"],
+        ["Phù hợp với", "Người yêu kiến trúc, bạn sưu tầm tem và bưu thiếp, khách du lịch, nhóm bạn thích chụp ảnh"],
+        ["Chi nhánh Nhà An gần nhất", "Nhà An Bình Thạnh cách khoảng 15 phút đi xe, Nhà An Tân Bình khoảng 20 phút; cả hai đang chuẩn bị khai trương"],
+        ["Lưu ý", "Đây là nơi giao dịch thật: hãy nhường lối cho người đến gửi thư, nhận hàng"]
+      ]
+    },
+    {
+      "type": "features",
+      "id": "diem-nhan",
+      "eyebrow": "Điểm nhấn",
+      "title": "Ngắm kỹ *từng chi tiết*",
+      "items": [
+        { "icon": "clock", "title": "Mặt tiền và đồng hồ lớn", "text": "Mặt tiền đối xứng sơn vàng, hàng cửa vòm cao và chiếc đồng hồ lớn ở chính giữa, nhìn từ quảng trường là nhận ra ngay." },
+        { "icon": "book", "title": "Tên các nhà khoa học", "text": "Dọc tường ngoài có những ô khắc tên các nhà khoa học gắn với ngành điện và điện báo, như Volta, Ampère, Faraday." },
+        { "icon": "home", "title": "Sảnh mái vòm khung sắt", "text": "Mái vòm dài tựa trên các hàng cột và kèo sắt sơn xanh, chạm hoa văn ở chỗ nối, tạo nên sảnh rộng nhiều ánh sáng." },
+        { "icon": "map", "title": "Hai tấm bản đồ cổ", "text": "Trên tường cao là bản đồ Sài Gòn và vùng phụ cận cùng bản đồ các tuyến điện tín ở miền Nam và Campuchia." },
+        { "icon": "phone", "title": "Bốt điện thoại xưa", "text": "Hai bên sảnh còn những bốt điện thoại kiểu cũ bằng gỗ, gợi nhớ thời liên lạc bằng điện tín và điện thoại công cộng." },
+        { "icon": "mail", "title": "Ký ức viết thư thuê", "text": "Nhiều người vẫn nhớ ông Dương Văn Ngộ, người ngồi viết thư thuê tại đây khoảng 30 năm, kể từ năm 1990." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "gui-buu-thiep",
+      "eyebrow": "Trải nghiệm",
+      "title": "Gửi một tấm bưu thiếp *cho người thương*",
+      "lead": "Món quà nhỏ mà ý nghĩa nhất bạn có thể mang về từ đây là một lá thư tự tay viết.",
+      "items": [
+        { "title": "Chọn bưu thiếp", "text": "Các quầy lưu niệm có nhiều mẫu bưu thiếp về Sài Gòn, từ ảnh phố xá đến tranh vẽ kiến trúc." },
+        { "title": "Viết vài dòng", "text": "Tìm chỗ ngồi trên băng ghế gỗ trong sảnh, viết cho gia đình, một người bạn ở xa hay chính mình của năm sau." },
+        { "title": "Dán tem tại quầy", "text": "Hỏi nhân viên về loại tem và thời gian chuyển phát dự kiến cho địa chỉ trong nước hoặc quốc tế." },
+        { "title": "Gửi đi và chờ đợi", "text": "Gửi thư theo hướng dẫn của nhân viên. Ít ngày hay vài tuần sau, tùy nơi nhận, tấm thiệp sẽ mang một chút Sài Gòn đến tay người thương." }
+      ]
+    },
+    {
+      "type": "timeline",
+      "id": "lich-trinh",
+      "eyebrow": "Gợi ý lịch trình",
+      "title": "Một buổi sáng *quanh Công xã Paris*",
+      "lead": "Lộ trình đi bộ nhẹ nhàng, bắt đầu từ bưu điện và kết thúc bằng một ly trà.",
+      "items": [
+        { "label": "08:30", "title": "Bưu điện Thành phố", "text": "Đến khi sảnh còn thoáng để ngắm mái vòm, bản đồ cổ và gửi bưu thiếp." },
+        { "label": "09:15", "title": "Nhà thờ Đức Bà", "text": "Băng qua quảng trường ngắm hai tháp chuông và tường gạch đỏ; nhà thờ đang trùng tu nên có thể còn rào chắn." },
+        { "label": "09:45", "title": "Đường sách Sài Gòn", "text": "Thả bộ dưới hàng cây, lật vài trang sách và chọn một cuốn mang theo." },
+        { "label": "10:30", "title": "Phố đi bộ Nguyễn Huệ", "text": "Đi bộ khoảng 10 phút ra phố trung tâm, ngắm những tòa chung cư cũ nay có nhiều quán nhỏ." },
+        { "label": "11:30", "title": "Nghỉ trưa ở Nhà An", "text": "Gọi xe về Nhà An Bình Thạnh hoặc Tân Bình khi khai trương: một ly ô long rang củi và bữa trưa chay sau buổi sáng nhiều bước chân." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "khoanh-khac",
+      "eyebrow": "Khoảnh khắc",
+      "title": "Những góc *đáng ngắm*",
+      "items": [
+        { "img": "@hcm|tấm bản đồ cổ vẽ tay trên tường cao trong sảnh Bưu điện Thành phố", "caption": "Bản đồ cổ trên tường cao trong sảnh" },
+        { "img": "@hcm|dãy bốt điện thoại gỗ kiểu cũ trong Bưu điện Thành phố", "caption": "Bốt điện thoại gỗ kiểu cũ hai bên sảnh" },
+        { "img": "@hcm|quầy bưu thiếp và tem lưu niệm trong Bưu điện Thành phố", "caption": "Quầy bưu thiếp, tem và quà lưu niệm" },
+        { "img": "@hcm|Bưu điện Thành phố nhìn từ Công trường Công xã Paris với hàng cây phía trước", "caption": "Bưu điện nhìn từ Công trường Công xã Paris" }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "luu-y",
+      "eyebrow": "Lưu ý",
+      "title": "Ghé thăm *một nơi đang làm việc*",
+      "cols": [
+        {
+          "title": "Lịch sự trong sảnh",
+          "icon": "hand",
+          "items": [
+            "Nhường lối, không đứng chắn trước quầy giao dịch",
+            "Nói nhỏ, giữ băng ghế và lối đi gọn gàng",
+            "Hỏi trước khi chụp ảnh nhân viên hay người đang giao dịch"
+          ]
+        },
+        {
+          "title": "Chụp ảnh đẹp",
+          "icon": "camera",
+          "items": [
+            "Đứng giữa sảnh, hướng về cuối phòng để thấy trọn mái vòm",
+            "Chụp mặt tiền từ phía quảng trường để có đủ chiếc đồng hồ",
+            "Tránh giờ đông khách nếu muốn khung hình thoáng"
+          ]
+        },
+        {
+          "title": "Chuẩn bị",
+          "icon": "box",
+          "items": [
+            "Ghi sẵn địa chỉ người nhận, kể cả tên nước nếu gửi quốc tế",
+            "Mang theo bút nếu muốn viết thiệp ngay tại chỗ",
+            "Kiểm tra giờ làm việc mới nhất, nhất là dịp lễ, Tết"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "hoi-dap",
+      "eyebrow": "Hỏi đáp",
+      "title": "Hỏi nhanh *về Bưu điện Thành phố*",
+      "items": [
+        { "q": "Bưu điện Thành phố còn hoạt động không?", "a": "Có. Tòa nhà vẫn là bưu điện đang làm việc: nhận gửi thư, bán tem, bưu thiếp và quà lưu niệm, đồng thời đón khách tham quan. Giờ làm việc có thể thay đổi, nên kiểm tra thông tin mới nhất trước khi đi." },
+        { "q": "Có gửi bưu thiếp ra nước ngoài được không?", "a": "Bạn hãy hỏi nhân viên tại quầy về dịch vụ gửi thư quốc tế, loại tem cần dán và thời gian chuyển phát dự kiến. Nhớ ghi rõ tên nước và địa chỉ người nhận." },
+        { "q": "Nên ghé vào lúc nào để đỡ đông?", "a": "Buổi sáng các ngày trong tuần thường thoáng hơn. Cuối tuần, dịp lễ và Tết, sảnh khá đông khách, bạn nên đến sớm và giữ đồ cá nhân cẩn thận." },
+        { "q": "Không kịp ra bưu điện, có cách nào gửi lời chúc nhanh?", "a": "Bạn có thể dùng công cụ Tạo thiệp chúc trên website Nhà An: chọn dịp như Tết, sinh nhật hay lời cảm ơn, chọn lời chúc mẫu rồi tải thiệp về máy dưới dạng ảnh để gửi đi." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "ghe-tiep",
+      "eyebrow": "Gần đây",
+      "title": "Ghé tiếp *quanh trung tâm*",
+      "lead": "Ba điểm gần bưu điện và hai chi nhánh Nhà An ở Sài Gòn để nghỉ chân.",
+      "items": [
+        {
+          "img": "lm-notre-dame",
+          "alt": "Mặt tiền gạch đỏ của Nhà thờ Đức Bà Sài Gòn với tượng Đức Mẹ Hòa Bình phía trước",
+          "title": "Nhà thờ Đức Bà",
+          "tag": "Ngay cạnh",
+          "text": "Hai tháp chuông và tường gạch đỏ hơn 140 năm tuổi, hiện đang trong đợt đại trùng tu.",
+          "href": "/diem-den/nha-tho-duc-ba"
+        },
+        {
+          "img": "@books|người đọc sách trên băng ghế dưới hàng cây ở Đường sách Sài Gòn",
+          "alt": "Người đọc sách trên băng ghế dưới hàng cây ở Đường sách Sài Gòn",
+          "title": "Đường sách Sài Gòn",
+          "tag": "Bên hông bưu điện",
+          "text": "Con phố của những quầy sách và góc ngồi đọc rợp bóng cây, yên tĩnh giữa trung tâm.",
+          "href": "/diem-den/duong-sach-sai-gon"
+        },
+        {
+          "img": "lm-benthanh-night",
+          "alt": "Cổng chính và tháp đồng hồ chợ Bến Thành sáng đèn về đêm",
+          "title": "Chợ Bến Thành",
+          "tag": "Khoảng 15 phút đi bộ",
+          "text": "Ngôi chợ có tháp đồng hồ quen thuộc, hợp để tìm đặc sản, vải vóc và quà lưu niệm.",
+          "href": "/diem-den/cho-ben-thanh"
+        },
+        {
+          "img": "lm-landmark81-day",
+          "alt": "Landmark 81 và các tòa nhà cao tầng bên sông Sài Gòn",
+          "title": "Nhà An Bình Thạnh",
+          "tag": "Sắp khai trương",
+          "text": "Nhà phố nhiều cây xanh gần Landmark 81, có Phòng Chạy Deadline yên tĩnh. Món nên thử: bạc xỉu ô long.",
+          "href": "/chi-nhanh/binh-thanh"
+        },
+        {
+          "img": "@drinks|ly trà tắc xí muội mát lạnh trên bàn gỗ",
+          "alt": "Ly trà tắc xí muội mát lạnh trên bàn gỗ",
+          "title": "Nhà An Tân Bình",
+          "tag": "Sắp khai trương",
+          "text": "Tiệm trà gạch bông kiểu Sài Gòn xưa gần sân bay, có chỗ gửi hành lý. Món nên thử: trà tắc xí muội.",
+          "href": "/chi-nhanh/tan-binh"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Gửi thư xong, *ghé Nhà An một chút*",
+      "text": "Khi khai trương, Nhà An mở cửa 24/7 để bạn ngồi lâu với một ấm ô long rang củi và viết tiếp những lá thư còn dang dở. Đặt bàn trước, hoặc tạo ngay một tấm thiệp chúc gửi người thương.",
+      "ctas": [
+        { "label": "Đặt bàn", "href": "/dat-ban", "style": "primary" },
+        { "label": "Tạo thiệp chúc", "href": "/cong-cu/thiep-chuc", "style": "ghost" }
+      ]
+    }
+  ],
+  "related": ["/diem-den", "/diem-den/nha-tho-duc-ba", "/diem-den/duong-sach-sai-gon", "/diem-den/pho-di-bo-nguyen-hue", "/chi-nhanh/tan-binh/quanh-day", "/cong-cu/thiep-chuc"]
+}

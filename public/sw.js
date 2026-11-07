@@ -1,11 +1,11 @@
-// Service worker của Tiệm Nhà An — sinh ra khi build (scripts/build.mjs), phiên bản 5adc3f06
+// Service worker của Tiệm Nhà An — sinh ra khi build (scripts/build.mjs), phiên bản 8f19907a
 // Trang HTML: lấy từ mạng trước, mất mạng thì dùng bản đã lưu hoặc trang "Bạn đang ngoại tuyến".
 // Tài nguyên tĩnh có mã phiên bản (?v=…) và ảnh: lấy từ bộ nhớ đệm trước, tự làm mới khi đổi phiên bản.
 const VERSION = '__VERSION__';
 const STATIC = `nhaan-static-${VERSION}`;
 const PAGES = `nhaan-pages-${VERSION}`;
 const IMAGES = 'nhaan-images-v1';
-const PRECACHE = ["/offline","/assets/css/style.min.css?v=72e3a959b0","/assets/js/main.js?v=25cd6be26e","/assets/img/brand/logo-circle-96.webp"];
+const PRECACHE = ["/offline","/assets/css/style.min.css?v=fd507b7f1c","/assets/js/main.js?v=25cd6be26e","/assets/img/brand/logo-circle-96.webp"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(STATIC).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));

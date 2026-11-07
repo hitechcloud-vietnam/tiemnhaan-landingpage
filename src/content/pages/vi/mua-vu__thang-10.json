@@ -25,11 +25,11 @@
       "eyebrow": "Thời tiết ba miền",
       "title": "Ba miền, *ba nhịp tháng 10*",
       "paras": [
-        "Tháng 10, phía Bắc đang độ thu đẹp nhất, miền Trung vào mùa mưa lũ, phía Nam còn những cơn mưa chiều. Nắm trước thời tiết để chọn món, chọn chuyến đi cho hợp."
+        "Tháng 10, phía Bắc đang độ thu đẹp nhất, miền Trung vào mùa mưa lũ, phía Nam còn mưa chiều. Nắm trước thời tiết để chọn món, chọn chuyến đi cho hợp."
       ],
       "bullets": [
         "Miền Bắc: trời trong, sáng sớm se lạnh, cuối tháng có thể đón không khí lạnh đầu mùa",
-        "Miền Trung: cao điểm mưa lũ, Đà Nẵng, Hội An hay mưa lớn nhiều ngày liền",
+        "Miền Trung: cao điểm mưa lũ; Đà Nẵng, Hội An hay mưa lớn nhiều ngày liền",
         "Miền Nam: mưa chiều, miền Tây vào độ nước nổi",
         "Tây Nguyên: cuối mùa mưa, dã quỳ chớm nở cuối tháng"
       ],
@@ -62,7 +62,7 @@
           "alt": "Hạt dẻ rang nâu bóng trong chảo gang",
           "tag": "Cao Bằng",
           "title": "Hạt dẻ Trùng Khánh",
-          "text": "Tháng 9 và tháng 10 là mùa thu hoạch. Rang hay luộc đều bùi thơm, hợp làm quà vặt bên ấm trà nóng."
+          "text": "Tháng 9–10 là mùa thu hoạch. Rang hay luộc đều bùi thơm, hợp làm quà vặt bên ấm trà nóng."
         },
         {
           "img": "@market|bưởi vàng xanh xếp chồng trên sạp trái cây",
@@ -85,7 +85,7 @@
       "id": "ngay-le",
       "eyebrow": "Dịp lễ trong tháng",
       "title": "Những ngày *đáng nhớ* của tháng 10",
-      "lead": "Dịp theo âm lịch hay lịch Chăm đổi ngày dương lịch mỗi năm; tra nhanh bằng công cụ đổi lịch âm dương của Nhà An.",
+      "lead": "Dịp theo âm lịch, lịch Chăm đổi ngày dương mỗi năm; tra nhanh bằng công cụ đổi lịch âm dương của Nhà An.",
       "items": [
         {
           "label": "1/10",
@@ -100,12 +100,12 @@
         {
           "label": "Lịch Chăm",
           "title": "Lễ hội Katê",
-          "text": "Lễ hội truyền thống của đồng bào Chăm vào đầu tháng 7 lịch Chăm (năm 2026 khai hội ngày 10/10), tập trung ở tháp Pô Klong Garai, Khánh Hòa."
+          "text": "Lễ hội của người Chăm Bà-la-môn, đầu tháng 7 lịch Chăm (năm 2026 khai hội ngày 10/10), tập trung ở tháp Pô Klong Garai, Khánh Hòa."
         },
         {
           "label": "13/10",
           "title": "Ngày Doanh nhân Việt Nam",
-          "text": "Ngày tôn vinh giới doanh nhân, chính thức từ năm 2004. Dịp gửi hộp trà, bánh tri ân đối tác."
+          "text": "Tôn vinh giới doanh nhân, chính thức từ năm 2004; dịp gửi hộp trà, bánh tri ân đối tác."
         },
         {
           "label": "20/10",
@@ -130,7 +130,6 @@
         { "icon": "leaf", "title": "Trà xanh lài và cốm", "text": "Có gói cốm mới, thử cùng chén trà xanh Tân Cương ướp lài: vị chát dịu làm cốm thêm ngọt thơm." },
         { "icon": "droplet", "title": "Trà trái cây bưởi", "text": "Gợi ý theo mùa: múi bưởi tươi trên nền trà thanh, mức đường từ 0% đến 100%." },
         { "icon": "flame", "title": "Trà gừng, trà sả", "text": "Ấm bụng ngày mưa dầm, dễ nấu ở nhà; Từ điển trà của Nhà An có hướng dẫn từng bước." },
-        { "icon": "cake", "title": "Bánh sáng mới ra lò", "text": "Lò bánh nướng từ 5 giờ sáng: croissant bơ hay bánh chuối thuần chay cùng ly trà nóng." },
         { "icon": "bowl", "title": "Món chay mùa nước nổi", "text": "Bông điên điển, bông súng dự kiến vào món chay theo mùa khi có nguồn hàng tươi ngon." }
       ]
     },
@@ -196,7 +195,7 @@
           "icon": "heart",
           "items": [
             "Mang áo khoác mỏng cho sáng sớm và đêm khuya",
-            "Uống đủ nước, trời mát rất dễ quên khát",
+            "Uống đủ nước, trời mát dễ quên khát",
             "Ngủ đủ giấc, hạn chế thức khuya nhiều đêm liền",
             "Nhạy cảm với caffeine thì chọn ly trà nhẹ buổi tối"
           ]
@@ -205,10 +204,10 @@
           "title": "Đi chơi tháng 10",
           "icon": "map",
           "items": [
-            "Đi miền Trung: theo dõi dự báo và thông báo của địa phương",
-            "Phố cổ Hội An có thể ngập khi lũ về, hãy hỏi trước nơi lưu trú",
-            "Mang áo mưa, túi chống nước cho laptop và giấy tờ",
-            "Ruộng bậc thang vùng cao thường chín vàng từ giữa tháng 9 đến giữa tháng 10"
+            "Đi miền Trung: theo dõi dự báo và thông báo địa phương",
+            "Phố cổ Hội An có thể ngập khi lũ về; hỏi trước nơi lưu trú",
+            "Mang áo mưa, túi chống nước cho laptop, giấy tờ",
+            "Lúa vùng cao thường chín vàng từ giữa tháng 9 đến giữa tháng 10"
           ]
         }
       ]
@@ -224,11 +223,11 @@
         },
         {
           "q": "Tháng 10 có những ngày lễ, kỷ niệm nào?",
-          "a": "Dương lịch có 1/10 Ngày Quốc tế Cà phê, 10/10 Ngày Giải phóng Thủ đô và Ngày Sức khỏe Tâm thần Thế giới, 13/10 Ngày Doanh nhân Việt Nam, 20/10 Ngày Phụ nữ Việt Nam. Có năm Trung thu cũng rơi vào đầu tháng 10."
+          "a": "1/10 Ngày Quốc tế Cà phê, 10/10 Ngày Giải phóng Thủ đô và Ngày Sức khỏe Tâm thần Thế giới, 13/10 Ngày Doanh nhân Việt Nam, 20/10 Ngày Phụ nữ Việt Nam; có năm còn gặp cả Trung thu."
         },
         {
           "q": "Tháng 10 có nên đi Đà Nẵng, Hội An không?",
-          "a": "Vẫn đi được nếu lịch trình linh hoạt, vì đây là cao điểm mưa lũ ở miền Trung. Hãy theo dõi dự báo, chọn chỗ ở an toàn và để dành vài buổi cho bảo tàng, quán trà."
+          "a": "Vẫn đi được nếu lịch trình linh hoạt, vì đây là cao điểm mưa lũ. Hãy theo dõi dự báo, chọn chỗ ở an toàn và để dành vài buổi cho bảo tàng, quán trà."
         }
       ]
     },
